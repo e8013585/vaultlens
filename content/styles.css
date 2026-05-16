@@ -1,0 +1,762 @@
+/**
+ * VaultLens — content/styles.css
+ *
+ * All styles for injected UI elements on Steam pages.
+ *
+ * IMPORTANT: All VaultLens UI is rendered inside Shadow DOM hosts
+ * to prevent Steam's CSS from leaking in. However, this file is
+ * also injected as a Chrome extension content script CSS file,
+ * which applies to the top-level document scope.
+ *
+ * Rules here use the .vl- prefix to avoid collisions with Steam classes.
+ * Shadow DOM component styles are injected inline via JS (see inventory.js).
+ *
+ * Color tokens:
+ *   --vl-bg:        #0f1117   (dark background)
+ *   --vl-bg-2:      #1a1d27   (card background)
+ *   --vl-border:    #2a2d3a   (border)
+ *   --vl-accent:    #f97316   (orange accent — VaultLens brand)
+ *   --vl-text:      #e2e8f0   (primary text)
+ *   --vl-text-muted:#94a3b8   (muted text)
+ *   --vl-green:     #4ade80   (profit / good)
+ *   --vl-red:       #f87171   (loss / bad)
+ *   --vl-gold:      #fbbf24   (gold / premium)
+ */
+
+/* ─────────────────────────────────────────────
+   Shadow DOM host wrappers
+   These are the outermost shells placed in Steam DOM.
+   Shadow DOM roots are attached via JS.
+───────────────────────────────────────────── */
+
+.vl-shadow-host {
+  display: contents; /* transparent to layout */
+  font-family: inherit;
+}
+
+/* ─────────────────────────────────────────────
+   Toolbar (injected above inventory grid)
+───────────────────────────────────────────── */
+
+.vl-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  background: #0f1117;
+  border: 1px solid #2a2d3a;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+  font-family: 'Motiva Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+.vl-toolbar__logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  font-size: 13px;
+  color: #f97316;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  flex-shrink: 0;
+}
+
+.vl-toolbar__logo-icon {
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  background: linear-gradient(135deg, #f97316, #ea580c);
+}
+
+.vl-toolbar__stats {
+  font-size: 13px;
+  color: #94a3b8;
+  flex-shrink: 0;
+}
+
+.vl-toolbar__stats strong {
+  color: #e2e8f0;
+}
+
+/* Search */
+.vl-search {
+  position: relative;
+  flex: 1;
+  min-width: 160px;
+  max-width: 300px;
+}
+
+.vl-search__input {
+  width: 100%;
+  padding: 6px 10px 6px 30px;
+  background: #1a1d27;
+  border: 1px solid #2a2d3a;
+  border-radius: 6px;
+  color: #e2e8f0;
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.15s ease;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.vl-search__input:focus {
+  border-color: #f97316;
+  box-shadow: 0 0 0 2px rgba(249, 115, 22, 0.15);
+}
+
+.vl-search__input::placeholder {
+  color: #4b5563;
+}
+
+.vl-search__icon {
+  position: absolute;
+  left: 9px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #4b5563;
+  font-size: 13px;
+  pointer-events: none;
+}
+
+/* Sort dropdown */
+.vl-sort {
+  flex-shrink: 0;
+}
+
+.vl-select {
+  padding: 6px 10px;
+  background: #1a1d27;
+  border: 1px solid #2a2d3a;
+  border-radius: 6px;
+  color: #e2e8f0;
+  font-size: 12px;
+  outline: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: border-color 0.15s ease;
+}
+
+.vl-select:focus,
+.vl-select:hover {
+  border-color: #f97316;
+}
+
+/* Toolbar buttons */
+.vl-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 12px;
+  background: #1a1d27;
+  border: 1px solid #2a2d3a;
+  border-radius: 6px;
+  color: #e2e8f0;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
+  user-select: none;
+}
+
+.vl-btn:hover {
+  background: #252836;
+  border-color: #f97316;
+  color: #f97316;
+}
+
+.vl-btn:active {
+  transform: scale(0.97);
+}
+
+.vl-btn--primary {
+  background: linear-gradient(135deg, #f97316, #ea580c);
+  border-color: transparent;
+  color: #fff;
+  font-weight: 600;
+}
+
+.vl-btn--primary:hover {
+  background: linear-gradient(135deg, #fb923c, #f97316);
+  color: #fff;
+  border-color: transparent;
+}
+
+.vl-btn--danger {
+  border-color: #7f1d1d;
+  color: #f87171;
+}
+
+.vl-btn--danger:hover {
+  background: #7f1d1d22;
+  border-color: #f87171;
+}
+
+.vl-btn--active {
+  background: rgba(249, 115, 22, 0.15);
+  border-color: #f97316;
+  color: #f97316;
+}
+
+.vl-btn--copied {
+  background: rgba(74, 222, 128, 0.1);
+  border-color: #4ade80;
+  color: #4ade80;
+}
+
+/* ─────────────────────────────────────────────
+   Item Overlay Badge
+   Positioned absolutely within each inventory item cell
+───────────────────────────────────────────── */
+
+.vl-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 3px;
+}
+
+/* Price badge — clickable */
+.vl-price {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 6px;
+  background: rgba(0, 0, 0, 0.82);
+  color: #4ade80;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 4px;
+  pointer-events: all;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.15s;
+  letter-spacing: 0.02em;
+  width: fit-content;
+}
+
+.vl-price:hover {
+  background: rgba(74, 222, 128, 0.2);
+}
+
+/* Float badge */
+.vl-float {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0.82);
+  color: #94a3b8;
+  font-size: 10px;
+  border-radius: 3px;
+  font-variant-numeric: tabular-nums;
+  width: fit-content;
+}
+
+.vl-float--low {
+  color: #4ade80;
+}
+
+.vl-float--ultra-low {
+  color: #fbbf24;
+  font-weight: 700;
+}
+
+/* Exterior pill */
+.vl-exterior {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  width: fit-content;
+}
+
+.vl-exterior--FN { background: rgba(74, 222, 128, 0.25);  color: #4ade80; }
+.vl-exterior--MW { background: rgba(134, 239, 172, 0.2);  color: #86efac; }
+.vl-exterior--FT { background: rgba(251, 191, 36, 0.2);   color: #fbbf24; }
+.vl-exterior--WW { background: rgba(249, 115, 22, 0.2);   color: #f97316; }
+.vl-exterior--BS { background: rgba(248, 113, 113, 0.2);  color: #f87171; }
+
+/* Rarity border glow */
+.vl-rarity-glow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: 4px;
+  z-index: 99;
+}
+
+/* Pattern / phase badge */
+.vl-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 600;
+  border: 1px solid currentColor;
+  width: fit-content;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+/* Trade lock badge */
+.vl-tradelock {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 2px 5px;
+  background: rgba(127, 29, 29, 0.8);
+  color: #f87171;
+  border-radius: 3px;
+  font-size: 10px;
+  border: 1px solid #7f1d1d;
+  width: fit-content;
+}
+
+/* Duplicate count badge */
+.vl-dup {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  background: rgba(249, 115, 22, 0.9);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 4px;
+  border-radius: 3px;
+  z-index: 101;
+  pointer-events: none;
+}
+
+/* ─────────────────────────────────────────────
+   Sticker Hover Popup
+───────────────────────────────────────────── */
+
+.vl-sticker-popup {
+  position: fixed;
+  z-index: 99999;
+  background: #0f1117;
+  border: 1px solid #2a2d3a;
+  border-radius: 8px;
+  padding: 10px 12px;
+  min-width: 200px;
+  max-width: 280px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.7);
+  font-family: 'Motiva Sans', -apple-system, sans-serif;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.12s ease;
+}
+
+.vl-sticker-popup.vl-visible {
+  opacity: 1;
+}
+
+.vl-sticker-popup__title {
+  font-size: 11px;
+  font-weight: 700;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+}
+
+.vl-sticker-popup__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+  border-bottom: 1px solid #1a1d27;
+}
+
+.vl-sticker-popup__item:last-of-type {
+  border-bottom: none;
+}
+
+.vl-sticker-popup__img {
+  width: 32px;
+  height: 24px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.vl-sticker-popup__name {
+  flex: 1;
+  font-size: 11px;
+  color: #e2e8f0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.vl-sticker-popup__price {
+  font-size: 11px;
+  color: #4ade80;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.vl-sticker-popup__price--null {
+  color: #4b5563;
+}
+
+.vl-sticker-popup__total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #2a2d3a;
+  font-size: 12px;
+  font-weight: 700;
+  color: #e2e8f0;
+}
+
+.vl-sticker-popup__total-value {
+  color: #fbbf24;
+}
+
+/* Wear bar for scratched stickers */
+.vl-sticker-wear {
+  width: 40px;
+  height: 3px;
+  background: #1a1d27;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.vl-sticker-wear__fill {
+  height: 100%;
+  background: #f97316;
+  border-radius: 2px;
+  transition: width 0.2s;
+}
+
+/* ─────────────────────────────────────────────
+   Trade Offer P&L Panel
+───────────────────────────────────────────── */
+
+.vl-trade-panel {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
+  background: #0f1117;
+  border: 1px solid #2a2d3a;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+  font-family: 'Motiva Sans', -apple-system, sans-serif;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+.vl-trade-panel__label {
+  font-size: 11px;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 2px;
+}
+
+.vl-trade-panel__value {
+  font-size: 16px;
+  font-weight: 700;
+  color: #e2e8f0;
+}
+
+.vl-trade-panel__block {
+  display: flex;
+  flex-direction: column;
+  min-width: 100px;
+}
+
+.vl-trade-panel__divider {
+  width: 1px;
+  height: 36px;
+  background: #2a2d3a;
+  flex-shrink: 0;
+}
+
+.vl-trade-panel__pnl {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.vl-trade-panel__pnl--profit { color: #4ade80; }
+.vl-trade-panel__pnl--loss   { color: #f87171; }
+.vl-trade-panel__pnl--even   { color: #94a3b8; }
+
+/* Per-item price label in trade UI */
+.vl-item-price {
+  display: block;
+  font-size: 11px;
+  color: #4ade80;
+  font-weight: 600;
+  margin-top: 2px;
+  font-family: 'Motiva Sans', -apple-system, sans-serif;
+}
+
+/* Price override input for Doppler items */
+.vl-price-override {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 3px;
+}
+
+.vl-price-override__btn {
+  background: transparent;
+  border: none;
+  color: #4b5563;
+  cursor: pointer;
+  font-size: 11px;
+  padding: 1px 3px;
+  border-radius: 3px;
+  transition: color 0.15s;
+}
+
+.vl-price-override__btn:hover {
+  color: #f97316;
+}
+
+.vl-price-override__input {
+  width: 70px;
+  padding: 2px 6px;
+  background: #1a1d27;
+  border: 1px solid #f97316;
+  border-radius: 4px;
+  color: #e2e8f0;
+  font-size: 11px;
+  outline: none;
+  font-family: inherit;
+}
+
+/* ─────────────────────────────────────────────
+   Profile Button Row (injected on profile header)
+───────────────────────────────────────────── */
+
+.vl-profile-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+  font-family: 'Motiva Sans', -apple-system, sans-serif;
+}
+
+.vl-profile-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  background: rgba(249, 115, 22, 0.08);
+  border: 1px solid rgba(249, 115, 22, 0.3);
+  border-radius: 5px;
+  color: #f97316;
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.15s;
+  font-family: inherit;
+}
+
+.vl-profile-btn:hover {
+  background: rgba(249, 115, 22, 0.18);
+  border-color: #f97316;
+  color: #fb923c;
+}
+
+/* ─────────────────────────────────────────────
+   Multi-select overlay
+───────────────────────────────────────────── */
+
+.vl-item--selected {
+  outline: 2px solid #f97316 !important;
+  outline-offset: 1px;
+}
+
+.vl-item--selected::after {
+  content: '✓';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background: #f97316;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 0 3px;
+  line-height: 16px;
+  z-index: 200;
+}
+
+/* ─────────────────────────────────────────────
+   Loading / skeleton states
+───────────────────────────────────────────── */
+
+.vl-skeleton {
+  background: linear-gradient(
+    90deg,
+    #1a1d27 25%,
+    #252836 50%,
+    #1a1d27 75%
+  );
+  background-size: 200% 100%;
+  animation: vl-shimmer 1.5s infinite;
+  border-radius: 3px;
+}
+
+@keyframes vl-shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.vl-price--loading {
+  width: 44px;
+  height: 14px;
+}
+
+.vl-float--loading {
+  width: 50px;
+  height: 12px;
+}
+
+/* ─────────────────────────────────────────────
+   Notification toast
+───────────────────────────────────────────── */
+
+.vl-toast {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 999999;
+  background: #0f1117;
+  border: 1px solid #2a2d3a;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 13px;
+  color: #e2e8f0;
+  font-family: 'Motiva Sans', -apple-system, sans-serif;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 320px;
+  animation: vl-toast-in 0.25s ease;
+  pointer-events: none;
+}
+
+.vl-toast--success { border-left: 3px solid #4ade80; }
+.vl-toast--error   { border-left: 3px solid #f87171; }
+.vl-toast--info    { border-left: 3px solid #f97316; }
+
+@keyframes vl-toast-in {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ─────────────────────────────────────────────
+   Trade offer list P&L row (tradeoffers listing page)
+───────────────────────────────────────────── */
+
+.vl-offer-pnl {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: 'Motiva Sans', -apple-system, sans-serif;
+  margin-top: 4px;
+}
+
+.vl-offer-pnl--profit {
+  background: rgba(74, 222, 128, 0.1);
+  color: #4ade80;
+  border: 1px solid rgba(74, 222, 128, 0.3);
+}
+
+.vl-offer-pnl--loss {
+  background: rgba(248, 113, 113, 0.1);
+  color: #f87171;
+  border: 1px solid rgba(248, 113, 113, 0.3);
+}
+
+.vl-offer-pnl--even {
+  background: rgba(148, 163, 184, 0.1);
+  color: #94a3b8;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+}
+
+/* ─────────────────────────────────────────────
+   Scrollbar styling for VaultLens containers
+───────────────────────────────────────────── */
+
+.vl-scrollable {
+  scrollbar-width: thin;
+  scrollbar-color: #2a2d3a #0f1117;
+}
+
+.vl-scrollable::-webkit-scrollbar {
+  width: 6px;
+}
+
+.vl-scrollable::-webkit-scrollbar-track {
+  background: #0f1117;
+  border-radius: 3px;
+}
+
+.vl-scrollable::-webkit-scrollbar-thumb {
+  background: #2a2d3a;
+  border-radius: 3px;
+}
+
+.vl-scrollable::-webkit-scrollbar-thumb:hover {
+  background: #374151;
+}
+
+/* ─────────────────────────────────────────────
+   Shadow DOM internal styles
+   (injected as a <style> element inside shadow roots)
+   These cascade ONLY inside Shadow DOM components.
+───────────────────────────────────────────── */
+
+/* This constant is exported by inventory.js for use when building shadow roots */
+
+/* ─────────────────────────────────────────────
+   Utility classes
+───────────────────────────────────────────── */
+
+.vl-hidden   { display: none !important; }
+.vl-flex     { display: flex; }
+.vl-gap-4    { gap: 4px; }
+.vl-gap-8    { gap: 8px; }
+.vl-mt-8     { margin-top: 8px; }
+.vl-fw-bold  { font-weight: 700; }
+.vl-text-sm  { font-size: 12px; }
+.vl-text-xs  { font-size: 11px; }
+.vl-muted    { color: #94a3b8; }
+.vl-accent   { color: #f97316; }
+.vl-green    { color: #4ade80; }
+.vl-red      { color: #f87171; }
+.vl-gold     { color: #fbbf24; }

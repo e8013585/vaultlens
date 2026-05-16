@@ -1,0 +1,66 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "version": "1.0.0",
+  "description": "__MSG_extDescription__",
+  "default_locale": "en",
+  "permissions": [
+    "storage",
+    "scripting",
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "https://steamcommunity.com/*",
+    "https://api.pricempire.com/*",
+    "https://csfloat.com/*",
+    "https://api.skinport.com/*",
+    "https://api.csgofloat.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://steamcommunity.com/id/*/inventory*",
+        "https://steamcommunity.com/profiles/*/inventory*"
+      ],
+      "js": ["content/inventory.js"],
+      "css": ["content/styles.css"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://steamcommunity.com/tradeoffer/*",
+        "https://steamcommunity.com/id/*/tradeoffers*",
+        "https://steamcommunity.com/profiles/*/tradeoffers*"
+      ],
+      "js": ["content/tradeoffers.js"],
+      "css": ["content/styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "icons/icon_full.png"
+  },
+  "icons": {
+    "16": "icons/icon_full.png",
+    "48": "icons/icon_full.png",
+    "128": "icons/icon_full.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "lib/*.js",
+        "data/*.js",
+        "icons/*.png"
+      ],
+      "matches": [
+        "https://steamcommunity.com/*"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VaultLens</title>
+  <link rel="stylesheet" href="popup.css" />
+  <!-- Light theme styles injected here by popup.js -->
+  <style id="vl-theme-style"></style>
+</head>
+<body>
+
+  <!-- ── Header ─────────────────────────────────────────── -->
+  <header class="header">
+    <div class="header__logo">
+      <div class="header__logo-icon"></div>
+      <span class="header__logo-text">VaultLens</span>
+    </div>
+    <span class="header__version">v1.0.0</span>
+  </header>
+
+  <!-- ── Tab Navigation ─────────────────────────────────── -->
+  <nav class="tabs" role="tablist" aria-label="VaultLens navigation">
+    <button class="tab tab--active" id="tab-overview" role="tab"
+      aria-selected="true" aria-controls="panel-overview" data-tab="overview"
+      data-i18n="tabOverview">Overview</button>
+    <button class="tab" id="tab-settings" role="tab"
+      aria-selected="false" aria-controls="panel-settings" data-tab="settings"
+      data-i18n="tabSettings">Settings</button>
+    <button class="tab" id="tab-about" role="tab"
+      aria-selected="false" aria-controls="panel-about" data-tab="about"
+      data-i18n="tabAbout">About</button>
+  </nav>
+
+  <!-- ── Overview Tab ───────────────────────────────────── -->
+  <section id="panel-overview" class="panel panel--active"
+    role="tabpanel" aria-labelledby="tab-overview">
+
+    <div class="context-banner" id="context-banner">
+      <span class="context-banner__icon" id="context-icon">🔍</span>
+      <span class="context-banner__text" id="context-text"
+        data-i18n="contextNotSteam">Detecting page...</span>
+    </div>
+
+    <div class="stats-grid" id="stats-grid">
+      <div class="stat-card">
+        <div class="stat-card__label" data-i18n="statTotalValue">Total Value</div>
+        <div class="stat-card__value stat-card__value--green" id="stat-total-value">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__label" data-i18n="statItems">Items</div>
+        <div class="stat-card__value" id="stat-item-count">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__label" data-i18n="statPriced">Priced</div>
+        <div class="stat-card__value" id="stat-priced-count">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__label" data-i18n="statMode">Mode</div>
+        <div class="stat-card__value stat-card__value--accent" id="stat-mode">—</div>
+      </div>
+    </div>
+
+    <div class="info-row" id="info-last-updated" style="display:none;">
+      <span class="info-row__label" data-i18n="labelPricesUpdated">Prices updated</span>
+      <span class="info-row__value" id="last-updated-ts">—</span>
+    </div>
+    <div class="info-row" id="info-cache">
+      <span class="info-row__label" data-i18n="labelPriceEntries">Price entries</span>
+      <span class="info-row__value" id="cache-price-count">—</span>
+    </div>
+    <div class="info-row">
+      <span class="info-row__label" data-i18n="labelFloatEntries">Float entries</span>
+      <span class="info-row__value" id="cache-float-count">—</span>
+    </div>
+
+    <div class="button-group">
+      <button class="btn btn--primary" id="btn-refresh-prices"
+        data-i18n="btnRefreshPrices">↻ Refresh Prices</button>
+      <button class="btn btn--secondary" id="btn-open-inventory"
+        data-i18n="btnOpenInventory">Open Inventory</button>
+    </div>
+
+    <div class="status-msg" id="overview-status" style="display:none;"></div>
+  </section>
+
+  <!-- ── Settings Tab ───────────────────────────────────── -->
+  <section id="panel-settings" class="panel" role="tabpanel"
+    aria-labelledby="tab-settings" hidden>
+
+    <!-- Pricing Mode -->
+    <div class="settings-section">
+      <div class="settings-section__title" data-i18n="sectionPricingMode">Pricing Mode</div>
+
+      <div class="mode-toggle">
+        <label class="mode-option" id="mode-skinport-label">
+          <input type="radio" name="pricing-mode" id="mode-skinport" value="skinport" />
+          <div class="mode-option__card">
+            <div class="mode-option__name" data-i18n="modeSkinportName">Skinport</div>
+            <div class="mode-option__desc" data-i18n="modeSkinportDesc">No API key required. Uses Skinport public API.</div>
+            <div class="mode-option__badge mode-option__badge--green"
+              data-i18n="modeSkinportBadge">Free</div>
+          </div>
+        </label>
+
+        <label class="mode-option" id="mode-pricempire-label">
+          <input type="radio" name="pricing-mode" id="mode-pricempire" value="pricempire" />
+          <div class="mode-option__card">
+            <div class="mode-option__name" data-i18n="modePricempireName">PricEmpire + CSFloat</div>
+            <div class="mode-option__desc" data-i18n="modePricempireDesc">Buff163, Skinport &amp; CSFloat prices. Doppler phase pricing. Requires API key.</div>
+            <div class="mode-option__badge mode-option__badge--orange"
+              data-i18n="modePricempireBadge">API Key</div>
+          </div>
+        </label>
+      </div>
+
+      <div class="api-key-section" id="api-key-section" style="display:none;">
+        <label class="field-label" for="api-key-input">
+          <span data-i18n="labelApiKey">PricEmpire API Key</span>
+          <a href="https://pricempire.com/settings/developer" target="_blank"
+            rel="noopener noreferrer" class="field-label__link"
+            data-i18n="linkGetKey">Get key →</a>
+        </label>
+        <div class="api-key-wrap">
+          <input type="password" id="api-key-input" class="text-input"
+            placeholder="pe_xxxxxxxxxxxxxxxxxxxxxxxx"
+            autocomplete="off" spellcheck="false" />
+          <button class="btn btn--icon" id="btn-toggle-key" title="Show/Hide key">👁</button>
+        </div>
+      </div>
+
+      <button class="btn btn--primary btn--full" id="btn-save-settings"
+        data-i18n="btnSaveSettings">💾 Save &amp; Fetch Prices</button>
+
+      <div class="status-msg" id="settings-status" style="display:none;"></div>
+    </div>
+
+    <!-- Display Options -->
+    <div class="settings-section">
+      <div class="settings-section__title" data-i18n="sectionDisplay">Display Options</div>
+
+      <div class="toggle-row">
+        <div class="toggle-row__info">
+          <div class="toggle-row__label" data-i18n="toggleFloatsLabel">Show Float Values</div>
+          <div class="toggle-row__desc" data-i18n="toggleFloatsDesc">Display float value badges on inventory items</div>
+        </div>
+        <label class="toggle">
+          <input type="checkbox" id="toggle-floats" checked />
+          <span class="toggle__slider"></span>
+        </label>
+      </div>
+
+      <div class="toggle-row">
+        <div class="toggle-row__info">
+          <div class="toggle-row__label" data-i18n="toggleStickersLabel">Show Sticker Prices</div>
+          <div class="toggle-row__desc" data-i18n="toggleStickersDesc">Show sticker value hover popup</div>
+        </div>
+        <label class="toggle">
+          <input type="checkbox" id="toggle-stickers" checked />
+          <span class="toggle__slider"></span>
+        </label>
+      </div>
+
+      <div class="toggle-row">
+        <div class="toggle-row__info">
+          <div class="toggle-row__label" data-i18n="togglePatternsLabel">Show Pattern Badges</div>
+          <div class="toggle-row__desc" data-i18n="togglePatternsDesc">Blue gem, Doppler phase, fade %, marble fade patterns</div>
+        </div>
+        <label class="toggle">
+          <input type="checkbox" id="toggle-patterns" checked />
+          <span class="toggle__slider"></span>
+        </label>
+      </div>
+
+      <div class="toggle-row">
+        <div class="toggle-row__info">
+          <div class="toggle-row__label" data-i18n="toggleTradelockLabel">Show Trade Lock Countdowns</div>
+          <div class="toggle-row__desc" data-i18n="toggleTradelockDesc">Display 🔒 badge with days remaining on locked items</div>
+        </div>
+        <label class="toggle">
+          <input type="checkbox" id="toggle-tradelock" checked />
+          <span class="toggle__slider"></span>
+        </label>
+      </div>
+    </div>
+
+    <!-- Language -->
+    <div class="settings-section">
+      <div class="settings-section__title" data-i18n="sectionLanguage">Language</div>
+
+      <div class="toggle-row" style="align-items:flex-start; flex-direction:column; gap:8px;">
+        <label class="field-label" for="language-select">
+          <span data-i18n="labelLanguage">Interface Language</span>
+        </label>
+        <div style="position:relative; width:100%;">
+          <select id="language-select" class="text-input lang-select"
+            style="width:100%; cursor:pointer; appearance:none; padding-right:32px;">
+            <!-- Populated by popup.js -->
+          </select>
+          <span style="position:absolute;right:10px;top:50%;transform:translateY(-50%);
+            pointer-events:none;color:#64748b;font-size:11px;">▼</span>
+        </div>
+        <div class="toggle-row__desc" data-i18n="labelLanguageNote">
+          UI language for VaultLens overlays and popup
+        </div>
+      </div>
+    </div>
+
+    <!-- Appearance / Theme -->
+    <div class="settings-section">
+      <div class="settings-section__title" data-i18n="sectionTheme">Appearance</div>
+
+      <div class="toggle-row" style="align-items:flex-start; flex-direction:column; gap:8px;">
+        <label class="field-label" for="theme-select">
+          <span data-i18n="labelTheme">Theme</span>
+        </label>
+        <div class="theme-switcher" id="theme-switcher">
+          <button class="theme-btn theme-btn--dark theme-btn--active" data-theme="dark">
+            <span class="theme-btn__icon">🌙</span>
+            <span class="theme-btn__label" data-i18n="themeDark">Dark</span>
+          </button>
+          <button class="theme-btn" data-theme="light">
+            <span class="theme-btn__icon">☀️</span>
+            <span class="theme-btn__label" data-i18n="themeLight">Light</span>
+          </button>
+          <button class="theme-btn" data-theme="system">
+            <span class="theme-btn__icon">💻</span>
+            <span class="theme-btn__label" data-i18n="themeSystem">System</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cache -->
+    <div class="settings-section">
+      <div class="settings-section__title" data-i18n="sectionCache">Cache</div>
+
+      <div class="info-row">
+        <span class="info-row__label" data-i18n="labelCacheTTL">Price cache TTL</span>
+        <span class="info-row__value" data-i18n="valueCacheTTL">1 hour</span>
+      </div>
+      <div class="info-row">
+        <span class="info-row__label" data-i18n="labelFloatCache">Float cache</span>
+        <span class="info-row__value" data-i18n="valueFloatCache">Permanent (per item)</span>
+      </div>
+
+      <button class="btn btn--danger btn--full" id="btn-clear-cache"
+        data-i18n="btnClearCache">🗑 Clear All Cache</button>
+      <div class="status-msg" id="cache-status" style="display:none;"></div>
+    </div>
+
+  </section>
+
+  <!-- ── About Tab ──────────────────────────────────────── -->
+  <section id="panel-about" class="panel" role="tabpanel"
+    aria-labelledby="tab-about" hidden>
+
+    <div class="about-hero">
+      <div class="about-hero__icon"></div>
+      <div class="about-hero__name">VaultLens</div>
+      <div class="about-hero__version">Version 1.0.0</div>
+    </div>
+
+    <p class="about-desc" data-i18n="aboutDesc">
+      Real-time CS2 inventory pricing, float values, pattern detection,
+      sticker values, and trade analytics — all on one screen.
+    </p>
+
+    <div class="about-links">
+      <a href="https://chrome.google.com/webstore" target="_blank"
+        rel="noopener noreferrer" class="about-link" data-i18n="linkChromeStore">
+        🏪 Chrome Web Store
+      </a>
+      <a href="https://github.com/vaultlens/vaultlens" target="_blank"
+        rel="noopener noreferrer" class="about-link" data-i18n="linkGitHub">
+        📦 GitHub Repository
+      </a>
+      <a href="https://github.com/vaultlens/vaultlens/issues" target="_blank"
+        rel="noopener noreferrer" class="about-link" data-i18n="linkIssues">
+        🐛 Report an Issue
+      </a>
+    </div>
+
+    <div class="privacy-box">
+      <div class="privacy-box__title" data-i18n="privacyTitle">🔒 Privacy</div>
+      <p class="privacy-box__text" data-i18n="privacyText">
+        VaultLens is free and open source. No data is collected or tracked.
+        All API calls go directly from your browser to public APIs.
+        Your API key is stored locally and never transmitted to VaultLens servers.
+      </p>
+    </div>
+
+    <div class="settings-section">
+      <div class="settings-section__title" data-i18n="sectionDataSources">Data Sources</div>
+      <div class="info-row">
+        <span class="info-row__label" data-i18n="aboutLabelPricesMode1">Prices (Mode 1)</span>
+        <span class="info-row__value">PricEmpire API v3</span>
+      </div>
+      <div class="info-row">
+        <span class="info-row__label" data-i18n="aboutLabelPricesMode2">Prices (Mode 2)</span>
+        <span class="info-row__value">Skinport Public API</span>
+      </div>
+      <div class="info-row">
+        <span class="info-row__label" data-i18n="aboutLabelFloatPattern">Float / Pattern</span>
+        <span class="info-row__value">CSGOFloat Public API</span>
+      </div>
+      <div class="info-row">
+        <span class="info-row__label" data-i18n="aboutLabelDopplerListings">Doppler Listings</span>
+        <span class="info-row__value">CSFloat API</span>
+      </div>
+    </div>
+
+    <div class="settings-section">
+      <div class="settings-section__title" data-i18n="sectionLimitations">Known Limitations</div>
+      <ul class="limitations-list">
+        <li data-i18n="limitRateLimits">CSGOFloat API has rate limits (~5 req/s). Float loading may be slow for large inventories.</li>
+        <li data-i18n="limitFadeApprox">Fade % values are approximate (±0.5%) based on community-researched seed tables.</li>
+        <li data-i18n="limitPatternTier">Pattern tier data reflects community consensus; rankings may not match all buyer preferences.</li>
+        <li data-i18n="limitCrimsonWeb">Crimson Web pattern detection uses seed range approximations; visual verification recommended.</li>
+        <li data-i18n="limitTradeLock">Trade lock detection relies on Steam's description format, which may vary.</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <script src="popup.js"></script>
+</body>
+</html>
