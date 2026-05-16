@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Reāllaika CS2 krājumu cenas, mainīgās vērtības, modeļu noteikšana, uzlīmju vērtības un tirdzniecības analīze — viss vienā ekrānā.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Pārskats",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Iestatījumi",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Par",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 inventārs — VaultLens ir aktīvs",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Tirdzniecības piedāvājums — P&L panelis ir aktīvs",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Tirdzniecības piedāvājumu saraksts — P&L emblēmas ir aktīvas",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam lapa — dodieties uz inventāru",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Nav Steam lapā",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Kopējā vērtība",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Preces",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Cenas",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Režīms",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Cenas atjauninātas",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Cenu ieraksti",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Float ieraksti",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Atsvaidzināt cenas",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Atvērt inventāru",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Cenu noteikšanas režīms",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Ādas osta",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Nav nepieciešama API atslēga. Izmanto Skinport publisko API.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Bezmaksas",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PriceEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport un CSFloat cenas. Doplera fāzes cenu noteikšana. Nepieciešama API atslēga.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API atslēga",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PriceEmpire API atslēga",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Saņemt atslēgu →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Saglabājiet un iegūstiet cenas",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Displeja opcijas",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Rādīt peldošās vērtības",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Parādiet mainīgās vērtības emblēmas krājumu vienībām",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Rādīt uzlīmju cenas",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Rādīt uzlīmes vērtības virzīšanas uznirstošo logu",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Rādīt paraugu emblēmas",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Zils dārgakmens, Doplera fāze, izbalēšanas %, marmora izbalēšanas raksti",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Rādīt Trade Lock atpakaļskaitīšanu",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Parādīt 🔒 emblēmu ar atlikušajām dienām bloķētajiem priekšmetiem",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Kešatmiņa",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Cenu kešatmiņa TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 stunda",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Float cache",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Pastāvīgs (vienai precei)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Notīriet visu kešatmiņu",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Valoda",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Interfeisa valoda",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "UI valoda VaultLens pārklājumiem un uznirstošajiem logiem",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Izskats",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Tēma",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Tumšs",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Gaisma",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Sistēmas noklusējums",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Versija $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Reāllaika CS2 krājumu cenas, mainīgās vērtības, modeļu noteikšana, uzlīmju vērtības un tirdzniecības analīze — viss vienā ekrānā.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome interneta veikals",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub repozitorijs",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Ziņot par problēmu",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Privātums",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens ir bezmaksas un atvērtā koda. Dati netiek vākti vai izsekoti. Visi API izsaukumi tiek tieši no jūsu pārlūkprogrammas uz publiskajām API. Jūsu API atslēga tiek saglabāta lokāli un nekad netiek pārsūtīta uz VaultLens serveriem.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Datu avoti",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Zināmi ierobežojumi",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Meklēt preces...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Kopēt sarakstu",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Kopēts!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Atsvaidzināt cenas",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Atsvaidzinoša...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Izvēlieties",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Izvēloties",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Noklusējuma pasūtījums",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Cena: Augsta → Zema",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Cena: Zema → Augsta",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Pludiņš: zems → augsts",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Pludiņš: Augsts → Zems",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Vārds: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Uzlīmes vērtība ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 nokopēts!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Tirdzniecības saite nokopēta!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Kopēšana neizdevās",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Cenas atjaunotas!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Atsvaidzināt neizdevās",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Kopējiet SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Kopēt tirdzniecības saiti",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat stends",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Tu dod",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Jūs saņemat",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Cenas var atšķirties. Pirms tirdzniecības vienmēr pārbaudiet.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Uzlīmes",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Kopējā uzlīmes vērtība",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Vai dzēst visas kešatmiņā saglabātās cenas un peldošos datus?\n\nNākamās lietošanas reizē cenas tiks iekasētas atkārtoti. Pludinātie dati tiks atkārtoti ielādēti, kad tiks skatīti vienumi.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Saglabā...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Iestatījumi saglabāti",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Notiek cenu iegūšana ar jauniem iestatījumiem...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Saglabāts! Ienestas $COUNT$ cenas ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Lūdzu, ievadiet savu PricEmpire API atslēgu",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Kešatmiņa ir veiksmīgi notīrīta",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Atsvaidzināts — ielādētas $COUNT$ cenas",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Notiek ielāde...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ vienumi · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Šodien",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 diena",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ dienas",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Slēgts",
+    "description": "Trade lock: locked, no date"
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLɛns we dɛn kɔl",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Rial-taym CS2 invɛntari prayz, flot valyu, patɛn ditekshɔn, stika valyu, ɛn tred analitiks — ɔl na wan skrin.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Ovaviu fɔ di tin dɛn we dɛn dɔn lan",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Sɛtin dɛn we dɛn dɔn mek",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Bɔt",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Invɛntari — VaultLens aktif",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Tred Ɔfa — P&L panɛl aktif",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Tred Ɔfa List — P&L badge dɛn aktif",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Stiam pej — go na invɛntari",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Nɔto pan wan Stiam pej",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Tɔtɔl Valyu",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Tin dɛn",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Prays fɔ am",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Di we aw dɛn de du am",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Prays dɛn dɔn ɔpdet",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Prays ɛntri dɛn",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Flot ɛntri dɛn",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Rifresh Prays dɛn",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Opin Invɛntari",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Di Mɔd fɔ Prayz",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Skin port fɔ di bɔdi",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "No API ki nɔ nid fɔ de. Yuz Skinport pɔblik API.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Fri",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFlɔt we de na di wɔl",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat prayz dɛn. Doppler faz prayz we dɛn kin yuz. I nid fɔ gɛt API ki.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API Ki",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API Ki fɔ yuz",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Get ki →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Sev & Fetch Prays",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Display Options",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Sho di Valyu dɛn we de na di Flot",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Display flot valyu badge pan invɛntari aytem dɛn",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Sho di Prays dɛn fɔ Stika",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Sho stika valyu hova popup",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Sho Patna Badge dɛn",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Blu gem, Doppler faz, fade %, mabul fade patɛn",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Sho Tred Lɔk Kɔntdɔwn dɛn",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Display 🔒 badge wit dez we lɛf pan tin dɛn we dɛn lɔk",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Kesh we de na di kes",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Prays kesh TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 awa fɔ wok",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Flot kesh we dɛn kɔl",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Pɔrmanent (fɔ ɛni tin) .",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Klia Ɔl di Kesh",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Langwej",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Intafɛs Langwej",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "UI langwej fɔ VaultLens ɔvlay ɛn pop-ap",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Aw a luk",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Tim",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Dak",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Layt",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Sistem Difɔlt",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Vɛshɔn $VERSION$ .",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Rial-taym CS2 invɛntari prayz, flot valyu, patɛn ditekshɔn, stika valyu, ɛn tred analitiks — ɔl na wan skrin.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Wɛb Stɔ",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub Ripɔsitɔri",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Ripɔt wan Isyu",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Prayvesi",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens na fri ɛn opin sɔs. Dɛn nɔ de gɛda ɔ trak ɛni data. Ɔl di API kɔl dɛn kin go dairekt frɔm yu brawza to pɔblik API dɛn. Yu API ki de stoa lokal wan ɛn dɛn nɔ de ɛva transmit am to VaultLens sava dɛn.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Di say dɛn we dɛn pul di data",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Di Tin dɛn we Wi Nɔ De Du",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Sɔch tin dɛn...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Kɔpi List",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Dɛn dɔn kɔpi am!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Rifresh Prays dɛn",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Fɔ mek yu fil fayn...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Pik yu",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Fɔ pik",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Difɔlt Ɔda",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Prays: Ay → Lɔw",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Prays: Lɔw → Ay",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Flot: Lɔw → Ay",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Flot: Ay → Lɔw",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Nem: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Valyu fɔ Stika ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 bin kɔpi!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Trade link we dɛn kɔpi!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Kɔpi nɔ bin wok",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Prays dɛn dɔn rifresh!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Rifresh nɔ bin wok",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Kɔpi StiamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Kɔpi Tred Link",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stɔl we de na di wɔl",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rɛp",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Yu Giv",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Yu De Risiv",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Di prayz dɛn kin difrɛn. Ɔltɛm verify bifo yu tred.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Stika dɛn",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Tɔtɔl Stika Valyu",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Klia ɔl di prayz dɛn we dɛn dɔn kech ɛn flot data?\n\nPrays dɛn go ri-fetch pan nɛks yus. Flot data go ri-fetch as dɛn de wach di tin dɛn.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ We yu de sev...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Setin dɛn we dɛn dɔn sev",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Fetching prayz wit nyu sɛtin...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Dɛn dɔn sev am! $COUNT$ prayz dɛn we dɛn dɔn fɛn ($MODE$) .",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Duya, ɛnta yu PricEmpire API ki",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Dɛn dɔn klia di kesh fayn fayn wan",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Rifresh — $COUNT$ prayz dɛn dɔn lod",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "We yu de lod...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ tin dɛn · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Tide",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 dez",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ dez",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Dɛn dɔn lɔk am",
+    "description": "Trade lock: locked, no date"
+  }
+}

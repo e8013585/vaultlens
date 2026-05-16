@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Određivanje cijena zaliha CS2 u realnom vremenu, float vrijednosti, detekcija uzoraka, vrijednosti naljepnica i analitika trgovine — sve na jednom ekranu.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Pregled",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Postavke",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "O",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventar — VaultLens aktivan",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Trgovinska ponuda — P&L panel je aktivan",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Lista Trade Offers — P&L značke aktivne",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam stranica — idite na inventar",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Ne na Steam stranici",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Ukupna vrijednost",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Predmeti",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Priced",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Mode",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Cijene su ažurirane",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Unosi cijene",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Float unosi",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Osvježi cijene",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Otvori inventar",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Način određivanja cijena",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Skin port",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Nije potreban API ključ. Koristi Skinport javni API.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Besplatno",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PriceEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat cijene. Cijene dopler faze. Zahtijeva API ključ.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API ključ",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PriceEmpire API ključ",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Uzmi ključ →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Sačuvaj i dohvati cijene",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Display Options",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Prikaži float vrijednosti",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Prikažite značke float vrijednosti na stavkama inventara",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Prikaži cijene naljepnica",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Prikaži skočni prozor vrijednosti naljepnice",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Prikaži oznake sa uzorcima",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Plavi dragulj, Dopler faza, bledi %, mramorni obrasci izbledenja",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Prikaži Trade Lock Countdowns",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Prikaži 🔒 značku sa preostalim danima na zaključanim stavkama",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Predmemorija cijena TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 sat",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Float cache",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Trajno (po stavci)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Obriši sve predmemorije",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Jezik",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Jezik interfejsa",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Jezik korisničkog sučelja za VaultLens preklapanja i skočni prozor",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Izgled",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Tema",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Dark",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Light",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "System Default",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "verzija $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Određivanje cijena zaliha CS2 u realnom vremenu, float vrijednosti, detekcija uzoraka, vrijednosti naljepnica i analitika trgovine — sve na jednom ekranu.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome web trgovina",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub spremište",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Prijavite problem",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Privatnost",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens je besplatan i otvorenog koda. Podaci se ne prikupljaju niti prate. Svi API pozivi idu direktno iz vašeg pretraživača na javne API-je. Vaš API ključ se pohranjuje lokalno i nikada se ne prenosi na VaultLens servere.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Izvori podataka",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Poznata ograničenja",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Pretražite artikle...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Kopiraj listu",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Kopirano!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Osvježi cijene",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Osvježavanje...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Odaberite",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Odabir",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Default Order",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Cijena: Visoka → Niska",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Cijena: Niska → Visoka",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Float: Nisko → Visoko",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Float: Visoko → Nisko",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Naziv: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Vrijednost naljepnice ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 kopiran!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Trgovinska veza je kopirana!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Kopiranje nije uspjelo",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Cijene osvježene!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Osvježavanje nije uspjelo",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Kopirajte SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Kopiraj trgovinski link",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "You Give",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "You Receive",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Cijene mogu varirati. Uvijek provjerite prije trgovanja.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Stickers",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Ukupna vrijednost naljepnice",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Obrisati sve keširane cijene i float podatke?\n\nCijene će biti ponovno unesene prilikom sljedeće upotrebe. Float podaci će se ponovo preuzeti kako se stavke pregledaju.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Čuvanje...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Postavke su sačuvane",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Dohvaćanje cijena s novim postavkama...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Sačuvano! $COUNT$ dohvaćene cijene ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Unesite svoj PricEmpire API ključ",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Keš je uspješno obrisan",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Osvježeno — $COUNT$ učitane cijene",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Učitavanje...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ stavke · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Danas",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 dan",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ dana",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Zaključano",
+    "description": "Trade lock: locked, no date"
+  }
+}

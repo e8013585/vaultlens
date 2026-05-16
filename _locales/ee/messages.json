@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens ƒe nyawo",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Ɣeyiɣi ŋutɔŋutɔ CS2 nudzraɖoƒe ƒe asixɔxɔ, float ƒe asixɔxɔwo, kpɔɖeŋu deteksi, sticker ƒe asixɔxɔwo, kple asitsatsa ŋuti numekuku — katã le screen ɖeka dzi.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Kpɔɖeŋu bliboa",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Ðoɖowo",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Ku ɖe",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Nudzraɖoƒe — VaultLens le dɔ wɔm",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Asitsatsa ƒe Nudzɔdzɔ — P&L panel le dɔ wɔm",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Asitsatsa ƒe Nudzɔdzɔwo ƒe Ŋkɔwo — P&L akɔtagbalẽviwo le dɔ wɔm",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam axa — yi nudzraɖoƒe",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Menye le Steam ƒe axa aɖe dzi o",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Asixɔxɔ Katã",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Nuwo",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Woƒe asi le eŋu",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Mɔnu si wozãna",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Wowɔ asitɔtrɔ le asiwo ŋu",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Ga home ƒe nuŋɔŋlɔwo",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Float nya siwo woŋlɔ",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Gbugbɔgadzɔ ƒe Asiwo",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Ʋu Nudzraɖoƒe ƒe Nudzraɖoƒe",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Asixɔxɔ ƒe Mɔnu",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Ŋutilã ƒe ʋɔtru",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "API safui aɖeke mehiã o. Zãa Skinport dutoƒo API.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Femaxe",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricFiaɖuƒe + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat ƒe asiwo. Doppler phase ƒe asixɔxɔ. Ebia API ƒe safui.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API ƒe Safui",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PriceEmpire API ƒe Safui",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Xɔ safui →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Dzra & Xɔ Asiwo",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Tiatia Siwo Ðea Fia",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Fia Float ƒe Asixɔxɔwo",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Fia float value badgewo le nudzraɖoƒenuwo dzi",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Fia Sticker ƒe Asiwo",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Fia sticker ƒe asixɔxɔ hover popup",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Fia Kpɔɖeŋu ƒe Akɔtagbalẽviwo",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Blue kpe xɔasi, Doppler phase, fade %, marble fade ƒe nɔnɔmewo",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Fia Asitsatsa ƒe Ʋuʋu ƒe Xexlẽme",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Fia 🔒 akɔtagbalẽvi si dzi ŋkeke siwo susɔ ɖe nusiwo wotu nu",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache ƒe nudzraɖoƒe",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Ga home ƒe cache TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "Gaƒoƒo 1",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Float cache ƒe nudzraɖoƒe",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Tegbee (nu ɖesiaɖe) .",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Klɔ Cache Katã ɖa",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Gbegbᴐgblᴐ",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Interface Gbegbɔgblɔ",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "UI gbegbɔgblɔ na VaultLens ƒe nutsyɔnuwo kple popup",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Dzedzeme",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Nyati",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Nyrɔ",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Kekeli",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "System Default",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Eƒe gɔmeɖeɖe $VERSION$ .",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Ɣeyiɣi ŋutɔŋutɔ CS2 nudzraɖoƒe ƒe asixɔxɔ, float ƒe asixɔxɔwo, kpɔɖeŋu deteksi, sticker ƒe asixɔxɔwo, kple asitsatsa ŋuti numekuku — katã le screen ɖeka dzi.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Nyatakakadzraɖoƒe",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub Nudzraɖoƒe",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Ka nya ta tso Nya aɖe ŋu",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Ame ŋutɔ ƒe nyawo",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens nye femaxee eye wòle ʋuʋu ɖi. Womeƒoa nyatakaka aɖeke nu ƒu alo léa ŋku ɖe wo ŋu o. API yɔyɔwo katã tso wò web-browser gbɔ yi dutoƒo APIwo gbɔ tẽ. Wodzraa wò API safuia ɖo ɖe teƒea eye womeɖonɛ ɖe VaultLens ƒe dɔwɔƒewo gbeɖe o.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Nyatakakatsoƒewo",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Seɖoƒe Siwo Wonya",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Di nuawo...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Kɔpi ƒe Ŋkɔwo",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Wogbugbɔ ŋlɔe!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Gbugbɔgadzɔ ƒe Asiwo",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Gbɔdzɔe...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Tiae",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Tiatiawɔwɔ",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Ðoɖo si Wowɔ Ðe Ðoɖo Nu",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Ga home: Kɔkɔ → Ebɔbɔ",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Ga home: Ebɔbɔ → Kɔkɔ",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Float: Ebɔbɔ → Kɔkɔ",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Float: Kɔkɔ → Ðeɖiteameŋu",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Ŋkɔ: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Sticker ƒe Asixɔxɔ ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 ƒe kɔpi!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Asitsatsa ƒe kadodoa ƒe kɔpi!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Kɔpiwɔwɔ do kpo nu",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Gawo ƒe asi gbugbɔ ɖo!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Gbugbɔgadzɔ do kpo nu",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Kpɔ SteamID64 ƒe kɔpi",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Kɔpi Asitsatsa ƒe Kadodo",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat ƒe Dɔwɔƒe",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Amegã ƒe amedɔdɔ",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Wòe Naa Nu",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Èxɔa",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Ga homewo ate ŋu ato vovo. Kpɔe ɖa ɣesiaɣi hafi nàdzrae.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Nusiwo wotsɔna ƒoa nu ɖe ​​nu ŋu",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Sticker ƒe Asixɔxɔ Katã",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Klɔ asi siwo katã wodzra ɖo ɖe cached kple float data?\n\nWoagaxɔ asiwo le wo zazã ake me. Woagaxɔ float data ne wole nuawo kpɔm.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Dzadzraɖo...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Wodzra ɖoɖowo ɖo",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Fetching asiwo kple ɖoɖo yeyewo...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Woɖee ɖa! $COUNT$ asixɔxɔ siwo woxɔ ($MODE$) .",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Taflatse ŋlɔ wò PricEmpire API safuia",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Wokɔ cache ŋu dzidzedzetɔe",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Gbugbɔgadzɔ — $COUNT$ asiwo tsɔ agba",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Wole agba tsɔm...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ nuawo · $MODE$ .",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Egbea",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 ŋkeke 1",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ ŋkeke",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Wotue",
+    "description": "Trade lock: locked, no date"
+  }
+}

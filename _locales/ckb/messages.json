@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "نرخی ئینفۆنتۆری CS2 لە کاتی ڕاستەقینەدا، بەهاکانی فلۆت، دۆزینەوەی نەخش، بەهاکانی ستیکەر، و شیکاری بازرگانی — هەموویان لەسەر یەک شاشە.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "تێڕوانینێکی گشتی",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "ڕێکخستنەکان",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "دەربارەی",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventory — VaultLens چالاکە",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "ئۆفەری بازرگانی — پانێڵی P&L چالاکە",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "لیستی ئۆفەرە بازرگانییەکان — نیشانەکانی P&L چالاکن",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "لاپەڕەی هەڵم — بچۆ بۆ ئینفۆنتۆر",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "لە پەیجێکی ستێمدا نییە",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "بەهای کۆی گشتی",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "کەرەستەکان",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "نرخەکەی",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "مۆد",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "نرخەکان نوێکرانەوە",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "هاتنە ژوورەوەی نرخ",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "هاتنە ژوورەوەی فلۆت",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ نرخەکانی نوێکردنەوە",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "ئینفۆنتۆری کراوە",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "شێوازی نرخدانان",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "دەرچەی پێست",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "پێویست بە کلیلی API ناکات. API گشتیەکانی Skinport بەکاردەهێنێت.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "ئازاد",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "پرایس ئیمپایەر + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "نرخەکانی Buff163, Skinport & CSFloat. نرخی قۆناغی دۆپلەر. پێویستی بە کلیلی API هەیە.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "کلیلی API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "کلیلی API ی PricEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "کلیل وەربگرە →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 پاشەکەوتکردن و هێنانی نرخەکان",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "هەڵبژاردەکانی پیشاندانی",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "بەهاکانی فلۆت پیشان بدە",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "نیشانەی بەهای فلۆت لەسەر شتەکانی ئینفۆنتۆر پیشان بدە",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "نرخی ستیکەرەکان پیشان بدە",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "بەهای ستیکەر پیشان بدە hover popup",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "نیشانەکانی نەخش پیشان بدە",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "گەوهەرێکی شین، قۆناغی دۆپلەر، % کاڵبوونەوە، نەخشی کاڵبوونەوەی مەڕمەڕ",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "ژماردنەوەی پاشەکشەی قفڵی بازرگانی پیشان بدە",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "پیشاندانی 🔒 نیشانە بە چەند ڕۆژێکی ماوە لەسەر شتە قفڵ کراوەکان",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "کاش",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "نرخی کاش TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 کاتژمێر",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "کاشی فلۆت",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "هەمیشەیی (بۆ هەر بابەتێک)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Clear All Cache",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "زمان",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "زمانی ڕووکار",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "زمانی UI بۆ VaultLens overlays و popup",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "ڕووخسار",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "مەبەستی سەرەکی",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "تاریک",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "ڕووناکی",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "سیستەمی پێشوەختە",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "وەشانی $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "نرخی ئینفۆنتۆری CS2 لە کاتی ڕاستەقینەدا، بەهاکانی فلۆت، دۆزینەوەی نەخش، بەهاکانی ستیکەر، و شیکاری بازرگانی — هەموویان لەسەر یەک شاشە.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 وێب ستۆری کرۆم",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 کۆگای GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 ڕاپۆرتی پرسێک بکە",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 تایبەتمەندی",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens بەخۆڕاییە و سەرچاوە کراوە. هیچ زانیارییەک کۆناکرێتەوە و بەدواداچوون بۆ ناکرێت. هەموو پەیوەندییەکانی API ڕاستەوخۆ لە وێبگەڕەکەتەوە دەچنە API گشتیەکان. کلیلی API ی تۆ لە ناوخۆدا هەڵدەگیرێت و هەرگیز ناگوازرێتەوە بۆ سێرڤەرەکانی VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "سەرچاوەی داتاکان",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "سنووردارکردنی ناسراو",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 گەڕان بەدوای بابەتەکاندا...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 لیستی کۆپی",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ کۆپی کراوە!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ نرخەکانی نوێکردنەوە",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ تازەگەری...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ هەڵبژێرە",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ هەڵبژاردن",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "ڕێزبەندی پێشوەختە",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "نرخ: بەرز → نزم",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "نرخ: کەم → بەرز",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "فلۆت: نزم → بەرز",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "فلۆت: بەرز → نزم",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "ناو: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "بەهای ستیکەر ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 کۆپی کراوە!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "لینکی بازرگانی کۆپی کراوە!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "کۆپیکردن شکستی هێنا",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "نرخەکان نوێکرانەوە!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "نوێکردنەوە شکستی هێنا",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 کۆپیکردنی SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 لینکی بازرگانی کۆپی بکە",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 کۆشکی CSFloat",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "تۆ دەبەخشیت",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "تۆ وەریدەگریت",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "ڕەنگە نرخەکان جیاواز بن. هەمیشە پێش بازرگانیکردن پشتڕاستی بکەرەوە.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "ستیکەر",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "کۆی بەهای ستیکەر",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "پاککردنەوەی هەموو نرخە کاشکراوەکان و داتاکانی فلۆت؟\n\nنرخەکان لە کاتی بەکارهێنانی داهاتوودا دەهێنرێنەوە. داتاکانی فلۆت دووبارە دەهێنرێنەوە لەگەڵ بینینی بابەتەکان.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ پاشەکەوتکردنی...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ ڕێکخستنەکان هەڵگیراون",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ هێنانی نرخەکان بە ڕێکخستنە نوێیەکان...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ پاشەکەوت کراوە! $COUNT$ نرخەکان هێنراون ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ تکایە کلیلی API PricEmpire ـت دابنێ",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ کاش بە سەرکەوتوویی پاککرایەوە",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ نوێکراوەتەوە — $COUNT$ نرخەکان بارکراون",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "بارکردن...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ بابەتی · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 ئەمڕۆ",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 ڕۆژ",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ ڕۆژ",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 قفڵ کراوە",
+    "description": "Trade lock: locked, no date"
+  }
+}

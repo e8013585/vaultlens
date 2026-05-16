@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens jedhamuun beekama",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Gatii inventarii CS2 yeroo dhugaa, gatiiwwan lola'aa, adda baasuu paateeniin, gatiiwwan istikaaraa, fi xiinxala daldalaa — hundi isaanii iskiriinii tokko irratti.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Haala Waliigalaa",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Sajoo",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Waa'ee",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "Inventarii CS2 — VaultLens socho'aa jira",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Dhiyeessii Daldalaa — P&L panel active",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Tarree Dhiyeessii Daldalaa — Baajiiwwan P&L hojiirra jiru",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Fuula danfaa — gara inventariitti qajeeli",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Fuula Steam irratti miti",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Gatii Waliigalaa",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Wantoota",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Gatii",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Haala",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Gatiin haaromfame",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Galmee gatii",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Galtee lola'aa",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Gatii Haaromsuu",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Inventarii Banaa",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Haala Gatii",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Buufata gogaa",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Furtuu API hin barbaachisu. API uummataa Skinport fayyadama.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Bilisa",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "GatiiImpaayera + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat gatii. Gatii marsaa Doppler. Furtuu API barbaada.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Furtuu API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "Furtuu API PricEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Furtuu argachuu →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Gatii Qusachuu & Fidachuu",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Filannoowwan Agarsiisaa",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Gatii Dhangala'aa Agarsiisi",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Baajiiwwan gatii lola'aa wantoota inventarii irratti agarsiisi",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Gatii Istikaara Agarsiisi",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Gatii istikaaraa agarsiisi hover popup",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Baajiiwwan Paattara Agarsiisi",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Gem bifa diimaa, marsaa Doppler, % fade, fakkiiwwan fade marble",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Lakkoofsa Qulfii Daldalaa Agarsiisi",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Meeshaalee cufaman irratti guyyoota hafan waliin baajii 🔒 agarsiisi",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Gatii kuusaa TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "Sa'aatii 1",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Kaachota lola'aa",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Dhaabbataa (wanta tokkoof) .",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Cache Hundaa Qulqulleessi",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Afaan",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Afaan Interface",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Afaan UI VaultLens overlays fi popup",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Mul'ina",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Dhimma haasaa",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Duukkana",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Ifa",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Sirna Durtii",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Vershinii $VERSION$ .",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Gatii inventarii CS2 yeroo dhugaa, gatiiwwan lola'aa, adda baasuu paateeniin, gatiiwwan istikaaraa, fi xiinxala daldalaa — hundi isaanii iskiriinii tokko irratti.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Mana Kuusaa Weebsaayitii Chrome",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Kuusaa GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Dhimma tokko Gabaasaa",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Dhuunfaa",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens bilisaa fi madda banaa dha. Daataan tokkollee hin walitti qabamu, hin hordofamu. Waamichi API hundi kallattiin biraawzari kee irraa gara API uummataatti deema. Furtuu API kee naannootti kan kuufamee fi gonkumaa gara sarvaroota VaultLens hin darbu.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Maddoota Odeeffannoo",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Daangaawwan Beekamaman",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Wantoota barbaadi...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Tarree Waraabbii",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Koppii godhame!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Gatii Haaromsuu",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Kan nama haaromsu...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Filadhu",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Filachuu",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Tartiiba Durtii",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Gatii: Ol’aanaa → Gadi aanaa",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Gatii: Gadi aanaa → Ol'aanaa",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Float: Gadi aanaa → Olka’aa",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Float: Olka’aa → Gadi aanaa",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Maqaa: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Gatii Istikaara ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 waraabameera!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Link daldalaa waraabameera!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Waraabbiin hin milkoofne",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Gatiin haaromfame!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Haaromsi hin milkoofne",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 SteamID64 waraabuu",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Liinkii Daldalaa Koppii",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 Dhaabbata CSFloat",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Ati Kenna",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Ati Fudhatta",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Gatiin garaagarummaa qabaachuu danda'a. Yeroo hunda daldala dura mirkaneessi.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Istikaara",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Gatii Istikaara Waliigalaa",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Gatii cacheed fi deetaa float hunda qulqulleessuu?\n\nGatiin itti fayyadama itti aanutti deebi'ee ni fidama. Deetaan lola'aa akkuma wantootni ilaalamaniin irra deebi'amee ni fidama.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Qusachuu...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Settings save ta'eera",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Sajoo haaraatiin gatii fiduu...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Qusachuu! $COUNT$ gatiiwwan fidaman ($MODE$) .",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Mee furtuu API PricEmpire keessan galchaa",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Cache milkaa'inaan qulqullaa'eera",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Haaromfame — $COUNT$ gatii fe'ameera",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Fe'amaa jira...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ wantoota · $MODE$ .",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Har'a",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 Guyyaa 1",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ guyyaa",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Cufameera",
+    "description": "Trade lock: locked, no date"
+  }
+}

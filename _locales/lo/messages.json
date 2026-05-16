@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "ລາຄາສິນຄ້າຄົງຄັງ CS2 ໃນເວລາຈິງ, ຄ່າເລື່ອນ, ການກວດຫາຮູບແບບ, ມູນຄ່າສະຕິກເກີ, ແລະການວິເຄາະການຄ້າ — ທັງໝົດໃນໜ້າຈໍດຽວ.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "ພາບລວມ",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "ການຕັ້ງຄ່າ",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "ກ່ຽວກັບ",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventory — VaultLens ເຮັດວຽກຢູ່",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "ຂໍ້ສະເໜີທາງການຄ້າ — ແຜງ P&L ເຄື່ອນໄຫວຢູ່",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "ລາຍຊື່ຂໍ້ສະເໜີທາງການຄ້າ — ປ້າຍ P&L ເຄື່ອນໄຫວຢູ່",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "ຫນ້າ Steam — ທ່ອງໄປຫາສິນຄ້າຄົງຄັງ",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "ບໍ່ໄດ້ຢູ່ໃນຫນ້າ Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "ມູນຄ່າທັງໝົດ",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "ລາຍການ",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "ລາຄາ",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "ໂໝດ",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "ອັບເດດລາຄາແລ້ວ",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "ລາຍການລາຄາ",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "ລາຍການເລື່ອນ",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ ໂຫຼດລາຄາຄືນໃໝ່",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "ເປີດສາງ",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "ໂໝດລາຄາ",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "ພອດຜິວໜັງ",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "ບໍ່ຈຳເປັນຕ້ອງມີລະຫັດ API. ໃຊ້ Skinport public API.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "ຟຣີ",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "ລາຄາEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "ລາຄາ Buff163, Skinport & CSFloat. ລາຄາຂອງໄລຍະ Doppler. ຕ້ອງການລະຫັດ API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API Key",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PriceEmpire API Key",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "ເອົາກະແຈ →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 ປະຫຍັດ & ເອົາລາຄາ",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "ຕົວເລືອກການສະແດງ",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "ສະແດງຄ່າ Float",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "ສະແດງປ້າຍມູນຄ່າລອຍຢູ່ໃນລາຍການສິນຄ້າຄົງຄັງ",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "ສະແດງລາຄາສະຕິກເກີ",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "ສະແດງຄ່າສະຕິກເກີເລື່ອນໃສ່ປັອບອັບ",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "ສະແດງປ້າຍຮູບແບບ",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "gem ສີ​ຟ້າ​, ໄລ​ຍະ Doppler​, ມະ​ລາຍ​ຫາຍ​ໄປ %, ຮູບ​ແບບ​ການ​ມະ​ລາຍ​ຫາຍ​ໄປ marble​",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "ສະແດງ Trade Lock Countdowns",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "ສະແດງປ້າຍ 🔒 ພ້ອມມື້ທີ່ຍັງເຫຼືອຢູ່ໃນລາຍການທີ່ລັອກໄວ້",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "ແຄດ",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "ລາຄາ cache TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 ຊົ່ວໂມງ",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "float cache",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "ຖາວອນ (ຕໍ່ລາຍການ)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 ລ້າງແຄດທັງໝົດ",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "ພາສາ",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "ພາສາການໂຕ້ຕອບ",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "ພາສາ UI ສຳລັບການວາງຊ້ອນ VaultLens ແລະປັອບອັບ",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "ຮູບລັກສະນະ",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "ຫົວຂໍ້",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "ມືດ",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "ແສງສະຫວ່າງ",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "ຄ່າເລີ່ມຕົ້ນຂອງລະບົບ",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "ລຸ້ນ $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "ລາຄາສິນຄ້າຄົງຄັງ CS2 ໃນເວລາຈິງ, ຄ່າເລື່ອນ, ການກວດຫາຮູບແບບ, ມູນຄ່າສະຕິກເກີ, ແລະການວິເຄາະການຄ້າ — ທັງໝົດໃນໜ້າຈໍດຽວ.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web Store",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub Repository",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 ແຈ້ງບັນຫາ",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 ຄວາມເປັນສ່ວນຕົວ",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens ແມ່ນບໍ່ເສຍຄ່າ ແລະແຫຼ່ງເປີດ. ບໍ່ມີຂໍ້ມູນຖືກເກັບກຳ ຫຼືຕິດຕາມ. ການໂທ API ທັງໝົດໄປໂດຍກົງຈາກບຣາວເຊີຂອງທ່ານໄປຫາ APIs ສາທາລະນະ. ກະແຈ API ຂອງທ່ານຖືກເກັບໄວ້ໃນເຄື່ອງ ແລະບໍ່ເຄີຍຖືກສົ່ງໄປຫາເຊີບເວີ VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "ແຫຼ່ງຂໍ້ມູນ",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "ຂໍ້ຈໍາກັດທີ່ຮູ້ຈັກ",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 ຄົ້ນຫາລາຍການ...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 ສຳເນົາລາຍຊື່",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ ຄັດລອກ!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ ໂຫຼດລາຄາຄືນໃໝ່",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ ສົດຊື່ນ...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ເລືອກ",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ເລືອກ",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "ຄໍາສັ່ງເລີ່ມຕົ້ນ",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "ລາຄາ: ສູງ→ຕ່ໍາ",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "ລາຄາ: ຕໍ່າ → ສູງ",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "ລອຍ: ຕ່ຳ → ສູງ",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "ລອຍ: ສູງ → ຕໍ່າ",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "ຊື່: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "ຄ່າສະຕິກເກີ ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "ສຳເນົາ SteamID64 ແລ້ວ!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "ສຳເນົາລິ້ງການຄ້າແລ້ວ!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "ສຳເນົາລົ້ມເຫລວ",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "ລາຄາສົດຊື່ນແລ້ວ!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "ໂຫຼດຂໍ້ມູນຄືນໃໝ່ບໍ່ສຳເລັດ",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 ສຳເນົາ SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Copy Trade Link",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "ເຈົ້າໃຫ້",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "ທ່ານໄດ້ຮັບ",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "ລາຄາອາດຈະແຕກຕ່າງກັນ. ສະເຫມີກວດສອບກ່ອນການຊື້ຂາຍ.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "ສະຕິກເກີ",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "ມູນຄ່າສະຕິກເກີທັງໝົດ",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "ລຶບລ້າງລາຄາທີ່ແຄສໄວ້ທັງໝົດ ແລະຂໍ້ມູນການເລື່ອນອອກບໍ?\n\nລາຄາຈະຖືກດຶງມາໃໝ່ໃນການນຳໃຊ້ຄັ້ງຕໍ່ໄປ. ຂໍ້ມູນ Float ຈະຖືກດຶງມາຄືນໃໝ່ເມື່ອລາຍການຖືກເບິ່ງ.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ ປະຢັດ...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓​ບັນ​ທຶກ​ການ​ຕັ້ງ​ຄ່າ​",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ ກຳລັງດຶງລາຄາກັບການຕັ້ງຄ່າໃໝ່...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ ບັນ​ທຶກ​ໄວ້​! [0​] ລາ​ຄາ​ທີ່​ດຶງ​ມາ ([1​]​)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ ກະລຸນາໃສ່ລະຫັດ PricEmpire API ຂອງທ່ານ",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ ລ້າງແຄດສຳເລັດແລ້ວ",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ ໂຫຼດຂໍ້ມູນໃໝ່ — $COUNT$ ລາຄາໂຫຼດແລ້ວ",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "ກຳລັງໂຫລດ...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ ລາຍການ · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 ມື້ນີ້",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 ມື້",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ ມື້",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 ລັອກ",
+    "description": "Trade lock: locked, no date"
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Bihayê envantera CS2-a-a-dem-a-rast, nirxên float, tespîtkirina nimûne, nirxên çîtikan, û analîtîkên bazirganiyê - hemî li ser yek ekranê.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Têgihiştinî",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Settings",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Ji dor",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "Envantera CS2 - VaultLens çalak e",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Pêşniyara Bazirganiyê - Panela P&L çalak e",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Lîsteya Pêşniyarên Bazirganî - Nîşanên P&L çalak",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Rûpelê Steam - li ser envanterê bigerin",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Ne li ser rûpelek Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Nirxa tevahî",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Items",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Biha",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Awa",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Bihayên nûkirin",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "entries Price",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Têketinên float",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Bihayên nûvekirin",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Envanterê vekin",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Mode Pricing",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Porta çerm",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "No key API pêwîst. API-ya giştî ya Skinport bikar tîne.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Belaş",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat bihayên. Buhayê qonaxa Doppler. Mifteya API-ê hewce dike.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Mifteya API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API Key",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Mifteyê bistînin →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Bihayan hilînin û bistînin",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Vebijêrkên Display",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Nirxên Float nîşan bide",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Nîşaneyên nirxa float li ser tiştên envanterê nîşan bidin",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Bihayên Sticker nîşan bide",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Nirxa çîtikê pêpeloka hover nîşan bide",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Nîşanên Patternê nîşan bide",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Gewrê şîn, qonaxa Doppler, xirabûn%, qalibên mermer",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Hejmarên Girtina Bazirganiyê nîşan bidin",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Nîşana 🔒 bi rojên mayî li ser tiştên girtî nîşan bidin",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Price cache TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 saet",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Cache float",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Daîmî (her tişt)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Hemî Cache Paqij bike",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Ziman",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Ziman Interface",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Zimanê UI-ê ji bo serpêhatî û popupên VaultLens",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Xuyabûnî",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Mijad",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Tarî",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Sivik",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "System Default",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Guhertoya $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Bihayê envantera CS2-a-a-dem-a-rast, nirxên float, tespîtkirina nimûne, nirxên çîtikan, û analîtîkên bazirganiyê - hemî li ser yek ekranê.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web Store",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Depoya GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Pirsgirêkek rapor bikin",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Nepenî",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens belaş û çavkaniya vekirî ye. Ti data nayê komkirin û şopandin. Hemî bangên API-ê rasterast ji geroka we diçin API-yên gelemperî. Mifteya API-ya we li herêmî tête hilanîn û çu carî ji serverên VaultLens re nayê şandin.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Çavkaniyên Daneyên",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Sînorên naskirî",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Li hêmanan bigerin...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Lîsteya kopî bikin",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Kopî kirin!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Bihayên nûvekirin",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Nûvekirin...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Hilbijêre",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Hilbijartin",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Order Default",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Biha: Bilind → Kêm",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Biha: Kêm → Bilind",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Lew: Kêm → Bilind",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Left: Bilind → Kêm",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Nav: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Nirxa Stîkerê ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 kopî kirin!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Girêdana bazirganiyê hate kopî kirin!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Kopî têk çû",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Biha hatin nûkirin!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Nûvekirin têk çû",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 SteamID64 kopî bikin",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Girêdana Bazirganiyê Kopî bikin",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Hûn Didin",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Hûn Distînin",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Biha dibe ku diguhere. Berî bazirganiyê her gav verast bikin.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Stickers",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Nirxa Tevahiya Sticker",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Hemî bihayên cache û daneyên float paqij bikin?\n\nDê di karanîna paşîn de nirx ji nû ve werin girtin. Dema ku tişt têne dîtin dê daneyên float ji nû ve werin girtin.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Sazkirin...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Mîheng hatin hilanîn",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Bi mîhengên nû bihayan distîne...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Save! $COUNT$ biha hatin girtin ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Ji kerema xwe mifteya API-ya xwe ya PricEmpire binivîse",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Cache bi serkeftî hate paqij kirin",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Nûvekirî - $COUNT$ biha hatin barkirin",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Barkirin...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ tomar · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Îro",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 roj",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ roj",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Girtî ye",
+    "description": "Trade lock: locked, no date"
+  }
+}

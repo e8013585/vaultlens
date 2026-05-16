@@ -1,0 +1,436 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Real-time CS2 inventory pricing, float values, pattern detection, sticker values, and trade analytics — all on one screen.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Overview",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Settings",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "About",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventory — VaultLens active",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Trade Offer — P&L panel active",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Trade Offers List — P&L badges active",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam page — navigate to inventory",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Not on a Steam page",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Total Value",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Items",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Priced",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Mode",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Prices updated",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Price entries",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Float entries",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Refresh Prices",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Open Inventory",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Pricing Mode",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Skinport",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "No API key required. Uses Skinport public API.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Free",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat prices. Doppler phase pricing. Requires API key.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API Key",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API Key",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Get key →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Save & Fetch Prices",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Display Options",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Show Float Values",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Display float value badges on inventory items",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Show Sticker Prices",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Show sticker value hover popup",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Show Pattern Badges",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Blue gem, Doppler phase, fade %, marble fade patterns",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Show Trade Lock Countdowns",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Display 🔒 badge with days remaining on locked items",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Price cache TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 hour",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Float cache",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Permanent (per item)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Clear All Cache",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Language",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Interface Language",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "UI language for VaultLens overlays and popup",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Appearance",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Theme",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Dark",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Light",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "System Default",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Version $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": { "content": "$1", "example": "1.0.0" }
+    }
+  },
+  "aboutDesc": {
+    "message": "Real-time CS2 inventory pricing, float values, pattern detection, sticker values, and trade analytics — all on one screen.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web Store",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub Repository",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Report an Issue",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Privacy",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens is free and open source. No data is collected or tracked. All API calls go directly from your browser to public APIs. Your API key is stored locally and never transmitted to VaultLens servers.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Data Sources",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Known Limitations",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Search items...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Copy List",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Copied!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Refresh Prices",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Refreshing...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Select",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Selecting",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Default Order",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Price: High → Low",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Price: Low → High",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Float: Low → High",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Float: High → Low",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Name: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Sticker Value ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 copied!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Trade link copied!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Copy failed",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Prices refreshed!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Refresh failed",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Copy SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Copy Trade Link",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "You Give",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "You Receive",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Prices may vary. Always verify before trading.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Stickers",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Total Sticker Value",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Clear all cached prices and float data?\n\nPrices will be re-fetched on next use. Float data will be re-fetched as items are viewed.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Saving...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Settings saved",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Fetching prices with new settings...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Saved! $COUNT$ prices fetched ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": { "content": "$1", "example": "45000" },
+      "mode":  { "content": "$2", "example": "PricEmpire" }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Please enter your PricEmpire API key",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Cache cleared successfully",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Refreshed — $COUNT$ prices loaded",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": { "content": "$1", "example": "45000" }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Loading...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ items · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": { "content": "$1", "example": "$4,832.10" },
+      "count": { "content": "$2", "example": "247" },
+      "mode":  { "content": "$3", "example": "Buff163" }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Today",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 day",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ days",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": { "content": "$1", "example": "5" }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Locked",
+    "description": "Trade lock: locked, no date"
+  }
+}

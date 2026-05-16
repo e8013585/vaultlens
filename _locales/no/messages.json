@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Sanntidsprising av CS2-lager, flyteverdier, mønsterdeteksjon, klistremerkeverdier og handelsanalyse – alt på én skjerm.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Oversikt",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Innstillinger",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Om",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventory — VaultLens aktiv",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Handelstilbud — P&L-panelet er aktivt",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Liste over handelstilbud — P&L-merker aktive",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam-side – naviger til inventar",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Ikke på en Steam-side",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Total verdi",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Varer",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Priset",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Modus",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Prisene er oppdatert",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Prisoppføringer",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Flytende oppføringer",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Oppdater priser",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Åpne inventar",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Prismodus",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Hudport",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Ingen API-nøkkel kreves. Bruker Skinport public API.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Gratis",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PriceEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat priser. Dopplerfaseprising. Krever API-nøkkel.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API-nøkkel",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PriceEmpire API-nøkkel",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Hent nøkkel →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Spar og hent priser",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Visningsalternativer",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Vis flyteverdier",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Vis flytverdimerker på inventarvarer",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Vis klistremerkepriser",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Vis popup-vindu for klistremerkeverdi",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Vis mønstermerker",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Blå edelsten, dopplerfase, fade %, marmor fade mønstre",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Vis nedtellinger for handelslås",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Vis 🔒-merke med dager igjen på låste varer",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Priscache TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 time",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Flytende cache",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Permanent (per vare)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Tøm all buffer",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Språk",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Grensesnittspråk",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "UI-språk for VaultLens-overlegg og popup",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Utseende",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Tema",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Mørk",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Lys",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Systemstandard",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Versjon $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Sanntidsprising av CS2-lager, flyteverdier, mønsterdeteksjon, klistremerkeverdier og handelsanalyse – alt på én skjerm.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Nettmarked",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub Repository",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Rapporter et problem",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Personvern",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens er gratis og åpen kildekode. Ingen data samles inn eller spores. Alle API-anrop går direkte fra nettleseren din til offentlige API-er. API-nøkkelen din lagres lokalt og blir aldri overført til VaultLens-servere.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Datakilder",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Kjente begrensninger",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Søk etter elementer...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Kopier liste",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Kopiert!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Oppdater priser",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Forfriskende...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Velg",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Velge",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Standard rekkefølge",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Pris: Høy → Lav",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Pris: Lav → Høy",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Flyte: Lav → Høy",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Flyte: Høy → Lav",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Navn: A → Å",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Klistremerkeverdi ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 kopiert!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Handelslenken er kopiert!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Kopiering mislyktes",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Prisene er oppdatert!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Oppdatering mislyktes",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Kopier SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Kopier handelslenke",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Du gir",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Du mottar",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Prisene kan variere. Verifiser alltid før handel.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Klistremerker",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Total klistremerkeverdi",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Vil du slette alle bufrede priser og flytende data?\n\nPriser vil bli hentet på nytt ved neste bruk. Flytende data vil bli hentet på nytt etter hvert som elementene vises.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Lagrer...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Innstillinger lagret",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Henter priser med nye innstillinger...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Lagret! $COUNT$ priser hentet ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Vennligst skriv inn din PricEmpire API-nøkkel",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Bufferen ble tømt",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Oppdatert — $COUNT$ priser lastet",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Laster inn...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ elementer · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 I dag",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 dag",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ dager",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Låst",
+    "description": "Trade lock: locked, no date"
+  }
+}

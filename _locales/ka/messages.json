@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "რეალურ დროში CS2 ინვენტარის ფასები, float ღირებულებები, ნიმუშის ამოცნობა, სტიკერების მნიშვნელობები და სავაჭრო ანალიტიკა — ყველაფერი ერთ ეკრანზე.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "მიმოხილვა",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "პარამეტრები",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "შესახებ",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 ინვენტარი — VaultLens აქტიური",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "სავაჭრო შეთავაზება — P&L პანელი აქტიურია",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "სავაჭრო შეთავაზებების სია — აქტიურია P&L სამკერდე ნიშნები",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam გვერდი - გადადით ინვენტარზე",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "არა Steam-ის გვერდზე",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "მთლიანი ღირებულება",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "ნივთები",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "ფასიანი",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "რეჟიმი",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "ფასები განახლებულია",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "ფასების ჩანაწერები",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "ფლოტის ჩანაწერები",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ განაახლეთ ფასები",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "გახსენით ინვენტარი",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "ფასების რეჟიმი",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "კანის პორტი",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "არ არის საჭირო API გასაღები. იყენებს Skinport საჯარო API-ს.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "უფასო",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat ფასები. დოპლერის ფაზის ფასი. საჭიროებს API კლავიშს.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API გასაღები",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API გასაღები",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "მიიღეთ გასაღები →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 დაზოგეთ და მიიღეთ ფასები",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "ჩვენების პარამეტრები",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Float ღირებულებების ჩვენება",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "აჩვენეთ float ღირებულების სამკერდე ნიშნები ინვენტარის ერთეულებზე",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "სტიკერების ფასების ჩვენება",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "სტიკერის მნიშვნელობის ჩვენება hover popup",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "შაბლონების სამკერდე ნიშნების ჩვენება",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "ლურჯი ძვირფასი ქვა, დოპლერის ფაზა, გაცვეთილი %, მარმარილოს გაქრობის ნიმუშები",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "ვაჭრობის დაბლოკვის ათვლის ჩვენება",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "🔒 ბეჯის ჩვენება ჩაკეტილ ნივთებზე დარჩენილი დღეებით",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "ქეში",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "ფასის ქეში TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 საათი",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Float cache",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "მუდმივი (თითო ნივთზე)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 გაასუფთავეთ ყველა ქეში",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "ენა",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "ინტერფეისის ენა",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "UI ენა VaultLens გადაფარვისა და ამომხტარი ფანჯრისთვის",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "გარეგნობა",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "თემა",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "ბნელი",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "სინათლე",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "სისტემის ნაგულისხმევი",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "ვერსია $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "რეალურ დროში CS2 ინვენტარის ფასები, float ღირებულებები, ნიმუშის ამოცნობა, სტიკერების მნიშვნელობები და სავაჭრო ანალიტიკა — ყველაფერი ერთ ეკრანზე.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web Store",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub საცავი",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 შეატყობინეთ პრობლემას",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 კონფიდენციალურობა",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens უფასო და ღია წყაროა. არანაირი მონაცემები არ გროვდება ან თვალყურს ადევნებთ. ყველა API ზარი გადადის პირდაპირ თქვენი ბრაუზერიდან საჯარო API-ებზე. თქვენი API გასაღები ინახება ადგილობრივად და არასოდეს გადაეცემა VaultLens სერვერებს.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "მონაცემთა წყაროები",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "ცნობილი შეზღუდვები",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 მოძებნეთ ნივთები...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 დააკოპირეთ სია",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ გადაწერილია!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ განაახლეთ ფასები",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ განახლება...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ აირჩიეთ",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ შერჩევა",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "ნაგულისხმევი შეკვეთა",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "ფასი: მაღალი → დაბალი",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "ფასი: დაბალი → მაღალი",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "ათწილადი: დაბალი → მაღალი",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "ათწილადი: მაღალი → დაბალი",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "დასახელება: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "სტიკერის ღირებულება ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 დაკოპირებულია!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "სავაჭრო ბმული დაკოპირებულია!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "კოპირება ვერ მოხერხდა",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "ფასები განახლებულია!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "განახლება ვერ მოხერხდა",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 დააკოპირეთ SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 დააკოპირეთ სავაჭრო ლინკი",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat სადგომი",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-რეპ",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "შენ აძლევ",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "თქვენ მიიღებთ",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "ფასები შეიძლება განსხვავდებოდეს. ყოველთვის გადაამოწმეთ ვაჭრობის წინ.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "სტიკერები",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "სტიკერის მთლიანი ღირებულება",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "წაიშალოს ყველა ქეშირებული ფასი და float მონაცემები?\n\nფასები ხელახლა აისახება მომდევნო გამოყენებისას. Float მონაცემები ხელახლა იქნება მოძიებული ერთეულების ნახვისას.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ შენახვა...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ პარამეტრები შენახულია",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ ფასების მიღება ახალი პარამეტრებით...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ შენახულია! $COUNT$ ფასები მიღებულია ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ გთხოვთ, შეიყვანოთ თქვენი PricEmpire API გასაღები",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ ქეში წარმატებით გაიწმინდა",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ განახლებულია — $COUNT$ ფასები ჩაიტვირთა",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "იტვირთება...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ ელემენტი · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 დღეს",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 დღე",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ დღე",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 ჩაკეტილია",
+    "description": "Trade lock: locked, no date"
+  }
+}

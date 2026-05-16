@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "ವಾಲ್ಟ್ ಲೆನ್ಸ್",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "ನೈಜ-ಸಮಯದ CS2 ದಾಸ್ತಾನು ಬೆಲೆ, ಫ್ಲೋಟ್ ಮೌಲ್ಯಗಳು, ಮಾದರಿ ಪತ್ತೆ, ಸ್ಟಿಕ್ಕರ್ ಮೌಲ್ಯಗಳು ಮತ್ತು ವ್ಯಾಪಾರ ವಿಶ್ಲೇಷಣೆ - ಎಲ್ಲವೂ ಒಂದೇ ಪರದೆಯಲ್ಲಿ.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "ಅವಲೋಕನ",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "ಬಗ್ಗೆ",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 ಇನ್ವೆಂಟರಿ - VaultLens ಸಕ್ರಿಯವಾಗಿದೆ",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "ಟ್ರೇಡ್ ಆಫರ್ - P&L ಪ್ಯಾನೆಲ್ ಸಕ್ರಿಯವಾಗಿದೆ",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "ವ್ಯಾಪಾರ ಕೊಡುಗೆಗಳ ಪಟ್ಟಿ - P&L ಬ್ಯಾಡ್ಜ್‌ಗಳು ಸಕ್ರಿಯವಾಗಿವೆ",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "ಸ್ಟೀಮ್ ಪುಟ - ದಾಸ್ತಾನುಗಳಿಗೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "ಸ್ಟೀಮ್ ಪುಟದಲ್ಲಿ ಅಲ್ಲ",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "ಒಟ್ಟು ಮೌಲ್ಯ",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "ವಸ್ತುಗಳು",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "ಬೆಲೆಯ",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "ಮೋಡ್",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "ಬೆಲೆಗಳನ್ನು ನವೀಕರಿಸಲಾಗಿದೆ",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "ಬೆಲೆ ನಮೂದುಗಳು",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "ಫ್ಲೋಟ್ ನಮೂದುಗಳು",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ ರಿಫ್ರೆಶ್ ಬೆಲೆಗಳು",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "ಇನ್ವೆಂಟರಿ ತೆರೆಯಿರಿ",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "ಬೆಲೆ ಮೋಡ್",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "ಸ್ಕಿನ್ ಪೋರ್ಟ್",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "ಯಾವುದೇ API ಕೀ ಅಗತ್ಯವಿಲ್ಲ. Skinport ಸಾರ್ವಜನಿಕ API ಅನ್ನು ಬಳಸುತ್ತದೆ.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "ಉಚಿತ",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "ಪ್ರೈಸ್ ಎಂಪೈರ್ + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat ಬೆಲೆಗಳು. ಡಾಪ್ಲರ್ ಹಂತದ ಬೆಲೆ. API ಕೀ ಅಗತ್ಯವಿದೆ.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API ಕೀ",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "ಬೆಲೆ ಎಂಪೈರ್ API ಕೀ",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "ಕೀಲಿಯನ್ನು ಪಡೆಯಿರಿ →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 ಉಳಿಸಿ ಮತ್ತು ಬೆಲೆಗಳನ್ನು ಪಡೆಯಿರಿ",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "ಪ್ರದರ್ಶನ ಆಯ್ಕೆಗಳು",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "ಫ್ಲೋಟ್ ಮೌಲ್ಯಗಳನ್ನು ತೋರಿಸಿ",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "ಇನ್ವೆಂಟರಿ ಐಟಂಗಳ ಮೇಲೆ ಫ್ಲೋಟ್ ಮೌಲ್ಯದ ಬ್ಯಾಡ್ಜ್‌ಗಳನ್ನು ಪ್ರದರ್ಶಿಸಿ",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "ಸ್ಟಿಕ್ಕರ್ ಬೆಲೆಗಳನ್ನು ತೋರಿಸಿ",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "ಸ್ಟಿಕ್ಕರ್ ಮೌಲ್ಯವನ್ನು ಹೋವರ್ ಪಾಪ್ಅಪ್ ತೋರಿಸಿ",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "ಪ್ಯಾಟರ್ನ್ ಬ್ಯಾಡ್ಜ್‌ಗಳನ್ನು ತೋರಿಸಿ",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "ನೀಲಿ ರತ್ನ, ಡಾಪ್ಲರ್ ಹಂತ, ಫೇಡ್ %, ಮಾರ್ಬಲ್ ಫೇಡ್ ಮಾದರಿಗಳು",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "ಟ್ರೇಡ್ ಲಾಕ್ ಕೌಂಟ್‌ಡೌನ್‌ಗಳನ್ನು ತೋರಿಸಿ",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "ಲಾಕ್ ಮಾಡಲಾದ ಐಟಂಗಳಲ್ಲಿ ಉಳಿದಿರುವ ದಿನಗಳೊಂದಿಗೆ 🔒 ಬ್ಯಾಡ್ಜ್ ಅನ್ನು ಪ್ರದರ್ಶಿಸಿ",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "ಸಂಗ್ರಹ",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "ಬೆಲೆ ಸಂಗ್ರಹ TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 ಗಂಟೆ",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "ಫ್ಲೋಟ್ ಸಂಗ್ರಹ",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "ಶಾಶ್ವತ (ಪ್ರತಿ ಐಟಂಗೆ)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 ಎಲ್ಲಾ ಸಂಗ್ರಹವನ್ನು ತೆರವುಗೊಳಿಸಿ",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "ಭಾಷೆ",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "ಇಂಟರ್ಫೇಸ್ ಭಾಷೆ",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "VaultLens ಓವರ್‌ಲೇಗಳು ಮತ್ತು ಪಾಪ್‌ಅಪ್‌ಗಾಗಿ UI ಭಾಷೆ",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "ಗೋಚರತೆ",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "ಥೀಮ್",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "ಕತ್ತಲು",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "ಬೆಳಕು",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "ಸಿಸ್ಟಮ್ ಡೀಫಾಲ್ಟ್",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "ಆವೃತ್ತಿ $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "ನೈಜ-ಸಮಯದ CS2 ದಾಸ್ತಾನು ಬೆಲೆ, ಫ್ಲೋಟ್ ಮೌಲ್ಯಗಳು, ಮಾದರಿ ಪತ್ತೆ, ಸ್ಟಿಕ್ಕರ್ ಮೌಲ್ಯಗಳು ಮತ್ತು ವ್ಯಾಪಾರ ವಿಶ್ಲೇಷಣೆ - ಎಲ್ಲವೂ ಒಂದೇ ಪರದೆಯಲ್ಲಿ.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome ವೆಬ್ ಅಂಗಡಿ",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub ರೆಪೊಸಿಟರಿ",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 ಸಮಸ್ಯೆಯನ್ನು ವರದಿ ಮಾಡಿ",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 ಗೌಪ್ಯತೆ",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens ಉಚಿತ ಮತ್ತು ಮುಕ್ತ ಮೂಲವಾಗಿದೆ. ಯಾವುದೇ ಡೇಟಾವನ್ನು ಸಂಗ್ರಹಿಸಲಾಗಿಲ್ಲ ಅಥವಾ ಟ್ರ್ಯಾಕ್ ಮಾಡಲಾಗಿಲ್ಲ. ಎಲ್ಲಾ API ಕರೆಗಳು ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಿಂದ ನೇರವಾಗಿ ಸಾರ್ವಜನಿಕ API ಗಳಿಗೆ ಹೋಗುತ್ತವೆ. ನಿಮ್ಮ API ಕೀಲಿಯನ್ನು ಸ್ಥಳೀಯವಾಗಿ ಸಂಗ್ರಹಿಸಲಾಗಿದೆ ಮತ್ತು VaultLens ಸರ್ವರ್‌ಗಳಿಗೆ ಎಂದಿಗೂ ರವಾನಿಸುವುದಿಲ್ಲ.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "ಡೇಟಾ ಮೂಲಗಳು",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "ತಿಳಿದಿರುವ ಮಿತಿಗಳು",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 ಐಟಂಗಳನ್ನು ಹುಡುಕಿ...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 ನಕಲು ಪಟ್ಟಿ",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ ನಕಲು ಮಾಡಲಾಗಿದೆ!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ ರಿಫ್ರೆಶ್ ಬೆಲೆಗಳು",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ ರಿಫ್ರೆಶ್ ಆಗುತ್ತಿದೆ...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ ಆಯ್ಕೆಮಾಡಿ",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ ಆಯ್ಕೆಮಾಡಲಾಗುತ್ತಿದೆ",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "ಡೀಫಾಲ್ಟ್ ಆದೇಶ",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "ಬೆಲೆ: ಹೆಚ್ಚು → ಕಡಿಮೆ",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "ಬೆಲೆ: ಕಡಿಮೆ → ಹೆಚ್ಚು",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "ಫ್ಲೋಟ್: ಕಡಿಮೆ → ಹೆಚ್ಚು",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "ಫ್ಲೋಟ್: ಹೆಚ್ಚು → ಕಡಿಮೆ",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "ಹೆಸರು: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "ಸ್ಟಿಕ್ಕರ್ ಮೌಲ್ಯ ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 ನಕಲಿಸಲಾಗಿದೆ!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "ವ್ಯಾಪಾರ ಲಿಂಕ್ ಅನ್ನು ನಕಲಿಸಲಾಗಿದೆ!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "ನಕಲು ವಿಫಲವಾಗಿದೆ",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "ಬೆಲೆಗಳನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಲಾಗಿದೆ!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "ರಿಫ್ರೆಶ್ ವಿಫಲವಾಗಿದೆ",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 SteamID64 ನಕಲಿಸಿ",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 ಕಾಪಿ ಟ್ರೇಡ್ ಲಿಂಕ್",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat ಸ್ಟಾಲ್",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-ಪ್ರತಿನಿಧಿ",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "ನೀವು ಕೊಡು",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "ನೀವು ಸ್ವೀಕರಿಸಿ",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "ಬೆಲೆಗಳು ಬದಲಾಗಬಹುದು. ವ್ಯಾಪಾರ ಮಾಡುವ ಮೊದಲು ಯಾವಾಗಲೂ ಪರಿಶೀಲಿಸಿ.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "ಸ್ಟಿಕ್ಕರ್‌ಗಳು",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "ಒಟ್ಟು ಸ್ಟಿಕ್ಕರ್ ಮೌಲ್ಯ",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "ಎಲ್ಲಾ ಕ್ಯಾಶ್ ಮಾಡಿದ ಬೆಲೆಗಳು ಮತ್ತು ಫ್ಲೋಟ್ ಡೇಟಾವನ್ನು ತೆರವುಗೊಳಿಸುವುದೇ?\n\nಮುಂದಿನ ಬಳಕೆಯ ಮೇಲೆ ಬೆಲೆಗಳನ್ನು ಮರು-ಪಡೆಯಲಾಗುತ್ತದೆ. ಐಟಂಗಳನ್ನು ವೀಕ್ಷಿಸಿದಂತೆ ಫ್ಲೋಟ್ ಡೇಟಾವನ್ನು ಮರು-ಪಡೆಯಲಾಗುತ್ತದೆ.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ ಉಳಿಸಲಾಗುತ್ತಿದೆ...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಉಳಿಸಲಾಗಿದೆ",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ ಹೊಸ ಸೆಟ್ಟಿಂಗ್‌ಗಳೊಂದಿಗೆ ಬೆಲೆಗಳನ್ನು ಪಡೆಯಲಾಗುತ್ತಿದೆ...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ ಉಳಿಸಲಾಗಿದೆ! $COUNT$ ಬೆಲೆಗಳನ್ನು ಪಡೆಯಲಾಗಿದೆ ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ ದಯವಿಟ್ಟು ನಿಮ್ಮ PricEmpire API ಕೀಯನ್ನು ನಮೂದಿಸಿ",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ ಸಂಗ್ರಹವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ತೆರವುಗೊಳಿಸಲಾಗಿದೆ",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ ರಿಫ್ರೆಶ್ ಮಾಡಲಾಗಿದೆ - $COUNT$ ಬೆಲೆಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿದೆ",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ ಐಟಂಗಳು · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 ಇಂದು",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 ದಿನ",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ ದಿನಗಳು",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 ಲಾಕ್ ಮಾಡಲಾಗಿದೆ",
+    "description": "Trade lock: locked, no date"
+  }
+}

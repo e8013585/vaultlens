@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Realtempa CS2-inventara prezo, flosvaloroj, detektado de ŝablonoj, glumarkvaloroj kaj komerca analizo — ĉio sur unu ekrano.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Superrigardo",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Agordoj",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Pri",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventory — VaultLens aktiva",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Komerca Oferto - P&L-panelo aktiva",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Listo de Komercaj Ofertoj — P&L-insignoj aktivaj",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam-paĝo - navigu al inventaro",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Ne sur Steam-paĝo",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Totala Valoro",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Eroj",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Prezigita",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Reĝimo",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Prezoj ĝisdatigitaj",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Prezenskriboj",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Flosaj enskriboj",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Refreŝigi Prezojn",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Malferma Inventaro",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Preza Reĝimo",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Haŭta haveno",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Neniu API-ŝlosilo bezonata. Uzas Skinport publikan API.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Senpaga",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat prezoj. Prezado de doplera fazo. Postulas API-ŝlosilon.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API Ŝlosilo",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API-Ŝlosilo",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Akiru ŝlosilon →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Konservu kaj Akiru Prezojn",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Montraj Opcioj",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Montru Flotvalorojn",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Montru flosajn valorinsignojn sur inventaraĵoj",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Montru Glubilajn Prezojn",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Montri glumarkvaloron ŝveban ŝprucfenestron",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Montru Ŝablonaj Insignoj",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Blua gemo, Doppler-fazo, fade%, marmoraj fadenaj ŝablonoj",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Montri Trade Lock Countdowns",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Montru 🔒 insignon kun tagoj restantaj sur ŝlositaj aĵoj",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Deponejo",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Prezo kaŝmemoro TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 horo",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Flosi kaŝmemoron",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Konstanta (po objekto)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Forigi Ĉian Kaŝmemoron",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Lingvo",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Interfaco Lingvo",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "UI-lingvo por VaultLens-kovraĵoj kaj ŝprucfenestro",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Aspekto",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Temo",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Mallumo",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Lumo",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Sistemo Defaŭlto",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Versio $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Realtempa CS2-inventara prezo, flosvaloroj, detektado de ŝablonoj, glumarkvaloroj kaj komerca analizo — ĉio sur unu ekrano.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web Store",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub Deponejo",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Raportu Problemon",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Privateco",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens estas senpaga kaj malferma fonto. Neniuj datumoj estas kolektitaj aŭ spuritaj. Ĉiuj API-vokoj iras rekte de via retumilo al publikaj APIoj. Via API-ŝlosilo estas konservita loke kaj neniam transdonita al VaultLens-serviloj.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Fontoj de datumoj",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Konataj Limigoj",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Serĉi erojn...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Kopiaj Listo",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Kopiita!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Refreŝigi Prezojn",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Refreŝiga...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Elektu",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Elektado",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Defaŭlta Ordo",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Prezo: Alta → Malalta",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Prezo: Malalta → Alta",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Flosilo: Malalta → Alta",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Flosilo: Alta → Malalta",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Nomo: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Glumarkvaloro ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 kopiita!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Komerca ligilo kopiita!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Kopio malsukcesis",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Prezoj refreŝigitaj!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Refreŝigo malsukcesis",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Kopiu SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Kopiu Komercan Ligon",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Budo",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Deputito",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Vi Donu",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Vi Ricevas",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Prezoj povas varii. Ĉiam konfirmu antaŭ komerci.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Glumarkoj",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Totala Glubilda Valoro",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Ĉu forigi ĉiujn konservitajn prezojn kaj flosigi datumojn?\n\nPrezoj estos reaĉetitaj ĉe venonta uzo. Flosaj datumoj estos rekolektitaj dum eroj estas rigardataj.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Konservante...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Agordoj konservitaj",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Alportante prezojn kun novaj agordoj...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Konservite! $COUNT$ prezoj akiritaj ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Bonvolu enigi vian PricEmpire API-ŝlosilon",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Kaŝmemoro forigita sukcese",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Refreŝigita — $COUNT$ prezoj ŝarĝitaj",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Ŝargante...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ eroj · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Hodiaŭ",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 tago",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ tagoj",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Ŝlosita",
+    "description": "Trade lock: locked, no date"
+  }
+}

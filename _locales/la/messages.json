@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Real-time CS2 inventarium pricing, innatant bona, exemplar detectio, valores obice, et analytica trade - omnia in uno velo.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Overview",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Occasus",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "De",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventarium - VaultLens active",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Trade Offer - P&L panel activae",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Trade Offers List - P&L insignia activae",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Vapor page - navigare ad inventarium",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Non vapor in pagina",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Totalis Precium",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Items",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Pretium",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Modus",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Prices updated",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Pretium entries",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Supernatet entries",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "Renovare Prices",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Open Inventarium",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Pricing Modus",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Pellis portum",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Nulla API key requiritur. Utitur Skinport publicus API.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Free",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat prices. Doppler tempus cursus sapien. Clavis requirit API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API Key",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API Key",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Accipere key →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "Salvum fac Prices",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Optiones ostendere",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Ostende supernatet Pretio",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Display supernatet valorem velamenta inventarium items",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Ostende Prices Sticker",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Ostende obice valorem aliquet populus",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Ostende Exemplum Badges",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Gemma caerulea, Doppler Phase, fade %, fades marmoreae exemplaria",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Monstra Trade sursum countdowns",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Ostentantur nota dies manentes in clausum item",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Pretium cache TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "I hora",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Supernatet cache",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Permanens (per item)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "Serena omnia Cache",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Linguae",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Interface Language",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "UI lingua pro VaultLens obducat et populus",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Aspectus",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Theme",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Dark",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "lux",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Systema Default",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Versione $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Real-time CS2 inventarium pricing, innatant bona, exemplar detectio, valores obice, et analytica trade - omnia in uno velo.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "Chrome Web Store",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "GitHub Repository",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "Referre Issue",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "Privacy",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens fons est gratuitus et apertus. Nulla notitia colligitur vel idolum. Omnes API vocat protinus ab navigatro tuo ad APIs publicum. Clavis API tua localiter reponitur et numquam ad VaultLens servientibus transmittitur.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Data Sources",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Notae limites",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "Quaerere res...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "Exemplar List",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "Copied!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "Renovare Prices",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "Refrigerium...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "Select",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "Discriptis",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Default Ordinis",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Pretium: Maximum → Maximum",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Pretium: Maximum → Maximum",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Supernatet: Maximum → Maximum",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Supernatet: Maximum → Maximum",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Nomen: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Precium Sticker",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 exscriptus!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Commercia nexus exscriptus!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Effingo defecit",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Prices refecti!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Renovare defecit",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "Exemplar SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "Exemplar Trade Link",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Das",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "accipitis",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Prices variari potest. Verificare semper ante negotiationem.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Libelli",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Totalis Sticker Pendo",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Patet omnia print pretium et supernatet notitia?\n\nPretia in proximum usum re- petita erunt. Data supernatet, rursus petita ut res spectatur.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Salvis...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "Optiones salvus",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Fetching prices with new settings...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "Servatum! $COUNT$ pretia petita.",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "Please enter your PricEmpire API key",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "Cache purgata feliciter",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "Refecti - $COUNT$ prices loaded",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Loading...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ item · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "Hodie",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "I hodie",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "$DAYS$ diebus",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "Locked",
+    "description": "Trade lock: locked, no date"
+  }
+}

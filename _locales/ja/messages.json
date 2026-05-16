@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "ボールトレンズ",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "リアルタイムの CS2 在庫価格設定、フロート値、パターン検出、ステッカー値、取引分析がすべて 1 つの画面上に表示されます。",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "概要",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "設定",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "について",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 インベントリ — VaultLens がアクティブです",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "トレードオファー — 損益パネルがアクティブです",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "トレードオファーリスト - アクティブな損益バッジ",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam ページ — インベントリに移動",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Steam ページにありません",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "合計値",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "アイテム",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "価格付き",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "モード",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "価格が更新されました",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "価格エントリ",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "フロートエントリ",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ 価格を更新",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "オープンインベントリ",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "価格設定モード",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "スキンポート",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "API キーは必要ありません。 Skinport パブリック API を使用します。",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "無料",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163、Skinport、CSFloatの価格。ドップラー位相の価格設定。 APIキーが必要です。",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "APIキー",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API キー",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "キーを取得 →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 価格を保存して取得",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "表示オプション",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "浮動小数点値を表示",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "在庫アイテムにフロート値バッジを表示する",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "ステッカーの価格を表示",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "ステッカー値のホバーポップアップを表示",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "パターンバッジを表示",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "ブルージェム、ドップラーフェーズ、フェード%、マーブルフェードパターン",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "トレードロックのカウントダウンを表示",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "ロックされたアイテムに残り日数を示す 🔒 バッジを表示する",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "キャッシュ",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "価格キャッシュTTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1時間",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "フロートキャッシュ",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "永久（アイテムごと）",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 すべてのキャッシュをクリア",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "言語",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "インターフェース言語",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "VaultLens オーバーレイとポップアップの UI 言語",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "外観",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "テーマ",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "暗い",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "ライト",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "システムのデフォルト",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "バージョン $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "リアルタイムの CS2 在庫価格設定、フロート値、パターン検出、ステッカー値、取引分析がすべて 1 つの画面上に表示されます。",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome ウェブストア",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub リポジトリ",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 問題を報告する",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 プライバシー",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens は無料でオープンソースです。データは収集または追跡されません。すべての API 呼び出しはブラウザからパブリック API に直接送信されます。 API キーはローカルに保存され、VaultLens サーバーに送信されることはありません。",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "データソース",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "既知の制限事項",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 アイテムを検索...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 リストをコピー",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ コピーしました！",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ 価格を更新",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ 爽やか...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜選択",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ 選択する",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "デフォルトの順序",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "価格：高→低",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "価格：安い→高い",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "フロート: 低→高",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "フロート：高→低",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "名前：A→Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "ステッカーの価値 ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64をコピーしました！",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "取引リンクがコピーされました!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "コピーに失敗しました",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "価格を一新しました！",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "更新に失敗しました",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 SteamID64をコピー",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 取引リンクをコピー",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍CSフロートストール",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO 担当者",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "あなたが与える",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "あなたが受け取る",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "損益",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "価格は異なる場合があります。取引前に必ず確認してください。",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "ステッカー",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "ステッカーの合計価値",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "キャッシュされた価格と変動データをすべてクリアしますか?\n\n価格は次回使用時に再取得されます。項目が表示されると、Float データが再フェッチされます。",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ 保存中...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ 設定が保存されました",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ 新しい設定で価格を取得しています...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ 保存されました! $COUNT$ の価格が取得されました ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ PricEmpire API キーを入力してください",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ キャッシュが正常にクリアされました",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ 更新 — $COUNT$ 価格が読み込まれました",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "読み込み中...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ アイテム · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒今日",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1日",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ 日",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒ロックされています",
+    "description": "Trade lock: locked, no date"
+  }
+}

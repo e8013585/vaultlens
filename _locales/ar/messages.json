@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "تسعير مخزون CS2 في الوقت الفعلي، والقيم العائمة، واكتشاف الأنماط، وقيم الملصقات، وتحليلات التجارة - كل ذلك على شاشة واحدة.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "ملخص",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "إعدادات",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "عن",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "مخزون CS2 — VaultLens نشط",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "عرض التجارة — لوحة الربح والخسارة نشطة",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "قائمة العروض التجارية — شارات الربح والخسارة نشطة",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "صفحة Steam — انتقل إلى المخزون",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "ليس على صفحة البخار",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "القيمة الإجمالية",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "أغراض",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "مسعر",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "وضع",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "تم تحديث الأسعار",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "إدخالات الأسعار",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "إدخالات تعويم",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ تحديث الأسعار",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "فتح المخزون",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "وضع التسعير",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "منفذ الجلد",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "لا يوجد مفتاح API مطلوب. يستخدم Skinport API العامة.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "حر",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "برايس إمباير + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "أسعار Buff163 وSkinport وCSFloat. تسعير مرحلة دوبلر. يتطلب مفتاح API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "مفتاح واجهة برمجة التطبيقات",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "مفتاح واجهة برمجة تطبيقات PricEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "احصل على المفتاح →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 حفظ وجلب الأسعار",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "خيارات العرض",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "إظهار القيم العائمة",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "عرض شارات القيمة العائمة على عناصر المخزون",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "عرض أسعار الملصقات",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "إظهار قيمة الملصق المنبثقة",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "إظهار شارات النمط",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "الجوهرة الزرقاء، مرحلة دوبلر، نسبة الخبو، أنماط الخبو الرخامي",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "عرض العد التنازلي لقفل التجارة",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "عرض 🔒 الشارة مع الأيام المتبقية على العناصر المقفلة",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "مخبأ",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "سعر ذاكرة التخزين المؤقت TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 ساعة",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "تعويم ذاكرة التخزين المؤقت",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "دائم (لكل عنصر)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 مسح كافة ذاكرة التخزين المؤقت",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "لغة",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "لغة الواجهة",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "لغة واجهة المستخدم لتراكبات VaultLens والنوافذ المنبثقة",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "مظهر",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "سمة",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "مظلم",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "ضوء",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "النظام الافتراضي",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "الإصدار $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "تسعير مخزون CS2 في الوقت الفعلي، والقيم العائمة، واكتشاف الأنماط، وقيم الملصقات، وتحليلات التجارة - كل ذلك على شاشة واحدة.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 سوق كروم الإلكتروني",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 مستودع جيثب",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 الإبلاغ عن مشكلة",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 الخصوصية",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens مجاني ومفتوح المصدر. لا يتم جمع أي بيانات أو تتبعها. تنتقل جميع استدعاءات واجهة برمجة التطبيقات مباشرة من متصفحك إلى واجهات برمجة التطبيقات العامة. يتم تخزين مفتاح API الخاص بك محليًا ولا يتم نقله مطلقًا إلى خوادم VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "مصادر البيانات",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "القيود المعروفة",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 البحث في العناصر...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 قائمة النسخ",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ منقول!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ تحديث الأسعار",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ منعش...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ اختر",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ الاختيار",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "الترتيب الافتراضي",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "السعر: مرتفع → منخفض",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "السعر: منخفض → مرتفع",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "تعويم: منخفض → مرتفع",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "تعويم: مرتفع → منخفض",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "الاسم: أ → ي",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "قيمة الملصق ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "تم نسخ SteamID64!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "تم نسخ رابط التجارة!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "فشل النسخ",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "الأسعار منتعشة!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "فشل التحديث",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 انسخ SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 انسخ رابط التجارة",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 كشك CSFloat",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ مندوب CSGO",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "أنت تعطي",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "تتلقى",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "الربح والخسارة",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "قد تختلف الأسعار. تحقق دائما قبل التداول.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "ملصقات",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "إجمالي قيمة الملصق",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "هل تريد مسح جميع الأسعار المخزنة مؤقتًا والبيانات العائمة؟\n\nسيتم إعادة جلب الأسعار عند الاستخدام التالي. ستتم إعادة جلب البيانات العائمة أثناء عرض العناصر.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ الحفظ...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ تم حفظ الإعدادات",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ جلب الأسعار بإعدادات جديدة...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ تم الحفظ! $COUNT$ الأسعار المعروضة ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ الرجاء إدخال مفتاح واجهة برمجة تطبيقات PricEmpire الخاص بك",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ تم مسح ذاكرة التخزين المؤقت بنجاح",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ تم التحديث — تم تحميل $COUNT$ الأسعار",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "تحميل...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ العناصر · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 اليوم",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 يوم",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ أيام",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒مقفل",
+    "description": "Trade lock: locked, no date"
+  }
+}

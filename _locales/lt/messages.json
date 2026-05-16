@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Realaus laiko CS2 atsargų kainodara, plaukiojančios vertės, modelio aptikimas, lipdukų vertės ir prekybos analizė – visa tai viename ekrane.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Apžvalga",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Nustatymai",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Apie",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 inventorius – aktyvus VaultLens",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Prekybos pasiūlymas – aktyvus P&L skydelis",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Prekybos pasiūlymų sąrašas – aktyvūs P&L ženkleliai",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam puslapis – eikite į inventorių",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Ne Steam puslapyje",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Bendra vertė",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Daiktai",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Įkainota",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Režimas",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Kainos atnaujintos",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Kainų įrašai",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Plūdiniai įrašai",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Atnaujinkite kainas",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Atidaryti inventorių",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Kainodaros režimas",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Odos uostas",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "API rakto nereikia. Naudoja Skinport viešąją API.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Nemokama",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport ir CSFloat kainos. Doplerio fazės kainodara. Reikalingas API raktas.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API raktas",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "„PricEmpire“ API raktas",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Gauti raktą →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Išsaugokite ir gaukite kainas",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Ekrano parinktys",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Rodyti plūduriuojančias vertes",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Rodyti slankiosios vertės ženklelius ant atsargų prekių",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Rodyti lipdukų kainas",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Rodyti lipduko vertės iššokantįjį langą",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Rodyti šablonų ženklelius",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Mėlynas brangakmenis, Doplerio fazė, blukimo %, marmuro blukimo raštai",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Rodyti prekybos užrakto atgalinius skaičiavimus",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Rodyti 🔒 ženklelį su likusiomis dienomis ant užrakintų elementų",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Talpykla",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Kainų talpykla TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 valanda",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Slankioji talpykla",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Nuolatinis (vienai prekei)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Išvalykite visą talpyklą",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Kalba",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Sąsajos kalba",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "„VaultLens“ perdangų ir iššokančiųjų langų vartotojo sąsajos kalba",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Išvaizda",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "tema",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Tamsus",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Šviesa",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Numatytoji sistema",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Versija $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Realaus laiko CS2 atsargų kainodara, plaukiojančios vertės, modelio aptikimas, lipdukų vertės ir prekybos analizė – visa tai viename ekrane.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 „Chrome“ internetinė parduotuvė",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub saugykla",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Praneškite apie problemą",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Privatumas",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "„VaultLens“ yra nemokama ir atviro kodo. Jokie duomenys nerenkami ir nesekami. Visi API iškvietimai patenka tiesiai iš jūsų naršyklės į viešąsias API. Jūsų API raktas saugomas vietoje ir niekada neperduodamas į VaultLens serverius.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Duomenų šaltiniai",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Žinomi apribojimai",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Ieškokite prekių...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Kopijuoti sąrašą",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Nukopijuotas!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Atnaujinkite kainas",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Atgaiva...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Pasirinkite",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Pasirinkimas",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Numatytasis užsakymas",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Kaina: Aukšta → Žema",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Kaina: Žema → Aukšta",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Plūdis: žemas → aukštas",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Plūdis: aukštas → žemas",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Vardas: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Lipduko vertė ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 nukopijuotas!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Prekybos nuoroda nukopijuota!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Kopijuoti nepavyko",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Kainos atnaujintos!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Atnaujinti nepavyko",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Nukopijuokite SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Nukopijuokite prekybos nuorodą",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat kioskas",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Tu duodi",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Jūs gaunate",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Kainos gali skirtis. Visada patikrinkite prieš prekiaujant.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Lipdukai",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Bendra lipduko vertė",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Išvalyti visas talpykloje saugomas kainas ir slankiuosius duomenis?\n\nKainos bus paimtos iš naujo kito naudojimo metu. Kai bus peržiūrimi elementai, srautiniai duomenys bus gauti iš naujo.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Išsaugoma...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Nustatymai išsaugoti",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Gaunamos kainos su naujais nustatymais...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Išsaugota! $COUNT$ gautos kainos ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Įveskite savo „PricEmpire“ API raktą",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Talpykla sėkmingai išvalyta",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Atnaujinta – įkelta $COUNT$ kainų",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Įkeliama...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ elementų · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Šiandien",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ dienų",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Užrakinta",
+    "description": "Trade lock: locked, no date"
+  }
+}

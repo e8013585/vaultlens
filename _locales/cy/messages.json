@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Prisiau rhestr eiddo CS2 amser real, gwerthoedd arnofio, canfod patrwm, gwerthoedd sticeri, a dadansoddeg masnach - i gyd ar un sgrin.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Trosolwg",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Gosodiadau",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Ynghylch",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "Rhestr CS2 — VaultLens yn weithredol",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Cynnig Masnach - panel P&L yn weithredol",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Rhestr Cynigion Masnach - bathodynnau P&L yn weithredol",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Tudalen stêm - llywiwch i'r rhestr eiddo",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Nid ar dudalen Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Cyfanswm Gwerth",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Eitemau",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Pris",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Modd",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Prisiau wedi'u diweddaru",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Cofnodion pris",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Cofnodion arnofio",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Prisiau Adnewyddu",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Rhestr Agored",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Modd Prisio",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Porth croen",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Nid oes angen allwedd API. Yn defnyddio API cyhoeddus Skinport.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Rhad ac am ddim",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PriceEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat prisiau. Prisio cyfnod Doppler. Angen allwedd API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Allwedd API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "Allwedd API PriceEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Cael allwedd →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Arbed a Nôl Prisiau",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Opsiynau Arddangos",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Dangos Gwerthoedd Arnofio",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Arddangos bathodynnau gwerth fflôt ar eitemau stocrestr",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Dangos Prisiau Sticeri",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Dangos naidlen hofran gwerth sticer",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Dangos Bathodynnau Patrwm",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Gem las, cyfnod Doppler, % pylu, patrymau pylu marmor",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Dangos Cyfriadau Cloi Masnach",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Arddangos 🔒 bathodyn gyda dyddiau ar ôl ar eitemau dan glo",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Pris cache TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 awr",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "storfa arnofio",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Parhaol (fesul eitem)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Cliriwch yr Holl Gelc",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Iaith",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Iaith Rhyngwyneb",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Iaith UI ar gyfer troshaenau a ffenestri naid VaultLens",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Ymddangosiad",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Thema",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Tywyll",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Ysgafn",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "System ddiofyn",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Fersiwn $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Prisiau rhestr eiddo CS2 amser real, gwerthoedd arnofio, canfod patrwm, gwerthoedd sticeri, a dadansoddeg masnach - i gyd ar un sgrin.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web Store",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Cadwrfa GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Adrodd am Broblem",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Preifatrwydd",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "Mae VaultLens yn rhad ac am ddim ac yn ffynhonnell agored. Nid oes unrhyw ddata yn cael ei gasglu na'i olrhain. Mae pob galwad API yn mynd yn uniongyrchol o'ch porwr i APIs cyhoeddus. Mae eich allwedd API yn cael ei storio'n lleol a byth yn cael ei drosglwyddo i weinyddion VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Ffynonellau Data",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Cyfyngiadau Hysbys",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Chwilio am eitemau...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Copïo Rhestr",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Wedi'i gopïo!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Prisiau Adnewyddu",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Yn adnewyddu...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Dewiswch",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Dewis",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Gorchymyn Diofyn",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Pris: Uchel → Isel",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Pris: Isel → Uchel",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Arnofio: Isel → Uchel",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Arnofio: Uchel → Isel",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Enw: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Gwerth Sticer ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 wedi'i gopïo!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Dolen masnach wedi'i chopïo!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Methodd y copi",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Prisiau wedi'u hadnewyddu!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Methodd yr adnewyddiad",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Copïwch SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Copïwch Dolen Masnach",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 Stondin CSFloat",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Ti'n Rhoi",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Rydych yn Derbyn",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Gall prisiau amrywio. Gwiriwch bob amser cyn masnachu.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Sticeri",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Cyfanswm Gwerth Sticer",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Clirio'r holl brisiau wedi'u storio a data arnofio?\n\nBydd prisiau'n cael eu hail-godi ar y defnydd nesaf. Bydd data arnofio yn cael ei ail-gyrchu wrth i eitemau gael eu gweld.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Arbed...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Gosodiadau wedi'u cadw",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Nôl prisiau gyda gosodiadau newydd...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Wedi'i gadw! $COUNT$ prisiau wedi'u nôl ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Rhowch eich allwedd API PriceEmpire",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Clirio'r storfa yn llwyddiannus",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Wedi'i adnewyddu — $COUNT$ prisiau wedi'u llwytho",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Wrthi'n llwytho...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ eitem · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Heddiw",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 diwrnod",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ diwrnod",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Wedi cloi",
+    "description": "Trade lock: locked, no date"
+  }
+}

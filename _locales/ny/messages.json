@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "Zithunzi za VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Mitengo yanthawi yeniyeni ya CS2, zoyandama, kuzindikira mawonekedwe, zomata, ndi kusanthula kwamalonda - zonse pa sikirini imodzi.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Mwachidule",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Zokonda",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Za",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventory - VaultLens yogwira ntchito",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Trade Off - gulu la P&L likugwira ntchito",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Mndandanda Wamalonda - Mabaji a P&L akugwira ntchito",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Tsamba la Steam - pita kuzinthu",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Osati patsamba la Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Mtengo Wathunthu",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Zinthu",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Mtengo",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Mode",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Mitengo yasinthidwa",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Zolemba zamtengo",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Zolemba zoyandama",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Mitengo Yotsitsimutsanso",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Open Inventory",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Mitengo",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Khomo la khungu",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Palibe kiyi ya API yofunikira. Amagwiritsa ntchito Skinport public API.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Kwaulere",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PriceEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat mitengo. Mtengo wa Doppler. Pamafunika kiyi ya API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API Key",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PriceEmpire API Key",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Pezani kiyi →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Sungani & Tengani Mitengo",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Zosankha Zowonetsera",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Onetsani Makhalidwe Oyandama",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Onetsani mabaji amtengo woyandama pazinthu zandalama",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Onetsani Mitengo Yomata",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Onetsani zomata zokwera pamwamba",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Onetsani Mabaji a Zitsanzo",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Mwala wabuluu, gawo la Doppler, fade%, mawonekedwe a nsangalabwi amatha",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Onetsani Zowerengera Zotseka Zamalonda",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Onetsani 🔒 baji yokhala ndi masiku otsala pazinthu zokhoma",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Posungira",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Mtengo wapatali wa magawo TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 ora",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Chosungira choyandama",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Zachikhalire (pachinthu chilichonse)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Chotsani Cache Zonse",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Chiyankhulo",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Chiyankhulo cha Chiyankhulo",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Chilankhulo cha UI cha VaultLens zokutira ndi zowonekera",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Maonekedwe",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Mutu",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Chakuda",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Kuwala",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Zosasintha Zadongosolo",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Mtundu $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Mitengo yanthawi yeniyeni ya CS2, zoyandama, kuzindikira mawonekedwe, zomata, ndi kusanthula kwamalonda - zonse pa sikirini imodzi.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web Store",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub Repository",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Nenani za Vuto",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Zachinsinsi",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens ndi yaulere komanso yotseguka. Palibe deta yomwe imasonkhanitsidwa kapena kutsatiridwa. Mafoni onse a API amapita mwachindunji kuchokera pa msakatuli wanu kupita ku ma API a anthu onse. Kiyi yanu ya API imasungidwa kwanuko ndipo samatumizidwa ku ma seva a VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Magwero a Deta",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Zodziwika Zochepa",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Sakani zinthu...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Copy List",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Koperani!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Mitengo Yotsitsimutsanso",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Zotsitsimula...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Sankhani",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Kusankha",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Dongosolo Lofikira",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Price: High → Low",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Mtengo: Otsika → Wapamwamba",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Kuyandama: Pansi → Pamwamba",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Kuyandama: Pamwamba → Pansi",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Dzina: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Mtengo Womata ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 idakopedwa!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Ulalo wamalonda wakoperedwa!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Kukopera kwalephera",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Mitengo yatsitsimutsidwa!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Kutsitsimutsa kwalephera",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Koperani SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Copy Trade Link",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Inu Perekani",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Inu Mukulandira",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Mitengo ingasiyane. Onetsetsani musanagulitse.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Zomata",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Mtengo Wonse wa Zomata",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Chotsani mitengo yonse yosungidwa ndi data yoyandama?\n\nMitengo idzabwezedwanso mukagwiritsidwa ntchito kwina. Deta yoyandama idzatengedwanso momwe zinthu zikuwonekera.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Kusunga...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Zokonda zasungidwa",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Kutenga mitengo ndi makonda atsopano...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Zasungidwa! $COUNT$ mitengo yotengedwa ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Chonde lowetsani kiyi yanu ya PricEmpire API",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Cache yachotsedwa bwino",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Zatsitsimutsidwa - $COUNT$ mitengo yadzaza",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Tikutsegula...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ zinthu · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Lero",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 tsiku limodzi",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ masiku",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Zotsekedwa",
+    "description": "Trade lock: locked, no date"
+  }
+}

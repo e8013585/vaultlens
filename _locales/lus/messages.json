@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens hmanga siam a ni",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Real-time CS2 inventory man, float value, pattern detection, sticker value, leh trade analytics — screen khatah a awm vek.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "A tlangpuiin",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Settings te pawh a awm",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Lam",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventory — VaultLens active a ni",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Trade Offer — P&L panel active a ni",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Trade Offers List — P&L badge te chu active a ni",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam page — inventory ah kal rawh",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Steam page-ah a awm lo",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Total Value a ni",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Thil",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "A man a to hle",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Mode a ni",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Hman man update a ni",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Hman man entry te",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Float entry te a awm",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Refresh man te pawh a awm",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Inventory hawn a ni",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Pricing Mode a ni",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Skin port a awm",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "API key a ngai lo. Skinport public API a hmang thin.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Zalen",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat tih a ni",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat man a ni. Doppler phase man a ni. API key a mamawh.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API Key a ni",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PriceEmpire API Key a ni",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Chabi la rawh →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Save & Fetch man te a awm bawk",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Display duhthlan tur",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Float Value te entir rawh",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Inventory item-a float value badge tarlanna",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Sticker man te entir rawh",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Sticker value entir hover popup",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Pattern Badge te chu entir rawh",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Blue gem, Doppler phase, fade %, marble fade pattern te a awm bawk",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Trade Lock Countdown te chu entir rawh",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Thil khar chungah ni la awmte nen 🔒 badge display",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache a ni",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Hman man cache TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "Darkar 1 chhung a ni",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Cache chu float rawh",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Permanent (item khatah) 1.1.",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Cache zawng zawng Clear vek rawh",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Tawng",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Interface Ṭawng hman dan",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "VaultLens overlay leh popup te tan UI language",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Landan",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Thupui",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Thim",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Eng",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "System Default a ni",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Version $VERSION$ tih a ni.",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Real-time CS2 inventory man, float value, pattern detection, sticker value, leh trade analytics — screen khatah a awm vek.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web Store ah a awm",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub-a dahkhawmna hmun",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Issue pakhat report tur a ni",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Mimal chanchin",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens hi free leh open source a ni. Data khawlkhawm leh track a ni lo. API call zawng zawng hi i browser atang hian public API ah direct in a kal vek a. I API key hi local-ah dah a ni a, VaultLens server-ah a thawn ngai lo.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Data Source hrang hrang",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Thil tihkhawtlai hriat tawh",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Thil zawng zawng...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Copy List a ni",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Copy a ni tawh!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Refresh man te pawh a awm",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Refreshing tak a ni...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Select rawh",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Selecting tih a ni",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Order hmasa ber a ni",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Hman man: A sang → A hniam",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Hman man: A hniam → A sang",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Float: A hniam → A sang",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Float: A sang → A hniam",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Hming: A → Z tih a ni",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Sticker hlutna ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 a copy a ni!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Trade link a copy a ni!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Copy a hlawhchham",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Hman man pawh a thar leh ta!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Refresh a hlawhchham",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 SteamID64 hi copy rawh",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Trade Link copy rawh",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall ah a awm a",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "I Pe",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "I Receive",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Hman man a inang lo thei. Trading hmain verify hmasa phawt ang che.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Stickers a awm bawk",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Sticker hlutna zawng zawng",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Cached price zawng zawng leh float data zawng zawng clear vek?\n\nHman leh hunah man hi lak let leh a ni ang. Items en a nih angin float data chu re-fetched a ni ang.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Saving...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Settings a save tawh",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Setting thar hmanga man lakluh...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Chhandam a ni tawh! $COUNT$ man a la chhuak ($MODE$) .",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ I PricEmpire API key kha ziak la",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Cache chu hlawhtling taka clear a ni",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Refreshed — $COUNT$ man load a ni",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Loading mek a ni...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ thil · $MODE$ a awm.",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Vawiin hian",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 Ni 1 chhung",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ ni",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Lock a ni",
+    "description": "Trade lock: locked, no date"
+  }
+}

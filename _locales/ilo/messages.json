@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens ti",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Ti aktual nga oras a panagpresyo ti imbentario ti CS2, dagiti pateg ti float, panagduktal ti padron, dagiti pateg ti sticker, ken dagiti analitiko ti panagtagilako — amin iti maysa nga iskrin.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Panangmatmat iti pakabuklan",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Dagiti Setting",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Maipapan",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Imbentaryo — Aktibo ti VaultLens",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Trade Offer — Aktibo ti panel ti P&L",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Listaan ​​dagiti Itukon ti Panagtagilako — Aktibo dagiti badge ti P&L",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Panid ti singaw — ag-navigate iti imbentaryo",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Saan nga iti panid ti Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Dagup a Pateg",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Dagiti banag",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Napreserba ti presiona",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Modo ti Modo",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Na-update dagiti presio",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Dagiti entry ti presio",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Float dagiti entry",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Dagiti Presyo ti Panagpabaro",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Luktan ti Imbentaryo",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Modo ti Panagpresyo",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Port ti kudil",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Awan ti kasapulan a tulbek ti API. Usaren ti publiko nga API ti Skinport.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Libre",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "Imperio ti Presyo + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat nga presyo. Doppler phase ti panagpresyo. Kasapulan ti tulbek ti API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Tulbek ti API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "Tulbek ti API ti PriceEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Alaen ti tulbek →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 I-save & Mangala ti Presyo",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Dagiti Pagpilian nga Ipakita",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Ipakita dagiti Pateg ti Float",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Ipakita dagiti float value badge kadagiti banag ti imbentaryo",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Ipakita ti Presyo ti Sticker",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Ipakita ti pateg ti sticker hover popup",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Ipakita dagiti Badge ti Pattern",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Asul a perlas, Doppler phase, panagkupas %, marmol a panagkupas a padron",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Ipakita dagiti Panagbilang ti Trade Lock",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Display 🔒 badge nga addaan aldaw a nabati kadagiti naikandado a banag",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache ti Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Ti presio ti cache TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 nga oras",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Float ti cache",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Permanente (kada banag) .",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 I-clear Amin a Cache",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Lengguahe",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Pagsasao ti Interface",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Ti pagsasao ti UI para kadagiti VaultLens overlays ken popup",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Langa",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Amad",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Nasipnget",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Silaw",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Default ti Sistema",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Bersion $VERSION$ .",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Ti aktual nga oras a panagpresyo ti imbentario ti CS2, dagiti pateg ti float, panagduktal ti padron, dagiti pateg ti sticker, ken dagiti analitiko ti panagtagilako — amin iti maysa nga iskrin.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Tienda ti Web ti Chrome",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Pagidulin ti GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Ireport ti Isyu",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Kinapribado",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "Libre ken open source ti VaultLens. Awan ti maurnong wenno masurot a datos. Amin nga awag ti API ket direkta a mapan manipud iti browsermo kadagiti publiko nga API. Ti tulbek ti API ket naidulin iti lokal ken saan a pulos a maiyallatiw kadagiti serbidor ti VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Dagiti Gubuayan ti Datos",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Ammo a Limitasion",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Agbirok kadagiti banag...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Listaan ​​ti Kopia",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Nakopia!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Dagiti Presyo ti Panagpabaro",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Makapabang-ar...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Pilien ti",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Panagpili",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Default nga Urnos",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Presyo: Nangato → Nababa",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Presyo: Nababa → Nangato",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Float: Nababa → Nangato",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Float: Nangato → Nababa",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Nagan: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Pateg ti Sticker ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 ti nakopia!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Trade link ti nakopia!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Napaay ti panagkopia",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Na-refresh dagiti presio!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Napaay ti refresh",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Kopiaen ti SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Kopiaen ti Link ti Panagtagilako",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat nga Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Mangtedka",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Umawatka",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Mabalin nga agduduma ti presio. Kanayon a paneknekan sakbay nga agnegosio.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Dagiti sticker",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Dagup a Pateg ti Sticker",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "I-clear amin a na-cache a presio ken float data?\n\nMaala manen dagiti presio iti sumaruno a pannakausar. Maala manen ti datos ti float bayat a makita dagiti banag.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Panag-save...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Naidulin dagiti setting",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Mangala kadagiti presio babaen kadagiti baro a setting...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Naisalakan! $COUNT$ dagiti presio a naala ($MODE$) .",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Pangngaasiyo ta iserrekyo ti PricEmpire API key-yo",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Naballigi a naikkat ti cache",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Napabaro — $COUNT$ dagiti presio a nakargaan",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Karga ti...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ dagiti banag · $MODE$ .",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Ita nga aldaw",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 nga aldaw",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ nga aldaw",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Nakandado",
+    "description": "Trade lock: locked, no date"
+  }
+}

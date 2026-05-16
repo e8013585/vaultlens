@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Pri envantè CS2 an tan reyèl, valè flote, deteksyon modèl, valè fichye, ak analiz komès - tout sou yon sèl ekran.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Apèsi sou lekòl la",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Anviwònman",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Konsènan",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Envantè — VaultLens aktif",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Ofri Komès — P&L panel aktif",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Lis Ofri Komèsyal — P&L badj aktif",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Paj vapè - navige nan envantè",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Pa sou yon paj vapè",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Valè total",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Atik",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Pri",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Mode",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Pri yo mete ajou",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Antre pri",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Flote antre",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ rafrechi pri yo",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Louvri Envantè",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Mòd pri",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Po pò",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Pa gen kle API obligatwa. Itilize API piblik Skinport.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Gratis",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat pri. Prix ​​faz Doppler. Egzije kle API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Kle API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "Kle API PricEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Jwenn kle →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Sove & Chèche Pri yo",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Opsyon Montre",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Montre Valè Flote",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Montre badj valè flote sou atik envantè yo",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Montre pri fichye yo",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Montre valè fichye popup hover",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Montre badj modèl yo",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Gèm ble, faz Doppler, % fennen, modèl fennen mab",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Montre komès Lock Countdowns",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Montre badj 🔒 ak jou ki rete sou atik fèmen",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Pri kachèt TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 èdtan",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Flote kachèt",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Pèmanan (pa atik)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Efase tout Cache",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Lang",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Lang koòdone",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Lang UI pou superpositions VaultLens ak popup",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Aparans",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Tèm",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Fè nwa",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Limyè",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Sistèm Default",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "vèsyon $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Pri envantè CS2 an tan reyèl, valè flote, deteksyon modèl, valè fichye, ak analiz komès - tout sou yon sèl ekran.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web Store",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub Repository",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Rapòte yon pwoblèm",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Konfidansyalite",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens se gratis ak sous louvri. Pa gen okenn done yo kolekte oswa swiv. Tout apèl API ale dirèkteman nan navigatè w la nan API piblik yo. Kle API ou a estoke lokalman epi li pa janm transmèt nan sèvè VaultLens yo.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Sous Done yo",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Limit li te ye",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Chèche atik...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Kopi Lis",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Kopi!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ rafrechi pri yo",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Entérésan...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Chwazi",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Chwazi",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Lòd Default",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Pri: Segondè → Ba",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Pri: Ba → Segondè",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Flote: Ba → Segondè",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Flote: Segondè → Ba",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Non: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Valè fichye ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 kopye!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Komès lyen kopye!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Kopi echwe",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Pri rafrechi!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Rafrechi echwe",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Kopi SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Kopi lyen komès",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Ou Bay",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Ou Resevwa",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Pri yo ka varye. Toujou verifye anvan komès.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Stickers",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Valè total de fichye",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Efase tout pri nan kachèt ak done flote?\n\nPri yo pral re-chache sou pwochen itilizasyon. Done flote yo pral re-chache kòm atik yo wè.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Ekonomize...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Anviwònman yo sove",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Chache pri ak nouvo paramèt...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Sove! $COUNT$ pri yo chache ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Tanpri antre kle API PricEmpire ou a",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Cache efase avèk siksè",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Rafrechi — $COUNT$ pri chaje",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Chaje...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ atik · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Jodi a",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 jou",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ jou",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Fèmen",
+    "description": "Trade lock: locked, no date"
+  }
+}

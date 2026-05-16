@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "ଭାଲ୍ଟଲେନ୍ସ |",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "ରିଅଲ୍ ଟାଇମ୍ CS2 ଭଣ୍ଡାର ମୂଲ୍ୟ, ଫ୍ଲୋଟ୍ ମୂଲ୍ୟ, ପ୍ୟାଟର୍ ଚିହ୍ନଟ, ଷ୍ଟିକର୍ ମୂଲ୍ୟ, ଏବଂ ବାଣିଜ୍ୟ ଆନାଲିଟିକ୍ସ - ସବୁ ଗୋଟିଏ ପରଦାରେ |",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "ସମୀକ୍ଷା",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "ସେଟିଂସମୂହ",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "ବିଷୟରେ",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 ଭଣ୍ଡାର - ଭାଲ୍ଟଲେନ୍ସ ସକ୍ରିୟ |",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "ବାଣିଜ୍ୟ ଅଫର୍ - P&L ପ୍ୟାନେଲ୍ ସକ୍ରିୟ |",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "ବାଣିଜ୍ୟ ଅଫର ତାଲିକା - P&L ବ୍ୟାଜ୍ ସକ୍ରିୟ |",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "ବାଷ୍ପ ପୃଷ୍ଠା - ଭଣ୍ଡାରକୁ ନେଭିଗେଟ୍ କରନ୍ତୁ |",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "ଏକ ବାଷ୍ପ ପୃଷ୍ଠାରେ ନୁହେଁ |",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "ମୋଟ ମୂଲ୍ୟ",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "ଆଇଟମ୍",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "ମୂଲ୍ୟ",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "ମୋଡ୍",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "ମୂଲ୍ୟ ଅଦ୍ୟତନ ହୋଇଛି |",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "ମୂଲ୍ୟ ପ୍ରବେଶ",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "ଫ୍ଲୋଟ୍ ଏଣ୍ଟ୍ରିଗୁଡିକ |",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "Prices ମୂଲ୍ୟ ସତେଜ କରନ୍ତୁ |",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "ଉଦ୍ଭାବନ ଖୋଲନ୍ତୁ |",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "ମୂଲ୍ୟ ଧାରା",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "ଚର୍ମ ବନ୍ଦର",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "କ API ଣସି API ଚାବି ଆବଶ୍ୟକ ନାହିଁ | ସ୍କିନପୋର୍ଟ ସର୍ବସାଧାରଣ API ବ୍ୟବହାର କରେ |",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "ମାଗଣା |",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat |",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, ସ୍କିନପୋର୍ଟ ଏବଂ CSFloat ମୂଲ୍ୟ | ଡୋପଲର୍ ପର୍ଯ୍ୟାୟ ମୂଲ୍ୟ API କି ଆବଶ୍ୟକ କରେ |",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API କି",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API କି |",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "ଚାବି ପାଆନ୍ତୁ →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "ମୂଲ୍ୟ ସଞ୍ଚୟ କରନ୍ତୁ ଏବଂ ଆଣନ୍ତୁ |",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "ବିକଳ୍ପଗୁଡିକ ପ୍ରଦର୍ଶନ କରନ୍ତୁ |",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "ଫ୍ଲୋଟ୍ ମୂଲ୍ୟ ଦେଖାନ୍ତୁ |",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "ଭଣ୍ଡାର ଆଇଟମ୍ ଉପରେ ଫ୍ଲୋଟ୍ ଭାଲ୍ୟୁ ବ୍ୟାଜ୍ ପ୍ରଦର୍ଶନ କରନ୍ତୁ |",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "ଷ୍ଟିକର୍ ମୂଲ୍ୟ ଦେଖାନ୍ତୁ |",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "ଷ୍ଟିକର୍ ଭାଲ୍ୟୁ ହୋଭର ପପ୍ଅପ୍ ଦେଖାନ୍ତୁ |",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "ପାଟର୍ନ ବ୍ୟାଜ୍ ଦେଖାନ୍ତୁ |",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "ନୀଳ ରତ୍ନ, ଡୋପଲର୍ ପର୍ଯ୍ୟାୟ, ମଳିନ%, ମାର୍ବଲ୍ ଫ୍ୟାଡ୍ s ାଞ୍ଚା |",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "ବାଣିଜ୍ୟ ଲକ୍ କାଉଣ୍ଟଡାଉନ୍ ଦେଖାନ୍ତୁ |",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "ଲକ୍ ହୋଇଥିବା ଆଇଟମ୍ ଗୁଡିକରେ ଅବଶିଷ୍ଟ ଦିନ ସହିତ 🔒 ବ୍ୟାଜ୍ ପ୍ରଦର୍ଶନ କରନ୍ତୁ |",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "କ୍ୟାଚ୍",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "ମୂଲ୍ୟ କ୍ୟାଚ୍ TTL |",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 ଘଣ୍ଟା |",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "ଫ୍ଲୋଟ୍ କ୍ୟାଚ୍ |",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "ସ୍ଥାୟୀ (ପ୍ରତି ଆଇଟମ୍)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "All ସମସ୍ତ କ୍ୟାଚ୍ ସଫା କରନ୍ତୁ |",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "ଭାଷା",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "ଇଣ୍ଟରଫେସ୍ ଭାଷା",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "VaultLens ଓଭରଲେଜ୍ ଏବଂ ପପ୍ଅପ୍ ପାଇଁ UI ଭାଷା |",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "ଦୃଶ୍ୟ",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "ଥିମ୍",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "ଅନ୍ଧାର",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "ଆଲୋକ",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "ସିଷ୍ଟମ୍ ଡିଫଲ୍ଟ |",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "ସଂସ୍କରଣ $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "ରିଅଲ୍ ଟାଇମ୍ CS2 ଭଣ୍ଡାର ମୂଲ୍ୟ, ଫ୍ଲୋଟ୍ ମୂଲ୍ୟ, ପ୍ୟାଟର୍ ଚିହ୍ନଟ, ଷ୍ଟିକର୍ ମୂଲ୍ୟ, ଏବଂ ବାଣିଜ୍ୟ ଆନାଲିଟିକ୍ସ - ସବୁ ଗୋଟିଏ ପରଦାରେ |",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 କ୍ରୋମ୍ ୱେବ୍ ଷ୍ଟୋର୍‌ |",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "It GitHub ସଂଗ୍ରହାଳୟ",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "An ଏକ ଇସୁ ରିପୋର୍ଟ କରନ୍ତୁ |",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 ଗୋପନୀୟତା",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens ମୁକ୍ତ ଏବଂ ମୁକ୍ତ ଉତ୍ସ | କ data ଣସି ତଥ୍ୟ ସଂଗ୍ରହ କରାଯାଇ ନାହିଁ କିମ୍ବା ଟ୍ରାକ କରାଯାଇ ନାହିଁ | ସମସ୍ତ API କଲ୍ ସିଧାସଳଖ ଆପଣଙ୍କ ବ୍ରାଉଜରରୁ ସର୍ବସାଧାରଣ API କୁ ଯାଏ | ଆପଣଙ୍କର API କି ସ୍ଥାନୀୟ ଭାବରେ ଗଚ୍ଛିତ ହୋଇଛି ଏବଂ VaultLens ସର୍ଭରକୁ କେବେବି ପଠାଯାଇ ନାହିଁ |",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "ତଥ୍ୟ ଉତ୍ସ",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "ଜଣାଶୁଣା ସୀମା |",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "Items ଆଇଟମ୍ ସନ୍ଧାନ ...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "List ତାଲିକା କପି କରନ୍ତୁ |",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "କପି ହୋଇଛି!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "Prices ମୂଲ୍ୟ ସତେଜ କରନ୍ତୁ |",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ ସତେଜ ...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ ଚୟନ କରନ୍ତୁ |",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ ଚୟନ",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "ଡିଫଲ୍ଟ କ୍ରମ |",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "ମୂଲ୍ୟ: ଉଚ୍ଚ → ନିମ୍ନ |",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "ମୂଲ୍ୟ: ନିମ୍ନ → ଉଚ୍ଚ |",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "ଭାସମାନ: ନିମ୍ନ → ଉଚ୍ଚ |",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "ଭାସମାନ: ଉଚ୍ଚ → ନିମ୍ନ |",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "ନାମ: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "ଷ୍ଟିକର୍ ମୂଲ୍ୟ ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 କପି ହୋଇଛି!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "ବାଣିଜ୍ୟ ଲିଙ୍କ କପି ହୋଇଛି!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "କପି ବିଫଳ ହେଲା |",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "ମୂଲ୍ୟ ସତେଜ!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "ସତେଜ ବିଫଳ ହେଲା |",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "SteamID64 କପି କରନ୍ତୁ |",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "Trade ବାଣିଜ୍ୟ ଲିଙ୍କ୍ କପି କରନ୍ତୁ |",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat ଷ୍ଟଲ୍ |",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "ତୁମେ ଦିଅ",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "ତୁମେ ଗ୍ରହଣ କର |",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "ମୂଲ୍ୟ ଭିନ୍ନ ହୋଇପାରେ | ବାଣିଜ୍ୟ ପୂର୍ବରୁ ସର୍ବଦା ଯାଞ୍ଚ କରନ୍ତୁ |",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "ଷ୍ଟିକର୍ସ |",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "ମୋଟ ଷ୍ଟିକର୍ ମୂଲ୍ୟ |",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "ସମସ୍ତ କ୍ୟାଚ୍ ହୋଇଥିବା ମୂଲ୍ୟ ଏବଂ ଫ୍ଲୋଟ୍ ଡାଟା ସଫା କରିବେ?\n\nପରବର୍ତ୍ତୀ ବ୍ୟବହାରରେ ମୂଲ୍ୟ ପୁନ-ଅଣାଯିବ | ଆଇଟମଗୁଡିକ ଦେଖାଯିବା ପରି ଫ୍ଲୋଟ୍ ଡାଟା ପୁନ - ଅଣାଯିବ |",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "Aving ସଞ୍ଚୟ ...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ ସେଟିଂସମୂହ ସଞ୍ଚୟ ହୋଇଛି |",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "New ନୂତନ ସେଟିଂସମୂହ ସହିତ ମୂଲ୍ୟ ଆଣିବା ...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ ସଞ୍ଚୟ! $COUNT$ ମୂଲ୍ୟ ଅଣାଯାଇଛି ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ ଦୟାକରି ଆପଣଙ୍କର PricEmpire API କି ପ୍ରବେଶ କରନ୍ତୁ |",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "Ache କ୍ୟାଚ୍ ସଫଳତାର ସହିତ ସଫା ହେଲା |",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ ସତେଜ - $COUNT$ ମୂଲ୍ୟ ଲୋଡ୍ ହୋଇଛି |",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "ଲୋଡିଂ ...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ ଆଇଟମ୍ · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 ଆଜି",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 ଦିନ |",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ ଦିନ |",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 ଲକ୍ ହୋଇଛି |",
+    "description": "Trade lock: locked, no date"
+  }
+}

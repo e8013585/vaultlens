@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Praghsanna fardail CS2 fíor-ama, luachanna snámhphointe, braite patrún, luachanna greamáin, agus anailísíocht trádála - go léir ar aon scáileán amháin.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Forbhreathnú",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Socruithe",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Maidir",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "Fardal CS2 — VaultLens gníomhach",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Tairiscint Trádála — Painéal P&L gníomhach",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Liosta Tairiscintí Trádála - suaitheantais P&L gníomhach",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Leathanach gaile - déan nascleanúint chuig an bhfardal",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Ní ar leathanach Gaile",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Luach Iomlán",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Míreanna",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Phraghas",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Mód",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Praghsanna nuashonraithe",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Iontrálacha praghais",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Iontrálacha snámhphointe",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Praghsanna Athnuaigh",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Fardal Oscailte",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Mód Praghsála",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Port craiceann",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Níl eochair API ag teastáil. Úsáideann sé Skinport poiblí API.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Saor",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PriceEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Praghsanna Buff163, Skinport & CSFloat. Praghsáil chéim Doppler. Tá eochair API ag teastáil.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Eochair API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "Eochair API PriceEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Faigh eochair →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Sábháil & Faigh Praghsanna",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Roghanna Taispeána",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Taispeáin Luachanna Snámhphointe",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Taispeáin suaitheantais luach snámhphointe ar mhíreanna fardail",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Taispeáin Praghsanna Greamáin",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Taispeáin luach an ghreamáin hover aníos",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Taispeáin Suaitheantais Patrún",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "GEM gorm, céim Doppler, % céimnithe, patrúin céimnithe marmair",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Taispeáin Comhairimh Glais Trádála",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Taispeáin suaitheantas 🔒 leis na laethanta fágtha ar earraí faoi ghlas",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Taisce",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Praghas taisce TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 uair",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Taisce snámhphointe",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Buan (in aghaidh an mhír)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Glan Gach Taisce",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Teanga",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Teanga Chomhéadain",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Teanga Chomhéadain le haghaidh forleagan agus preabfhuinneog VaultLens",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Dealramh",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Téama",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Dorcha",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Solas",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Réamhshocrú Córais",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Leagan $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Praghsanna fardail CS2 fíor-ama, luachanna snámhphointe, braite patrún, luachanna greamáin, agus anailísíocht trádála - go léir ar aon scáileán amháin.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web Store",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Stór GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Tuairiscigh Saincheist",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Príobháideacht",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "Tá VaultLens saor in aisce agus foinse oscailte. Ní bhailítear nó ní rianaítear aon sonraí. Téann gach glao API go díreach ó do bhrabhsálaí chuig API poiblí. Stóráiltear d'eochair API go háitiúil agus ní tharchuirtear chuig freastalaithe VaultLens í riamh.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Foinsí Sonraí",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Teorainneacha Aitheanta",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Cuardaigh míreanna...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Cóipeáil Liosta",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Cóipeáladh!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Praghsanna Athnuaigh",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Ag athnuachan...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Roghnaigh",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Ag roghnú",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Ordú Réamhshocraithe",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Praghas: Ard → Íseal",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Praghas: Íseal → Ard",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Snámhphointe: Íseal → Ard",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Snámh: Ard → Íseal",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Teideal: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Luach Greamáin ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 cóipeáilte!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Nasc trádála cóipeáilte!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Theip ar an gcóipeáil",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Praghsanna athnuachan!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Theip ar an athnuachan",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Cóipeáil SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Cóipeáil Nasc Trádála",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Tugann tú",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Faigheann tú",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Féadfaidh praghsanna a bheith éagsúil. Fíoraigh i gcónaí roimh thrádáil.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Greamáin",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Luach Iomlán Greamáin",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Glan gach praghas i dtaisce agus sonraí snámhphointe?\n\nDéanfar praghsanna a athghabháil ar an gcéad úsáid eile. Déanfar sonraí snámhphointe a athghabháil de réir mar a bhreathnaítear ar mhíreanna.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Ag sábháil...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Socruithe sábháilte",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Ag fáil praghsanna le socruithe nua...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Sábháilte! $COUNT$ praghsanna faighte ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Cuir isteach d'eochair API PriceEmpire",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Glanadh an taisce go rathúil",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Athnuaite — $COUNT$ praghsanna lódáilte",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Á lódáil...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ míreanna · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Inniu",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 lá",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ lá",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Faoi ghlas",
+    "description": "Trade lock: locked, no date"
+  }
+}

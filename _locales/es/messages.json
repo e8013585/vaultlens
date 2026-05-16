@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "Lente de bóveda",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Precios de inventario de CS2 en tiempo real, valores flotantes, detección de patrones, valores de etiquetas y análisis comerciales, todo en una sola pantalla.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Descripción general",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Ajustes",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Acerca de",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "Inventario de CS2: VaultLens activo",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Oferta comercial: panel de pérdidas y ganancias activo",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Lista de ofertas comerciales: insignias de pérdidas y ganancias activas",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Página de Steam: navega hasta el inventario",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "No en una página de Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Valor Total",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Elementos",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Carillo",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Modo",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Precios actualizados",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Entradas de precios",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Entradas flotantes",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Actualizar precios",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Abrir inventario",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Modo de precios",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Puerto de piel",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "No se requiere clave API. Utiliza la API pública de Skinport.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Gratis",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PrecioEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport y CSFprecios flotantes. Precios de fase Doppler. Requiere clave API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Clave API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "Clave API de PricEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Obtener clave →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Guardar y obtener precios",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Opciones de visualización",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Mostrar valores flotantes",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Mostrar insignias de valor flotante en artículos del inventario",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Mostrar precios de pegatinas",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Mostrar ventana emergente de valor de etiqueta",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Mostrar insignias de patrón",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Gema azul, fase Doppler, desvanecimiento %, patrones de desvanecimiento de mármol",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Mostrar cuentas regresivas de bloqueo comercial",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Muestra la insignia 🔒 con los días restantes en los artículos bloqueados",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "TTL de caché de precios",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 hora",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Caché flotante",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Permanente (por artículo)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Borrar todo el caché",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Idioma",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Idioma de la interfaz",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Idioma de la interfaz de usuario para superposiciones y ventanas emergentes de VaultLens",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Apariencia",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Tema",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Oscuro",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Luz",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Valor predeterminado del sistema",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Versión $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Precios de inventario de CS2 en tiempo real, valores flotantes, detección de patrones, valores de etiquetas y análisis comerciales, todo en una sola pantalla.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Tienda web de Chrome",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Repositorio de GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Informar un problema",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Privacidad",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens es gratuito y de código abierto. No se recopilan ni rastrean datos. Todas las llamadas API van directamente desde su navegador a las API públicas. Su clave API se almacena localmente y nunca se transmite a los servidores de VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Fuentes de datos",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Limitaciones conocidas",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Buscar artículos...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Copiar lista",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ ¡Copiado!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Actualizar precios",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳Refrescante...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Seleccionar",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Seleccionar",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Orden predeterminada",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Precio: Alto → Bajo",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Precio: Bajo → Alto",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Flotación: Bajo → Alto",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Flotación: Alto → Bajo",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Nombre: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Valor de la etiqueta ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "¡SteamID64 copiado!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "¡Enlace comercial copiado!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Copia fallida",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "¡Precios actualizados!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Error al actualizar",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Copiar SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Copiar enlace comercial",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 Puesto de flotación CSF",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ Representante de CSGO",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "tu das",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Recibes",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "PyG",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Los precios pueden variar. Verifique siempre antes de operar.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Pegatinas",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Valor total de la etiqueta",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "¿Borrar todos los precios almacenados en caché y los datos flotantes?\n\nLos precios se recuperarán en el próximo uso. Los datos flotantes se recuperarán a medida que se vean los elementos.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Guardando...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Configuraciones guardadas",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Obteniendo precios con nuevas configuraciones...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ ¡Salvado! $COUNT$ precios obtenidos ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Ingrese su clave API de PricEmpire",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Caché borrado exitosamente",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Actualizado — $COUNT$ precios cargados",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Cargando...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ elementos · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Hoy",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 día",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ días",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Bloqueado",
+    "description": "Trade lock: locked, no date"
+  }
+}

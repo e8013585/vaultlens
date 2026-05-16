@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Rauntíma verðlagning CS2 birgða, ​​fljótandi gildi, mynsturgreining, límmiðagildi og viðskiptagreiningar - allt á einum skjá.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Yfirlit",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Stillingar",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Um",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventory — VaultLens virk",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Viðskiptatilboð — P&L spjaldið virkt",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Listi yfir viðskiptatilboð — P&L merki virk",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam síða - flettu að birgðum",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Ekki á Steam síðu",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Heildarverðmæti",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Atriði",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Verðlagður",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Mode",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Verð uppfært",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Verðfærslur",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Fljótandi færslur",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Uppfærðu verð",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Opið birgðahald",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Verðlagsstilling",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Húðport",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Enginn API lykill krafist. Notar Skinport public API.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Ókeypis",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PriceEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFLoat verð. Doppler fasa verðlagning. Krefst API lykils.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API lykill",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PriceEmpire API lykill",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Fáðu lykil →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Sparaðu og sæktu verð",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Sýnavalkostir",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Sýna flotgildi",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Sýndu flotgildismerki á birgðahlutum",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Sýna límmiðaverð",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Sýna sprettiglugga fyrir límmiðagildi",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Sýna mynsturmerki",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Blár gimsteinn, Doppler fasi, fade %, marmara fade mynstur",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Sýna niðurtalning á viðskiptalás",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Birta 🔒 merki með dögum eftir á læstum hlutum",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Skyndiminni",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Verð skyndiminni TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 klst",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Fljótandi skyndiminni",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Varanleg (á hvert atriði)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Hreinsaðu allt skyndiminni",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Tungumál",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Viðmótstungumál",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "UI tungumál fyrir VaultLens yfirborð og sprettiglugga",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Útlit",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Þema",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Myrkur",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Ljós",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Kerfi Sjálfgefið",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Útgáfa $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Rauntíma verðlagning CS2 birgða, ​​fljótandi gildi, mynsturgreining, límmiðagildi og viðskiptagreiningar - allt á einum skjá.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome vefverslun",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub geymsla",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Tilkynna vandamál",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Persónuvernd",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens er ókeypis og opinn uppspretta. Engum gögnum er safnað eða rakið. Öll API símtöl fara beint úr vafranum þínum yfir í opinber API. API lykillinn þinn er geymdur á staðnum og aldrei sendur til VaultLens netþjóna.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Gagnaheimildir",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Þekktar takmarkanir",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Leita að atriðum...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Afrita lista",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Afritað!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Uppfærðu verð",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Hressandi...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Veldu",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Að velja",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Sjálfgefin röð",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Verð: Hátt → Lágt",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Verð: Lágt → Hátt",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Fljótandi: Lágt → Hátt",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Fljótandi: Hátt → Lágt",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Nafn: A → Ö",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Límmiðagildi ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 afritað!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Viðskiptahlekkur afritaður!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Afritun mistókst",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Verð endurnærð!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Endurnýjun mistókst",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Afritaðu SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Afritaðu viðskiptatengil",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat bás",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-fulltrúi",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Þú gefur",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Þú færð",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Verð geta verið mismunandi. Staðfestu alltaf fyrir viðskipti.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Límmiðar",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Heildarverðmæti límmiða",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Hreinsa öll verð í skyndiminni og fljótandi gögn?\n\nVerð verða sótt aftur við næstu notkun. Floatgögn verða endursótt eftir því sem atriði eru skoðuð.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Vistar...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Stillingar vistaðar",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Sækir verð með nýjum stillingum...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Vistað! $COUNT$ verð sótt ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Vinsamlegast sláðu inn PricEmpire API lykilinn þinn",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Skyndiminni hreinsað með góðum árangri",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Uppfært — $COUNT$ verð hlaðið",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Hleður...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ atriði · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Í dag",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 dagur",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ dagar",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Læst",
+    "description": "Trade lock: locked, no date"
+  }
+}

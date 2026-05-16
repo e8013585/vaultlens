@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Ipprezzar tal-inventarju CS2 f'ħin reali, valuri float, skoperta tal-mudelli, valuri tal-istikers, u analiżi tal-kummerċ — kollha fuq skrin wieħed.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Ħarsa ġenerali",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Settings",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Dwar",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "Inventarju CS2 — VaultLens attiv",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Offerta tal-Kummerċ — Panel P&L attiv",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Lista tal-Offerti tal-Kummerċ — badges P&L attivi",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam page — innaviga għall-inventarju",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Mhux fuq paġna Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Valur Totali",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Oġġetti",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Ipprezzat",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Modalità",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Prezzijiet aġġornati",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Dħul tal-prezzijiet",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Daħliet float",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Aġġorna l-prezzijiet",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Inventarju Miftuħ",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Modalità tal-Ipprezzar",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Port tal-ġilda",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Ebda ċavetta API meħtieġa. Juża l-API pubbliku Skinport.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Ħieles",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Prezzijiet Buff163, Skinport & CSFloat. Ipprezzar tal-fażi Doppler. Jeħtieġ ċavetta API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Ċavetta API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API Key",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Ikseb iċ-ċavetta →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Iffranka u ġib il-prezzijiet",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Għażliet tal-Wiri",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Uri Valuri Float",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Uri badges tal-valur float fuq oġġetti tal-inventarju",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Uri l-Prezzijiet tal-Stikek",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Uri l-valur ta' l-istiker popup",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Uri badges tal-mudell",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Ġawhra blu, fażi Doppler, % fade, mudelli ta 'fade tal-irħam",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Show Trade Lock Countdowns",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Uri badge 🔒 bil-jiem li fadal fuq oġġetti msakkra",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Prezz cache TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 siegħa",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Float cache",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Permanenti (għal kull oġġett)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Neħħi l-Cache kollha",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Lingwa",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Lingwa tal-Interface",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Lingwa tal-IU għall-overlays u popup ta' VaultLens",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Dehra",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Tema",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Dlam",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Dawl",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Default tas-Sistema",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Verżjoni $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Ipprezzar tal-inventarju CS2 f'ħin reali, valuri float, skoperta tal-mudelli, valuri tal-istikers, u analiżi tal-kummerċ — kollha fuq skrin wieħed.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web Store",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Repożitorju GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Irrapporta Kwistjoni",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Privatezza",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens huwa sors ħieles u miftuħ. L-ebda dejta ma tinġabar jew tiġi segwita. Is-sejħiet kollha tal-API jmorru direttament mill-browser tiegħek għall-APIs pubbliċi. Iċ-ċavetta API tiegħek hija maħżuna lokalment u qatt ma tiġi trażmessa lis-servers ta' VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Sorsi tad-Data",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Limitazzjonijiet Magħrufa",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Fittex oġġetti...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Lista tal-Kopji",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Ikkopjati!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Aġġorna l-prezzijiet",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Aġġornament...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Agħżel",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Għażla",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Ordni ta' Default",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Prezz: Għoli → Baxx",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Prezz: Baxx → Għoli",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Float: Baxx → Għoli",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Float: Għoli → Baxx",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Isem: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Valur tal-istiker ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 ikkupjat!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Link tal-kummerċ ikkupjat!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Il-kopja falliet",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Prezzijiet aggornati!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "L-aġġornament falla",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Ikkopja SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Ikkopja Link tal-Kummerċ",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Inti Agħti",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Inti Irċievi",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Il-prezzijiet jistgħu jvarjaw. Dejjem ivverifika qabel tinnegozja.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Stikers",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Valur totali tal-istiker",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Tneħħi l-prezzijiet kollha fil-cache u d-dejta float?\n\nIl-prezzijiet jerġgħu jinġabru mal-użu li jmiss. Id-dejta tal-float se terġa' tinġibed hekk kif l-oġġetti jkunu qed jaraw.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Insalva...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Settings salvati",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Inġibu l-prezzijiet b'settings ġodda...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Salvat! $COUNT$ prezzijiet miġjuba ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Jekk jogħġbok daħħal iċ-ċavetta tal-API PricEmpire tiegħek",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Il-cache tnaddaf b'suċċess",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Aġġornat — $COUNT$ prezzijiet mgħobbija",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Tagħbija...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ oġġetti · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Illum",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 ġurnata",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ ijiem",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Imsakkar",
+    "description": "Trade lock: locked, no date"
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "વૉલ્ટલેન્સ",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "રીઅલ-ટાઇમ CS2 ઇન્વેન્ટરી કિંમતો, ફ્લોટ મૂલ્યો, પેટર્ન શોધ, સ્ટીકર મૂલ્યો અને વેપાર વિશ્લેષણ — બધું એક સ્ક્રીન પર.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "વિહંગાવલોકન",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "સેટિંગ્સ",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "વિશે",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 ઈન્વેન્ટરી — VaultLens સક્રિય",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "વેપાર ઓફર - P&L પેનલ સક્રિય",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "ટ્રેડ ઑફર્સ સૂચિ — P&L બેજ સક્રિય",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "સ્ટીમ પેજ — ઇન્વેન્ટરી પર નેવિગેટ કરો",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "સ્ટીમ પેજ પર નથી",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "કુલ મૂલ્ય",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "વસ્તુઓ",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "કિંમતવાળી",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "મોડ",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "કિંમતો અપડેટ કરી",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "કિંમત એન્ટ્રીઓ",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "ફ્લોટ એન્ટ્રીઓ",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ કિંમતો તાજી કરો",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "ઈન્વેન્ટરી ખોલો",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "પ્રાઇસીંગ મોડ",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "ત્વચા બંદર",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "કોઈ API કી જરૂરી નથી. સ્કિનપોર્ટ પબ્લિક API નો ઉપયોગ કરે છે.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "મફત",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport અને CSFloat કિંમતો. ડોપ્લર તબક્કાની કિંમત. API કીની જરૂર છે.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API કી",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API કી",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "કી મેળવો →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 કિંમતો સાચવો અને મેળવો",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "પ્રદર્શન વિકલ્પો",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "ફ્લોટ મૂલ્યો બતાવો",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "ઇન્વેન્ટરી વસ્તુઓ પર ફ્લોટ મૂલ્યના બેજ પ્રદર્શિત કરો",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "સ્ટીકરની કિંમતો બતાવો",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "સ્ટીકર મૂલ્ય હોવર પોપઅપ બતાવો",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "પેટર્ન બેજેસ બતાવો",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "વાદળી રત્ન, ડોપ્લર તબક્કો, ફેડ %, માર્બલ ફેડ પેટર્ન",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "ટ્રેડ લૉક કાઉન્ટડાઉન બતાવો",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "લૉક કરેલી આઇટમ પર બાકીના દિવસો સાથે 🔒 બૅજ પ્રદર્શિત કરો",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "કેશ",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "કિંમત કેશ TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 કલાક",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "ફ્લોટ કેશ",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "કાયમી (વસ્તુ દીઠ)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 બધી કેશ સાફ કરો",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "ભાષા",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "ઈન્ટરફેસ ભાષા",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "VaultLens ઓવરલે અને પોપઅપ માટે UI ભાષા",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "દેખાવ",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "થીમ",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "શ્યામ",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "પ્રકાશ",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "સિસ્ટમ ડિફોલ્ટ",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "સંસ્કરણ $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "રીઅલ-ટાઇમ CS2 ઇન્વેન્ટરી કિંમતો, ફ્લોટ મૂલ્યો, પેટર્ન શોધ, સ્ટીકર મૂલ્યો અને વેપાર વિશ્લેષણ — બધું એક સ્ક્રીન પર.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 ક્રોમ વેબ સ્ટોર",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub રીપોઝીટરી",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 સમસ્યાની જાણ કરો",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 ગોપનીયતા",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens મફત અને ઓપન સોર્સ છે. કોઈ ડેટા એકત્રિત અથવા ટ્રેક કરવામાં આવતો નથી. બધા API કૉલ્સ સીધા તમારા બ્રાઉઝરથી સાર્વજનિક API પર જાય છે. તમારી API કી સ્થાનિક રીતે સંગ્રહિત છે અને ક્યારેય VaultLens સર્વર્સ પર ટ્રાન્સમિટ થતી નથી.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "ડેટા સ્ત્રોતો",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "જાણીતી મર્યાદાઓ",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 વસ્તુઓ શોધો...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 કોપી લિસ્ટ",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ નકલ કરેલ!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ કિંમતો તાજી કરો",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ તાજું કરી રહ્યું છે...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ પસંદ કરો",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ પસંદ કરી રહ્યા છીએ",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "ડિફોલ્ટ ઓર્ડર",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "કિંમત: ઊંચી → ઓછી",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "કિંમત: ઓછી → ઉચ્ચ",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "ફ્લોટ: નીચું → ઉચ્ચ",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "ફ્લોટ: ઉચ્ચ → નીચું",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "નામ: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "સ્ટીકર મૂલ્ય ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 કૉપિ કર્યું!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "વેપાર લિંક કૉપિ કરી!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "નકલ નિષ્ફળ",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "કિંમતો તાજી!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "તાજું કરવું નિષ્ફળ થયું",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 SteamID64 કોપી કરો",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 ટ્રેડ લિંક કોપી કરો",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat સ્ટોલ",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-રેપ",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "તમે આપો",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "તમે પ્રાપ્ત કરો છો",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "પી એન્ડ એલ",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "કિંમતો અલગ અલગ હોઈ શકે છે. વેપાર કરતા પહેલા હંમેશા ચકાસો.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "સ્ટીકરો",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "કુલ સ્ટીકર મૂલ્ય",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "બધી કેશ્ડ કિંમતો અને ફ્લોટ ડેટા સાફ કરીએ?\n\nઆગલા ઉપયોગ પર કિંમતો ફરીથી મેળવવામાં આવશે. જેમ જેમ આઇટમ્સ જોવામાં આવશે તેમ ફ્લોટ ડેટા ફરીથી મેળવવામાં આવશે.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ સાચવી રહ્યું છે...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ સેટિંગ્સ સાચવી",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ નવી સેટિંગ્સ સાથે કિંમતો મેળવી રહ્યાં છીએ...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ સાચવેલ! $COUNT$ કિંમતો મેળવી ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ કૃપા કરીને તમારી PricEmpire API કી દાખલ કરો",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ કેશ સફળતાપૂર્વક સાફ થઈ",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ તાજું કર્યું — $COUNT$ કિંમતો લોડ થઈ",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "લોડ કરી રહ્યું છે...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ વસ્તુઓ · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 આજે",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 દિવસ",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ દિવસ",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 તાળું",
+    "description": "Trade lock: locked, no date"
+  }
+}

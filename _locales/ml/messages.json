@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "വോൾട്ട് ലെൻസ്",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "തത്സമയ CS2 ഇൻവെൻ്ററി വിലനിർണ്ണയം, ഫ്ലോട്ട് മൂല്യങ്ങൾ, പാറ്റേൺ കണ്ടെത്തൽ, സ്റ്റിക്കർ മൂല്യങ്ങൾ, ട്രേഡ് അനലിറ്റിക്സ് - എല്ലാം ഒരു സ്ക്രീനിൽ.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "അവലോകനം",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "ക്രമീകരണങ്ങൾ",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "കുറിച്ച്",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 ഇൻവെൻ്ററി - VaultLens സജീവമാണ്",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "ട്രേഡ് ഓഫർ - പി&എൽ പാനൽ സജീവമാണ്",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "ട്രേഡ് ഓഫറുകളുടെ ലിസ്റ്റ് — പി&എൽ ബാഡ്ജുകൾ സജീവമാണ്",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "സ്റ്റീം പേജ് - ഇൻവെൻ്ററിയിലേക്ക് നാവിഗേറ്റ് ചെയ്യുക",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "ഒരു സ്റ്റീം പേജിൽ അല്ല",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "ആകെ മൂല്യം",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "ഇനങ്ങൾ",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "വില നിശ്ചയിച്ചത്",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "മോഡ്",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "വിലകൾ അപ്ഡേറ്റ് ചെയ്തു",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "വില എൻട്രികൾ",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "ഫ്ലോട്ട് എൻട്രികൾ",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ വിലകൾ പുതുക്കുക",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "ഇൻവെൻ്ററി തുറക്കുക",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "വിലനിർണ്ണയ മോഡ്",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "സ്കിൻ പോർട്ട്",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "API കീ ആവശ്യമില്ല. Skinport പൊതു API ഉപയോഗിക്കുന്നു.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "സൗജന്യം",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "പ്രൈസ് എംപയർ + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat വിലകൾ. ഡോപ്ലർ ഘട്ടം വിലനിർണ്ണയം. API കീ ആവശ്യമാണ്.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API കീ",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "പ്രൈസ് എംപയർ API കീ",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "കീ → നേടുക",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 വിലകൾ സംരക്ഷിക്കുക & ലഭ്യമാക്കുക",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "ഡിസ്പ്ലേ ഓപ്ഷനുകൾ",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "ഫ്ലോട്ട് മൂല്യങ്ങൾ കാണിക്കുക",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "ഇൻവെൻ്ററി ഇനങ്ങളിൽ ഫ്ലോട്ട് മൂല്യ ബാഡ്ജുകൾ പ്രദർശിപ്പിക്കുക",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "സ്റ്റിക്കർ വിലകൾ കാണിക്കുക",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "സ്റ്റിക്കർ മൂല്യം ഹോവർ പോപ്പ്അപ്പ് കാണിക്കുക",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "പാറ്റേൺ ബാഡ്ജുകൾ കാണിക്കുക",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "നീല രത്നം, ഡോപ്ലർ ഘട്ടം, ഫേഡ്%, മാർബിൾ ഫേഡ് പാറ്റേണുകൾ",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "ട്രേഡ് ലോക്ക് കൗണ്ട്ഡൗൺ കാണിക്കുക",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "ലോക്ക് ചെയ്ത ഇനങ്ങളിൽ ദിവസങ്ങൾ ശേഷിക്കുന്ന 🔒 ബാഡ്ജ് പ്രദർശിപ്പിക്കുക",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "കാഷെ",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "വില കാഷെ TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 മണിക്കൂർ",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "ഫ്ലോട്ട് കാഷെ",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "സ്ഥിരം (ഓരോ ഇനത്തിനും)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 എല്ലാ കാഷെയും മായ്‌ക്കുക",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "ഭാഷ",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "ഇൻ്റർഫേസ് ഭാഷ",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "VaultLens ഓവർലേകൾക്കും പോപ്പ്അപ്പിനുമുള്ള UI ഭാഷ",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "രൂപഭാവം",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "തീം",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "ഇരുട്ട്",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "വെളിച്ചം",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "സിസ്റ്റം ഡിഫോൾട്ട്",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "പതിപ്പ് $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "തത്സമയ CS2 ഇൻവെൻ്ററി വിലനിർണ്ണയം, ഫ്ലോട്ട് മൂല്യങ്ങൾ, പാറ്റേൺ കണ്ടെത്തൽ, സ്റ്റിക്കർ മൂല്യങ്ങൾ, ട്രേഡ് അനലിറ്റിക്സ് - എല്ലാം ഒരു സ്ക്രീനിൽ.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome വെബ് സ്റ്റോർ",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub ശേഖരം",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 ഒരു പ്രശ്നം റിപ്പോർട്ട് ചെയ്യുക",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 സ്വകാര്യത",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens സൌജന്യവും തുറന്ന ഉറവിടവുമാണ്. വിവരങ്ങളൊന്നും ശേഖരിക്കുകയോ ട്രാക്കുചെയ്യുകയോ ചെയ്യുന്നില്ല. എല്ലാ API കോളുകളും നിങ്ങളുടെ ബ്രൗസറിൽ നിന്ന് നേരിട്ട് പൊതു API-കളിലേക്ക് പോകുന്നു. നിങ്ങളുടെ API കീ പ്രാദേശികമായി സംഭരിച്ചിരിക്കുന്നു, ഒരിക്കലും VaultLens സെർവറുകളിലേക്ക് കൈമാറില്ല.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "ഡാറ്റ ഉറവിടങ്ങൾ",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "അറിയപ്പെടുന്ന പരിമിതികൾ",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 ഇനങ്ങൾ തിരയുക...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 ലിസ്റ്റ് പകർത്തുക",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ പകർത്തി!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ വിലകൾ പുതുക്കുക",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ പുതുക്കുന്നു...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ തിരഞ്ഞെടുക്കുക",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ തിരഞ്ഞെടുക്കുന്നു",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "ഡിഫോൾട്ട് ഓർഡർ",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "വില: ഉയർന്നത് → താഴ്ന്നത്",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "വില: കുറവ് → ഉയർന്നത്",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "ഫ്ലോട്ട്: താഴ്ന്നത് → ഉയർന്നത്",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "ഫ്ലോട്ട്: ഉയർന്നത് → താഴ്ന്നത്",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "പേര്: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "സ്റ്റിക്കർ മൂല്യം ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 പകർത്തി!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "വ്യാപാര ലിങ്ക് പകർത്തി!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "പകർത്താനായില്ല",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "വിലകൾ പുതുക്കി!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "പുതുക്കൽ പരാജയപ്പെട്ടു",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 SteamID64 പകർത്തുക",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 കോപ്പി ട്രേഡ് ലിങ്ക്",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat സ്റ്റാൾ",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-റെപ്",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "നിങ്ങൾ തരൂ",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "നിങ്ങൾ സ്വീകരിക്കുക",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "പി&എൽ",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "വിലകൾ വ്യത്യാസപ്പെടാം. വ്യാപാരം നടത്തുന്നതിന് മുമ്പ് എല്ലായ്പ്പോഴും സ്ഥിരീകരിക്കുക.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "സ്റ്റിക്കറുകൾ",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "മൊത്തം സ്റ്റിക്കർ മൂല്യം",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "കാഷെ ചെയ്‌ത എല്ലാ വിലകളും ഫ്ലോട്ട് ഡാറ്റയും മായ്‌ക്കണോ?\n\nഅടുത്ത ഉപയോഗത്തിൽ വിലകൾ വീണ്ടും ലഭിക്കും. ഇനങ്ങൾ കാണുന്നതിനനുസരിച്ച് ഫ്ലോട്ട് ഡാറ്റ വീണ്ടും ലഭ്യമാക്കും.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ സംരക്ഷിക്കുന്നു...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ ക്രമീകരണങ്ങൾ സംരക്ഷിച്ചു",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ പുതിയ ക്രമീകരണങ്ങൾ ഉപയോഗിച്ച് വിലകൾ ലഭ്യമാക്കുന്നു...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ സംരക്ഷിച്ചു! $COUNT$ വിലകൾ ലഭിച്ചു ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ ദയവായി നിങ്ങളുടെ PricEmpire API കീ നൽകുക",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ കാഷെ വിജയകരമായി മായ്ച്ചു",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ പുതുക്കിയത് - $COUNT$ വിലകൾ ലോഡ് ചെയ്തു",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "ലോഡ് ചെയ്യുന്നു...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ ഇനങ്ങൾ · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 ഇന്ന്",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 ദിവസം",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ ദിവസങ്ങൾ",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 പൂട്ടി",
+    "description": "Trade lock: locked, no date"
+  }
+}

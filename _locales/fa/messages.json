@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "قیمت‌گذاری بی‌درنگ موجودی CS2، مقادیر شناور، تشخیص الگو، ارزش‌های برچسب، و تجزیه و تحلیل تجارت - همه در یک صفحه.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "نمای کلی",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "تنظیمات",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "درباره",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "موجودی CS2 - VaultLens فعال است",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "پیشنهاد تجاری - پنل P&L فعال است",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "لیست پیشنهادات تجاری - نشان های P&L فعال است",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "صفحه Steam - به موجودی بروید",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "در صفحه Steam نیست",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "ارزش کل",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "موارد",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "قیمت گذاری شده است",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "حالت",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "قیمت ها به روز شد",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "ورودی قیمت",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "ورودی های شناور",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ به روز رسانی قیمت",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "باز کردن موجودی",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "حالت قیمت گذاری",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "پورت پوستی",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "کلید API مورد نیاز نیست. از Skinport عمومی API استفاده می کند.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "رایگان",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "قیمت Buff163، Skinport و CSFloat. قیمت گذاری فاز داپلر به کلید API نیاز دارد.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "کلید API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "کلید API PricEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "دریافت کلید →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 پس انداز کنید و قیمت ها را دریافت کنید",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "گزینه های نمایش",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "نمایش مقادیر شناور",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "نشان های ارزش شناور را در اقلام موجودی نمایش دهید",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "نمایش قیمت استیکر",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "نشان دادن مقدار برچسب نشانگر پنجره بازشو",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "نشان های الگو را نشان دهید",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "نگین آبی، فاز داپلر، محو شدن، الگوهای محو شدن مرمر",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "نمایش شمارش معکوس قفل تجارت",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "نشان 🔒 را با روزهای باقی مانده روی موارد قفل شده نمایش دهید",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "حافظه پنهان",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "کش قیمت TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 ساعت",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "کش شناور",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "دائمی (در هر مورد)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 تمام حافظه پنهان را پاک کنید",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "زبان",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "زبان رابط",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "زبان رابط کاربری برای پوشش‌ها و پنجره‌های بازشو VaultLens",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "ظاهر",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "موضوع",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "تاریک",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "نور",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "پیش فرض سیستم",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "نسخه $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "قیمت‌گذاری بی‌درنگ موجودی CS2، مقادیر شناور، تشخیص الگو، ارزش‌های برچسب، و تجزیه و تحلیل تجارت - همه در یک صفحه.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 فروشگاه وب کروم",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 مخزن GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 یک مشکل را گزارش کنید",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 حریم خصوصی",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens رایگان و منبع باز است. هیچ داده ای جمع آوری یا ردیابی نمی شود. همه تماس‌های API مستقیماً از مرورگر شما به APIهای عمومی می‌روند. کلید API شما به صورت محلی ذخیره می شود و هرگز به سرورهای VaultLens منتقل نمی شود.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "منابع داده",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "محدودیت های شناخته شده",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 جستجوی موارد...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 کپی لیست",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ کپی شده!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ به روز رسانی قیمت",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ طراوت...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ انتخاب کنید",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅انتخاب",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "سفارش پیش فرض",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "قیمت: زیاد → کم",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "قیمت: کم → زیاد",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "شناور: کم → زیاد",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "شناور: زیاد → کم",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "نام: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "ارزش استیکر ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 کپی شد!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "پیوند تجاری کپی شد!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "کپی ناموفق بود",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "قیمت ها به روز شد!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "بازخوانی انجام نشد",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 SteamID64 را کپی کنید",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 کپی لینک تجارت",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 غرفه CSFloat",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "تو بده",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "شما دریافت می کنید",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "قیمت ها ممکن است متفاوت باشد. همیشه قبل از معامله بررسی کنید.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "استیکرها",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "ارزش کل برچسب",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "همه قیمت‌های حافظه پنهان و داده‌های شناور پاک شود؟\n\nدر استفاده بعدی قیمت ها دوباره دریافت می شود. با مشاهده موارد، داده های شناور دوباره واکشی خواهند شد.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ در حال ذخیره...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ تنظیمات ذخیره شد",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ واکشی قیمت با تنظیمات جدید...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ ذخیره شد! $COUNT$ قیمت واکشی شد ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ لطفاً کلید PricEmpire API خود را وارد کنید",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ کش با موفقیت پاک شد",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ تازه - $COUNT$ قیمت بارگذاری شده است",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "در حال بارگیری...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ مورد · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 امروز",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 روز",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ روز",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 قفل شده است",
+    "description": "Trade lock: locked, no date"
+  }
+}

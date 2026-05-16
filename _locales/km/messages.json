@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "តម្លៃសារពើភ័ណ្ឌ CS2 ពេលវេលាពិត តម្លៃអណ្តែត ការរកឃើញលំនាំ តម្លៃស្ទីគ័រ និងការវិភាគពាណិជ្ជកម្ម — ទាំងអស់នៅលើអេក្រង់តែមួយ។",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "ទិដ្ឋភាពទូទៅ",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "ការកំណត់",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "អំពី",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "សារពើភ័ណ្ឌ CS2 - VaultLens សកម្ម",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "ការផ្តល់ជូនពាណិជ្ជកម្ម — បន្ទះ P&L សកម្ម",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "បញ្ជីការផ្តល់ជូនពាណិជ្ជកម្ម — ផ្លាកសញ្ញា P&L សកម្ម",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "ទំព័រចំហាយ - រុករកទៅសារពើភ័ណ្ឌ",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "មិនមែននៅលើទំព័រ Steam ទេ។",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "តម្លៃសរុប",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "ធាតុ",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "តម្លៃ",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "របៀប",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "បានធ្វើបច្ចុប្បន្នភាពតម្លៃ",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "ធាតុតម្លៃ",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "ធាតុអណ្តែត",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ ធ្វើឱ្យតម្លៃឡើងវិញ",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "បើកសារពើភ័ណ្ឌ",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "របៀបកំណត់តម្លៃ",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "ច្រកស្បែក",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "មិនត្រូវការសោ API ទេ។ ប្រើ API សាធារណៈ Skinport ។",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "ឥតគិតថ្លៃ",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PriceEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "តម្លៃ Buff163, Skinport និង CSFloat ។ តម្លៃដំណាក់កាល Doppler ។ ទាមទារសោ API ។",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "សោ API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "គន្លឹះ API របស់ PriceEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "ទទួលបានគន្លឹះ →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 រក្សាទុក & ប្រមូលតម្លៃ",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "ជម្រើសបង្ហាញ",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "បង្ហាញតម្លៃអណ្តែត",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "បង្ហាញផ្លាកសញ្ញាតម្លៃអណ្តែតលើធាតុសារពើភ័ណ្ឌ",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "បង្ហាញតម្លៃស្ទីគ័រ",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "បង្ហាញតម្លៃស្ទីគ័រដាក់លើផ្ទាំងលេចឡើង",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "បង្ហាញផ្លាកសញ្ញាលំនាំ",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "ត្បូងពណ៌ខៀវ, ដំណាក់កាល Doppler, បន្ថយ%, លំនាំរសាត់ថ្មម៉ាប",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "បង្ហាញការរាប់ថយក្រោយនៃការចាក់សោពាណិជ្ជកម្ម",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "បង្ហាញផ្លាកសញ្ញា 🔒 ជាមួយនឹងថ្ងៃដែលនៅសល់នៅលើធាតុដែលបានចាក់សោ",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "ឃ្លាំងសម្ងាត់",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "ឃ្លាំងសម្ងាត់តម្លៃ TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 ម៉ោង។",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "ឃ្លាំងសម្ងាត់អណ្តែត",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "អចិន្រ្តៃយ៍ (ក្នុងមួយធាតុ)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 ជម្រះឃ្លាំងសម្ងាត់ទាំងអស់។",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "ភាសា",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "ភាសាចំណុចប្រទាក់",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "ភាសា UI សម្រាប់ការដាក់ជាន់លើ VaultLens និងលេចឡើង",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "រូបរាង",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "ប្រធានបទ",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "ងងឹត",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "ពន្លឺ",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "លំនាំដើមប្រព័ន្ធ",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "កំណែ $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "តម្លៃសារពើភ័ណ្ឌ CS2 ពេលវេលាពិត តម្លៃអណ្តែត ការរកឃើញលំនាំ តម្លៃស្ទីគ័រ និងការវិភាគពាណិជ្ជកម្ម — ទាំងអស់នៅលើអេក្រង់តែមួយ។",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web Store",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 ឃ្លាំង GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 រាយការណ៍បញ្ហា",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 ភាពឯកជន",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens គឺឥតគិតថ្លៃ និងប្រភពបើកចំហ។ គ្មានទិន្នន័យត្រូវបានប្រមូល ឬតាមដានទេ។ ការហៅ API ទាំងអស់ទៅដោយផ្ទាល់ពីកម្មវិធីរុករករបស់អ្នកទៅកាន់ APIs សាធារណៈ។ សោ API របស់អ្នកត្រូវបានរក្សាទុកក្នុងមូលដ្ឋាន ហើយមិនដែលបញ្ជូនទៅម៉ាស៊ីនមេ VaultLens ទេ។",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "ប្រភពទិន្នន័យ",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "ដែនកំណត់ដែលគេស្គាល់",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 ស្វែងរកធាតុ...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 ចម្លងបញ្ជី",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ចម្លង!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ ធ្វើឱ្យតម្លៃឡើងវិញ",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ ស្រស់ស្រាយ...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ ជ្រើសរើស",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ ការជ្រើសរើស",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "លំដាប់លំនាំដើម",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "តម្លៃ៖ ខ្ពស់ → ទាប",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "តម្លៃ៖ ទាប → ខ្ពស់។",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "អណ្តែត៖ ទាប → ខ្ពស់។",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "អណ្តែត៖ ខ្ពស់ → ទាប",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "ឈ្មោះ៖ A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "តម្លៃស្ទីគ័រ ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 ត្រូវបានចម្លង!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "តំណភ្ជាប់ពាណិជ្ជកម្មត្រូវបានចម្លង!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "ការចម្លងបានបរាជ័យ",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "បញ្ចុះតម្លៃទៀតហើយ!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "ការធ្វើឱ្យស្រស់ឡើងវិញបានបរាជ័យ",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 ចម្លង SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 ចម្លងតំណភ្ជាប់ពាណិជ្ជកម្ម",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 តូប CSFloat",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "អ្នកផ្តល់ឱ្យ",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "អ្នកទទួល",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "តម្លៃអាចប្រែប្រួល។ តែងតែផ្ទៀងផ្ទាត់មុនពេលជួញដូរ។",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "ស្ទីគ័រ",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "តម្លៃស្ទីគ័រសរុប",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "សម្អាត​តម្លៃ​ក្នុង​ឃ្លាំង​សម្ងាត់​ទាំងអស់ និង​ទិន្នន័យ​អណ្តែត?\n\nតម្លៃ​នឹង​ត្រូវ​បាន​យក​ឡើង​វិញ​នៅ​ពេល​ប្រើ​លើក​ក្រោយ។ ទិន្នន័យអណ្តែតនឹងត្រូវបានទាញយកឡើងវិញនៅពេលដែលធាតុត្រូវបានមើល។",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ សន្សំ...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ការកំណត់ត្រូវបានរក្សាទុក",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ ប្រមូលតម្លៃជាមួយការកំណត់ថ្មី...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ រក្សាទុក! $COUNT$ តម្លៃ​បាន​ទៅ​យក ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ សូមបញ្ចូលសោ PricEmpire API របស់អ្នក។",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ សម្អាតឃ្លាំងសម្ងាត់ដោយជោគជ័យ",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ បានធ្វើឱ្យស្រស់ — តម្លៃ $COUNT$ ត្រូវបានផ្ទុក",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "កំពុង​ផ្ទុក...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ ធាតុ · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 ថ្ងៃនេះ",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 ថ្ងៃ។",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ ថ្ងៃ។",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 ចាក់សោ",
+    "description": "Trade lock: locked, no date"
+  }
+}

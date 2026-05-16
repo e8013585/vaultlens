@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Valós idejű CS2 készletárazás, lebegő értékek, mintaérzékelés, matricaértékek és kereskedési elemzés – mindez egy képernyőn.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Áttekintés",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Beállítások elemre",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Körülbelül",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 készlet — VaultLens aktív",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Kereskedelmi ajánlat — P&L panel aktív",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Kereskedelmi ajánlatok listája – P&L jelvények aktívak",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam oldal – navigáljon a készlethez",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Nem Steam oldalon",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Teljes érték",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Elemek",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Árú",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Mód",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Az árak frissítve",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Árbejegyzések",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Lebegő bejegyzések",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Árak frissítése",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Nyissa meg a készletet",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Árképzési mód",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Skin port",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Nincs szükség API-kulcsra. Skinport nyilvános API-t használ.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Ingyenes",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport és CSFloat árak. Doppler fázis árképzés. API-kulcs szükséges.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API kulcs",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PriceEmpire API kulcs",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Kulcs lekérése →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Mentés és árak lekérése",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Megjelenítési beállítások",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Lebegő értékek megjelenítése",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Lebegőérték-jelvények megjelenítése a készlettételeken",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Matricaárak megjelenítése",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "A matrica értékének felugró ablak megjelenítése",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Mutasd a mintajelvényeket",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Kék drágakő, Doppler fázis, fade %, márvány fade minták",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Trade Lock visszaszámlálások megjelenítése",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Kijelző 🔒 jelvény a zárolt tételeknél hátralévő napokkal",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Gyorsítótár",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Ár gyorsítótár TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 óra",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Úszó gyorsítótár",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Állandó (tételenként)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Törölje az összes gyorsítótárat",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Nyelv",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Interfész nyelve",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Felhasználói felület nyelve a VaultLens fedvényekhez és előugró ablakokhoz",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Megjelenés",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Téma",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Sötét",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Fény",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Rendszer alapértelmezett",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Verzió $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Valós idejű CS2 készletárazás, lebegő értékek, mintaérzékelés, matricaértékek és kereskedési elemzés – mindez egy képernyőn.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Internetes áruház",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub Repository",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Probléma bejelentése",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Adatvédelem",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "A VaultLens ingyenes és nyílt forráskódú. Nincs adatgyűjtés vagy nyomon követés. Minden API-hívás közvetlenül a böngészőből érkezik a nyilvános API-khoz. Az API-kulcsot helyileg tároljuk, és soha nem továbbítják a VaultLens-kiszolgálókhoz.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Adatforrások",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Ismert korlátozások",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Tételek keresése...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Lista másolása",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Másolva!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Árak frissítése",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Frissítő...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Válassza ki",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Kiválasztás",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Alapértelmezett rendelés",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Ár: Magas → Alacsony",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Ár: Alacsony → Magas",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Lebegés: Alacsony → Magas",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Lebegés: magas → alacsony",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Név: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Matrica értéke ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 másolva!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Kereskedelmi link másolva!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "A másolás nem sikerült",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Frissültek az árak!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "A frissítés nem sikerült",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Másolja a SteamID64-et",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Kereskedelmi hivatkozás másolása",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Adsz",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Ön megkapja",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Az árak változhatnak. Kereskedés előtt mindig ellenőrizze.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Matricák",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Teljes matricaérték",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Törli az összes tárolt árat és lebegő adatot?\n\nAz árakat a következő használatkor újra lekérjük. A lebegő adatok az elemek megtekintésekor újra lekérésre kerülnek.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Mentés...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ A beállítások elmentve",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Árak lekérése új beállításokkal...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Mentve! $COUNT$ árak lekérve ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Kérjük, adja meg a PricEmpire API kulcsát",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ A gyorsítótár sikeresen törölve",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Frissítve — $COUNT$ ár betöltve",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Terhelés...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ elem · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Ma",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 nap",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ nap",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Lezárva",
+    "description": "Trade lock: locked, no date"
+  }
+}

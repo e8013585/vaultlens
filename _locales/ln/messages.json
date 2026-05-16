@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens ya mbongo",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Prix ​​ya inventaire ya CS2 na tango ya solo, ba valeurs ya flotteur, détection ya modèle, valeurs ya sticker, na analyse ya commerce — nionso na écran moko.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Botali ya mozindo",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Ba paramètres",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Pene",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "Inventaire ya CS2 — VaultLens ezali kosala",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Offrande ya Commerce — Panneau P&L ezali activé",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Liste ya ba offres ya commerce — Ba badges ya P&L active",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Lokasa ya vapeur — kokende na inventaire",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Na page moko ya Steam te",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Valeur Total",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Biloko",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Ntalo na yango",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Mode ya kosala",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Ba prix ezongisami na mikolo",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Ba entrées ya prix",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Ba entrées ya flotteur",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Ba Prix ya Refresh",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Inventaire ya polele",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Mode ya Prix",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Port ya loposo",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Fungola ya API esengeli te. Esalelaka API ya bato nyonso ya Skinport.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Ofele",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat ya mbongo",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat ba prix ya ba prix. Prix ​​ya phase ya Doppler. Esengaka fungola ya API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Fungola ya API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "Fungola ya API ya PricEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Bozwa fungola →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Bomba & Kozwa ba Prix",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Ba Options ya kolakisa",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Lakisa ba Valeurs ya Flot",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Lakisa ba badges ya valeur ya flotteur na biloko ya inventaire",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Lakisa Ba Prix ya Sticker",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Lakisa motuya ya sticker hover popup",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Lakisa Ba Badges ya Modèle",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Jeux bleu, phase Doppler, % ya fade, ba modèles ya fade ya marbre",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Lakisa ba Countdowns ya Blocage ya Commerce",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Affichage 🔒 badge na mikolo etikali na biloko oyo ekangami",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache ya cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Cache ya prix TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "ngonga 1",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Cache ya flotteur",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Permanent (na eloko moko) .",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Effacer Cache Nionso",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Lokota",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Monoko ya Interface",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Monɔkɔ ya UI mpo na ba superpositions ya VaultLens mpe ba popup",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Komonana",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Moto ya likambo",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Molili",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Pole",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Système na ndenge ya liboso",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Version $VERSION$ .",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Prix ​​ya inventaire ya CS2 na tango ya solo, ba valeurs ya flotteur, détection ya modèle, valeurs ya sticker, na analyse ya commerce — nionso na écran moko.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Magasin Web ya Chrome",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Ebombelo ya GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Koyebisa Likambo moko",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Bomoi ya moto ye moko",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens ezali ya ofele mpe ya source ouverte. Ba données moko te esangisi to elandami. Ba appels nionso ya API ekendaka directement depuis navigateur na yo na ba APIs publics. Fungola na yo ya API ebombami na esika ofandi mpe etindamaka ata moke te na ba serveurs ya VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Ba Sources ya ba Données",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Bandelo oyo eyebani",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Boluka biloko...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Liste ya ba copies",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Esalemi na kopi!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Ba Prix ya Refresh",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Ezali kopesa makasi...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Pona",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Kopona",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Ordre ya par défaut",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Ntalo: Likolo → Na nse",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Ntalo: Na nse → Likolo",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Flotteur: Na nse → Likolo",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Flotteur: Likolo → Na nse",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Kombo: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Valeur ya Sticker ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 esalemi kopi!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Lien ya commerce e copié!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Kopi elongi te",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Ba prix ezongisami sika!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Refresh elongi te",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Kopi ya SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Lien ya Copier ya Commerce",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 Esika ya CSFloat",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Opesaka",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Ozwi",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Ntalo ekoki kokesana. Verifier toujours avant ya kosala commerce.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Ba stickers ya ba stickers",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Valeur Total ya Sticker",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Effacer ba prix nionso ya cache na ba données flotter?\n\nBa prix ekozwama lisusu na usage ya sima. Ba données ya flotteur ekozwama lisusu tango biloko ezali kotalama.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Kobomba...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Ba paramètres ebombami",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Kozwa ba prix na ba paramètres ya sika...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Ebombami! $COUNT$ ntalo oyo ezwami ($MODE$) .",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Svp kotia fungola ya API ya PricEmpire na yo",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Cache elongolami malamu",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Ezongisami sika — $COUNT$ ba prix e charger",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Ezali ko charger...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ biloko · $MODE$ .",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Lelo oyo",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 Mokolo moko",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ mikolo",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Ekangami",
+    "description": "Trade lock: locked, no date"
+  }
+}

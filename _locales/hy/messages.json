@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Իրական ժամանակում CS2 գույքագրման գնագոյացում, լողացող արժեքներ, օրինաչափությունների հայտնաբերում, կպչուկների արժեքներ և առևտրի վերլուծություն՝ բոլորը մեկ էկրանի վրա:",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Ընդհանուր ակնարկ",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Կարգավորումներ",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Մոտ",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 գույքագրում — VaultLens ակտիվ է",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Առևտրային առաջարկ — P&L վահանակն ակտիվ է",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Առևտրի առաջարկների ցուցակ — P&L կրծքանշանները ակտիվ են",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam էջ — նավարկեք դեպի գույքագրում",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Ոչ Steam-ի էջում",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Ընդհանուր արժեքը",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Նյութեր",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Գինով",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Ռեժիմ",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Գները թարմացվել են",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Գների գրառումներ",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Լողացող գրառումներ",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Թարմացնել գները",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Բացեք գույքագրում",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Գնագոյացման ռեժիմ",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Մաշկի նավահանգիստ",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "API բանալի չի պահանջվում: Օգտագործում է Skinport հանրային API:",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Անվճար",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat գները: Դոպլեր փուլի գնագոյացում. Պահանջվում է API բանալի:",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API բանալի",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API բանալի",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Ստացեք բանալին →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Խնայեք և ստացեք գները",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Ցուցադրման ընտրանքներ",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Ցույց տալ լողացող արժեքները",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Ցուցադրել լողացող արժեքի կրծքանշաններ գույքագրման իրերի վրա",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Ցույց տալ Կպչուն պիտակների գները",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Ցույց տալ կպչուկի արժեքը սավառնող ելնող պատուհանը",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Ցույց տալ օրինաչափությունների նշանները",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Կապույտ գոհար, Դոպլերի փուլ, մարում, մարմարի խամրման նախշեր",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Ցույց տալ առևտրի կողպեքի հաշվարկները",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Ցուցադրել 🔒 կրծքանշան կողպված իրերի վրա մնացած օրերով",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Քեշ",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Գների քեշ TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 ժամ",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Լողացող քեշ",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Մշտական ​​(մեկ ապրանքի համար)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Մաքրել բոլոր քեշը",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Լեզու",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Ինտերֆեյսի լեզու",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "UI լեզու VaultLens-ի ծածկույթների և թռուցիկների համար",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Արտաքին տեսք",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Թեմա",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Մութ",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Լույս",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Համակարգի լռելյայն",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Տարբերակ $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Իրական ժամանակում CS2 գույքագրման գնագոյացում, լողացող արժեքներ, օրինաչափությունների հայտնաբերում, կպչուկների արժեքներ և առևտրի վերլուծություն՝ բոլորը մեկ էկրանի վրա:",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web Store",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub պահեստ",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Հաղորդել խնդրի մասին",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Գաղտնիություն",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens-ը անվճար է և բաց կոդով: Ոչ մի տվյալ չի հավաքվում կամ հետագծվում: API-ի բոլոր զանգերն անմիջապես ձեր դիտարկիչից գնում են դեպի հանրային API: Ձեր API բանալին պահվում է տեղում և երբեք չի փոխանցվում VaultLens սերվերներին:",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Տվյալների աղբյուրներ",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Հայտնի սահմանափակումներ",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Որոնել իրեր...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Պատճենել ցանկը",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Պատճենված է",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Թարմացնել գները",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Թարմացնող...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Ընտրեք",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Ընտրելով",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Կանխադրված պատվեր",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Գինը՝ Բարձր → Ցածր",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Գինը՝ Ցածր → Բարձր",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Բոց՝ ցածր → բարձր",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Բոց՝ բարձր → Ցածր",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Անունը՝ A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Կպչուն արժեք ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64-ը պատճենված է:",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Առևտրային հղումը պատճենվեց:",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Չհաջողվեց պատճենել",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Գները թարմացվեցին:",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Չհաջողվեց թարմացնել",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Պատճենել SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Պատճենել առևտրային հղումը",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat տաղավար",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Դուք տալիս եք",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Դուք ստանում եք",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Գները կարող են տարբեր լինել։ Միշտ ստուգեք նախքան առևտուրը:",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Կպչուն պիտակներ",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Կպչուն պիտակների ընդհանուր արժեքը",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Մաքրե՞լ բոլոր պահված գները և լողացող տվյալները:\n\nՀաջորդ օգտագործման գները կվերաբացվեն: Լողացող տվյալները նորից կվերցվեն, քանի որ տարրերը դիտվում են:",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Պահվում է...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Կարգավորումները պահպանված են",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Գները բեռնվում են նոր կարգավորումներով...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Պահված: $COUNT$ գները բերված են ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Խնդրում ենք մուտքագրել ձեր PricEmpire API բանալին",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Քեշը հաջողությամբ մաքրվեց",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Թարմացված — $COUNT$ գները բեռնված են",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Բեռնվում է...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ տարր · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Այսօր",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 օր",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ օր",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Փակված է",
+    "description": "Trade lock: locked, no date"
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Reaalajas CS2 varude hinnakujundus, ujuvad väärtused, mustri tuvastamine, kleebiste väärtused ja kaubanduse analüüs – kõik ühel ekraanil.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Ülevaade",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Seaded",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Umbes",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 inventar — VaultLens aktiivne",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Kaubanduspakkumine — P&L paneel aktiivne",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Kaubanduspakkumiste loend – P&L märgid on aktiivsed",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steami leht – navigeerige laoseisu",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Mitte Steami lehel",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Koguväärtus",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Üksused",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Hinnaga",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Režiim",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Hinnad uuendatud",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Hinnakirjed",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Ujukikanded",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Värskenda hindu",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Ava inventar",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Hinnakujundusrežiim",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Naha port",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "API võtit pole vaja. Kasutab Skinporti avalikku API-t.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Tasuta",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PriceEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat hinnad. Doppleri faasi hinnakujundus. Nõuab API-võtit.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API võti",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PriceEmpire API võti",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Hangi võti →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Salvestage ja hankige hinnad",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Kuvavalikud",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Kuva ujuvväärtused",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Kuva laokaupadel ujuva väärtuse märgid",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Kuva kleebiste hinnad",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Kuva kleebise väärtuse hõljumise hüpikaken",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Näita mustrimärke",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Sinine kalliskivi, Doppleri faas, tuhmumisprotsent, marmorist tuhmumismustrid",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Kuva kaubandusluku loendurid",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Kuva 🔒 märk päevadega lukustatud üksustel",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Vahemälu",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Hinnavahemälu TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 tund",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Ujuv vahemälu",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Alaline (üksuse kohta)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Tühjendage kogu vahemälu",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Keel",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Liidese keel",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "VaultLensi ülekatete ja hüpikakna kasutajaliidese keel",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Välimus",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Teema",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Tume",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Valgus",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Süsteemi vaikeseade",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Versioon $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Reaalajas CS2 varude hinnakujundus, ujuvad väärtused, mustri tuvastamine, kleebiste väärtused ja kaubanduse analüüs – kõik ühel ekraanil.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome'i veebipood",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHubi hoidla",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Teatage probleemist",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Privaatsus",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens on tasuta ja avatud lähtekoodiga. Andmeid ei koguta ega jälgita. Kõik API-kutsed lähevad otse teie brauserist avalikesse API-desse. Teie API võti salvestatakse kohapeal ja seda ei edastata kunagi VaultLensi serveritesse.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Andmeallikad",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Teadaolevad piirangud",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Otsi tooteid...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Kopeeri loend",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Kopeeritud!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Värskenda hindu",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Värskendav...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Valige",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Valimine",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Vaikimisi tellimus",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Hind: Kõrge → Madal",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Hind: Madal → Kõrge",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Ujumine: madal → kõrge",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Ujumine: kõrge → madal",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Nimi: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Kleebise väärtus ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 kopeeritud!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Kaubanduslink on kopeeritud!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Kopeerimine ebaõnnestus",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Hinnad värskendatud!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Värskendamine ebaõnnestus",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Kopeerige SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Kopeeri kaubanduse link",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Sa annad",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Sa saad",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Hinnad võivad erineda. Kontrollige alati enne kauplemist.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Kleebised",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Kleebise koguväärtus",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Kas kustutada kõik vahemällu salvestatud hinnad ja ujuvad andmed?\n\nHinnad küsitakse uuesti järgmisel kasutuskorral. Ujuvad andmed hangitakse üksuste vaatamisel uuesti.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Salvestamine...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Seaded salvestatud",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Uute seadetega hindade toomine...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Salvestatud! $COUNT$ hinnad toodud ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Sisestage oma PricEmpire API võti",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Vahemälu tühjendamine õnnestus",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Värskendatud — $COUNT$ hinda laaditud",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Laadimine...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ üksust · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Täna",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 päev",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ päeva",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Lukustatud",
+    "description": "Trade lock: locked, no date"
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Τιμολόγηση αποθέματος CS2 σε πραγματικό χρόνο, τιμές διακύμανσης, ανίχνευση μοτίβων, τιμές αυτοκόλλητων και αναλυτικά στοιχεία συναλλαγών — όλα σε μία οθόνη.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Επισκόπηση",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Ρυθμίσεις",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Για",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "Απόθεμα CS2 — ενεργό VaultLens",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Εμπορική προσφορά — Ο πίνακας P&L είναι ενεργός",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Λίστα εμπορικών προσφορών — Τα σήματα P&L είναι ενεργά",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Σελίδα Steam — μεταβείτε στο απόθεμα",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Όχι σε σελίδα Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Συνολική αξία",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Είδη",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Τιμές",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Τρόπος",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Οι τιμές ενημερώθηκαν",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Εγγραφές τιμών",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Καταχωρήσεις float",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Ανανέωση τιμών",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Ανοίξτε το απόθεμα",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Λειτουργία τιμολόγησης",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Θύρα δέρματος",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Δεν απαιτείται κλειδί API. Χρησιμοποιεί το δημόσιο API του Skinport.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Δωρεάν",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Τιμές Buff163, Skinport & CSFloat. Τιμολόγηση φάσης Doppler. Απαιτεί κλειδί API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Κλειδί API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "Κλειδί API PricEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Λήψη κλειδιού →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Εξοικονομήστε και λάβετε τιμές",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Επιλογές εμφάνισης",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Εμφάνιση τιμών διακύμανσης",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Εμφάνιση σημάτων κινητής αξίας σε στοιχεία αποθέματος",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Εμφάνιση τιμών αυτοκόλλητων",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Εμφάνιση αναδυόμενου παραθύρου αιώρησης τιμής αυτοκόλλητου",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Εμφάνιση σημάτων μοτίβων",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Μπλε πετράδι, φάση Doppler, ξεθώριασμα %, μοτίβα ξεθωριάσματος μαρμάρου",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Εμφάνιση αντίστροφης μέτρησης κλειδώματος συναλλαγών",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Εμφάνιση σήματος 🔒 με ημέρες που απομένουν σε κλειδωμένα αντικείμενα",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Κρύπτη",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Προσωρινή μνήμη τιμών TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 ώρα",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Float cache",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Μόνιμη (ανά τεμάχιο)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Εκκαθάριση όλης της προσωρινής μνήμης",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Γλώσσα",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Γλώσσα διεπαφής",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Γλώσσα διεπαφής χρήστη για επικαλύψεις και αναδυόμενο παράθυρο VaultLens",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Εμφάνιση",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Θέμα",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Σκοτάδι",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Φως",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Προεπιλογή συστήματος",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Έκδοση $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Τιμολόγηση αποθέματος CS2 σε πραγματικό χρόνο, τιμές διακύμανσης, ανίχνευση μοτίβων, τιμές αυτοκόλλητων και αναλυτικά στοιχεία συναλλαγών — όλα σε μία οθόνη.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web Store",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Αποθετήριο GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Αναφέρετε ένα πρόβλημα",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Απόρρητο",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "Το VaultLens είναι δωρεάν και ανοιχτού κώδικα. Δεν συλλέγονται ούτε παρακολουθούνται δεδομένα. Όλες οι κλήσεις API πηγαίνουν απευθείας από το πρόγραμμα περιήγησής σας σε δημόσια API. Το κλειδί API σας αποθηκεύεται τοπικά και δεν μεταδίδεται ποτέ στους διακομιστές VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Πηγές δεδομένων",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Γνωστοί Περιορισμοί",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Αναζήτηση αντικειμένων...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Αντιγραφή λίστας",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Αντιγράφηκε!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Ανανέωση τιμών",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Αναζωογονητικό...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Επιλέξτε",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Επιλογή",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Προεπιλεγμένη παραγγελία",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Τιμή: Υψηλή → Χαμηλή",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Τιμή: Χαμηλή → Υψηλή",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Float: Χαμηλή → Υψηλή",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Float: Υψηλή → Χαμηλή",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Όνομα: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Τιμή αυτοκόλλητου ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "Το SteamID64 αντιγράφηκε!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Ο εμπορικός σύνδεσμος αντιγράφηκε!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Η αντιγραφή απέτυχε",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Οι τιμές ανανεώθηκαν!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Η ανανέωση απέτυχε",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Αντιγράψτε το SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Αντιγραφή Εμπορικού Συνδέσμου",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Δίνεις",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Λαμβάνετε",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Οι τιμές μπορεί να διαφέρουν. Πάντα να ελέγχετε πριν από τις συναλλαγές.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Αυτοκόλλητα",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Συνολική αξία αυτοκόλλητου",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Διαγραφή όλων των αποθηκευμένων τιμών και των δεδομένων διακίνησης;\n\nΟι τιμές θα ανακτηθούν ξανά σε επόμενη χρήση. Τα δεδομένα float θα ληφθούν εκ νέου καθώς προβάλλονται τα στοιχεία.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Αποθήκευση...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Οι ρυθμίσεις αποθηκεύτηκαν",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Ανάκτηση τιμών με νέες ρυθμίσεις...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Αποθηκεύτηκε! Ελήφθησαν $COUNT$ τιμές ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Εισαγάγετε το κλειδί του PricEmpire API",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Η προσωρινή μνήμη διαγράφηκε με επιτυχία",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Ανανεώθηκε — φορτώθηκαν $COUNT$ τιμές",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Φόρτωση...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ στοιχεία · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Σήμερα",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 ημέρα",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ ημέρες",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Κλειδωμένο",
+    "description": "Trade lock: locked, no date"
+  }
+}

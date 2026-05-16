@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens ukax mä juk’a pachanakanwa",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Chiqpach pachan CS2 inventario ukan chanipa, flotador ukan chimpunakapa, patrón uñt’ayawi, pegatina ukan chimpunakapa, ukat alxañ tuqit análisis — taqi ukanakax mä pantalla ukankiwa.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Mä juk’a uñakipaña",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Ukax mä juk’a pachanakanwa",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Ukxata",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventario — VaultLens ukax activo ukhamawa",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Oferta Comercial — P&L panel ukax activo ukhamawa",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Lista de Ofertas Comerciales — P&L ukan insignianakapax activo ukhamawa",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Vapor página — inventario ukar saraña",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Janiw mä Steam ukan uñt’ayatakiti",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Taqi kunas wali askiwa",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Utjirinaka",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Ukax mä precio ukhamawa",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Modo ukax mä juk’a pachanakanwa",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Precios ukanakax machaqar tukuyatawa",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Precio ukan qillqt’atanaka",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Flotador ukan qillqt’atanaka",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Refresco Precios ukax mä juk’a pachanakanwa",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Inventario jist’araña",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Modo de Precios ukax mä juk’a pachanakanwa",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Ukax mä puerto ukhamawa",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Janiw API ukax wakiskiti. Skinport API pública uka apnaqi.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Qhisphita",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PrecioImperio + CSFloat ukax mä jach’a uñacht’äwiwa",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat ukax mä jach’a uñacht’äwiwa. Doppler fase ukax mä precio ukhamawa. API llave ukax wakisiwa.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API Llave ukax mä juk’a pachanakanwa",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API ukax mä jach’a uñacht’äwiwa",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Ukax llave →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Qhispiyaña & Apsuña Precios",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Uñacht’ayaña Amtanaka",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Flotador Valores uñacht’ayaña",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Inventario ukan yänakapan flotador valor insignia uñacht’ayaña",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Uñacht’ayaña Pegatina Precios",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Uñacht’ayaña pegatina valor hover popup",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Uñacht’ayaña Patrón Insignias ukanaka",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Azul gema, fase Doppler, fade %, mármol fade patrón ukanaka",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Uñacht’ayaña Comercio Bloqueo Jakhunaka",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Uñacht’ayaña 🔒 insignia ukaxa urunaka qhiparañapawa llawintat yänakaru",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Caché ukax mä juk’a pachanakanwa",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Precio caché TTL ukax mä juk’a pachanakanwa",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 hora",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Ukax mä caché flotador ukhamawa",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Permanente (sapa yänakataki) .",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Taqi Cache Q’umachaña",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Aru",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Interfaz Aru",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "UI aru VaultLens ukan uñstayañataki ukat popup ukataki",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Aparinsya",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Timatika",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Ch'amaka",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Qhana",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Sistema Default ukax mä juk’a pachanakanwa",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Versión $VERSION$ ukat juk’ampinaka.",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Chiqpach pachan CS2 inventario ukan chanipa, flotador ukan chimpunakapa, patrón uñt’ayawi, pegatina ukan chimpunakapa, ukat alxañ tuqit análisis — taqi ukanakax mä pantalla ukankiwa.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web ukax mä jach’a uñacht’äwiwa",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub ukan imañ utapa",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Mä Issue ukar yatiyaña",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Privacidad ukat juk’ampinaka",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens ukax inakiw ukat jist’aratawa. Janiw kuna datos ukanakas apthapitakiti, janirakiw arknaqatäkiti. Taqi API jawsatanakax chiqak navegador ukanx APIs públicas ukar sarapxi. API llave ukax local ukan imatäxiwa ukatx janipuniw VaultLens servidor ukar apayatäkiti.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Datos ukanakat yatxatatanaka",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Uñt’at Limitaciones ukanaka",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Ukax mä juk’a pachanakanwa...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Lista Copia luraña",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ ¡Copiata!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Refresco Precios ukax mä juk’a pachanakanwa",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Ukax mä...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Ajlliñani",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Ajlliña",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Orden de Default ukax mä juk’a pachanakanwa",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Precio: Altu → Jisk’a",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Precio: Jisk’a → Jach’a",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Flotador: Jisk’a → Altu",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Flotador: Altu → Jisk’a",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Suti: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Pegatina Valor ukax ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 ukax copiatawa!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "¡Comercio link ukax copiatawa!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Copia ukax janiw phuqhaskiti",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "¡Precios ukanakax machaqar tukuyatawa!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Refresco ukax janiw phuqhaskänti",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Copia SteamID64 ukax mä juk’a pachanakanwa",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Copia Comercio ukat Link",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat ukax mä jach’a uñacht’äwiwa",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Jumax Churitawa",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Jumax Katuqtawa",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Precios ukax mayj mayjawa. Sapa kutiw janïr alxañkamax chiqapar uñjañama.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Pegatinas ukanaka",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Taqi Pegatina Valor ukaxa",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Taqi caché precios ukat flotador de datos ukanak q’umachaña?\n\nJutïr apnaqawipanx precios ukanakax wasitat apsutäni. Flotador de datos ukax wasitat apthapitawa kunjamatix yänakax uñakipataki ukhamarjama.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Qullqi imaña...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Ajustes ukaxa qhispiyatawa",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Machaq wakichäwinakampi chaninak apsuña...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ ¡Qhispiyatäxiwa! $COUNT$ chaninakax apthapitawa ($MODE$) .",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ PricEmpire API llave ukar mantañamawa",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Caché ukaxa suma q’umachatawa",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Refresco — $COUNT$ chaninakaxa cargatawa",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Ukax mä...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ yänaka · $MODE$ .",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Jichhürunakanxa",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 uru",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ urunaka",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Llaqt’ata",
+    "description": "Trade lock: locked, no date"
+  }
+}

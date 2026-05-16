@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "ވޯލްޓްލެންސް އެވެ",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "ރިއަލް ޓައިމް ސީއެސް2 އިންވެންޓްރީ ޕްރައިސިންގ، ފްލޯޓް ވެލިއުސް، ޕެޓަރން ޑިޓެކްޝަން، ސްޓިކާ ވެލިއުސް، އަދި ޓްރޭޑް އެނަލިޓިކްސް — މިހުރިހާ ކަމެއް އެއް ސްކްރީނެއްގައި.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "އޯވަރވިއު",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "ސެޓިންގސް",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "ގުޅިގެން",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "ސީއެސް2 އިންވެންޓްރީ — ވޯލްޓްލެންސް އެކްޓިވް",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "ޓްރޭޑް އޮފާ — ޕީ އެންޑް އެލް ޕެނަލް އެކްޓިވް",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "ޓްރޭޑް އޮފާސް ލިސްޓް — ޕީ އެންޑް އެލް ބެޖްތައް އެކްޓިވް",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "ސްޓީމް ޕޭޖް — އިންވެންޓްރީއަށް ވަދެވޭނެއެވެ",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "ސްޓީމް ޕޭޖެއްގައި ނޫނެވެ",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "ޖުމްލަ އަގު",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "ތަކެތި",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "އަގު",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "މޯޑް",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "އަގުތައް އަޕްޑޭޓް ކޮށްފި އެވެ",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "އަގު އެންޓްރީތައް",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "ފްލޯޓް އެންޓްރީސް",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ އަގުތައް ރިފްރެޝްކުރުން",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "އޯޕަން އިންވެންޓްރީ",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "އަގު ކަނޑައެޅުމުގެ މޯޑް",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "ހަމުގެ ބަނދަރު",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "އެޕީއައި ކީއެއް ބޭނުން ނުވާނެއެވެ. ސްކިންޕޯޓް ޕަބްލިކް އެޕީއައި ބޭނުންކުރެއެވެ.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "ހިލޭ",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "ޕްރައިސްއެމްޕަޔަރ + ސީއެސްއެފްލޯޓް",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "ބަފް163، ސްކިންޕޯޓް އެންޑް ސީއެސްއެފްލޯޓްގެ އަގުތައް. ޑޮޕްލަރ ފޭސް ޕްރައިސިންގ. އެޕީއައި ކީ ބޭނުންވެއެވެ.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "އެޕީއައި ކީ އެވެ",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "ޕްރައިސްއެމްޕަޔަރ އެޕީއައި ކީ",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "ތަޅުދަނޑި ހޯދުން →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 ސޭވް އެންޑް ފެޗް ޕްރައިސަސް",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "ޑިސްޕްލޭ އޮޕްޝަންސް",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "ފްލޯޓް ވެލިއުސް ދައްކާށެވެ",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "އިންވެންޓްރީ ތަކެތީގެ މައްޗަށް ފްލޯޓް ވެލިއު ބެޖްތައް ދައްކާލުން",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "ސްޓިކާ އަގުތައް ދައްކާ",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "ސްޓިކާ ވެލިއު ހޯވަރ ޕޮޕްއަޕް ދައްކާށެވެ",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "ޕެޓަރން ބެޖްތައް ދައްކާށެވެ",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "ބްލޫ ޖެމް، ޑޮޕްލަރ ފޭސް، ފޭޑް %، މާބަލް ފޭޑް ޕެޓަރންސް",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "ޓްރޭޑް ލޮކް ކައުންޓްޑައުންސް ދައްކާށެވެ",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "ތަޅުލާފައި ހުންނަ ތަކެތީގެ މައްޗަށް ބާކީ ދުވަސްތައް ލިޔެފައިވާ 🔒 ބެޖް ދައްކާލުން",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "ކެޝް",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "އަގު ކެޝް ޓީޓީއެލް",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 ގަޑިއިރު",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "ފްލޯޓް ކެޝް",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "ދާއިމީ (އެއްޗަކަށް)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 ހުރިހާ ކެޝްއެއް ސާފުކުރުން",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "ބަސް",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "އިންޓަރފޭސް ލެންގުއޭޖް",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "ވޯލްޓްލެންސް އޯވަރލޭސް އަދި ޕޮޕްއަޕް އަށް ޔޫއައި ލޭންގުއޭޖް",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "މަލަމަތި",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "ތީމް",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "އަނދިރި",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "އަލި",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "ސިސްޓަމް ޑިފޯލްޓް",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "ވަރޝަން $VERSION$ އެވެ.",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "ރިއަލް ޓައިމް ސީއެސް2 އިންވެންޓްރީ ޕްރައިސިންގ، ފްލޯޓް ވެލިއުސް، ޕެޓަރން ޑިޓެކްޝަން، ސްޓިކާ ވެލިއުސް، އަދި ޓްރޭޑް އެނަލިޓިކްސް — މިހުރިހާ ކަމެއް އެއް ސްކްރީނެއްގައި.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 ކްރޯމް ވެބް ސްޓޯރ",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 ގިޓްހަބް ރިޕޮޒިޓަރީ",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 މައްސަލައެއް ރިޕޯޓްކުރުން",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 ޕްރައިވެސީ",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "ވޯލްޓްލެންސް އަކީ ހިލޭ އަދި އޮޕަން ސޯސް އެއްޗެކެވެ. އެއްވެސް ޑޭޓާއެއް އެއް ނުކުރެއެވެ. ހުރިހާ އެޕީއައި ކޯލްތަކެއް ސީދާ ތިބާގެ ބްރައުޒާއިން ޕަބްލިކް އެޕީއައިތަކަށް ދެއެވެ. ތިބާގެ އެޕީއައި ކީ ލޯކަލްކޮށް ރައްކާކުރެވިފައި ހުންނައިރު، ދުވަހަކުވެސް ވޯލްޓްލެންސް ސަރވަރތަކަށް ޓްރާންސްމިޓް ނުކުރެވެއެވެ.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "ޑޭޓާ ސޯސްސް",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "އެނގޭ ލިމިޓެޝަންސް",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 ތަކެތި ހޯދުން...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 ކޮޕީ ލިސްޓް",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ ކޮޕީކޮށްފައި!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ އަގުތައް ރިފްރެޝްކުރުން",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ ރިފްރެޝިންގ...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ ހޮވާށެވެ",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ ހޮވުން",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "ޑިފޯލްޓް އޯޑަރ އެވެ",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "އަގު: މަތީ → ދަށް",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "އަގު: ދަށް → މަތި",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "ފްލޯޓް: ދަށް → މަތީ",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "ފްލޯޓް: މަތީ → ދަށް",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "ނަން: އޭ → ޒެޑް",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "ސްޓިކާ ވެލިއު ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "ސްޓީމްއައިޑީ64 ކޮޕީކޮށްފި!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "ޓްރޭޑް ލިންކް ކޮޕީކޮށްފި!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "ކޮޕީ ފެއިލްވެއްޖެއެވެ",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "އަގުތައް ތާޒާވެއްޖެ!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "ރިފްރެޝް ފެއިލްވިއެވެ",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 ސްޓީމްއައިޑީ64 ކޮޕީކުރުން",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 ކޮޕީ ޓްރޭޑް ލިންކް",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 ސީއެސްއެފްލޯޓް ސްޓޯލް",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ ސީއެސްޖީއޯ-ރެޕް",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "ޔޫ ގިވް",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "ޔޫ ރިސީވް",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "ޕީ އެންޑް އެލް",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "އަގުތައް ތަފާތުވެދާނެއެވެ. އަބަދުވެސް ޓްރޭޑް ކުރުމުގެ ކުރިން ވެރިފައި ކުރާށެވެ.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "ސްޓިކާ ޖަހާފައި ހުރެއެވެ",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "ޖުމްލަ ސްޓިކާ ވެލިއު",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "ކެޝް ކުރެވިފައިވާ ހުރިހާ އަގުތަކެއް ސާފުކޮށް ފްލޯޓް ޑޭޓާ؟\n\nދެން ބޭނުންކުރާއިރު އަގުތައް އަލުން ގެނެވޭނެއެވެ. ތަކެތި ބަލާ ވަރަކަށް ފްލޯޓް ޑޭޓާ އަލުން ގެނެވޭނެއެވެ.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ ސޭވިންގ...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ ސެޓިންގސް ސޭވް ކުރެވިއްޖެއެވެ",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ އާ ސެޓިންގްސްތަކާއެކު އަގުތައް ގެނައުން...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ ސަލާމަތްވެއްޖެ! $COUNT$ އަގުތައް ގެނެސްފި ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ ޕްރައިސްއެމްޕަޔަރ އެޕީއައި ކީ ލިޔުއްވާށެވެ",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ ކެޝް ކާމިޔާބުކަމާއެކު ކްލިއަރ ކުރެވިއްޖެއެވެ",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ ރިފްރެޝްޑް — $COUNT$ އަގުތައް ލޯޑްކޮށްފި",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "ލޯޑިންގ...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ ތަކެތި · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 މިއަދު",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 ދުވަސް",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ ދުވަސް",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 ތަޅުލާފައި",
+    "description": "Trade lock: locked, no date"
+  }
+}

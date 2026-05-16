@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "वॉल्टलेंस",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "रियल-टाइम CS2 इन्वेंट्री कीमत, फ्लोट मूल्य, पैटर्न पता लाना, स्टिकर मूल्य, ते व्यापार विश्लेषण — सारे इक स्क्रीन पर।",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "अवलोकन",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "सेटिंग्स",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "तकरीबन",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 इन्वेंट्री — वॉल्टलेंस सक्रिय ऐ",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "व्यापार पेशकश — पी एंड एल पैनल सक्रिय ऐ",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "व्यापार पेशकशें दी सूची — पी एंड एल बिल्ला सक्रिय",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "भाप पृष्ठ — इन्वेंट्री च नेविगेट करो",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "कोई स्टीम पेज पर नहीं",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "कुल मूल्य",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "चीजां",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "कीमतें",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "मोड",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "कीमतें अपडेट कीतियां गेइयां",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "कीमतें दी प्रविष्टियां",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "प्रविष्टियां फ्लोट करो",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ कीमतें ताज़ा करो",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "इन्वेंट्री खोली",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "कीमत निर्धारण मोड",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "त्वचा बंदरगाह",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "कोई एपीआई कुंजी दी लोड़ नेईं ऐ। स्किनपोर्ट सार्वजनिक एपीआई दा उपयोग करदा ऐ।",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "अजाद",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "प्राइस साम्राज्य + सीएसफ्लोट",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "बफ163, स्किनपोर्ट ते सीएसफ्लोट दी कीमतें। डॉपलर चरण कीमत निर्धारण। एपीआई कुंजी दी लोड़ ऐ।",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "एपीआई कुंजी",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "प्राइसएम्पायर एपीआई कुंजी",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "चाबी पाओ →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 बचाओ & कीमतें लाओ",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "विकल्प प्रदर्शित करो",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "फ्लोट वैल्यू दिखाओ",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "इन्वेंट्री आइटम पर फ्लोट वैल्यू बैज प्रदर्शत करो",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "स्टिकर कीमतें दिखाओ",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "स्टिकर मान होवर पॉपअप दिखाओ",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "पैटर्न बिल्ला दिखाओ",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "नीले रत्न, डॉपलर चरण, फीका %, संगमरमर फीका पैटर्न",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "ट्रेड लॉक उलटी गिनती दिखाओ",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "ताले आली चीजें पर दिन बचे दे कन्नै 🔒 बिल्ला प्रदर्शित करो",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "कैश",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "कीमत कैश टीटीएल",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "१ घण्टे दा",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "कैश फ्लोट करो",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "स्थायी (प्रति मद) ऐ।",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 सारे कैश साफ करो",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "भाशा",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "इंटरफेस लैंग्वेज",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "VaultLens ओवरले ते पॉपअप आस्तै यूआई भाशा",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "नुहार",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "थीम",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "न्हेरा",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "लो",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "सिस्टम डिफ़ॉल्ट ऐ",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "संस्करण $VERSION$ ऐ।",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "रियल-टाइम CS2 इन्वेंट्री कीमत, फ्लोट मूल्य, पैटर्न पता लाना, स्टिकर मूल्य, ते व्यापार विश्लेषण — सारे इक स्क्रीन पर।",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 क्रोम वेब स्टोर",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 गिटहब भंडार",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 किसी मुद्दे दी रिपोर्ट करो",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 निजता",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "वॉल्टलेंस मुफ्त ते ओपन सोर्स ऐ। कोई बी डाटा इकट्ठा नेईं कीता जंदा ऐ ते ना गै ट्रैक कीता जंदा ऐ। सारे एपीआई काल तुंदे ब्राउज़र थमां सीधे सार्वजनिक एपीआई च जांदे न। तुंदी एपीआई कुंजी स् थानीय रूप कन्नै संग्रहीत कीती जंदी ऐ ते कदें बी वॉल्टलेंस सर्वरें च संचारित नेईं कीती जंदी ऐ।",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "डेटा स्रोत",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "ज्ञात सीमाएं",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 चीजें दी खोज करो...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 कॉपी लिस्ट",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ नकल कीती !",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ कीमतें ताज़ा करो",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ ताज़ा करना...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ चयन करो",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ चयन करना",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "डिफ़ॉल्ट आर्डर दा",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "कीमत: उच्च → कम",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "कीमत: कम → उच्च",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "फ्लोट: कम → उच्च",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "फ्लोट: उच्च → निम्न",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "नाम: ए → जेड",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "स्टिकर वैल्यू ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 ने नकल कीती ऐ!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "ट्रेड लिंक नकल कीती गेई !",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "कॉपी फेल हो गई",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "कीमतें ताज़ा हो गए !",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "ताज़ा करना फेल हो गया",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 स्टीमआईडी64 दी नकल करो",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 कॉपी ट्रेड लिंक",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 सीएसफ्लोट स्टॉल",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ सीएसजीओ-प्रतिनिधि",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "तू दे",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "तुसीं रिसीव करदे हो",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "पी एंड एल",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "कीमतें च बदलाव होई सकदा ऐ। ट्रेडिंग करने शा पैह् ले हमेशा सत्यापन करो।",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "स्टिकर",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "कुल स्टिकर मूल्य",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "सारे कैशे कीते गेदे कीमतें ते फ्लोट डेटा गी साफ करना?\n\nअगले इस्तेमाल पर कीमतें गी दुबारा लाया जाग। फ्लोट डेटा गी दुबारा लैता जाग जि’यां-जि’यां आइटम दिक्खे जाङन।",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ बचत करदे होई...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ सेटिंग्स सेव कीती गेई",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ नमीं सेटिंग्स कन्नै कीमतें गी लाना...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ बचाया गेया ! $COUNT$ कीमतें गी लाया ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ कृपया अपनी PricEmpire एपीआई कुंजी दर्ज करो",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ कैश सफलतापूर्वक साफ हो गया",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ ताज़ा कीता गेआ — $COUNT$ कीमतें लोड होई गेइयां",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "लोड हो रहा है...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ आइटम · $MODE$ ऐ।",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 आज",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 दिन दा",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ दिन",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 ताला लगा दी",
+    "description": "Trade lock: locked, no date"
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Real-time CS2-ynventarisprizen, floatwearden, patroandeteksje, stickerwearden en hannelsanalytyk - alles op ien skerm.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Oersicht",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Ynstellings",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Oer",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Ynventarisaasje - VaultLens aktyf",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Trade Offer - P&L paniel aktyf",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "List fan hannelsoanbiedingen - P&L-badges aktyf",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam-side - navigearje nei ynventarisaasje",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Net op in Steam-side",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Totale Wearde",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Items",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Priis",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Wize",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Prizen bywurke",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Priis yngongen",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Float yngongen",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Prizen ferfarskje",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Iepen Ynventaris",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Priismodus",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Skin port",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Gjin API-kaai nedich. Brûkt Skinport iepenbiere API.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Frij",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat prizen. Doppler faze prizen. Fereasket API kaai.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API Key",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API Key",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Krij kaai →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Prizen opslaan en ophelje",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Display opsjes",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Lit Float Wearden sjen",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Lit floatwearde-badges sjen op ynventaris items",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Lit Sticker prizen sjen",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Lit stickerwearde hover popup sjen",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Patternbadges sjen litte",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Blauwe gem, Doppler faze, fade%, marmer fade patroanen",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Show Trade Lock Countdowns",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Display 🔒 badge mei dagen oerbleaun op beskoattele items",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Priis cache TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 oere",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Float cache",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Permanint (per item)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Alle cache wiskje",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Taal",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Interface Taal",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "UI-taal foar VaultLens-overlays en popup",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Ferskining",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Tema",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Tsjuster",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Ljocht",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Systeem Standert",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Ferzje $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Real-time CS2-ynventarisprizen, floatwearden, patroandeteksje, stickerwearden en hannelsanalytyk - alles op ien skerm.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web Store",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub Repository",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Rapportearje in probleem",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Privacy",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens is fergees en iepen boarne. Gjin gegevens wurde sammele of folge. Alle API-oproppen geane direkt fan jo browser nei iepenbiere API's. Jo API-kaai wurdt lokaal opslein en nea oerdroegen oan VaultLens-tsjinners.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Gegevensboarnen",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Bekende beheinings",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Sykje items...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 List kopiearje",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Kopiearje!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Prizen ferfarskje",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Ferfrissend...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Selektearje",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Selektearje",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Standert oarder",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Priis: Heech → Leech",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Priis: Leech → Heech",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Float: Leech → Heech",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Float: Heech → Leech",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Namme: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Stickerwearde ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 kopiearre!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Hannelskeppeling kopiearre!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Kopiearje mislearre",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Prizen ferfarske!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Ferfarskje mislearre",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Kopiearje SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Kopiearje Trade Link",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Jo jouwe",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Jo ûntfange",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Prizen kinne fariearje. Altyd kontrolearje foardat hanneljen.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Stickers",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Totale Sticker Wearde",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Alle yn it cache bewarre prizen en floatgegevens wiskje?\n\nPrizen wurde opnij ophelle by folgjende gebrûk. Floatgegevens sille opnij ophelle wurde as items wurde besjoen.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Besparje ...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Ynstellings bewarre",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Prizen ophelje mei nije ynstellingen ...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Opslein! $COUNT$ prizen ophelle ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Fier jo PricEmpire API-kaai yn",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Cache mei sukses wiske",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Ferfarske - $COUNT$ prizen laden",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Loading...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ items · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Hjoed",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 dei",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ dagen",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Beskoattele",
+    "description": "Trade lock: locked, no date"
+  }
+}

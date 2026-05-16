@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "실시간 CS2 재고 가격, 유동 가치, 패턴 감지, 스티커 가치 및 거래 분석이 모두 한 화면에 있습니다.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "개요",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "설정",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "에 대한",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 인벤토리 — VaultLens 활성",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "거래 제안 — 손익 패널 활성화",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "거래 제안 목록 - P&L 배지 활성화",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam 페이지 — 인벤토리로 이동",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Steam 페이지에 없음",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "총 가치",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "품목",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "가격",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "방법",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "가격이 업데이트되었습니다.",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "가격 항목",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "플로트 항목",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ 가격 새로고침",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "인벤토리 열기",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "가격 모드",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "스킨 포트",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "API 키가 필요하지 않습니다. Skinport 공개 API를 사용합니다.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "무료",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "가격제국 + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport 및 CSFloat 가격. 도플러 단계 가격. API 키가 필요합니다.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API 키",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "가격제국 API 키",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "열쇠 받기 →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 가격 저장 및 가져오기",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "표시 옵션",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "부동 소수점 값 표시",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "인벤토리 항목에 부동 값 배지 표시",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "스티커 가격 표시",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "스티커 값 호버 팝업 표시",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "패턴 배지 표시",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "블루 젬, 도플러 위상, 페이드 %, 대리석 페이드 패턴",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "거래 잠금 카운트다운 표시",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "잠긴 항목에 남은 일수가 표시된 🔒 배지 표시",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "은닉처",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "가격 캐시 TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1시간",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "플로트 캐시",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "영구(항목당)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 모든 캐시 지우기",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "언어",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "인터페이스 언어",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "VaultLens 오버레이 및 팝업용 UI 언어",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "모습",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "주제",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "어두운",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "빛",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "시스템 기본값",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "버전 $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "실시간 CS2 재고 가격, 유동 가치, 패턴 감지, 스티커 가치 및 거래 분석이 모두 한 화면에 있습니다.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome 웹 스토어",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub 저장소",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 문제 신고",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 개인정보 보호",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens는 무료이며 오픈 소스입니다. 어떠한 데이터도 수집되거나 추적되지 않습니다. 모든 API 호출은 브라우저에서 공개 API로 직접 이동됩니다. API 키는 로컬에 저장되며 VaultLens 서버로 전송되지 않습니다.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "데이터 소스",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "알려진 제한 사항",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 항목 검색...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 목록 복사",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ 복사했습니다!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ 가격 새로고침",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ 상쾌하다...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ 선택",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ 선택",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "기본 순서",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "가격: 높음 → 낮음",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "가격: 낮음 → 높음",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "플로트: 낮음 → 높음",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "플로트: 높음 → 낮음",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "이름: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "스티커 값 ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64가 복사되었습니다!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "거래링크가 복사되었습니다!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "복사 실패",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "가격이 새로워졌습니다!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "새로고침 실패",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 SteamID64 복사",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 거래 링크 복사",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat 스톨",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "당신은 준다",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "당신은 받습니다",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "손익",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "가격은 다를 수 있습니다. 거래하기 전에 항상 확인하십시오.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "스티커",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "총 스티커 가치",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "캐시된 가격과 부동 데이터를 모두 삭제하시겠습니까?\n\n가격은 다음 사용시 다시 가져옵니다. 항목을 볼 때 부동 데이터를 다시 가져옵니다.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ 저장 중...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ 설정이 저장되었습니다",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ 새로운 설정으로 가격을 가져오는 중...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ 저장되었습니다! $COUNT$ 가져온 가격 ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ PriceEmpire API 키를 입력하세요.",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ 캐시가 성공적으로 지워졌습니다.",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ 새로고침 — $COUNT$ 가격 로드됨",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "로드 중...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ 항목 · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 오늘",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1일",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ 일",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 잠김",
+    "description": "Trade lock: locked, no date"
+  }
+}

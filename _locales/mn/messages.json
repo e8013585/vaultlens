@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Бодит цагийн CS2 бараа материалын үнэ, хөвөгч үнэ цэнэ, загвар илрүүлэх, стикерийн үнэ цэнэ, худалдааны аналитик бүгд нэг дэлгэцэн дээр.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Тойм",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Тохиргоо",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "тухай",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Бараа материал — VaultLens идэвхтэй",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Худалдааны санал — P&L самбар идэвхтэй",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Худалдааны саналуудын жагсаалт — P&L тэмдэг идэвхтэй",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam хуудас — бараа материал руу шилжих",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Steam хуудсан дээр биш",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Нийт үнэ цэнэ",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Эд зүйлс",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Үнэтэй",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Горим",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Үнэ шинэчлэгдсэн",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Үнийн бүртгэл",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Хөвөгч оруулгууд",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Үнийг шинэчлэх",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Бараа материалыг нээх",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Үнийн горим",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Арьсны порт",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "API түлхүүр шаардлагагүй. Skinport нийтийн API ашигладаг.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Үнэгүй",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat үнэ. Доплер фазын үнэ. API түлхүүр шаардлагатай.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API түлхүүр",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API түлхүүр",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Түлхүүрийг авах →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 хэмнэж, үнийг нь аваарай",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Дэлгэцийн сонголтууд",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Хөвөгч утгыг харуулах",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Бараа материалын үнэ цэнийн тэмдгийг харуулах",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Стикерийн үнийг харуулах",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Стикерийн утгыг зөөвөрлөх цонхыг харуулах",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Загварын тэмдгийг харуулах",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Цэнхэр эрдэнийн чулуу, Доплер фаз, бүдгэрч %, гантиг бүдгэрч хээ",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Худалдааны түгжээний тооллогыг харуулах",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Түгжигдсэн зүйлс дээр үлдсэн өдрүүдийг харуулсан 🔒 тэмдгийг харуулах",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Кэш",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Үнийн кэш TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 цаг",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Хөвөгч кэш",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Байнгын (нэг зүйл бүрт)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Бүх кэшийг цэвэрлэ",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Хэл",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Интерфейсийн хэл",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "VaultLens давхаргууд болон гарч ирэх цонхонд зориулсан UI хэл",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Гадаад төрх",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Сэдэв",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Харанхуй",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Гэрэл",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Системийн өгөгдмөл",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Хувилбар $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Бодит цагийн CS2 бараа материалын үнэ, хөвөгч үнэ цэнэ, загвар илрүүлэх, стикерийн үнэ цэнэ, худалдааны аналитик бүгд нэг дэлгэцэн дээр.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome вэб дэлгүүр",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub репозитор",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Асуудлыг мэдээлэх",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Нууцлал",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens нь үнэ төлбөргүй, нээлттэй эх сурвалж юм. Ямар ч мэдээлэл цуглуулж, хянадаггүй. Бүх API дуудлага нь таны хөтчөөс шууд нийтийн API руу шилждэг. Таны API түлхүүр дотоодод хадгалагддаг бөгөөд хэзээ ч VaultLens сервер рүү дамжуулдаггүй.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Мэдээллийн эх сурвалж",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Мэдэгдэж буй хязгаарлалтууд",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Зүйлс хайх...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Жагсаалтыг хуулах",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Хуулсан!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Үнийг шинэчлэх",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Сэргээж байна...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Сонго",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Сонгох",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Өгөгдмөл захиалга",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Үнэ: Өндөр → Бага",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Үнэ: Бага → Өндөр",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Хөвөгч: Бага → Өндөр",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Хөвөгч: Өндөр → Бага",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Нэр: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Стикерийн үнэ цэнэ ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64-г хуулсан!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Худалдааны холбоосыг хуулсан!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Хуулж чадсангүй",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Үнэ шинэчлэгдсэн!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Дахин сэргээж чадсангүй",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 SteamID64-г хуулна уу",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Худалдааны холбоосыг хуулах",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat лангуу",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Та өг",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Та хүлээн авах",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Үнэ өөр өөр байж болно. Худалдаа хийхээсээ өмнө үргэлж шалгаж байгаарай.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Стикерүүд",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Нийт стикерийн үнэ цэнэ",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Бүх кэш үнэ болон хөвөх өгөгдлийг арилгах уу?\n\nДараагийн хэрэглээнд үнийг дахин авах болно. Зүйлүүдийг үзэх үед хөвөгч өгөгдлийг дахин татах болно.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Хадгалж байна...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Тохиргоог хадгалсан",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Шинэ тохиргоотой үнэ авч байна...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Хадгалсан! $COUNT$ үнийг авчирсан ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ PricEmpire API түлхүүрээ оруулна уу",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Кэшийг амжилттай устгалаа",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Шинэчлэгдсэн — $COUNT$ үнэ ачаалагдсан",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Ачааж байна...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ зүйл · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Өнөөдөр",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 өдөр",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ өдөр",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Түгжигдсэн",
+    "description": "Trade lock: locked, no date"
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens ya go swara",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Real-nako CS2 inventory theko, phaphametseng boleng, mohlala phumano, setikara boleng, le kgwebo ditshekatsheko - tsohle skrineng se le seng.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Kakaretšo",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Dipeakanyo",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Mabapi le",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventory - VaultLens mafolofolo",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Kgwebo Offer - P & L phanele mafolofolo",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Trade Offers List - P & L dibetšhe mafolofolo",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam leqepheng la - tsamaea ho inventory",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "E sego letlakaleng la Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Palomoka ya Boleng",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Diaetheme",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "E lekanyeditšwe ka theko",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Mokgwa wa",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Ditheko di mpshafaditšwe",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Dikeno tša theko",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Dikeno tša go phaphamala",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Ditheko tša go Hlabolla",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Inventory e Bulegilego",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Mokgwa wa Theko",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Letlalo boema-kepe",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Ga go nyakege senotlelo sa API. E šomiša API ya setšhaba ya Skinport.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Lokologile",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "ThekoMmuso + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Ditheko tša Buff163, Skinport & CSFloat. Doppler mohato theko. Hloka senotlolo sa API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Senotlolo sa API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "Senotlolo sa API sa PriceEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Fumana senotlolo →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Boloka & Lata Ditheko",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Dikgetho tša Pontšho",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Bontšha Ditekanyetšo tša Float",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Bontšha dipetšhe tša boleng bja go phaphamala go dilo tša lenaneo la dithoto",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Bontšha Ditheko tša Setikara",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Bontša setikara boleng hover popup",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Bontšha Dipetšhe tša Paterone",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Blue lehlwa, Doppler mohato, fifala %, 'mabole fifala dipaterone",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Bontšha Dipalo tša go Theoga tša Senotlolo sa Kgwebo",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Pontšo 🔒 betšhe ka matsatsi a setseng ka dintho tse notletsweng",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache ya go boloka",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Theko ya cache TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 hora",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Float cache ya go phaphamala",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Sa ruri (ka ntho e nngwe le e nngwe) .",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Hlakola Cache kaofela",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Polelo",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Polelo ya Segokaganyi",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "UI puo bakeng sa VaultLens overlays le popup",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Ponagalo",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Tabataba",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Leswiswi",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Seetša",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Tshepedišo ya Tlwaelo",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Phetolelo $VERSION$ .",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Real-nako CS2 inventory theko, phaphametseng boleng, mohlala phumano, setikara boleng, le kgwebo ditshekatsheko - tsohle skrineng se le seng.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Lebenkele la Wepesaete la Chrome",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Polokelo ya GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Bega Taba",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Sephiri",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens ke mahala le mohlodi o bulehileng. Ga go na datha yeo e kgoboketšwago goba yeo e latišišwago. Dipitšo ka moka tša API di ya thwii go tšwa go sephephediši sa gago go ya go di-API tša setšhaba. Senotlelo sa gago sa API se bolokilwe ka mo nageng gomme ga se ke sa fetišetšwa go di-server tša VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Methopo ya Datha",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Mellwane ye e Tsebjago",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Batla dilo...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Lenaneo la Khopi",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ E kopišitšwe!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Ditheko tša go Hlabolla",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Go lapološa...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Kgetha",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Go kgetha",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Taelo ya Tlwaelo",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Theko: Godimo → Tlase",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Theko: Tlase → Phahameng",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Float: Tlase → Godimo",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Phaphamala: Godimo → Tlase",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Lebitso: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Boleng bja Setikara ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 e kopišitšwe!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Kgokagano ya kgwebo e kopišitšwe!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Khopi e paletšwe",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Ditheko di hlapološitšwe!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Go hlabolla go paletšwe",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Kopiša SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Khopiša Kgokagano ya Kgwebo",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 Setaleng sa CSFloat",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "O Neela",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "O Amogela",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Ditheko di ka fapana. Ka mehla netefatša pele o gweba.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Dikgomaretši",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Palomoka ya Boleng bja Setikara",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Hlakola ditheko ka moka tše di bolokilwego le go phaphamala ya data?\n\nDitheko di tla tšewa gape ka tšhomišo ye e latelago. Datha ya go phaphamala e tla lata gape ge dilo di lebelelwa.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Go boloka...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Dipeakanyo di bolokilwe",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Go lata ditheko ka dipeakanyo tše mpsha...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ E bolokilwe! $COUNT$ ditheko tše di tlišitšwego ($MODE$) .",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Hle tsenya senotlelo sa gago sa API sa PricEmpire",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Cache e hlakotšwe ka katlego",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ E hlapološitšwe — $COUNT$ ditheko di imetšwe",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Loading...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ dilo · $MODE$ .",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Lehono",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 letsatsi",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ matsatsi a",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 E notletšwe",
+    "description": "Trade lock: locked, no date"
+  }
+}

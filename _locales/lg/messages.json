@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Emiwendo gy’ebintu bya CS2 mu kiseera ekituufu, emiwendo gy’okutambula, okuzuula omusono, emiwendo gya sitiika, n’okwekenneenya eby’obusuubuzi — byonna ku ssirini emu.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Okutwalira awamu",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Enteekateeka",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Ku",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventory — VaultLens ekola",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Okuwaayo eby’obusuubuzi — P&L panel ekola",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Olukalala lw’ebintu ebiweebwayo mu by’obusuubuzi — P&L badges active",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Omuko gwa Steam — genda ku yinvensulo",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Si ku mukutu gwa Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Omuwendo Omugatte",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Ebintu",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Bbeeyi",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Omutindo",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Emiwendo gitereezeddwa",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Ebiyingizibwa mu bbeeyi",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Ebiyingizibwa ebitengejja",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Emiwendo gy'okuzza obuggya",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Open Inventory",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Enkola y’Emiwendo",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Omwalo gw’olususu",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Tekyetaagisa kisumuluzo kya API. Ekozesa Skinport API ey'olukale.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Bwereere",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "BbeeyiEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Emiwendo gya Buff163, Skinport & CSFloat. Okugereka emiwendo gya Doppler phase. Yeetaaga ekisumuluzo kya API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Ekisumuluzo kya API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "Ekisumuluzo kya API ekya PricEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Funa ekisumuluzo →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Teeka & Leeta Emiwendo",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Okwolesebwa kw’Ebyokulonda",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Laga Emiwendo gya Float",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Laga badge z'omuwendo gwa float ku bintu bya yinvensulo",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Laga Emiwendo gya Sitiika",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Laga omuwendo gwa sitiika hover popup",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Laga Badge za Pattern",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Blue gem, Doppler phase, okufa %, emisono gy’okufa kwa marble",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Laga Okubala Okudda emabega mu Kusiba Ebisuubuzi",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Okwolesebwa 🔒 badge nga wasigaddeyo ennaku ku bintu ebisibe",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Bbeeyi cache TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "Essaawa emu",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Float cache",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Enkalakkalira (buli kintu) .",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Clear All Cache",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Olulimi",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Olulimi Olukwatagana",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Olulimi lwa UI olw'okubikka kwa VaultLens n'okufuluma",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Endabika",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Omulamwa",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Ekizikiza",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Koleeza",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Enkola Default",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Enkyusa $VERSION$ .",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Emiwendo gy’ebintu bya CS2 mu kiseera ekituufu, emiwendo gy’okutambula, okuzuula omusono, emiwendo gya sitiika, n’okwekenneenya eby’obusuubuzi — byonna ku ssirini emu.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Edduuka ly'omukutu gwa Chrome",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Etterekero lya GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Loopa Ensonga",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Eby'ekyama",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens ya bwereere era ya nsibuko nzigule. Tewali data ekuŋŋaanyizibwa oba okulondoolebwa. Okuyita kwonna kwa API kugenda butereevu okuva ku browser yo okudda ku API ez'olukale. Ekisumuluzo kyo ekya API kiterekebwa mu kitundu era tekiweebwayo ku seeva za VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Ensonda z’Amawulire",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Ebikoma Ebimanyiddwa",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Noonya ebintu...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Olukalala lw'okukoppa",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Ekoppoloddwa!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Emiwendo gy'okuzza obuggya",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Okuzzaamu amaanyi...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Londa",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Okulonda",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Ekiragiro Ekisookerwako",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Bbeeyi: Waggulu → Wansi",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Bbeeyi: Wansi → Waggulu",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Float: Wansi → Waggulu",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Float: Waggulu → Wansi",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Erinnya: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Omuwendo gwa Sitiika ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 ekoppa!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Link y'obusuubuzi ekoppeddwa!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Okukoppa kulemereddwa",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Emiwendo gizzeemu amaanyi!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Okuzza obuggya kulemereddwa",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Koppa SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Koppa Link y'ebyobusuubuzi",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 Omudaala gwa CSFloat",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ Omubaka wa CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Ggwe Owa",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Ggwe Ofuna",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Emiwendo giyinza okwawukana. Bulijjo kakasa nga tonnasuubula.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Sitika",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Omuwendo gwa Sitika Omugatte",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Okugogola emiwendo gyonna egya cached ne float data?\n\nEmiwendo gyakuddamu okuleetebwa ku nkozesa eddako. Float data ejja kuddamu okuleetebwa nga ebintu bwe birabibwa.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Okutereka...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Ensengeka ziterekeddwa",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Okuleeta emiwendo n'ensengeka empya...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Awonye! $COUNT$ emiwendo gyaleeteddwa ($MODE$) .",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Nsaba oyingize ekisumuluzo kyo ekya PricEmpire API",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Cache elongooseddwa bulungi",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Okuzza obuggya — $COUNT$ emiwendo gitikkiddwa",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Okutikka...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ ebintu · $MODE$ .",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Leero",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 Olunaku 1",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ ennaku",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Basibye",
+    "description": "Trade lock: locked, no date"
+  }
+}

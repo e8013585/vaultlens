@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "वॉल्टलेंस के इस्तेमाल कइल जाला",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "रियल-टाइम CS2 इन्वेंट्री प्राइसिंग, फ्लोट वैल्यू, पैटर्न डिटेक्शन, स्टिकर वैल्यू, आ ट्रेड एनालिटिक्स — ई सभ एकही स्क्रीन पर।",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "अवलोकन कइल जाव",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "सेटिंग्स के बारे में बतावल गइल बा",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "बारे में",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 इन्वेंट्री — वॉल्टलेंस सक्रिय बा",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "ट्रेड ऑफर — पी एंड एल पैनल सक्रिय बा",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "व्यापार प्रस्ताव सूची — पी एंड एल बैज सक्रिय बा",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "भाप पन्ना — इन्वेंट्री पर नेविगेट करीं",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "कवनो स्टीम पेज पर ना",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "कुल मूल्य के बा",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "वस्तू",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "दाम दिहल गइल बा",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "मोड के बा",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "दाम अपडेट हो गइल बा",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "कीमत के प्रविष्टि बा",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "प्रविष्टि के फ्लोट कइल जाला",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ दाम ताजा करे के बा",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "खुला इन्वेंट्री के बा",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "मूल्य निर्धारण मोड के बा",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "त्वचा के बंदरगाह बा",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "कवनो एपीआई कुंजी के जरूरत नइखे. स्किनपोर्ट पब्लिक एपीआई के इस्तेमाल करेला।",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "बेपइसा के",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "प्राइसएम्पायर + सीएसफ्लोट के बा",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "बफ163, स्किनपोर्ट एंड सीएसफ्लोट के दाम बा। डॉपलर फेज के दाम तय कइल जाला. एपीआई कुंजी के जरूरत बा।",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "एपीआई कुंजी के बा",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "प्राइसएम्पायर एपीआई कुंजी के बा",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "चाभी मिल जाला →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 बचाईं & दाम ले आईं",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "डिस्प्ले विकल्प के बारे में बतावल गइल बा",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "फ्लोट मान देखावल जाला",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "इन्वेंट्री आइटम पर फ्लोट वैल्यू बैज प्रदर्शित करीं",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "स्टिकर के दाम देखावल जाव",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "स्टिकर मान होवर पॉपअप देखाईं",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "पैटर्न के बैज देखावल जाला",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "नीले रत्न, डॉपलर चरण, फीका %, संगमरमर फीका पैटर्न",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "ट्रेड लॉक उलटी गिनती देखावल जाव",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "ताला लागल आइटम पर दिन बाकी के साथ 🔒 बैज प्रदर्शित करीं",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "कैश के बा",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "कीमत कैश टीटीएल के बा",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 घंटा के बा",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "कैश के फ्लोट कइल जाला",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "स्थायी (प्रति आइटम) के बा।",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 सब कैश साफ कर दिहल जाला",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "भाखा",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "इंटरफेस भाषा के बारे में बतावल गइल बा",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "वॉल्टलेंस ओवरले आ पॉपअप खातिर यूआई भाषा",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "भेख",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "विषय",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "अन्हरिया",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "उजियार",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "सिस्टम डिफ़ॉल्ट बा",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "संस्करण $VERSION$ बा।",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "रियल-टाइम CS2 इन्वेंट्री प्राइसिंग, फ्लोट वैल्यू, पैटर्न डिटेक्शन, स्टिकर वैल्यू, आ ट्रेड एनालिटिक्स — ई सभ एकही स्क्रीन पर।",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 क्रोम वेब स्टोर के बा",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 गिटहब भंडार के बा",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 कवनो मुद्दा के रिपोर्ट करीं",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 निजता के बा",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "वॉल्टलेंस मुफ्त आ ओपन सोर्स बा। कवनो डेटा एकट्ठा ना कइल जाला ना ट्रैक कइल जाला. सभ एपीआई कॉल सीधे आपके ब्राउज़र से पब्लिक एपीआई में जाला। राउर एपीआई कुंजी स्थानीय रूप से संग्रहीत होला आ कबो वॉल्टलेंस सर्वर पर ना भेजल जाला।",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "डेटा के स्रोत के बारे में बतावल गइल बा",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "ज्ञात सीमा के बारे में बतावल गइल बा",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 खोज के आइटम...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 कॉपी लिस्ट के बा",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ नकल कइल गइल बा!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ दाम ताजा करे के बा",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ ताज़ा हो रहल बा...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ चुने के बा",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ चयन कइल जा रहल बा",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "डिफ़ॉल्ट ऑर्डर के बा",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "कीमत: उच्च → कम बा",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "कीमत: कम → उच्च बा",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "फ्लोट: कम → उच्च बा",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "फ्लोट: उच्च → कम बा",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "नाम: ए → जेड के बा",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "स्टिकर के मान ↓ बा",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 के कॉपी कइल गइल!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "ट्रेड लिंक कॉपी हो गइल बा!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "कॉपी फेल हो गइल",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "दाम ताजा हो गइल!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "रिफ्रेश फेल हो गइल",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 स्टीमआईडी64 के कॉपी करीं",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 कॉपी ट्रेड लिंक के बा",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 सीएसएफलोट स्टॉल के बा",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ सीएसजीओ-प्रतिनिधि के बा",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "तू दे दऽ",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "रउरा रिसीव कर लेत बानी",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "पी एंड एल के बा",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "दाम अलग-अलग हो सकेला। ट्रेडिंग से पहिले हमेशा सत्यापन करीं।",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "स्टिकर लगावल जाला",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "कुल स्टिकर के मूल्य बा",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "सभ कैश कइल दाम साफ करीं आ डेटा फ्लोट करीं?\n\nअगिला इस्तेमाल पर दाम फेर से ले आवल जाई. जइसे-जइसे आइटम देखल जाई, फ्लोट डेटा के दोबारा ले आवल जाई।",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ बचत हो रहल बा...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ सेटिंग्स सेव हो गइल बा",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ नया सेटिंग के साथ दाम ले आवल जा रहल बा...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ सहेजल गइल बा! $COUNT$ दाम ले आइल ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ कृपया आपन PricEmpire एपीआई कुंजी दर्ज करीं",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ कैश सफलतापूर्वक साफ हो गइल",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ ताजा हो गइल — $COUNT$ दाम लोड हो गइल बा",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "लोड हो रहल बा...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ आइटम · $MODE$ के बा।",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 आज के समय में",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 दिन के बा",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ दिन के बा",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 ताला लागल बा",
+    "description": "Trade lock: locked, no date"
+  }
+}

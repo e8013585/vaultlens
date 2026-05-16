@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Farashin kaya na CS2 na ainihi, ƙimar kima, gano ƙima, ƙimar sitika, da nazarin ciniki - duk akan allo ɗaya.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Dubawa",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Saituna",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Game da",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventory - VaultLens yana aiki",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Bayar Ciniki - P&L panel yana aiki",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Jerin Abubuwan Ba ​​da Kasuwanci - P&L alamun suna aiki",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Shafin Steam - kewaya zuwa kaya",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Ba a kan shafin Steam ba",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Jimlar Darajar",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Abubuwa",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Farashi",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Yanayin",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "An sabunta farashin",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Shigar da farashin",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Shigar da ruwa",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Sake Farashi",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Bude Inventory",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Yanayin farashi",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Tashar fata",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Babu maɓallin API da ake buƙata. Yana amfani da Skinport jama'a API.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Kyauta",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PriceEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat farashin. Farashin lokaci na Doppler. Yana buƙatar maɓallin API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Maɓallin API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "Maɓallin API na PricEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Samu makullin →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Ajiye & Dauke Farashi",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Zaɓuɓɓukan Nuni",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Nuna Ƙimar Tafiya",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Nuna bajojin kimar ta iyo akan abubuwan ƙirƙira",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Nuna Farashin Sitika",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Nuna buguwar kimar sitika",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Nuna Alamomin Tsari",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Blue gem, Doppler lokaci, Fade%, marmara Fade alamu",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Nuna Ƙididdiga Kulle Kasuwanci",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Nuna alamar 🔒 tare da ragowar kwanaki akan abubuwan kulle",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Farashin cache TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "awa 1",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Cache mai iyo",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Na dindindin (kowane abu)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Share Duk Cache",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Harshe",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Harshen Mu'amala",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Harshen UI don VaultLens mai rufi da bugu",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Bayyanar",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Jigo",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Duhu",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Haske",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Tsoffin tsarin",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Siga $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Farashin kaya na CS2 na ainihi, ƙimar kima, gano ƙima, ƙimar sitika, da nazarin ciniki - duk akan allo ɗaya.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Shagon Yanar Gizo na Chrome",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub Repository",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Bayar da Batu",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Sirri",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens kyauta ne kuma buɗe tushen. Ba a tattara ko bin diddigin bayanai ba. Duk kiran API yana tafiya kai tsaye daga burauzar ku zuwa API na jama'a. Ana adana maɓallin API ɗinku a gida kuma ba a taɓa watsa shi zuwa sabar VaultLens ba.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Tushen Bayanai",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Iyakokin da aka sani",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Neman abubuwa...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Copy List",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Kwafi!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Sake Farashi",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Yana wartsakewa...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Zaɓi",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Zaba",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Tsarin Tsohuwar",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Farashin: Babban → Ƙananan",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Farashin: Low → High",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Tafiya: Ƙananan → Maɗaukaki",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Mai iyo: Babban → Ƙananan",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Suna: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Darajar Sitika ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 kofe!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "An kwafe hanyar kasuwanci!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Kwafi ya kasa",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "An sabunta farashin!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "An kasa farfadowa",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Kwafi SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Copy Link Trade",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Ka ba",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Kuna karba",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Farashin na iya bambanta. Koyaushe tabbatar kafin ciniki.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Lambobin lambobi",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Jimlar Ƙimar Sitika",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Share duk farashin da aka adana da bayanan iyo?\n\nZa a sake fitar da farashi akan amfani na gaba. Za a sake debo bayanan mai iyo yayin da ake duba abubuwa.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Ajiye...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Ajiye saituna",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Ana samun farashi tare da sabbin saituna...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Ajiye! $COUNT$ an samo farashin ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Da fatan za a shigar da maɓallin API na PricEmpire",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ An share cache cikin nasara",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ An sabunta - $COUNT$ an ɗora farashin",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Ana lodawa...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ abubuwa · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Yau",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 kwana 1",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ kwanaki",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Kulle",
+    "description": "Trade lock: locked, no date"
+  }
+}

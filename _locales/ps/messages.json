@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "د ریښتیني وخت CS2 موجودیت قیمت ، د فلوټ ارزښتونه ، د نمونې کشف ، سټیکر ارزښتونه ، او د سوداګرۍ تحلیلونه - ټول په یوه سکرین کې.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "کتنه",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "ترتیبات",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "په اړه",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "د CS2 لیست - VaultLens فعال",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "د سوداګرۍ وړاندیز - د P&L پینل فعال دی",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "د سوداګرۍ وړاندیزونو لیست — د P&L بیجونه فعال دي",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "د بھاپ پاڼه - لیست ته لاړ شئ",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "په Steam پاڼه کې نه",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "ټول ارزښت",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "توکي",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "قیمت شوی",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "موډ",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "نرخونه تازه شوي",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "د قیمت داخلونه",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "د ننوتلو فلوټ",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ نرخونه تازه کړئ",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "انوینټری خلاص کړئ",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "د قیمت کولو حالت",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "د پوستکي بندر",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "هیڅ API کیلي ته اړتیا نشته. د سکنپورټ عامه API کاروي.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "وړيا",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163، سکنپورټ او CSFloat قیمتونه. د ډوپلر مرحلې قیمت. د API کیلي ته اړتیا لري.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "د API کیلي",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "د PricEmpire API کیلي",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "کیلي ترلاسه کړئ →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 قیمتونه خوندي کړئ او ترلاسه کړئ",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "د ښودلو اختیارونه",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "د فلوټ ارزښتونه وښایاست",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "په موجوداتو کې د فلوټ ارزښت بیجونه ښکاره کړئ",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "د سټیکر نرخونه وښایاست",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "د سټیکر ارزښت هوور پاپ اپ وښایاست",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "د نمونې بیجونه وښایاست",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "نیلي جواهر، د ډوپلر مرحله، فیډ٪، د مرمرو د غوړیدو نمونې",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "د سوداګرۍ لاک شمېرنې ښودل",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "په تړل شوي توکو کې د پاتې ورځو سره 🔒 بیج ښکاره کړئ",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "کیچ",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "د قیمت زیرمه TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 ساعت",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "فلوټ کیچ",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "دايمي (هر توکي)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 ټول کیچ پاک کړئ",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "ژبه",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "د انٹرفیس ژبه",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "د VaultLens پوښښ او پاپ اپ لپاره د UI ژبه",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "بڼه",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "موضوع",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "تیاره",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "رڼا",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "سیسټم ډیفالټ",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "نسخه $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "د ریښتیني وخت CS2 موجودیت قیمت ، د فلوټ ارزښتونه ، د نمونې کشف ، سټیکر ارزښتونه ، او د سوداګرۍ تحلیلونه - ټول په یوه سکرین کې.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 کروم ویب پلورنځی",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub ذخیره",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 یوه مسله راپور کړئ",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 محرمیت",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens وړیا او خلاص سرچینه ده. هیڅ معلومات راټول شوي یا تعقیب شوي ندي. ټول API زنګونه مستقیم ستاسو د براوزر څخه عامه APIs ته ځي. ستاسو د API کیلي په ځایی توګه زیرمه شوې او هیڅکله د VaultLens سرورونو ته نه لیږدول کیږي.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "د معلوماتو سرچینې",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "پیژندل شوي محدودیتونه",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 توکي وپلټئ...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 کاپي لیست",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ کاپي شوی!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ نرخونه تازه کړئ",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ تازه کول...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ غوره کړئ",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ انتخاب کول",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "ډیفالټ امر",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "بیه: لوړ → ټیټ",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "بیه: ټیټ → لوړ",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "فلوټ: ټیټ → لوړ",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "فلوټ: لوړ → ټیټ",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "نوم: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "د سټیکر ارزښت ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 کاپي شوی!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "د سوداګرۍ لینک کاپي شوی!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "کاپي ناکامه شوه",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "نرخونه تازه شوي!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "تازه کول ناکام شول",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 کاپي SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 د سوداګرۍ لینک کاپي کړئ",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat سټال",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "تاسو ورکړئ",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "تاسو ترلاسه کوئ",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "نرخونه ممکن توپیر ولري. تل د سوداګرۍ دمخه تایید کړئ.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "سټیکرونه",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "د سټیکر ټول ارزښت",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "ټول زیرمه شوي قیمتونه او فلوټ ډاټا پاک کړئ؟\n\nنرخونه به په راتلونکي استعمال کې بیرته راوړل شي. د فلوټ ډاټا به بیا راوړل شي لکه څنګه چې توکي لیدل کیږي.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ خوندي کول...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ ترتیبات خوندي شوي",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ د نوي ترتیباتو سره د قیمتونو ترلاسه کول ...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ خوندي شوی! $COUNT$ نرخونه راوړل شوي ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ مهرباني وکړئ خپل د PricEmpire API کیلي دننه کړئ",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ زیرمه په بریالیتوب سره پاکه شوه",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ تازه شوی — $COUNT$ نرخونه بار شوي",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "بار کول...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ توکي · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 نن ورځ",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 ورځ",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ ورځې",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 تړل شوی",
+    "description": "Trade lock: locked, no date"
+  }
+}

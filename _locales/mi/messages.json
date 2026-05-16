@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Te utu rara CS2 wa-tuuturu, nga uara rewa, te kitenga tauira, te uara whakapiri, me te tātari hokohoko - katoa i runga i te mata kotahi.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Tirohanga",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Tautuhinga",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Mō",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventory — VaultLens hohe",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Hokohoko Hokohoko — Hohe tonu te roopu P&L",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Rarangi Tauhokohoko — Hohe nga tohu P&L",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Wharangi Steam — whakatere ki te raarangi",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Kaore i runga i te wharangi Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Uara Tapeke",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Nga taonga",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Utu",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Aratau",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Ko nga utu kua whakahoutia",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Utu urunga",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Mānu ngā tāurunga",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Whakahou Utu",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Tuwhera Rarangi",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Aratau Utu",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Tauranga kiri",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Kaore he matua API e hiahiatia ana. Ka whakamahi i te API whanui Skinport.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Kore utu",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat utu. Utu wahanga Doppler. Ka hiahiatia he matua API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Kī API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API Kī",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Tikina te kī →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Tiaki & Tikina Utu",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Kōwhiringa Whakaatu",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Whakaatu Uara Mānu",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Whakaatuhia nga tohu uara rewa i runga i nga taonga taonga",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Whakaatuhia nga utu whakapiri",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Whakaatu pahū-ake uara whakapiri",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Whakaatu Tohu Tauira",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "He kowhatu puru, wahanga Doppler, memeha %, tauira memeha mapere",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Whakaatuhia nga Kaute Maukati Tauhokohoko",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Whakaatuhia te tohu 🔒 me nga ra e toe ana ki nga mea kua maukati",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Keteroki",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Utu keteroki TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 haora",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Manu keteroki",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Pūmau (ia tūemi)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Ūkui Keteroki Katoa",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Reo",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Reo Atanga",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Te reo UI mo nga whakakikorua me te pakūake VaultLens",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Te ahua",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Kaupapa",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "pouri",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Maama",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Pūnaha Taunoa",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Putanga $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Te utu rara CS2 wa-tuuturu, nga uara rewa, te kitenga tauira, te uara whakapiri, me te tātari hokohoko - katoa i runga i te mata kotahi.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Toa Tukutuku Chrome",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Pūrangapu GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Ripoata tetahi Take",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Tūmataitinga",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "He kore utu a VaultLens he puna tuwhera. Karekau he raraunga ka kohia, ka whaia ranei. Ko nga waea API katoa ka haere tika mai i to kaitirotiro ki nga API whanui. Ka penapenahia to taviri API ki te rohe, kaore rawa e tukuna ki nga tūmau VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Puna Raraunga",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Nga herenga e mohiotia ana",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Rapua nga taonga...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Tārua Rārangi",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Kua kapea!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Whakahou Utu",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Tāmata...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Tīpakohia",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Te whiriwhiri",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Raupapa Taunoa",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Utu: Teitei → Iti",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Utu: Iti → Teitei",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Mānu: Iti → Teitei",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Mānu: Teitei → Iti",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Ingoa: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Uara whakapiri ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 kua kape!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Kua kapehia te hononga hokohoko!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "I rahua te kape",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Kua whakahoutia nga utu!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "I rahua te tāmata",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Tārua SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Tārua Hononga Tauhokohoko",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Hoatu e koe",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Ka whiwhi koe",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Ka rereke pea nga utu. Manatoko i nga wa katoa i mua i te hokohoko.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Kaipiri",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Uara Tapeke Tapeke",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Ūkuia nga utu keteroki katoa me nga raraunga rewa?\n\nKa tangohia ano nga utu mo te whakamahinga o muri. Ka tikina ano nga raraunga maanu ina tirohia nga taonga.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Tiaki...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Tautuhinga kua tiakina",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Tiki utu me nga tautuhinga hou...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Kua tiakina! $COUNT$ utu i tikina ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Whakauruhia to taviri API PricEmpire",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ I tutuki pai te keteroki",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Whakahou — $COUNT$ nga utu kua utaina",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Uta ana...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ tūemi · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 I tenei ra",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 ra",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ ra",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Kua maukati",
+    "description": "Trade lock: locked, no date"
+  }
+}

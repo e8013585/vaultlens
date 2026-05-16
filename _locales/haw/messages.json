@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "ʻO ke kumu kūʻai kumu kūʻai CS2 manawa maoli, nā waiwai lana, ka ʻike ʻana i ke ʻano, nā waiwai sticker, a me nā loiloi kālepa - ma ka pale hoʻokahi.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Nānā nui",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Nā hoʻonohonoho",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "E pili ana",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventory — VaultLens hana",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Hāʻawi Kūʻai - P&L panel active",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Ka papa inoa o nā makana - P&L mau hōʻailona hana",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "ʻaoʻao mahu - hoʻokele i ka waihona",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "ʻAʻole ma kahi ʻaoʻao Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Huina Waiwai",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Nā mea",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Kūʻai ʻia",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Ke ano",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Nā kumu kūʻai hou",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Kākoʻo kumu kūʻai",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Nā hoʻokomo lana",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Nā kumu kūʻai hou",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Wehe i ka Inventory",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Kūʻai Kūʻai",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "awa ʻili",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "ʻAʻohe kī API i koi ʻia. Hoʻohana ʻo Skinport public API.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Kuokoa",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat kumukūʻai. Ke kumu kūʻai o ka pae Doppler. Pono ke kī API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Kiʻi API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API Key",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "E kiʻi i ke kī →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Mālama a kiʻi i nā kumukūʻai",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Nā koho hōʻike",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Hōʻike i nā Waiwai Lana",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Hōʻike i nā hōʻailona waiwai lana ma nā mea waiwai",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Hōʻike i nā kumukūʻai Sticker",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "E hōʻike i ka hover hover popup",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Hōʻike i nā hōʻailona hoʻohālike",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Polu pōhaku, Doppler phase, fade%, marble fade patterns",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Hōʻike i nā helu helu ʻana i ke kālepa",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Hōʻike i ka hōʻailona 🔒 me nā lā i koe ma nā mea paʻa",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Huki kumu kūʻai TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 hola",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "huna huna",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Paʻa (no kēlā me kēia mea)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Holoi i ka pahu huna a pau",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "ʻŌlelo",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "ʻŌlelo Interface",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "'Ōlelo UI no VaultLens overlays a popup",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Ka nana aku",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Kumuhana",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Poʻeleʻele",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Māmā",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Pūnaehana Default",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Manao $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "ʻO ke kumu kūʻai kumu kūʻai CS2 manawa maoli, nā waiwai lana, ka ʻike ʻana i ke ʻano, nā waiwai sticker, a me nā loiloi kālepa - ma ka pale hoʻokahi.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Halekuai Pūnaewele Chrome",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Waihona waihona ʻo GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Hōʻike i kahi pilikia",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Pilikino",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "He manuahi a wehe ʻia ʻo VaultLens. ʻAʻohe ʻikepili i hōʻiliʻili ʻia a nānā ʻia. Hele pololei nā kelepona API āpau mai kāu polokalamu kele pūnaewele i nā API lehulehu. Mālama ʻia kāu kī API ma ka ʻāina a ʻaʻole i hoʻouna ʻia i nā kikowaena VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Nā PunaʻIkepili",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Nā palena ʻike ʻia",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Huli i nā mea...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Papa inoa kope",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Kope ʻia!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Nā kumu kūʻai hou",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Hōʻoluʻolu...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Koho",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Ke koho ʻana",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Kauoha Paʻamau",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Kumukuai: Kiʻekiʻe → Haʻahaʻa",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Kumukuai: Haʻahaʻa → Kiʻekiʻe",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Lana: Haʻahaʻa → Kiʻekiʻe",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Lana: Kiʻekiʻe → Haʻahaʻa",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Inoa: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Waiwai Sticker ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "Ua kope ʻia ʻo SteamID64!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Ua kope kope ʻia ka loulou kalepa!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "ʻAʻole hiki ke kope",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Hoʻonui hou ʻia nā kumukūʻai!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "ʻAʻole hiki ke hōʻano hou",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Kope i ka SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Kope i ka loulou kalepa",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Hāʻawi ʻoe",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Loaʻa iā ʻoe",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "He ʻokoʻa paha nā kumukūʻai. E hōʻoia mau ma mua o ke kālepa.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Mea hoʻopili",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Ka nui o ka waiwai paʻi kiʻi",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Holoi i nā kumukūʻai huna a me ka ʻikepili lana?\n\nE kiʻi hou ʻia nā kumukūʻai i ka hoʻohana hou ʻana. E kiʻi hou ʻia ka ʻikepili lana ke nānā ʻia nā mea.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Mālama...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Mālama ʻia nā ʻōkuhi",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Ke kiʻi nei i nā kumukūʻai me nā hoʻonohonoho hou...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Mālama ʻia! $COUNT$ nā kumu kūʻai i kiʻi ʻia ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ E ʻoluʻolu e hoʻokomo i kāu kī API PricEmpire",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Holoi ʻia ka waihona",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Hoʻohou — $COUNT$ nā kumukūʻai i hoʻouka ʻia",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Ke hoʻouka nei...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ mau mea · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 I kēia lā",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 lā",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ lā",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 laka",
+    "description": "Trade lock: locked, no date"
+  }
+}

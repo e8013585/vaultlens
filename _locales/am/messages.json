@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "ቮልት ሌንስ",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "የእውነተኛ ጊዜ CS2 ክምችት ዋጋ፣ ተንሳፋፊ እሴቶች፣ ስርዓተ-ጥለት ማወቅ፣ ተለጣፊ እሴቶች እና የንግድ ትንተና - ሁሉም በአንድ ስክሪን ላይ።",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "አጠቃላይ እይታ",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "ቅንብሮች",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "ስለ",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 ኢንቬንቶሪ - VaultLens ንቁ",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "የንግድ አቅርቦት — የP&L ፓነል ገቢር ነው።",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "የንግድ ቅናሾች ዝርዝር — P&L ባጆች ገቢር ናቸው።",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "የእንፋሎት ገጽ - ወደ ክምችት ይሂዱ",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "በእንፋሎት ገጽ ላይ አይደለም።",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "ጠቅላላ ዋጋ",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "እቃዎች",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "ዋጋ ያለው",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "ሁነታ",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "ዋጋዎች ተዘምነዋል",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "የዋጋ ግቤቶች",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "ተንሳፋፊ ምዝግቦች",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ ዋጋዎችን ያድሱ",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "ክምችት ክፈት",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "የዋጋ አሰጣጥ ሁኔታ",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "የቆዳ ወደብ",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "ምንም የኤፒአይ ቁልፍ አያስፈልግም። Skinport ይፋዊ ኤፒአይ ይጠቀማል።",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "ፍርይ",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163፣ Skinport እና CSFloat ዋጋዎች። የዶፕለር ደረጃ ዋጋ። የኤፒአይ ቁልፍ ያስፈልገዋል።",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "የኤፒአይ ቁልፍ",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API ቁልፍ",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "ቁልፍ ያግኙ →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 ይቆጥቡ እና ዋጋዎችን ያግኙ",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "የማሳያ አማራጮች",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "የተንሳፋፊ እሴቶችን አሳይ",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "በክምችት ዕቃዎች ላይ የተንሳፋፊ እሴት ባጆችን አሳይ",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "የተለጣፊ ዋጋዎችን አሳይ",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "የሚለጠፍ እሴት ማንዣበብ ብቅ ባይን አሳይ",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "የስርዓተ ጥለት ባጆችን አሳይ",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "ሰማያዊ ዕንቁ፣ የዶፕለር ደረጃ፣ ደብዝዞ %፣ የእብነበረድ መደብዘዝ ቅጦች",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "የንግድ ቆልፍ ቆጠራዎችን አሳይ",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "🔒 ባጅ በተቆለፉ እቃዎች ላይ የቀራትን ቀን አሳይ",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "መሸጎጫ",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "የዋጋ መሸጎጫ TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 ሰዓት",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "ተንሳፋፊ መሸጎጫ",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "ቋሚ (በእቃ)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 ሁሉንም መሸጎጫ ያጽዱ",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "ቋንቋ",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "የበይነገጽ ቋንቋ",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "የUI ቋንቋ ለVaultLens ተደራቢዎች እና ብቅ ባይ",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "መልክ",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "ጭብጥ",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "ጨለማ",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "ብርሃን",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "የስርዓት ነባሪ",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "ስሪት $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "የእውነተኛ ጊዜ CS2 ክምችት ዋጋ፣ ተንሳፋፊ እሴቶች፣ ስርዓተ-ጥለት ማወቅ፣ ተለጣፊ እሴቶች እና የንግድ ትንተና - ሁሉም በአንድ ስክሪን ላይ።",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome ድር መደብር",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub ማከማቻ",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 ጉዳይ ሪፖርት አድርግ",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 ግላዊነት",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens ነፃ እና ክፍት ምንጭ ነው። ምንም ውሂብ አልተሰበሰበም ወይም ክትትል አይደረግበትም። ሁሉም የኤፒአይ ጥሪዎች በቀጥታ ከአሳሽዎ ወደ ይፋዊ ኤፒአይዎች ይሄዳሉ። የእርስዎ ኤፒአይ ቁልፍ በአካባቢው የተከማቸ ሲሆን ወደ ቮልትሌንስ አገልጋዮች ፈጽሞ አይተላለፍም።",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "የውሂብ ምንጮች",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "የታወቁ ገደቦች",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 እቃዎችን ፈልግ...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 ዝርዝር ቅጂ",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ ተገልብጧል!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ ዋጋዎችን ያድሱ",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ መንፈስን የሚያድስ...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ ይምረጡ",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ መምረጥ",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "ነባሪ ትዕዛዝ",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "ዋጋ፡ ከፍተኛ → ዝቅተኛ",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "ዋጋ: ዝቅተኛ → ከፍተኛ",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "ተንሳፋፊ፡ ዝቅተኛ → ከፍተኛ",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "ተንሳፋፊ፡ ከፍተኛ → ዝቅተኛ",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "ስም: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "ተለጣፊ እሴት ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 ተቀድቷል!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "የንግድ አገናኝ ተቀድቷል!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "መቅዳት አልተሳካም።",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "ዋጋዎች ታድሰዋል!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "ማደስ አልተሳካም።",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 SteamID64ን ይቅዱ",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 የንግድ ሊንክ ቅዳ",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat ስቶል",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "ትሰጣለህ",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "ትቀበላለህ",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "ፒ&ኤል",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "ዋጋዎች ሊለያዩ ይችላሉ. ሁልጊዜ ከመገበያየትዎ በፊት ያረጋግጡ።",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "ተለጣፊዎች",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "ጠቅላላ ተለጣፊ እሴት",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "ሁሉንም የተሸጎጡ ዋጋዎች እና የተንሳፋፊ ውሂብ ይጽዱ?\n\nበሚቀጥለው አጠቃቀም ላይ ዋጋዎች እንደገና ይመጣሉ። ንጥሎች ሲታዩ የተንሳፋፊ ውሂብ እንደገና ይመጣል።",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ በማስቀመጥ ላይ...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ ቅንብሮች ተቀምጠዋል",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ ዋጋዎችን በአዲስ ቅንጅቶች በማምጣት ላይ...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ ተቀምጧል! $COUNT$ የተገኙ ዋጋዎች ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ እባክዎ የPricEmpire API ቁልፍዎን ያስገቡ",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ መሸጎጫ በተሳካ ሁኔታ ጸድቷል።",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ የታደሰ - $COUNT$ ተጭኗል",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "በመጫን ላይ...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ ንጥሎች · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 ዛሬ",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 ቀን",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ ቀናት",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 ተቆልፏል",
+    "description": "Trade lock: locked, no date"
+  }
+}

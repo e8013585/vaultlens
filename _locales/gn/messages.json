@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens rehegua",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "CS2 inventario repykue tiempo real-pe, flotador valor, patrón jehechakuaa, pegatina valor ha comercio análisis — opaite peteĩ pantalla-pe.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Tembiecharã",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Ñemboheko",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Upéva rehegua",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventario — VaultLens ombaꞌapóva",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Oferta Comercial — Panel P&L omba’apóva",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Lista de Ofertas Comerciales — P&L insigniakuéra omba’apóva",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Página vapor — eike inventario-pe",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Ndaha’éi peteĩ Steam página-pe",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Valor Total rehegua",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Rehegua",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Ojehepyme’ẽ",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Modo rehegua",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Umi precio oñembopyahu",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Umi entrada precio rehegua",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Umi entrada flotador rehegua",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Ñembopyahu Precios",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Inventario Abierto rehegua",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Modo de Precios rehegua",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Puerto pire rehegua",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Ndaipóri clave API oñeikotevẽva. Oipuru Skinport API público.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Reiguáva",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PrecioImperio + CSFloat rehegua",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat repykue. Fase Doppler rehegua precio. Oikotevẽ clave API rehegua.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API Clave rehegua",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API Clave rehegua",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Ojehupyty llave →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Oñongatu & Ogueru Precios",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Opciones jehechaukarã",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Ohechauka umi Valor Flotador rehegua",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Ohechauka umi insignia valor flotador rehegua umi mbaꞌe inventario rehegua",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Ohechauka Pegatina Precios",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Ohechauka pegatina valor hover popup",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Ohechauka Insignia Patrón rehegua",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Gema hovy, fase Doppler, % descoloramiento, patrones de desvanecimiento de mármol",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Ohechauka Conteo Regresivo Bloqueo Comercial rehegua",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Ohechauka 🔒 insignia orekóva ára opytáva umi mba'e oñembotýva rehe",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Caché rehegua",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Precio caché TTL rehegua",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 aravo’i",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Caché flotador rehegua",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Permanente (peteĩ mba’e rehegua) .",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Emopotĩ Opaite Caché",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Ñe'ẽ",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Ñe’ẽ Interfaz rehegua",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "UI ñe’ẽ VaultLens ñembojehe’a ha popup-pe g̃uarã",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Ojehechaháicha",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Ñe'ẽrã",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Pytũ",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Tesakã",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Sistema rehegua Por defecto",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Versión $VERSION$ rehegua.",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "CS2 inventario repykue tiempo real-pe, flotador valor, patrón jehechakuaa, pegatina valor ha comercio análisis — opaite peteĩ pantalla-pe.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Ñemuha Web Chrome rehegua",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub Ñeñongatuha",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Emombe’u peteĩ Mba’e",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Ñe’ẽñemi",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens haꞌehína isãsóva ha código abierto. Ndaipóri dato oñembyatýva ni ndojejapói seguimiento. Opaite API ñehenói oho directamente ne kundaháragui API público-pe. Nde API clave oñeñongatu localmente ha araka’eve noñembohasái umi servidor VaultLens-pe.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Datos Fuentes rehegua",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Limitaciones ojekuaáva",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Ojeheka umi mba'e...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Lista de copia",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ ¡Ojekopia!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Ñembopyahu Precios",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Ombopiro'ýva...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Eiporavo",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Oiporavo haguã",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Orden por defecto rehegua",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Precio: Yvate → Ijyvate",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Precio: Ijyvate → Yvate",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Flotador: Ijyvate → Yvate",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Flotador: Yvate → Ijyvate",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Téra: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Pegatina Valor rehegua ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 ojekopia!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "¡Eslabón comercial ojekopia!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Copia ndoikói",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "¡Umi precio oñembopiro'y!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Refresh ndoikói",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Ojekopia SteamID64 rehegua",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Enlace Comercio rehegua copia",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Ñembyaty",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Nde Reme’ẽ",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Nde Rerrecibi",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Ikatu iñambue umi precio. Akóinte ojehechava’erã oñenegosia mboyve.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Pegatinas rehegua",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Valor Total Pegatina rehegua",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "¿Omopotĩ opaite precio caché ha dato flotante?\n\nUmi precio ojegueru jeýta ojeporu jeývo. Umi dato flotador rehegua ojegueru jeýta ojehechaháicha umi mbaꞌe.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Ñañongatu...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Ñemboheko oñeñongatu",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Ojegueru umi precio umi configuración pyahu reheve...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ ¡Ojesalva! $COUNT$ umi precio ojegueru ($MODE$) .",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Emoinge nde clave API PricEmpire rehegua",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Caché oñembogue porã",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Oñembopyahu — $COUNT$ precio ojekarga",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Ojekarga hína...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ mba'e · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Ko árape",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 ára",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ ára",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Oñemboty",
+    "description": "Trade lock: locked, no date"
+  }
+}

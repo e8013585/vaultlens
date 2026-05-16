@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Reaaliaikainen CS2-varaston hinnoittelu, kelluvat arvot, kuvioiden tunnistus, tarra-arvot ja kauppaanalytiikka – kaikki yhdellä näytöllä.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Yleiskatsaus",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Asetukset",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Noin",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2-varasto — VaultLens aktiivinen",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Kauppatarjous — P&L-paneeli aktiivinen",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Kauppatarjousluettelo — P&L-merkit aktiiviset",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam-sivu — siirry varastoon",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Ei Steam-sivulla",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Kokonaisarvo",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Tuotteet",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "hinnoiteltu",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "tila",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Hinnat päivitetty",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Hintamerkinnät",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Float-merkinnät",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Päivitä hinnat",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Avaa varasto",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Hinnoittelutila",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Ihon portti",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "API-avainta ei tarvita. Käyttää julkista Skinport-sovellusliittymää.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Ilmainen",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PriceEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat hinnat. Doppler-vaiheen hinnoittelu. Vaatii API-avaimen.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API-avain",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PriceEmpire API-avain",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Hae avain →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Tallenna ja hae hinnat",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Näyttöasetukset",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Näytä kelluvat arvot",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Näytä kelluvan arvon merkit varastotuotteissa",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Näytä tarrojen hinnat",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Näytä tarran arvon hover ponnahdusikkuna",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Näytä kuviomerkit",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Sininen helmi, Doppler-vaihe, haalistumisprosentti, marmorihaalistumiskuviot",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Näytä kaupan lukituksen lähtölaskenta",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Näytä 🔒 -merkki, jossa on jäljellä päiviä lukituissa kohteissa",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Välimuisti",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Hintavälimuisti TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 tunti",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Kelluva välimuisti",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Pysyvä (per tuote)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Tyhjennä kaikki välimuisti",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Kieli",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Käyttöliittymän kieli",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "VaultLens-peittokuvien ja ponnahdusikkunoiden käyttöliittymäkieli",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Ulkonäkö",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Teema",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Tumma",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Kevyt",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Järjestelmän oletusarvo",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Versio $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Reaaliaikainen CS2-varaston hinnoittelu, kelluvat arvot, kuvioiden tunnistus, tarra-arvot ja kauppaanalytiikka – kaikki yhdellä näytöllä.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web Store",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub-arkisto",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Ilmoita ongelmasta",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Yksityisyys",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens on ilmainen ja avoimen lähdekoodin. Tietoja ei kerätä tai seurata. Kaikki API-kutsut menevät suoraan selaimestasi julkisiin sovellusliittymiin. API-avaimesi tallennetaan paikallisesti, eikä sitä koskaan lähetetä VaultLens-palvelimille.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Tietolähteet",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Tunnetut rajoitukset",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Hae kohteita...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Kopioi luettelo",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Kopioitu!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Päivitä hinnat",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Virkistävää...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Valitse",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Valinta",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Oletusjärjestys",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Hinta: Korkea → alhainen",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Hinta: alhainen → korkea",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Float: Matala → Korkea",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Float: Korkea → Matala",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Nimi: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Tarran arvo ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 kopioitu!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Kaupan linkki kopioitu!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Kopiointi epäonnistui",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Hinnat päivitetty!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Päivitys epäonnistui",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Kopioi SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Kopioi kauppalinkki",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Sinä annat",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Vastaanotat",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Hinnat voivat vaihdella. Tarkista aina ennen kaupankäyntiä.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Tarrat",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Tarran kokonaisarvo",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Poistetaanko kaikki välimuistissa olevat hinnat ja kelluvat tiedot?\n\nHinnat noudetaan uudelleen seuraavan käyttökerran yhteydessä. Float-tiedot haetaan uudelleen, kun kohteita tarkastellaan.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Tallennetaan...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Asetukset tallennettu",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Haetaan hintoja uusilla asetuksilla...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Tallennettu! $COUNT$ hinnat haettu ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Anna PricEmpire API -avaimesi",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Välimuisti tyhjennetty onnistuneesti",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Päivitetty — $COUNT$ hintaa ladattu",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Ladataan...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ kohdetta · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Tänään",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 päivä",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ päivää",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Lukittu",
+    "description": "Trade lock: locked, no date"
+  }
+}

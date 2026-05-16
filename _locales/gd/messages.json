@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "Cruinn-leum",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Prìsean clàr CS2 fìor-ùine, luachan fleòdraidh, lorg pàtrain, luachan stiogair, agus mion-sgrùdadh malairt - uile air aon scrion.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Ro-shealladh",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Suidhichidhean",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Mu dheidhinn",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "Clàr CS2 - VaultLens gnìomhach",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Tairgse Malairt - pannal P&L gnìomhach",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Liosta tairgsean malairt - bràistean P&L gnìomhach",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Duilleag smùid - seòladh gu clàr-seilbhe",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Chan ann air duilleag Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Luach iomlan",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Nithean",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Prìs",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Modh",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Prìsean air an ùrachadh",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Teachd-a-steach prìsean",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Cuir a-steach fleòdradh",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Ùraich prìsean",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Clàr-stuthan fosgailte",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Modh prìsean",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Port craiceann",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Chan eil feum air iuchair API. A’ cleachdadh API poblach Skinport.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Saor",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PriceEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Prìsean Buff163, Skinport & CSFloat. Eachdraidh prìsean stoc Doppler. Feumaidh iuchair API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Iuchair API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "Iuchair API PriceEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Faigh an iuchair →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Sàbhail & Faigh Prìsean",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Roghainnean taisbeanaidh",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Seall Luachan Float",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Seall bràistean luach fleòdraidh air nithean tasgaidh",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Seall prìsean stiogairean",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Seall luach stiogair hover popup",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Seall bràistean Pàtrain",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Seud gorm, ìre Doppler, % seargadh, pàtrain seargach marmoir",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Seall cunntadh glas malairt",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Bràiste taisbeanaidh 🔒 le làithean air fhàgail air nithean glaiste",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Tasgadh",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Prìs TTL air-loidhne",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 uair",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Tasgadh fleòdraidh",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Maireannach (gach nì)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Glan a h-uile tasgadan",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Cànain",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Cànan eadar-aghaidh",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Cànan UI airson ath-chòmhdach VaultLens agus popup",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Coltas",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Cuspair",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Dorch",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Solas",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Default siostam",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Tionndadh $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Prìsean clàr CS2 fìor-ùine, luachan fleòdraidh, lorg pàtrain, luachan stiogair, agus mion-sgrùdadh malairt - uile air aon scrion.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web Store",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Stòr GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Dèan aithris air cùis",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Prìobhaideachd",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "Tha VaultLens an-asgaidh agus stòr fosgailte. Chan eil dàta air a chruinneachadh no air a leantainn. Bidh a h-uile gairm API a’ dol dìreach bhon bhrobhsair agad gu APIan poblach. Tha an iuchair API agad air a stòradh gu h-ionadail agus cha tèid a ghluasad gu frithealaichean VaultLens gu bràth.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Stòran Dàta",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Crìochan aithnichte",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Rannsaich nithean...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Dèan lethbhreac den liosta",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Leth-bhreac!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Ùraich prìsean",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Ag ùrachadh...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Tagh",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ A’ taghadh",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Òrdugh bunaiteach",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Prìs: Àrd → Ìosal",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Prìs: Ìosal → Àrd",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Float: Ìosal → Àrd",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Float: Àrd → Ìosal",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Ainm: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Luach stiogair ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 air a chopaigeadh!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Ceangal malairt air a chopaigeadh!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Dh'fhàillig lethbhreac",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Prìsean air an ùrachadh!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Dh'fhàillig an t-ùrachadh",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Dèan lethbhreac de SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Dèan lethbhreac de cheangal malairt",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 Stàilinn CSFloat",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Bheir thu",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Gheibh thu",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Faodaidh prìsean a bhith eadar-dhealaichte. Dèan cinnteach an-còmhnaidh mus dèan thu malairt.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Stiogairean",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Luach iomlan stiogairean",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Glan a h-uile prìs taisgte agus dàta fleòdraidh?\n\nThèid prìsean fhaighinn a-rithist an ath chleachdadh. Thèid dàta fleòdraidh a thoirt a-rithist fhad ‘s a thathas a’ coimhead air nithean.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ A’ sàbhaladh...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Roghainnean air an sàbhaladh",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ A’ faighinn phrìsean le roghainnean ùra...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Air a shàbhaladh! $COUNT$ prìsean air an toirt ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Feuch an cuir thu a-steach an iuchair API PriceEmpire agad",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Cache air a ghlanadh gu soirbheachail",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Ùraichte - $COUNT$ prìsean air an luchdachadh",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "A' luchdachadh...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ nithean · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 An-diugh",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 latha",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ làithean",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 glaiste",
+    "description": "Trade lock: locked, no date"
+  }
+}

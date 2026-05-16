@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "အချိန်နှင့်တပြေးညီ CS2 စာရင်းစျေးနှုန်း၊ မျှော့တန်ဖိုးများ၊ ပုံစံရှာဖွေခြင်း၊ စတစ်ကာတန်ဖိုးများနှင့် ကုန်သွယ်မှုဆိုင်ရာ ခွဲခြမ်းစိတ်ဖြာချက်များ—အားလုံးသည် မျက်နှာပြင်တစ်ခုတည်းတွင်ဖြစ်သည်။",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "ခြုံငုံသုံးသပ်ချက်",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "ဆက်တင်များ",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "အကြောင်း",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventory — VaultLens အသက်ဝင်သည်။",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "ကုန်သွယ်မှုကမ်းလှမ်းချက် — P&L အကန့်အသက်ဝင်သည်။",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "ကုန်သွယ်မှုကမ်းလှမ်းချက်များစာရင်း — P&L တံဆိပ်များ အသက်ဝင်သည်။",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "ရေနွေးငွေ့ စာမျက်နှာ — စာရင်းအင်းသို့ သွားပါ။",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Steam စာမျက်နှာတွင် မရှိပါ။",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "စုစုပေါင်းတန်ဖိုး",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "ပစ္စည်းများ",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "ဈေးပေးထားသည်။",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "မုဒ်",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "စျေးနှုန်းများကို အပ်ဒိတ်လုပ်ထားသည်။",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "စျေးနှုန်းထည့်သွင်းမှုများ",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Float ထည့်သွင်းမှုများ",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ စျေးနှုန်းများကို ပြန်လည်စတင်ပါ။",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Inventory ကိုဖွင့်ပါ။",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "စျေးနှုန်းမုဒ်",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "အရေပြားဆိပ်ကမ်း",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "API ကီး မလိုအပ်ပါ။ Skinport အများသူငှာ API ကိုအသုံးပြုသည်။",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "အခမဲ့",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PriceEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163၊ Skinport နှင့် CSFloat စျေးနှုန်းများ။ Doppler အဆင့်စျေးနှုန်း။ API သော့ လိုအပ်သည်။",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API သော့",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PriceEmpire API သော့",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "သော့ → ရယူပါ။",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 စျေးနှုန်းများကို သိမ်းဆည်းပြီး ရယူပါ။",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Display ရွေးစရာများ",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Float တန်ဖိုးများကို ပြပါ။",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "ကုန်ပစ္စည်းစာရင်းတွင် မျှော့တန်ဖိုးတံဆိပ်များကို ပြသပါ။",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "စတစ်ကာစျေးနှုန်းများကိုပြပါ။",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "စတစ်ကာတန်ဖိုးကို ပြပါ",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Pattern တံဆိပ်များကို ပြပါ။",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "အပြာရောင်ကျောက်မျက်၊ Doppler အဆင့်၊ အရောင်မှိန် %, စကျင်ကျောက်မှိန်သောပုံစံများ",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Trade Lock Countdowns ကိုပြသပါ။",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "လော့ခ်ချထားသောပစ္စည်းများတွင် ကျန်ရှိသောရက်များနှင့်အတူ 🔒 တံဆိပ်ကို ပြသပါ။",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "ကက်ရှ်",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "စျေးနှုန်း cache TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "၁ နာရီ",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "မျှော့ရှ်",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "အမြဲတမ်း (ပစ္စည်းတစ်ခုလျှင်)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Cache အားလုံးကို ရှင်းလင်းပါ။",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "ဘာသာစကား",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Interface ဘာသာစကား",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "VaultLens ထပ်ဆင့်များနှင့် ပေါ့ပ်အပ်အတွက် UI ဘာသာစကား",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "အသွင်အပြင်",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "အပြင်အဆင်",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "အမှောင်",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "အလင်း",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "စနစ် ပုံသေ",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "ဗားရှင်း $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "အချိန်နှင့်တပြေးညီ CS2 စာရင်းစျေးနှုန်း၊ မျှော့တန်ဖိုးများ၊ ပုံစံရှာဖွေခြင်း၊ စတစ်ကာတန်ဖိုးများနှင့် ကုန်သွယ်မှုဆိုင်ရာ ခွဲခြမ်းစိတ်ဖြာချက်များ—အားလုံးသည် မျက်နှာပြင်တစ်ခုတည်းတွင်ဖြစ်သည်။",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome ဝဘ်စတိုး",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub သိုလှောင်မှု",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 ပြဿနာတစ်ခုကို သတင်းပို့ပါ။",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 ကိုယ်ရေးကိုယ်တာ",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens သည် အခမဲ့ဖြစ်ပြီး open source ဖြစ်သည်။ မည်သည့်ဒေတာကိုမျှ စုဆောင်းခြင်း သို့မဟုတ် ခြေရာခံခြင်း မရှိပါ။ API ခေါ်ဆိုမှုအားလုံးသည် သင့်ဘရောက်ဆာမှ အများသူငှာ API များထံ တိုက်ရိုက်သွားပါသည်။ သင်၏ API သော့ကို စက်တွင်း၌ သိမ်းဆည်းထားပြီး VaultLens ဆာဗာများသို့ မည်သည့်အခါမျှ မကူးစက်ပါ။",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "ဒေတာအရင်းအမြစ်များ",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "သိထားသောကန့်သတ်ချက်များ",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 ပစ္စည်းများကို ရှာဖွေပါ...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 စာရင်းကို ကူးယူပါ။",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ ကူးယူထားပါသည်။",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ စျေးနှုန်းများကို ပြန်လည်စတင်ပါ။",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ လန်းဆန်းစေတယ်...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ ရွေးချယ်ပါ။",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ ရွေးချယ်ခြင်း။",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "မူရင်းအမှာစာ",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "စျေးနှုန်း- မြင့် → အနိမ့်",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "စျေးနှုန်း- အနိမ့် → အမြင့်",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Float- အနိမ့် → မြင့်သည်။",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Float- မြင့် → အနိမ့်",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "အမည်- A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "စတစ်ကာတန်ဖိုး ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 ကို ကူးယူထားပါသည်။",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "ကုန်သွယ်မှုလင့်ခ်ကို ကူးယူထားသည်။",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "ကော်ပီ မအောင်မြင်ပါ။",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "စျေးနှုန်းများ ပြန်လည်ဆန်းသစ်ထားသည်။",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "ပြန်လည်စတင်ခြင်း မအောင်မြင်ပါ။",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 SteamID64 ကို ကူးယူပါ။",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Trade Link ကို ကူးယူပါ။",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat ဆိုင်",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "သင်ပေးပါ။",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "မင်းလက်ခံတယ်။",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "ဈေးနှုန်းများ ကွဲပြားနိုင်ပါသည်။ အရောင်းအဝယ်မလုပ်မီ အမြဲစစ်ဆေးပါ။",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "စတစ်ကာများ",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "စုစုပေါင်းစတစ်ကာတန်ဖိုး",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "ကက်ရှ်လုပ်ထားသော ဈေးနှုန်းများနှင့် float data အားလုံးကို ရှင်းလင်းမလား။\n\nစျေးနှုန်းများကို နောက်တစ်ကြိမ်အသုံးပြုပါက ပြန်လည်ရယူပါမည်။ အရာများကိုကြည့်ရှုနေစဉ် Float ဒေတာကို ပြန်လည်ရယူသွားပါမည်။",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ သိမ်းဆည်းခြင်း...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ ဆက်တင်များကို သိမ်းဆည်းထားသည်။",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ ဆက်တင်အသစ်များဖြင့် စျေးနှုန်းများရယူနေသည်...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ သိမ်းဆည်းပြီးပါပြီ။ $COUNT$ စျေးနှုန်းများ ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ ကျေးဇူးပြု၍ သင်၏ PricEmpire API သော့ကို ထည့်ပါ။",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Cache ကိုအောင်မြင်စွာရှင်းလင်းခဲ့သည်။",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ ပြန်လည်ဆန်းသစ်ပြီး — $COUNT$ စျေးနှုန်းများကို တင်ထားသည်။",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "ဖွင့်နေသည်...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ ပစ္စည်း · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 ဒီနေ့",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 ၁ ရက်",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ ရက်",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 လော့ခ်ချထားသည်။",
+    "description": "Trade lock: locked, no date"
+  }
+}

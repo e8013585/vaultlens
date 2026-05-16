@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Oceňování zásob CS2 v reálném čase, plovoucí hodnoty, detekce vzorů, hodnoty nálepek a obchodní analýzy – vše na jedné obrazovce.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Přehled",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Nastavení",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "O",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventory — VaultLens aktivní",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Obchodní nabídka — panel zisků a ztrát je aktivní",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Seznam obchodních nabídek — aktivní odznaky P&L",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Stránka Steam – přejděte do inventáře",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Ne na stránce Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Celková hodnota",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Položky",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Cena",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Režim",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Ceny aktualizovány",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Cenové položky",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Plovoucí vstupy",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Obnovit ceny",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Otevřete inventář",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Režim stanovení ceny",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Kožní port",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Není vyžadován žádný klíč API. Používá veřejné API Skinport.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Uvolnit",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PriceEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Ceny Buff163, Skinport a CSFloat. Ceny dopplerovské fáze. Vyžaduje klíč API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Klíč API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "Klíč API PriceEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Získat klíč →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Ušetřete a získejte ceny",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Možnosti zobrazení",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Zobrazit plovoucí hodnoty",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Zobrazte na položkách inventáře odznaky s plovoucí hodnotou",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Zobrazit ceny nálepek",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Zobrazit vyskakovací okno s hodnotou nálepky",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Zobrazit odznaky se vzorem",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Modrý drahokam, Dopplerova fáze, fade %, mramorové fade vzory",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Zobrazit odpočítávání zámku obchodu",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Zobrazte 🔒 odznak se zbývajícími dny na zamčených položkách",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Cena mezipaměti TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 hodina",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Float cache",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Trvalé (za položku)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Vymazat veškerou mezipaměť",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Jazyk",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Jazyk rozhraní",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Jazyk uživatelského rozhraní pro překryvy a vyskakovací okna VaultLens",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Vzhled",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Téma",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Tmavý",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Světlo",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Výchozí nastavení systému",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Verze $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Oceňování zásob CS2 v reálném čase, plovoucí hodnoty, detekce vzorů, hodnoty nálepek a obchodní analýzy – vše na jedné obrazovce.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Internetový obchod Chrome",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Úložiště GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Nahlásit problém",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Ochrana osobních údajů",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens je bezplatný a open source. Nejsou shromažďována ani sledována žádná data. Všechna volání API jdou přímo z vašeho prohlížeče do veřejných rozhraní API. Váš klíč API je uložen místně a nikdy se nepřenáší na servery VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Zdroje dat",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Známá omezení",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Hledat položky...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Kopírovat seznam",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Zkopírováno!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Obnovit ceny",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Osvěžování...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Vyberte",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Výběr",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Výchozí objednávka",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Cena: Vysoká → Nízká",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Cena: Nízká → Vysoká",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Plovoucí: Nízká → Vysoká",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Float: High → Low",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Jméno: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Hodnota nálepky ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 zkopírováno!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Obchodní odkaz zkopírován!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Kopírování se nezdařilo",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Ceny aktualizovány!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Obnovení se nezdařilo",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Zkopírujte SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Zkopírujte obchodní odkaz",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Dáš",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Přijímáte",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Ceny se mohou lišit. Před obchodováním vždy ověřte.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Samolepky",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Celková hodnota nálepky",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Vymazat všechny ceny a data v mezipaměti?\n\nCeny budou znovu načteny při dalším použití. Float data budou znovu načtena při prohlížení položek.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Ukládání...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Nastavení uloženo",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Načítání cen s novým nastavením...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Uloženo! $COUNT$ načtené ceny ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Zadejte svůj klíč API PriceEmpire",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Mezipaměť byla úspěšně vymazána",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Obnoveno — $COUNT$ načtených cen",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Načítání...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ položek · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Dnes",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 den",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ dnů",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Zamčeno",
+    "description": "Trade lock: locked, no date"
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "Vault Lens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "תמחור מלאי CS2 בזמן אמת, ערכי ציפה, זיהוי תבניות, ערכי מדבקות וניתוח סחר - הכל במסך אחד.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "סקירה כללית",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "הגדרות",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "אוֹדוֹת",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventory — VaultLens פעיל",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "הצעת מסחר - פאנל P&L פעיל",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "רשימת הצעות סחר - תגי P&L פעילים",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "עמוד Steam - נווט למלאי",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "לא בדף Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "ערך כולל",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "פריטים",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "במחיר",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "מצב",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "המחירים עודכנו",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "כניסות מחירים",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "כניסות צפות",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ רענון מחירים",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "פתח מלאי",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "מצב תמחור",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "יציאת עור",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "אין צורך במפתח API. משתמש ב-API ציבורי של Skinport.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "לְשַׁחְרֵר",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PriceEmpire + CSFLoat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "מחירי Buff163, Skinport ו-CSFloat. תמחור שלב דופלר. דורש מפתח API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "מפתח API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "מפתח API של PriceEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "קבל מפתח →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 שמור ואחזר מחירים",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "אפשרויות תצוגה",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "הצג ערכים צפים",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "הצג תגי ערך צף על פריטי מלאי",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "הצג מחירי מדבקות",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "הצג חלון קופץ לרחף ערך מדבקה",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "הצג תגי דפוס",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "אבן חן כחולה, שלב דופלר, % דהייה, דפוסי דהיית שיש",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "הצג ספירות לאחור של נעילת סחר",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "תצוגה 🔒 תג עם ימים שנותרו על פריטים נעולים",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "מטמון",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "מטמון מחיר TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "שעה אחת",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "מטמון צף",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "קבוע (לכל פריט)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 נקה את כל המטמון",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "שָׂפָה",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "שפת ממשק",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "שפת ממשק משתמש עבור שכבות-על ופופ-אפ של VaultLens",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "הוֹפָעָה",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "נוֹשֵׂא",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "כֵּהֶה",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "אוֹר",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "מערכת ברירת מחדל",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "גרסה $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "תמחור מלאי CS2 בזמן אמת, ערכי ציפה, זיהוי תבניות, ערכי מדבקות וניתוח סחר - הכל במסך אחד.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 חנות האינטרנט של Chrome",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 מאגר GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 דווח על בעיה",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 פרטיות",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens הוא חינמי וקוד פתוח. לא נאספים או עוקבים אחר נתונים. כל קריאות ה-API עוברות ישירות מהדפדפן שלך לממשקי API ציבוריים. מפתח ה-API שלך מאוחסן באופן מקומי ולעולם לא מועבר לשרתי VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "מקורות נתונים",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "מגבלות ידועות",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 חפש פריטים...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 העתק רשימה",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ מועתק!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ רענון מחירים",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ מרענן...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ בחר",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ בחירה",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "סדר ברירת מחדל",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "מחיר: גבוה → נמוך",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "מחיר: נמוך → גבוה",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "לצוף: נמוך ← גבוה",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "לצוף: גבוה ← נמוך",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "שם: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "ערך מדבקה ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 הועתק!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "קישור המסחר הועתק!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "ההעתקה נכשלה",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "המחירים רעננים!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "הרענון נכשל",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 העתק את SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 העתק קישור למסחר",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "אתה נותן",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "אתה מקבל",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "המחירים עשויים להשתנות. בדוק תמיד לפני המסחר.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "מדבקות",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "ערך מדבקה כולל",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "לנקות את כל המחירים בקובץ השמור ונתוני הצפים?\n\nהמחירים יישאו מחדש בשימוש הבא. נתוני צפים יישאו מחדש עם הצפייה בפריטים.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ שומר...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ ההגדרות נשמרו",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ מקבל מחירים עם הגדרות חדשות...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ נשמר! $COUNT$ מחירים שנלקחו ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ נא להזין את מפתח ה-API של PricEmpire",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ המטמון נוקה בהצלחה",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ רענון - $COUNT$ המחירים נטענו",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "טְעִינָה...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ פריטים · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 היום",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 יום אחד",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ ימים",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 נעול",
+    "description": "Trade lock: locked, no date"
+  }
+}

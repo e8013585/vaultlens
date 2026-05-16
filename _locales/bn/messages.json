@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "ভল্টলেন্স",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "রিয়েল-টাইম CS2 ইনভেন্টরি মূল্য, ফ্লোট মান, প্যাটার্ন সনাক্তকরণ, স্টিকার মান এবং ট্রেড অ্যানালিটিক্স — সবই এক স্ক্রিনে।",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "ওভারভিউ",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "সেটিংস",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "সম্পর্কে",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 ইনভেন্টরি — ভল্টলেন্স সক্রিয়",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "ট্রেড অফার — P&L প্যানেল সক্রিয়",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "ট্রেড অফার তালিকা — P&L ব্যাজ সক্রিয়",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "স্টিম পেজ — ইনভেন্টরিতে নেভিগেট করুন",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "একটি বাষ্প পৃষ্ঠায় না",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "মোট মান",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "আইটেম",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "দামী",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "মোড",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "দাম আপডেট করা হয়েছে",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "মূল্য এন্ট্রি",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "ফ্লোট এন্ট্রি",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ রিফ্রেশ মূল্য",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "ইনভেন্টরি খুলুন",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "মূল্য নির্ধারণের মোড",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "স্কিন পোর্ট",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "কোন API কী প্রয়োজন নেই। Skinport পাবলিক API ব্যবহার করে।",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "বিনামূল্যে",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport এবং CSFloat দাম। ডপলার ফেজ মূল্য। API কী প্রয়োজন।",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API কী",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API কী",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "চাবি পান →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 সংরক্ষণ করুন এবং দাম আনুন",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "প্রদর্শনের বিকল্প",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "ফ্লোট মান দেখান",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "ইনভেন্টরি আইটেমগুলিতে ফ্লোট মান ব্যাজগুলি প্রদর্শন করুন",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "স্টিকারের দাম দেখান",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "স্টিকার মান হোভার পপআপ দেখান",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "প্যাটার্ন ব্যাজ দেখান",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "নীল মণি, ডপলার ফেজ, ফেইড%, মার্বেল ফেইড প্যাটার্ন",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "ট্রেড লক কাউন্টডাউন দেখান",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "লক করা আইটেমগুলিতে অবশিষ্ট দিন সহ 🔒 ব্যাজ প্রদর্শন করুন",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "ক্যাশে",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "মূল্য ক্যাশে TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 ঘন্টা",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "ফ্লোট ক্যাশে",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "স্থায়ী (আইটেম প্রতি)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 সমস্ত ক্যাশে সাফ করুন",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "ভাষা",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "ইন্টারফেস ভাষা",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "VaultLens ওভারলে এবং পপআপের জন্য UI ভাষা",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "চেহারা",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "থিম",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "অন্ধকার",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "আলো",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "সিস্টেম ডিফল্ট",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "সংস্করণ $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "রিয়েল-টাইম CS2 ইনভেন্টরি মূল্য, ফ্লোট মান, প্যাটার্ন সনাক্তকরণ, স্টিকার মান এবং ট্রেড অ্যানালিটিক্স — সবই এক স্ক্রিনে।",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 ক্রোম ওয়েব স্টোর",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 গিটহাব রিপোজিটরি",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 একটি সমস্যা রিপোর্ট করুন",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 গোপনীয়তা",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens বিনামূল্যে এবং ওপেন সোর্স. কোন তথ্য সংগ্রহ বা ট্র্যাক করা হয় না. সমস্ত API কল সরাসরি আপনার ব্রাউজার থেকে সর্বজনীন APIগুলিতে যায়৷ আপনার API কী স্থানীয়ভাবে সংরক্ষণ করা হয় এবং কখনই VaultLens সার্ভারে প্রেরণ করা হয় না।",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "ডেটা সোর্স",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "পরিচিত সীমাবদ্ধতা",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 আইটেম অনুসন্ধান করুন...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 কপি লিস্ট",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ কপি করা হয়েছে!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ রিফ্রেশ মূল্য",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ রিফ্রেশ হচ্ছে...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ নির্বাচন করুন",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ নির্বাচন করা",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "ডিফল্ট অর্ডার",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "মূল্য: উচ্চ → কম",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "মূল্য: কম → উচ্চ",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "ফ্লোট: নিম্ন → উচ্চ",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "ফ্লোট: উচ্চ → নিম্ন",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "নাম: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "স্টিকার মান ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 কপি করা হয়েছে!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "ট্রেড লিঙ্ক কপি করা হয়েছে!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "অনুলিপি ব্যর্থ হয়েছে",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "দাম রিফ্রেশ!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "রিফ্রেশ ব্যর্থ হয়েছে",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 SteamID64 কপি করুন",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 ট্রেড লিংক কপি করুন",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat স্টল",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-প্রতিনিধি",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "তুমি দাও",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "আপনি রিসিভ",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "দাম ভিন্ন হতে পারে। ট্রেড করার আগে সর্বদা যাচাই করুন।",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "স্টিকার",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "মোট স্টিকার মান",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "সমস্ত ক্যাশে করা দাম এবং ফ্লোট ডেটা সাফ করবেন?\n\nদাম পরবর্তী ব্যবহারে পুনরায় আনা হবে. আইটেম দেখা হওয়ার সাথে সাথে ফ্লোট ডেটা পুনরায় আনা হবে।",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ সংরক্ষণ করা হচ্ছে...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ সেটিংস সংরক্ষিত",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ নতুন সেটিংস সহ দাম আনা হচ্ছে...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ সংরক্ষিত! $COUNT$ দাম আনা হয়েছে ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ অনুগ্রহ করে আপনার PricEmpire API কী লিখুন",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ ক্যাশে সফলভাবে সাফ করা হয়েছে৷",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ রিফ্রেশ করা হয়েছে — $COUNT$ দাম লোড হয়েছে",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "লোড হচ্ছে...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ আইটেম · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 আজ",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 ১ দিন",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 [০] দিন",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 তালাবদ্ধ",
+    "description": "Trade lock: locked, no date"
+  }
+}

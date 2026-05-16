@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Preus d'inventari CS2 en temps real, valors flotants, detecció de patrons, valors d'adhesius i anàlisi comercial, tot en una pantalla.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Visió general",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Configuració",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Sobre",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "Inventari CS2: VaultLens actiu",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Oferta comercial — Panell P&L actiu",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Llista d'ofertes comercials — Insígnies P&L actives",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Pàgina de Steam: navega a l'inventari",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "No en una pàgina de Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Valor total",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Elements",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Amb preu",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Mode",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Preus actualitzats",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Entrades de preus",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Entrades flotants",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Actualitzar preus",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Inventari obert",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Mode de preus",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Port de la pell",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "No cal cap clau API. Utilitza l'API pública Skinport.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Gratuït",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Preus de Buff163, Skinport i CSFloat. Preu de la fase Doppler. Requereix la clau de l'API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Clau de l'API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "Clau de l'API de PricEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Obtenir la clau →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Estalvieu i obteniu preus",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Opcions de visualització",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Mostra els valors flotants",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Mostra insígnies de valor flotant als articles d'inventari",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Mostra els preus dels adhesius",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Mostra el valor de l'adhesiu emergent",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Mostra les insígnies de patró",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Gema blava, fase Doppler, % d'esvaïment, patrons d'esvaïment de marbre",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Mostra el compte enrere de bloqueig comercial",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Mostra la insígnia 🔒 amb els dies restants als articles bloquejats",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Memòria cau",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Caché de preus TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 hora",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Memòria cau flotant",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Permanent (per article)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Esborra tota la memòria cau",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Llengua",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Llenguatge de la interfície",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Idioma de la IU per a les superposicions i finestres emergents de VaultLens",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Aparença",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Tema",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Fosc",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Llum",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Sistema per defecte",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Versió $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Preus d'inventari CS2 en temps real, valors flotants, detecció de patrons, valors d'adhesius i anàlisi comercial, tot en una pantalla.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web Store",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Repositori GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Informar d'un problema",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Privadesa",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens és de codi obert i gratuït. No es recull ni se segueix cap dada. Totes les trucades d'API van directament des del vostre navegador a les API públiques. La vostra clau API s'emmagatzema localment i mai es transmet als servidors de VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Fonts de dades",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Limitacions conegudes",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Cerca articles...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Llista de còpies",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅Copiat!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Actualitzar preus",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Refrescant...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Seleccioneu",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Selecció",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Ordre per defecte",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Preu: Alt → Baix",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Preu: Baix → Alt",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Flotador: Baix → Alt",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Flotador: Alt → Baix",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Nom: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Valor de l'adhesiu ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 copiat!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "S'ha copiat l'enllaç comercial!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "La còpia ha fallat",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Preus actualitzats!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "No s'ha pogut actualitzar",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Copia SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Copia l'enllaç comercial",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stand",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Tu Dones",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Rebeu",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Els preus poden variar. Comproveu sempre abans de negociar.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Adhesius",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Valor total de l'adhesiu",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Esborrar tots els preus a la memòria cau i les dades de flotació?\n\nEls preus es tornaran a recuperar el proper ús. Les dades de flotació es tornaran a obtenir a mesura que es vegin els elements.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ S'està desant...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Configuració desada",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ S'estan obtenint preus amb noves configuracions...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Guardat! $COUNT$ preus obtinguts ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Introduïu la vostra clau API de PricEmpire",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ La memòria cau s'ha esborrat correctament",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Actualitzat: $COUNT$ preus carregats",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Carregant...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ elements · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Avui",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 dia",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ dies",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Tancat",
+    "description": "Trade lock: locked, no date"
+  }
+}

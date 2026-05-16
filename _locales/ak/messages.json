@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens a ɛwɔ hɔ",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Bere ankasa CS2 nneɛma bo, float botae, nhwɛso detection, sticker bo, ne aguadi nhwehwɛmu — ne nyinaa wɔ screen biako so.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Nsɛm a wɔaka abom",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Nsiesiei a Wɔde Yɛ Adwuma",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Fa ho",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventory — VaultLens yɛ adwuma",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Aguadi Ho Ɔfa — P&L panel a ɛyɛ adwuma",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Aguadi Ho Nneɛma a Wɔde Ma Nkyerɛwde — P&L badge ahorow a ɛyɛ adwuma",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam krataafa — kɔ inventory so",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Ɛnyɛ Steam krataafa bi so",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Botae a Wɔde Di Dwuma Nyinaa",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Nneɛma",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Wɔabɔ ne bo",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Ɔkwan a wɔfa so yɛ adwuma",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Wɔayɛ nneɛma bo foforo",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Bo a wɔde hyɛ mu",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Float nsɛm a wɔde hyɛ mu",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Nneɛma Bo a Wɔyɛ no Foforo",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Bue Nneɛma a Wɔakora So",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Bo a Wɔbɔ Ho Kwan",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Wora hyɛn gyinabea",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "API safoa biara nni hɔ a ɛho hia. Ɔde Skinport ɔmanfo API di dwuma.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "De ho",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "BoɔAhemman + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat bo a wɔbɔ. Doppler phase bo a wɔbɔ. Ɛhwehwɛ sɛ API safoa.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API Safoa no",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API Safoa no",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Nya safoa →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Sie & Fa Nneɛma Bo",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Kyerɛw Nneɛma a Wobɛpaw",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Kyerɛ Float Botae ahorow",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Kyerɛ float value badges wɔ inventory nneɛma so",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Kyerɛ Sticker Nneɛma Bo",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Kyerɛ sticker bo a ɛsom hover popup",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Kyerɛ Nhwɛso Badge ahorow",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Blue gem, Doppler phase, fade %, marble fade nhwɛso ahorow",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Kyerɛ Aguadi Lock Countdowns",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Kyerɛ 🔒 badge a nna aka wɔ nneɛma a wɔato mu so",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache a wɔde sie",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Bo a wɔde sie TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "dɔnhwerew 1",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Float cache a ɛwɔ nsu mu",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Daa (ade biara) .",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Popa Cache Nyinaa",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Kasa",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Interface Kasa a Wɔde Di Dwuma",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "UI kasa ma VaultLens overlays ne popup",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Mmaeɛ",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Nsɛmpɔ",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Sum",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Kanea",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "System Default a Wɔde Di Dwuma",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Nkyerɛase $VERSION$ no.",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Bere ankasa CS2 nneɛma bo, float botae, nhwɛso detection, sticker bo, ne aguadi nhwehwɛmu — ne nyinaa wɔ screen biako so.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Wɛbsaet Adetɔnbea",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub Adekorabea",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Bɔ Asɛm bi ho amanneɛ",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Kokoam nsɛm",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens yɛ nea wontua hwee na ɛyɛ nea wɔabue ano. Wɔnboaboa data biara ano anaasɛ wɔmfa nni akyi. API frɛ nyinaa kɔ tẽẽ fi wo browser no so kɔ ɔmanfo API ahorow so. Wɔde wo API safoa no asie wɔ wo mpɔtam hɔ na wɔmfa nkɔ VaultLens servers so da.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Data Fibea ahorow",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Anohyeto Ahorow a Wonim",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Hwehwɛ nneɛma...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Nsɛm a Wɔahyehyɛ",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Wɔayɛ ho mfonini!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Nneɛma Bo a Wɔyɛ no Foforo",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Nneɛma a ɛma ahoɔden...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Paw",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Nneɛma a wɔpaw",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Default Order a Wɔde Di Dwuma",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Bo: Kɔ soro → Ɛba fam",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Bo: Ɛba fam → Ɛsoro",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Float: Ɛba fam → Ɛsoro",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Float: Ɔsoro → Ba fam",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Edin: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Sticker Botae ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 na wɔayɛ ho mfonini!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Trade link no yɛ nea wɔayɛ ho mfonini!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Copy no antumi anyɛ yiye",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Nneɛma bo ayɛ foforo!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Refresh no antumi anyɛ yiye",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Kɔpi SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Copy Aguadi Nkitahodi",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall a ɛwɔ hɔ",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Wode Ma",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Wo Gye",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Ebia nneɛma bo bɛyɛ soronko. Bere nyinaa hwɛ sɛ ɛyɛ nokware ansa na woadi gua.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Nneɛma a wɔde kyerɛw nneɛma",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Sticker Botae a Wɔde Di Dwuma Nyinaa",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Popa cached bo ne float data nyinaa?\n\nWɔbɛsan agye nneɛma bo wɔ bere foforo a wɔde bedi dwuma no mu. Wɔbɛsan agye float data bere a wɔrehwɛ nneɛma no.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Sikakorabea...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Nsiesiei a wɔakora so",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Fetching prices ne nhyehyɛe foforo...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Wɔakora so! $COUNT$ nneɛma bo a wɔde aba ($MODE$) .",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Yɛsrɛ wo kyerɛw wo PricEmpire API safoa no",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Cache a wɔaprapra mu yiye",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Refreshed — $COUNT$ boɔ a wɔde ahyɛ mu",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Loading...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ nneɛma · $MODE$ .",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Ɛnnɛ",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 da",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ nna",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Wɔatoto mu",
+    "description": "Trade lock: locked, no date"
+  }
+}
