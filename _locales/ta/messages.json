@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "வால்ட்லென்ஸ்",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "நிகழ்நேர CS2 சரக்கு விலை, மிதவை மதிப்புகள், பேட்டர்ன் கண்டறிதல், ஸ்டிக்கர் மதிப்புகள் மற்றும் வர்த்தக பகுப்பாய்வு - அனைத்தும் ஒரே திரையில்.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "கண்ணோட்டம்",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "அமைப்புகள்",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "பற்றி",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 இன்வென்டரி — VaultLens செயலில் உள்ளது",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "வர்த்தகச் சலுகை — பி&எல் பேனல் செயலில் உள்ளது",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "வர்த்தக சலுகைகள் பட்டியல் — பி&எல் பேட்ஜ்கள் செயலில் உள்ளன",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "நீராவி பக்கம் - சரக்குக்கு செல்லவும்",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "நீராவி பக்கத்தில் இல்லை",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "மொத்த மதிப்பு",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "பொருட்கள்",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "விலையிடப்பட்டது",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "பயன்முறை",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "விலைகள் புதுப்பிக்கப்பட்டன",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "விலை உள்ளீடுகள்",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "மிதவை உள்ளீடுகள்",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ விலைகளைப் புதுப்பிக்கவும்",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "சரக்குகளைத் திறக்கவும்",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "விலை நிர்ணய முறை",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "தோல் துறைமுகம்",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "API விசை தேவையில்லை. Skinport பொது API ஐப் பயன்படுத்துகிறது.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "இலவசம்",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "விலை எம்பயர் + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat விலைகள். டாப்ளர் கட்ட விலை நிர்ணயம். API விசை தேவை.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API விசை",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "விலை எம்பயர் API விசை",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "விசையைப் பெறவும் →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 விலைகளைச் சேமித்து பெறவும்",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "காட்சி விருப்பங்கள்",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "மிதவை மதிப்புகளைக் காட்டு",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "சரக்கு உருப்படிகளில் மிதவை மதிப்பு பேட்ஜ்களைக் காண்பி",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "ஸ்டிக்கர் விலைகளைக் காட்டு",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "ஸ்டிக்கர் மதிப்பு ஹோவர் பாப்அப்பைக் காட்டு",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "பேட்டர்ன் பேட்ஜ்களைக் காட்டு",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "நீல ரத்தினம், டாப்ளர் கட்டம், மங்கல்%, பளிங்கு மங்கல் வடிவங்கள்",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "வர்த்தக பூட்டு கவுண்டவுன்களைக் காட்டு",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "பூட்டிய பொருட்களில் மீதமுள்ள நாட்கள் உள்ள 🔒 பேட்ஜ் காட்சி",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "தற்காலிக சேமிப்பு",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "விலை கேச் TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 மணிநேரம்",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "மிதவை தற்காலிக சேமிப்பு",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "நிரந்தரம் (ஒரு பொருளுக்கு)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 அனைத்து தற்காலிக சேமிப்பையும் அழிக்கவும்",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "மொழி",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "இடைமுக மொழி",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "VaultLens மேலடுக்குகள் மற்றும் பாப்அப்பிற்கான UI மொழி",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "தோற்றம்",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "தீம்",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "இருள்",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "ஒளி",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "கணினி இயல்புநிலை",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "பதிப்பு $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "நிகழ்நேர CS2 சரக்கு விலை, மிதவை மதிப்புகள், பேட்டர்ன் கண்டறிதல், ஸ்டிக்கர் மதிப்புகள் மற்றும் வர்த்தக பகுப்பாய்வு - அனைத்தும் ஒரே திரையில்.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome இணைய அங்காடி",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub களஞ்சியம்",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 சிக்கலைப் புகாரளிக்கவும்",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 தனியுரிமை",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens இலவசம் மற்றும் திறந்த மூலமாகும். தரவு எதுவும் சேகரிக்கப்படவில்லை அல்லது கண்காணிக்கப்படவில்லை. அனைத்து API அழைப்புகளும் உங்கள் உலாவியில் இருந்து நேரடியாக பொது APIகளுக்குச் செல்கின்றன. உங்கள் API விசை உள்நாட்டில் சேமிக்கப்படுகிறது மற்றும் VaultLens சேவையகங்களுக்கு அனுப்பப்படாது.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "தரவு ஆதாரங்கள்",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "அறியப்பட்ட வரம்புகள்",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 உருப்படிகளைத் தேடு...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 நகல் பட்டியல்",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ நகலெடுக்கப்பட்டது!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ விலைகளைப் புதுப்பிக்கவும்",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ புத்துணர்ச்சி அளிக்கிறது...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ தேர்ந்தெடுக்கவும்",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ தேர்வு செய்தல்",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "இயல்புநிலை ஆர்டர்",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "விலை: அதிக → குறைந்த",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "விலை: குறைந்த → அதிக",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "மிதவை: குறைந்த → உயர்",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "மிதவை: உயர் → குறைந்த",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "பெயர்: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "ஸ்டிக்கர் மதிப்பு ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 நகலெடுக்கப்பட்டது!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "வர்த்தக இணைப்பு நகலெடுக்கப்பட்டது!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "நகலெடுக்க முடியவில்லை",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "விலைகள் புதுப்பிக்கப்பட்டன!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "புதுப்பிக்க முடியவில்லை",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 SteamID64ஐ நகலெடு",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 நகல் வர்த்தக இணைப்பு",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat ஸ்டால்",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-பிரதிநிதி",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "நீங்கள் கொடுங்கள்",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "நீங்கள் பெறுங்கள்",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "பி&எல்",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "விலைகள் மாறுபடலாம். வர்த்தகத்திற்கு முன் எப்போதும் சரிபார்க்கவும்.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "ஸ்டிக்கர்கள்",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "மொத்த ஸ்டிக்கர் மதிப்பு",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "தேக்ககப்படுத்தப்பட்ட விலைகள் மற்றும் மிதவை தரவு அனைத்தையும் அழிக்கவா?\n\nஅடுத்த பயன்பாட்டில் விலைகள் மீண்டும் பெறப்படும். பொருட்களைப் பார்க்கும்போது மிதவை தரவு மீண்டும் பெறப்படும்.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ சேமிக்கிறது...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ அமைப்புகள் சேமிக்கப்பட்டன",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ புதிய அமைப்புகளுடன் விலைகளைப் பெறுகிறது...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ சேமிக்கப்பட்டது! $COUNT$ பெறப்பட்ட விலைகள் ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ உங்கள் PricEmpire API விசையை உள்ளிடவும்",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ தற்காலிக சேமிப்பு வெற்றிகரமாக அழிக்கப்பட்டது",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ புதுப்பிக்கப்பட்டது - $COUNT$ விலைகள் ஏற்றப்பட்டன",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "ஏற்றுகிறது...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ உருப்படிகள் · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 இன்று",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 நாள்",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ நாட்கள்",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 பூட்டப்பட்டது",
+    "description": "Trade lock: locked, no date"
+  }
+}

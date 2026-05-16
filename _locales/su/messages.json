@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Harga inventaris CS2 sacara real-time, nilai ngambang, deteksi pola, nilai stiker, sareng analitik dagang - sadayana dina hiji layar.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Tinjauan",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Setélan",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Ngeunaan",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventory - VaultLens aktip",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Panawaran Dagang - panel P&L aktip",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Daptar Panawaran Dagang - P&L badges aktip",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Kaca uap - arahkeun ka inventaris",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Henteu dina halaman uap",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Total Nilai",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Barang",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Dihargaan",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Modus",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "harga diropéa",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Éntri harga",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Éntri ngambang",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Refresh Harga",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Buka Inventaris",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Mode Harga",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "palabuhan kulit",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Taya konci API diperlukeun. Ngagunakeun Skinport API publik.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Gratis",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat harga. harga fase Doppler. Merlukeun konci API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Konci API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API Key",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Kéngingkeun konci →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Simpen & Cokot Harga",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Pilihan tampilan",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Témbongkeun nilai ngambang",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Pintonan lencana nilai ngambang dina barang inventaris",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Témbongkeun Harga Sticker",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Témbongkeun popup nilai stiker hover",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Témbongkeun Pola Badges",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Permata biru, fase Doppler,% luntur, pola luntur marmer",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Témbongkeun Trade Lock Countdowns",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Pintonan 🔒 lencana sareng dinten sésana dina barang anu dikonci",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Harga cache TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 jam",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Ngambang cache",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Permanén (per item)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Hapus Sadaya Cache",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Basa",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Basa panganteur",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Basa UI pikeun overlay sareng popup VaultLens",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Penampilan",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Téma",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Poek",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Caang",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "System Default",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Vérsi $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Harga inventaris CS2 sacara real-time, nilai ngambang, deteksi pola, nilai stiker, sareng analitik dagang - sadayana dina hiji layar.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Toko Wéb Chrome",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Repository GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Laporkeun Masalah",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Privasi",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens gratis sareng open source. Henteu aya data anu dikumpulkeun atanapi dilacak. Sadaya telepon API langsung ti browser anjeun ka API umum. Konci API anjeun disimpen sacara lokal sareng henteu pernah dikirimkeun ka server VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Sumber Data",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Watesan dipikawanoh",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Milarian barang...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Salin Daptar",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Disalin!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Refresh Harga",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Nyegerkeun...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Pilih",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Milih",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Urutan standar",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Harga: Luhur → Rendah",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Harga: Low → Luhur",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Ngambang: Handap → Luhur",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Ngambang: Luhur → Handap",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Ngaran: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Nilai Stiker ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 disalin!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Tautan dagang disalin!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Nyalin gagal",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Harga refreshed!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Refresh gagal",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Salin SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Salin Tautan Dagang",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Anjeun masihan",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Anjeun Narima",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Harga bisa rupa-rupa. Salawasna pariksa saméméh dagang.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Stiker",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Total Nilai Stiker",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Hapus sadaya harga sindangan sareng data ngambang?\n\nHarga bakal dipulut deui nalika dianggo salajengna. Data ngambang bakal dipulut deui nalika barang ditingali.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Nyimpen...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Setélan disimpen",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Nyokot harga nganggo setélan anyar...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Disimpen! $COUNT$ harga dipulut ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Mangga lebetkeun konci API PricEmpire anjeun",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Cache parantos dibersihkeun",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Refreshed - $COUNT$ harga dimuat",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Ngamuat...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ barang · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Dinten ieu",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 dinten",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ poé",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Dikonci",
+    "description": "Trade lock: locked, no date"
+  }
+}

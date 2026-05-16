@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "వాల్ట్ లెన్స్",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "నిజ-సమయ CS2 ఇన్వెంటరీ ధర, ఫ్లోట్ విలువలు, నమూనా గుర్తింపు, స్టిక్కర్ విలువలు మరియు వాణిజ్య విశ్లేషణలు — అన్నీ ఒకే స్క్రీన్‌పై.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "అవలోకనం",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "సెట్టింగ్‌లు",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "గురించి",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 ఇన్వెంటరీ — VaultLens సక్రియంగా ఉంది",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "ట్రేడ్ ఆఫర్ — P&L ప్యానెల్ సక్రియంగా ఉంది",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "ట్రేడ్ ఆఫర్‌ల జాబితా — P&L బ్యాడ్జ్‌లు సక్రియంగా ఉన్నాయి",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "ఆవిరి పేజీ — ఇన్వెంటరీకి నావిగేట్ చేయండి",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "ఆవిరి పేజీలో కాదు",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "మొత్తం విలువ",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "వస్తువులు",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "ధర నిర్ణయించబడింది",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "మోడ్",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "ధరలు నవీకరించబడ్డాయి",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "ధర నమోదులు",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "ఫ్లోట్ ఎంట్రీలు",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ ధరలను రిఫ్రెష్ చేయండి",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "ఇన్వెంటరీని తెరవండి",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "ధర మోడ్",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "స్కిన్ పోర్ట్",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "API కీ అవసరం లేదు. Skinport పబ్లిక్ APIని ఉపయోగిస్తుంది.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "ఉచిత",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "ప్రైస్‌ఎంపైర్ + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat ధరలు. డాప్లర్ దశ ధర. API కీ అవసరం.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API కీ",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "ప్రైస్‌ఎంపైర్ API కీ",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "కీని పొందండి →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 ఆదా & ధరలను పొందండి",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "ప్రదర్శన ఎంపికలు",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "ఫ్లోట్ విలువలను చూపించు",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "ఇన్వెంటరీ వస్తువులపై ఫ్లోట్ విలువ బ్యాడ్జ్‌లను ప్రదర్శించండి",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "స్టిక్కర్ ధరలను చూపు",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "స్టిక్కర్ విలువను చూపు పాప్అప్ హోవర్",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "నమూనా బ్యాడ్జ్‌లను చూపించు",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "బ్లూ జెమ్, డాప్లర్ ఫేజ్, ఫేడ్ %, మార్బుల్ ఫేడ్ ప్యాటర్న్స్",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "ట్రేడ్ లాక్ కౌంట్‌డౌన్‌లను చూపించు",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "లాక్ చేయబడిన వస్తువులపై రోజులు మిగిలి ఉన్న 🔒 బ్యాడ్జ్‌ని ప్రదర్శించండి",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "కాష్",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "ధర కాష్ TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 గంట",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "ఫ్లోట్ కాష్",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "శాశ్వత (ఒక్క వస్తువుకు)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 మొత్తం కాష్‌ని క్లియర్ చేయండి",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "భాష",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "ఇంటర్ఫేస్ భాష",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "VaultLens ఓవర్‌లేలు మరియు పాప్అప్ కోసం UI భాష",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "స్వరూపం",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "థీమ్",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "చీకటి",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "కాంతి",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "సిస్టమ్ డిఫాల్ట్",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "వెర్షన్ $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "నిజ-సమయ CS2 ఇన్వెంటరీ ధర, ఫ్లోట్ విలువలు, నమూనా గుర్తింపు, స్టిక్కర్ విలువలు మరియు వాణిజ్య విశ్లేషణలు — అన్నీ ఒకే స్క్రీన్‌పై.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome వెబ్ స్టోర్",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub రిపోజిటరీ",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 సమస్యను నివేదించండి",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 గోప్యత",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens ఉచిత మరియు ఓపెన్ సోర్స్. డేటా ఏదీ సేకరించబడలేదు లేదా ట్రాక్ చేయబడదు. అన్ని API కాల్‌లు నేరుగా మీ బ్రౌజర్ నుండి పబ్లిక్ APIలకు వెళ్తాయి. మీ API కీ స్థానికంగా నిల్వ చేయబడుతుంది మరియు VaultLens సర్వర్‌లకు ఎప్పుడూ ప్రసారం చేయబడదు.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "డేటా సోర్సెస్",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "తెలిసిన పరిమితులు",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 అంశాలను శోధించండి...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 జాబితా కాపీ",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ కాపీ చేయబడింది!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ ధరలను రిఫ్రెష్ చేయండి",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ రిఫ్రెష్ అవుతోంది...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ ఎంచుకోండి",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ ఎంచుకోవడం",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "డిఫాల్ట్ ఆర్డర్",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "ధర: ఎక్కువ → తక్కువ",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "ధర: తక్కువ → ఎక్కువ",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "ఫ్లోట్: తక్కువ → హై",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "ఫ్లోట్: హై → తక్కువ",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "పేరు: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "స్టిక్కర్ విలువ ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 కాపీ చేయబడింది!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "వాణిజ్య లింక్ కాపీ చేయబడింది!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "కాపీ విఫలమైంది",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "ధరలు రిఫ్రెష్ చేయబడ్డాయి!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "రిఫ్రెష్ చేయడం విఫలమైంది",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 SteamID64ని కాపీ చేయండి",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 కాపీ ట్రేడ్ లింక్",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat స్టాల్",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-ప్రతినిధి",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "మీరు ఇవ్వండి",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "మీరు స్వీకరించండి",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "ధరలు మారవచ్చు. ట్రేడింగ్‌కు ముందు ఎల్లప్పుడూ ధృవీకరించండి.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "స్టిక్కర్లు",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "మొత్తం స్టిక్కర్ విలువ",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "కాష్ చేసిన ధరలను మరియు ఫ్లోట్ డేటా మొత్తాన్ని క్లియర్ చేయాలా?\n\nతదుపరి ఉపయోగంలో ధరలు తిరిగి పొందబడతాయి. అంశాలను వీక్షించినందున ఫ్లోట్ డేటా మళ్లీ పొందబడుతుంది.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ సేవ్ చేస్తోంది...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ సెట్టింగ్‌లు సేవ్ చేయబడ్డాయి",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ కొత్త సెట్టింగ్‌లతో ధరలను పొందుతోంది...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ సేవ్ చేయబడింది! $COUNT$ ధరలు లభించాయి ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ దయచేసి మీ PricEmpire API కీని నమోదు చేయండి",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ కాష్ విజయవంతంగా క్లియర్ చేయబడింది",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ రిఫ్రెష్ చేయబడింది — $COUNT$ ధరలు లోడ్ చేయబడ్డాయి",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "లోడ్ అవుతోంది...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ అంశాలు · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 ఈరోజు",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 రోజు",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ రోజులు",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 లాక్ చేయబడింది",
+    "description": "Trade lock: locked, no date"
+  }
+}

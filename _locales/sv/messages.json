@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "CS2-lagerprissättning i realtid, flytvärden, mönsterdetektering, klistermärkesvärden och handelsanalys – allt på en skärm.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Översikt",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Inställningar",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Om",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventory — VaultLens aktiv",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Erbjudande — P&L panel aktiv",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Lista över handelserbjudanden — P&L-märken aktiva",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam-sida — navigera till inventering",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Totalt värde",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Föremål",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Läge",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Priserna uppdaterade",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Prisinlägg",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Flytande poster",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Uppdatera priser",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Öppna inventering",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Prisläge",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Skinport",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Ingen API-nyckel krävs. Använder Skinport public API.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Gratis",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat priser. Dopplerfas prissättning. Kräver API-nyckel.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API-nyckel",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API-nyckel",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Hämta nyckel →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Spara & hämta priser",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Visningsalternativ",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Visa flytvärden",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Visa flytvärdesmärken på inventeringsartiklar",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Visa klistermärkespriser",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Visa popup-fönster för klistermärkesvärde",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Visa mönstermärken",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Blå pärla, dopplerfas, fade %, marmor blekningsmönster",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Visa handelslåsnedräkningar",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Visa 🔒-märke med dagar kvar på låsta föremål",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Priscache TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 timme",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Flytande cache",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Permanent (per artikel)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Rensa all cache",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Språk",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Gränssnittsspråk",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Användargränssnittsspråk för VaultLens-överlägg och popup-fönster",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Utseende",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Tema",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Mörk",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Ljus",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "System Standard",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Version $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "CS2-lagerprissättning i realtid, flytvärden, mönsterdetektering, klistermärkesvärden och handelsanalys – allt på en skärm.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web Store",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub Repository",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Anmäl ett problem",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Sekretess",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens är gratis och öppen källkod. Ingen data samlas in eller spåras. Alla API-anrop går direkt från din webbläsare till offentliga API:er. Din API-nyckel lagras lokalt och överförs aldrig till VaultLens-servrar.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Datakällor",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Kända begränsningar",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Sök föremål...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Kopiera lista",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Kopierat!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Uppdatera priser",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Uppfriskande...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Välj",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Att välja",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Standardordning",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Pris: Hög → Låg",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Pris: Lågt → Högt",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Flytande: Låg → Hög",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Flytande: Hög → Låg",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Namn: A → Ö",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Klistermärkesvärde ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 kopieras!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Handelslänken kopierad!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Kopieringen misslyckades",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Priserna uppdaterade!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Uppdateringen misslyckades",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Kopiera SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Kopiera handelslänk",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Du ger",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Du tar emot",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Priserna kan variera. Verifiera alltid innan handel.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Klistermärken",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Totalt klistermärkesvärde",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Rensa alla cachade priser och flytdata?\n\nPriserna kommer att återhämtas vid nästa användning. Flytdata kommer att hämtas på nytt när objekten visas.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Sparar...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Inställningar sparade",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Hämtar priser med nya inställningar...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Sparad! $COUNT$ hämtade priser ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Vänligen ange din PricEmpire API-nyckel",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Cache rensades framgångsrikt",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Uppdaterad — $COUNT$ priser laddade",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Belastning...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ objekt · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Idag",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 dag",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ dagar",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Låst",
+    "description": "Trade lock: locked, no date"
+  }
+}

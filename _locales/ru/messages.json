@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Цены на запасы CS2 в реальном времени, плавающие значения, обнаружение шаблонов, значения наклеек и торговая аналитика — все на одном экране.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Обзор",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Настройки",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "О",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "Инвентаризация CS2 — VaultLens активен",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Торговое предложение — активна панель прибылей и убытков",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Список торговых предложений — значки P&L активны",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Страница Steam — перейдите к инвентарю.",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Не на странице Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Общая стоимость",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Предметы",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Цена",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Режим",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Цены обновлены",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Записи цен",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Плавающие записи",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Обновить цены",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Открыть инвентарь",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Режим ценообразования",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Порт скина",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Ключ API не требуется. Использует общедоступный API Skinport.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Бесплатно",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "ЦенаИмперия + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Цены на Buff163, Skinport и CSFloat. Оценка доплеровской фазы. Требуется ключ API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API-ключ",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "API-ключ PriceEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Получить ключ →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Сохранить и получить цены",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Параметры отображения",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Показать значения с плавающей запятой",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Отображение значков плавающего значения на предметах инвентаря",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Показать цены на наклейки",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Показывать всплывающее окно со значением стикера",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Показать значки шаблонов",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Синий драгоценный камень, фаза Доплера, процент выцветания, узоры выцветания мрамора",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Показать обратный отсчет блокировки торговли",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Отображение значка 🔒 с указанием дней, оставшихся для заблокированных предметов.",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Кэш",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "TTL кэша цен",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 час",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Плавающий кэш",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Постоянный (за единицу)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Очистить весь кэш",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Язык",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Язык интерфейса",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Язык пользовательского интерфейса для наложений и всплывающих окон VaultLens",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Появление",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Тема",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Темный",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Свет",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Системные настройки по умолчанию",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Версия $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Цены на запасы CS2 в реальном времени, плавающие значения, обнаружение шаблонов, значения наклеек и торговая аналитика — все на одном экране.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Интернет-магазин Chrome",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Репозиторий GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Сообщить о проблеме",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Конфиденциальность",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens бесплатен и имеет открытый исходный код. Никакие данные не собираются и не отслеживаются. Все вызовы API передаются напрямую из вашего браузера в общедоступные API. Ваш ключ API хранится локально и никогда не передается на серверы VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Источники данных",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Известные ограничения",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Поиск предметов...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Список копирования",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Скопировано!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Обновить цены",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Освежающий...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Выбрать",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Выбор",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Порядок по умолчанию",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Цена: Высокая → Низкая",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Цена: Низкая → Высокая",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Плавающее: Низкое → Высокое",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Плавающее: Высокое → Низкое",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Имя: А → Я",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Значение стикера ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 скопирован!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Торговая ссылка скопирована!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Не удалось скопировать",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Цены обновлены!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Обновить не удалось",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Скопируйте SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Скопировать торговую ссылку",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ Представитель CSGO",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Вы даете",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Вы получаете",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "Прибыли и убытки",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Цены могут варьироваться. Всегда проверяйте перед торговлей.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Наклейки",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Общая стоимость стикера",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Очистить все кэшированные цены и плавающие данные?\n\nЦены будут повторно получены при следующем использовании. Плавающие данные будут повторно извлекаться по мере просмотра элементов.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Сохраняю...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Настройки сохранены",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Получение цен с новыми настройками...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Сохранено! $COUNT$ цены получены ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Введите свой API-ключ PriceEmpire.",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Кэш успешно очищен",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Обновлено — загружено $COUNT$ цен",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Загрузка...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ шт. · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Сегодня",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 день",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ дней",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Заблокировано",
+    "description": "Trade lock: locked, no date"
+  }
+}

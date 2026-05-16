@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "Ububiko",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Ibihe-nyabyo bya CS2 ibiciro, ibiciro bireremba, gutahura icyitegererezo, indangagaciro zifatika, hamwe nisesengura ryubucuruzi - byose kuri ecran imwe.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Incamake",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Igenamiterere",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Ibyerekeye",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "Ibarura rya CS2 - VaultLens ikora",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Gutanga Ubucuruzi - P&L panel ikora",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Urutonde rutanga ubucuruzi - Ikarita ya P&L ikora",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Urupapuro rwamazi - kugendana kubarura",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Ntabwo ari kurupapuro",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Agaciro Cyuzuye",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Ibintu",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Igiciro",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Uburyo",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Ibiciro byavuguruwe",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Ibiciro byinjira",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Ibyinjira",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "Kuvugurura ibiciro",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Fungura ibarura",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Uburyo bwo Kugena Ibiciro",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Icyambu cy'uruhu",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Nta rufunguzo rwa API rusabwa. Koresha Skinport rusange API.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Ubuntu",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat ibiciro. Igiciro cya Doppler. Irasaba urufunguzo rwa API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Urufunguzo rwa API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API Urufunguzo",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Shaka urufunguzo →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "Kubika & Kuzana Ibiciro",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Erekana Amahitamo",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Erekana Indangagaciro",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Erekana ibirango bireremba agaciro kubintu byabazwe",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Erekana ibiciro bya Sticker",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Erekana agaciro ka hover popup",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Erekana Ikarita",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Amabuye yubururu, icyiciro cya Doppler, gushira%, marble ishushanya",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Erekana Ubucuruzi Bufunze",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Erekana 🔒 badge hasigaye iminsi isigaye kubintu bifunze",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Ubwihisho",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Igiciro cache TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "Isaha 1",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Ubwato bureremba",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Iteka (kuri buri kintu)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "Kuraho Cashe Yose",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Ururimi",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Ururimi Imigaragarire",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Ururimi UI kuri VaultLens irengerwa na popup",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Kugaragara",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Insanganyamatsiko",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Umwijima",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Umucyo",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Sisitemu Mburabuzi",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Inyandiko $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Ibihe-nyabyo bya CS2 ibiciro, ibiciro bireremba, gutahura icyitegererezo, indangagaciro zifatika, hamwe nisesengura ryubucuruzi - byose kuri ecran imwe.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "Ububiko bwa Chrome",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Ububiko bwa GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Tanga ikibazo",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "Acy Ibanga",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens ni ubuntu kandi ifungura isoko. Nta makuru yakusanyijwe cyangwa akurikiranwa. Ihamagarwa rya API ryose riva muri mushakisha yawe kuri API rusange. Urufunguzo rwa API rwabitswe mugace kandi ntirwigeze rwoherezwa kuri seriveri ya VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Inkomoko yamakuru",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Imipaka izwi",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Shakisha ibintu ...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "Gukoporora Urutonde",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "Yandukuwe!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "Kuvugurura ibiciro",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "Guhumuriza ...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": ". Hitamo",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "Guhitamo",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Urutonde rusanzwe",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Igiciro: Hejuru → Hasi",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Igiciro: Hasi → Hejuru",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Ubwato: Hasi → Hejuru",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Ubwato: Hejuru → Hasi",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Izina: A → Z.",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Agaciro gakomeye ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 yandukuwe!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Ihuriro ry'ubucuruzi ryandukuwe!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Gukoporora byarananiranye",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Ibiciro byongeye kugarura ubuyanja!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Kuvugurura byarananiranye",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "Gukoporora SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "Gukoporora Ubucuruzi",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "A CSFloat Ahagarara",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Uratanga",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Urakira",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Ibiciro birashobora gutandukana. Buri gihe ugenzure mbere yo gucuruza.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Inkoni",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Agaciro Cyuzuye",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Kuraho ibiciro byose byabitswe hamwe namakuru areremba?\n\nIbiciro bizongera kugarurwa kubikurikira. Amakuru areremba azongera kugarurwa nkuko ibintu bigaragara.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "Kuzigama ...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "Igenamiterere ryabitswe",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "Kuzana ibiciro hamwe nigenamiterere rishya ...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "Yakijijwe! $COUNT$ ibiciro byazanywe ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Nyamuneka andika urufunguzo rwa PricEmpire API",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "Ache Cache yakuweho neza",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "Kuvugurura - $COUNT$ ibiciro biremerewe",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Kuremera ...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ ibintu · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Uyu munsi",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "Day Umunsi 1",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ iminsi",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "Gufunze",
+    "description": "Trade lock: locked, no date"
+  }
+}

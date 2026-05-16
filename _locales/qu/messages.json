@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens nisqa",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Chiqa pacha CS2 inventario chaninkuna, flotador chaninkuna, patrón tariy, pegatina chanikuna, chaymanta qhatuy t'aqwiy — tukuy huk pantallapi.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Tukuy qhawariy",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Ajustes nisqa",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Sobre",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventario — VaultLens llamk'achkan",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Comercio Oferta — P&L panel activo",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Comercio Ofertas Lista — P&L insigniakuna activo",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Vapor p'anqa — inventarioman puriy",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Mana huk Steam p'anqapichu",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Llapan Valor",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Imakuna",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Precioyuq",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Modo",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Preciokuna musuqyachisqa",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Precio nisqa qillqakuna",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Flotador nisqa qillqakuna",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Preciokuna musuqyachiy",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Kichasqa Inventario nisqa",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Modo de Precios nisqa",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Qara puerto",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Mana API llaveqa mañasqachu. Skinport llapapaq API kaqwan llamk'achin.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Qispisqa",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PrecioImperio + CSFloat nisqa",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat nisqapa chaninkuna. Doppler fase nisqa chaninchay. API llaveta munan.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API Llave",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API nisqa llave",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Llaveta hapiy →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Waqaychay & Preciokunata apamuy",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Akllanakuna qhaway",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Flotador Valores nisqakunata rikuchiy",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Inventario kaqkunapi flotador chanin insigniakunata qhaway",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Pegatina Precios nisqakunata rikuchiy",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Pegatina valor hover popup nisqa rikuchiy",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Insignias de Patrón nisqakunata rikuchiy",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Azul joya, fase Doppler, descoloramiento %, mármol descoloración patrones",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Comercio Bloqueo yupaykunata qhaway",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Qhawachiy 🔒 insignia p’unchaykuna puchuq wisq’asqa kaqkunapi",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Caché nisqa",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Preciokuna waqaychasqa TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 hora",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Caché flotador nisqa",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Wiñaypaq (sapa imapas) .",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Tukuy Cacheta chuyanchay",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Simi",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Interfaz Simi",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "UI simi VaultLens llanthukunapaq chaymanta popup kaqpaq",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Rikchaynin",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Rimay",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Tutayasqa",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Kanchi",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Sistema Default nisqa",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Versión $VERSION$ nisqa.",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Chiqa pacha CS2 inventario chaninkuna, flotador chaninkuna, patrón tariy, pegatina chanikuna, chaymanta qhatuy t'aqwiy — tukuy huk pantallapi.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web Tienda",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub Waqaychasqa",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Huk asuntomanta willakuy",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Sapanchasqa kay",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens mana qullqiyuq chaymanta kichasqa qullqiyuq. Mana ima willakuypas huñusqachu nitaq qatipasqachu. Llapan API waqyaykuna chiqalla maskaqniykimanta llapapaq APIkunaman rinku. API llaveykiqa llaqtapi waqaychasqa kachkan chaymanta mana hayk'aqpas VaultLens sirwiqkunaman apachisqachu.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Willakuypa Pukyunkuna",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Reqsisqa Limitaciones",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Maskay imakuna...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Lista de copia",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ ¡Copiasqa!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Preciokuna musuqyachiy",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Refresco...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Akllay",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Akllay",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Orden Predeterminada nisqa",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Precio: Alto → Bajo",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Precio: Pisi → Alto",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Flotador: Pisi → Alto",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Flotador: Alto → Bajo",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Suti: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Pegatina Valor ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 copiasqa!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "¡Enlace comercial copiasqa!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Copia mana atisqachu",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "¡Precios refrescados!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Refresh nisqa mana atisqachu",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 SteamID64 nisqamanta copiay",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Copia Comercio Enlace",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat nisqa puesto",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Qam Qunki",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Qam Chaskinki",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Preciokunaqa hukniraymi kanman. Manaraq qhatuchkaspa chiqaqchaypuni.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Pegatinas",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Total Pegatina Valor nisqa",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "¿Llapa waqaychasqa chaninkunata chaymanta flotador willayta ch'uyanchankichu?\n\nPreciokuna hukmanta apamusqa kanqa qatiqnin llamk’aypi. Flotador nisqa willakuykunataqa musuqmantam apamunqa imapas qawasqa kasqanman hina.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Waqaychay...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Ajustes waqaychasqa",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Musuq churanakunawan chaninkunata apamuy...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ ¡Qhispichisqa! $COUNT$ chaninkuna apamusqa ($MODE$) .",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Ama hina kaspa, PricEmpire API llaveykita qillqay",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Cache allinta chuyanchasqa",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Musuqyachisqa — $COUNT$ chaninkuna cargasqa",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Cargachkanki...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ imakuna · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Kunan punchaw",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 p'unchaw",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ p'unchaw",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Wichqasqa",
+    "description": "Trade lock: locked, no date"
+  }
+}

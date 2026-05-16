@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "I-VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Intengo ye-inventory yesikhathi sangempela ye-CS2, amanani antantayo, ukutholwa kwephethini, amanani ezitikha, nezibalo zokuhweba — konke kusikrini esisodwa.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Uhlolojikelele",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Izilungiselelo",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Mayelana",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "I-CS2 Inventory — I-VaultLens iyasebenza",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Umnikelo Wohwebo — Iphaneli ye-P&L iyasebenza",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Uhlu Lokunikezwayo Kwezohwebo — Amabheji e-P&L ayasebenza",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Ikhasi le-Steam - zulazula ku-inventory",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Hhayi ekhasini le-Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Inani Eliphelele",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Izinto",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Kunentengo",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Imodi",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Amanani abuyekeziwe",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Okufakiwe kwamanani",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Okufakiwe kuntanta",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Vuselela Amanani",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Vula Inventory",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Imodi Yentengo",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Imbobo yesikhumba",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Awukho ukhiye we-API odingekayo. Isebenzisa i-Skinport public API.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Mahhala",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "I-PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat amanani. Intengo yesigaba se-Doppler. Idinga ukhiye we-API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Ukhiye we-API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PriceEmpire API Key",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Thola ukhiye →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Londoloza futhi Ulande Izintengo",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Bonisa Izinketho",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Bonisa Amanani Okuntanta",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Bonisa amabheji yenani elintantayo ezintweni ze-inventory",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Bonisa Izintengo Zesitika",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Bonisa i-popup yenani lesitika",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Bonisa Amabheji Ephethini",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Itshe eliyigugu eliluhlaza okwesibhakabhaka, isigaba se-Doppler, ukufiphala%, amaphethini e-marble fade",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Bonisa Ukubalwa Kwezikhiye Zohwebo",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Bonisa 🔒 ibheji enezinsuku ezisele ezintweni ezikhiyiwe",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Inqolobane",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Inani eliphakeme kakhulu lama-TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 ihora",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Inqolobane yentanta",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Unomphela (into ngayinye)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Sula yonke inqolobane",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Ulimi",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Ulimi lwesixhumi esibonakalayo",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Ulimi lwe-UI lwembondela ye-VaultLens kanye ne-popup",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Ukubukeka",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Itimu",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Kumnyama",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Ukukhanya",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Okuzenzakalelayo Kwesistimu",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Inguqulo $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Intengo ye-inventory yesikhathi sangempela ye-CS2, amanani antantayo, ukutholwa kwephethini, amanani ezitikha, nezibalo zokuhweba — konke kusikrini esisodwa.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Isitolo Sewebhu Se-Chrome",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub Repository",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Bika Inkinga",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Ubumfihlo",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "I-VaultLens ingumthombo wamahhala futhi ovulekile. Ayikho idatha eqoqwayo noma elandelwayo. Wonke amakholi we-API asuka esipheqululini sakho aye ngqo kuma-API asesidlangalaleni. Ukhiye wakho we-API ugcinwa endaweni futhi awulokothi udluliselwe eziphakelini ze-VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Imithombo Yedatha",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Imikhawulo Eyaziwayo",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Sesha izinto...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Kopisha Uhlu",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Ikopishiwe!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Vuselela Amanani",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Iyavuselela...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Khetha",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Ukukhetha",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "I-oda elizenzakalelayo",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Inani: Phezulu → Phansi",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Inani: Phansi → Phezulu",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Ukuntanta: Phansi → Phezulu",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Ukuntanta: Phezulu → Phansi",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Igama: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Inani Lesitika ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "I-SteamID64 ikopishiwe!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Isixhumanisi sohwebo sikopishiwe!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Ukukopisha kwehlulekile",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Izintengo zivuselelwe!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Ukuvuselela kuhlulekile",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Kopisha i-SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Kopisha Isixhumanisi Sokuhweba",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 I-CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Uyapha",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Uyamukela",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "I-P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Izintengo zingahluka. Njalo qinisekisa ngaphambi kokuhweba.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Izitika",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Isamba senani Lesitika",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Sula zonke izintengo ezifakwe kunqolobane nedatha entantayo?\n\nIzintengo zizolandwa kabusha ngokusetshenziswa okulandelayo. Idatha ye-Float izolandwa kabusha njengoba izinto zibukwa.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Iyalondoloza...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Izilungiselelo zilondoloziwe",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Ilanda izintengo ngezilungiselelo ezintsha...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Ilondoloziwe! $COUNT$ izintengo ezilandiwe ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Sicela ufake ukhiye wakho we-PricEmpire API",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Inqolobane isulwe ngempumelelo",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Kuvuselelwe — $COUNT$ amanani alayishiwe",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Iyalayisha...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ izinto · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Namuhla",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 usuku olu-1",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ izinsuku",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Kukhiyiwe",
+    "description": "Trade lock: locked, no date"
+  }
+}

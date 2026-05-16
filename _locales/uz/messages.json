@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Haqiqiy vaqtda CS2 inventar narxlari, float qiymatlari, naqshni aniqlash, stiker qiymatlari va savdo tahlillari - barchasi bitta ekranda.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Umumiy koʻrinish",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Sozlamalar",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Haqida",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 inventarizatsiyasi - VaultLens faol",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Savdo taklifi - P&L paneli faol",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Savdo takliflari roʻyxati — P&L nishonlari faol",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam sahifasi - inventarga o'ting",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Steam sahifasida emas",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Umumiy qiymat",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Elementlar",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Narxlangan",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Rejim",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Narxlar yangilandi",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Narx yozuvlari",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Float yozuvlari",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Narxlarni yangilash",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Inventarizatsiyani oching",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Narxlash rejimi",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Teri porti",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "API kaliti talab qilinmaydi. Skinport umumiy API dan foydalanadi.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Bepul",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport va CSFloat narxlari. Doppler fazasining narxi. API kaliti talab qilinadi.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API kaliti",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API kaliti",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Kalitni oling →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Tejang va narxlarni oling",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Displey parametrlari",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Float qiymatlarini ko'rsatish",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Inventarizatsiya ob'ektlarida suzuvchi qiymat nishonlarini ko'rsatish",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Stiker narxlarini ko'rsatish",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Stiker qiymatining qalqib chiquvchi oynasini ko‘rsatish",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Naqshli nishonlarni ko'rsatish",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Moviy marvarid, Doppler fazasi, pasayish %, marmar rangsizlanish naqshlari",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Savdo blokirovkasini ortga hisoblashni ko'rsatish",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Qulflangan narsalarda qolgan kunlar bilan 🔒 nishonni ko'rsatish",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Kesh",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Narx keshi TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 soat",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Float kesh",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Doimiy (har bir element uchun)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Barcha keshni tozalash",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Til",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Interfeys tili",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "VaultLens qoplamalari va qalqib chiquvchi oyna uchun UI tili",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Tashqi ko'rinish",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Mavzu",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Qorong'i",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Nur",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Tizim standarti",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Versiya $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Haqiqiy vaqtda CS2 inventar narxlari, float qiymatlari, naqshni aniqlash, stiker qiymatlari va savdo tahlillari - barchasi bitta ekranda.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome internet-do'koni",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub ombori",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Muammo haqida xabar bering",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Maxfiylik",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens bepul va ochiq manba hisoblanadi. Hech qanday ma'lumot yig'ilmaydi yoki kuzatilmaydi. Barcha API qo'ng'iroqlari to'g'ridan-to'g'ri brauzeringizdan umumiy API-larga o'tadi. Sizning API kalitingiz mahalliy sifatida saqlanadi va hech qachon VaultLens serverlariga uzatilmaydi.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Ma'lumotlar manbalari",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Ma'lum cheklovlar",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Elementlarni qidirish...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Roʻyxatni nusxalash",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Nusxa olindi!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Narxlarni yangilash",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Yangilanmoqda...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Tanlang",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Tanlash",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Standart buyurtma",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Narxi: Yuqori → Past",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Narxi: Past → Yuqori",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Float: Past → Yuqori",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Float: Yuqori → Past",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Nomi: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Stiker qiymati ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 nusxalandi!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Savdo havolasi nusxalandi!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Nusxalash amalga oshmadi",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Narxlar yangilandi!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Yangilash amalga oshmadi",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 SteamID64-dan nusxa oling",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Savdo havolasidan nusxa oling",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Siz berasiz",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Qabul qilasiz",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Narxlar farq qilishi mumkin. Savdodan oldin har doim tekshiring.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Stikerlar",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Stikerning umumiy qiymati",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Barcha keshlangan narxlar va o'zgaruvchan ma'lumotlar tozalansinmi?\n\nNarxlar keyingi foydalanishda qayta olinadi. Float maʼlumotlari elementlar koʻrilayotganda qayta olinadi.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Saqlanmoqda...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Sozlamalar saqlangan",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Yangi sozlamalar bilan narxlar olinmoqda...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Saqlandi! $COUNT$ ta narxlar keltirildi ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Iltimos, PricEmpire API kalitingizni kiriting",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Kesh muvaffaqiyatli tozalandi",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Yangilangan — $COUNT$ narxlar yuklangan",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Yuklanmoqda...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ ta element · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Bugun",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 kun",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ kun",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Qulflangan",
+    "description": "Trade lock: locked, no date"
+  }
+}

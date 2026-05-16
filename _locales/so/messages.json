@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Qiimaha agabka alaabada ee CS2-waqtiga-dhabta ah, qiimayaasha sabbaynaya, ogaanshaha qaabka, qiyamka dhejiska, iyo falanqaynta ganacsiga - dhamaantood hal shaashad",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Dulmar",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Dejinta",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Ku saabsan",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventory - VaultLens firfircoon",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Soo Bandhigida Ganacsiga - Kooxda P&L oo firfircoon",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Liiska Bixinta Ganacsiga - Calaamadaha P&L oo firfircoon",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Bogga Steam - u soco alaabada",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Aan ku jirin bogga Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Wadarta Qiimaha",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Walxaha",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Qiimaha",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Habka",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Qiimaha waa la cusbooneysiiyay",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Gelida qiimaha",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Gelida sabaynaysa",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Dib u cusboonaysii Qiimaha",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Fur Alaabta",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Habka Qiimaha",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Dekedda maqaarka",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Furaha API looma baahna. Isticmaala Skinport dadweynaha API.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Bilaash",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & Qiimaha CSFloat. Qiimaha wajiga Doppler. Wuxuu u baahan yahay furaha API",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Furaha API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "Furaha API PricEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Hel furaha →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Keydi oo Soo hel Qiimaha",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Xulashada Bandhig",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Muuji Qiimaha Sabaynta",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Ku muuji calaamadaha qiimaha sabbaynaya alaabta alaabada",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Muuji Qiimaha Istiikarada",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Muuji istiikarada qiimaha kor u kaca",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Tus Calaamadaha Qaabka",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "jawharad buluug ah, wajiga Doppler, libdhi%, moodooyinka libdhiya marmar",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Muuji Tirinta Qufulka Ganacsiga",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Muuji 🔒 calaamad maalmo ka hadhsan yihiin alaabta qufulan",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Kaydka qiimaha TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 saac",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "kayd sabbaynaysa",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Joogto ah (shay kasta)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Nadiifi dhammaan Cache-ga",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Luuqad",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Luqadda Interface",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Luqadda UI ee VaultLens dulsaar iyo soo-bandhigid",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Muuqashada",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Dulucda",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Madow",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Iftiin",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Nidaamka Default",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Nooca $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Qiimaha agabka alaabada ee CS2-waqtiga-dhabta ah, qiimayaasha sabbaynaya, ogaanshaha qaabka, qiyamka dhejiska, iyo falanqaynta ganacsiga - dhamaantood hal shaashad",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Dukaanka Mareegta ee Chrome",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Kaydka GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Ka warbixi arrin",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Qarsoodi",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens waa bilaash waana il furan. Wax xog ah lama ururiyo ama lala socdo Dhammaan wicitaanada API waxay si toos ah uga socdaan biraawsarkaaga una socda API-yada dadweynaha Furaha API waxa lagu kaydiyaa maxali ah oo waligiis looma gudbin adeegayaasha VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Ilaha Xogta",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Xaddidaad la yaqaan",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Raadi walxaha...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Liiska koobiga",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Koobiyay!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Dib u cusboonaysii Qiimaha",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Soo kicinaysa...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Dooro",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Xulashada",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Dalabka caadiga ah",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Qiimaha: Sare → Hoose",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Qiimaha: Hooseeyo → Sare",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Sabbeyn: Hoose → Sare",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Sabbeyn: Sare → Hoose",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Magaca: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Qiimaha dhejiska ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 waa la koobiyeeyay!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Xiriirinta ganacsiga waa la guuriyay!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "nuqulku wuu fashilmay",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Qiimaha waa la cusbooneysiiyay!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Cusbooneysii waa guuldareystay",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 koobbi SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Copy Linkiga Ganacsiga",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Adiga Sii",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Waad helaysaa",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Qiimayaashu way kala duwanaan karaan. Had iyo jeer hubi ka hor ganacsiga.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Istiikaro",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Wadarta Qiimaha Istiikarada",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Ma tirtir dhammaan qiimayaasha la kaydiyay iyo xogta sabbaynaysa?\n\nQiimayaasha dib ayaa loo soo iibin doonaa isticmaalka soo socda. Xogta sabbaynaysa dib ayaa loo soo saari doonaa marka walxaha la eego.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "Badbaadinta...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Dejinta waa la keydiyay",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Qiimo ku soo iibinaya goobo cusub...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Waa la badbaadiyay! $COUNT$ qiimaha la helay ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "Fadlan geli furaha API PricEmpire",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Cache si guul leh ayaa loo nadiifiyay",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Dib loo cusbooneysiiyay - $COUNT$ qiimaha waa la raray",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Soodejinaya...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ walxaha · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Maanta",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 maalin",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ maalmood",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 quful",
+    "description": "Trade lock: locked, no date"
+  }
+}

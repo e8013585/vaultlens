@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Prețurile de inventar CS2 în timp real, valorile flotante, detectarea modelelor, valorile autocolantelor și analizele comerciale - toate pe un singur ecran.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Prezentare generală",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Setări",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Despre",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "Inventar CS2 — VaultLens activ",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Oferta comercială — Panoul P&L activ",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Lista ofertelor comerciale — insigne P&L active",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Pagina Steam — navigați la inventar",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Nu pe o pagină Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Valoarea totală",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Articole",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Preț",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Modul",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Preturi actualizate",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Intrări de preț",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Intrări flotante",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Actualizează prețurile",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Deschideți inventarul",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Modul de stabilire a prețurilor",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Port de piele",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Nu este necesară cheia API. Utilizează API-ul public Skinport.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Gratuit",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Prețuri Buff163, Skinport și CSFloat. Prețul în faza Doppler. Necesită cheia API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Cheia API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "Cheia API PricEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Obțineți cheia →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Economisiți și obțineți prețuri",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Opțiuni de afișare",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Afișați valorile flotante",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Afișați insigne cu valoare variabilă pe articolele de inventar",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Afișați prețurile autocolantelor",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Afișați valoarea stickerului pop-up",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Afișați insigne de model",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Bijuterie albastră, faza Doppler, % fade, modele de decolorare marmură",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Afișați numărătoare inversă pentru blocarea comerțului",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Afișați insigna 🔒 cu zilele rămase pentru articolele blocate",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Cache de preț TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 oră",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Float cache",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Permanent (per articol)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Goliți toată memoria cache",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Limbă",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Limbajul interfeței",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Limbajul UI pentru suprapuneri și ferestre pop-up VaultLens",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Aspect",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Temă",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Întuneric",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Aprinde",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Implicit sistem",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Versiunea $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Prețurile de inventar CS2 în timp real, valorile flotante, detectarea modelelor, valorile autocolantelor și analizele comerciale - toate pe un singur ecran.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Magazin web Chrome",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Depozitul GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Raportați o problemă",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Confidențialitate",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens este gratuit și open source. Nu sunt colectate sau urmărite date. Toate apelurile API trec direct din browser către API-urile publice. Cheia dvs. API este stocată local și nu este niciodată transmisă serverelor VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Surse de date",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Limitări cunoscute",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Căutați articole...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Lista de copiere",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Copiat!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Actualizează prețurile",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Înviorător...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Selectați",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Selectarea",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Comanda implicită",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Preț: ridicat → mic",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Preț: mic → ridicat",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Plutitor: Scăzut → Înalt",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Plutitor: Înalt → Scăzut",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Nume: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Valoarea autocolantului ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 a fost copiat!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Link comercial copiat!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Copierea eșuată",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Prețuri reîmprospătate!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Reîmprospătarea a eșuat",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Copiați SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Copiați linkul comercial",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 Taraba CSFloat",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Dăruiești",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Tu Primești",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Prețurile pot varia. Verificați întotdeauna înainte de tranzacționare.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Autocolante",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Valoarea totală a autocolantului",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Ștergeți toate prețurile stocate în cache și datele flotante?\n\nPrețurile vor fi recuperate la următoarea utilizare. Datele flotante vor fi preluate din nou pe măsură ce elementele sunt vizualizate.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Se salvează...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Setări salvate",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Preluare prețuri cu noi setări...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Salvat! $COUNT$ prețuri preluate ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Introduceți cheia dvs. API PricEmpire",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Cache-ul a fost golit cu succes",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Reîmprospătat — $COUNT$ prețuri încărcate",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Încărcare...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ articole · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Azi",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 zi",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ zile",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Încuiat",
+    "description": "Trade lock: locked, no date"
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Real-time na pagpepresyo ng imbentaryo ng CS2, float value, pattern detection, sticker value, at trade analytics — lahat sa isang screen.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Pangkalahatang-ideya",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Mga setting",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Tungkol sa",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "Imbentaryo ng CS2 — Aktibo ang VaultLens",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Trade Offer — Aktibo ang panel ng P&L",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Listahan ng Mga Alok sa Kalakalan — Aktibo ang mga badge ng P&L",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam page — mag-navigate sa imbentaryo",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Wala sa isang Steam page",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Kabuuang Halaga",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Mga bagay",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Napresyohan",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Mode",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Na-update ang mga presyo",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Mga entry sa presyo",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Lutang ang mga entry",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ I-refresh ang mga Presyo",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Buksan ang Imbentaryo",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Mode ng Pagpepresyo",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Port ng balat",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Walang kinakailangang API key. Gumagamit ng Skinport public API.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Libre",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport at CSFloat na mga presyo. Doppler phase na pagpepresyo. Nangangailangan ng API key.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API Key",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API Key",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Kunin ang susi →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 I-save at Kunin ang mga Presyo",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Mga Opsyon sa Pagpapakita",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Ipakita ang mga Float Value",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Ipakita ang mga float value badge sa mga item sa imbentaryo",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Ipakita ang Mga Presyo ng Sticker",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Ipakita ang sticker value hover popup",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Ipakita ang Mga Badge ng Pattern",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Asul na hiyas, Doppler phase, fade %, marble fade patterns",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Ipakita ang Trade Lock Countdowns",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Ipakita ang 🔒 badge na may mga araw na natitira sa mga naka-lock na item",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "TTL cache ng presyo",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 oras",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Float cache",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Permanente (bawat item)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 I-clear ang Lahat ng Cache",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Wika",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Wika ng Interface",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Wika ng UI para sa mga overlay at popup ng VaultLens",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Hitsura",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Tema",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Madilim",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Liwanag",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "System Default",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Bersyon $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Real-time na pagpepresyo ng imbentaryo ng CS2, float value, pattern detection, sticker value, at trade analytics — lahat sa isang screen.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web Store",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub Repository",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Mag-ulat ng Isyu",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Privacy",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "Ang VaultLens ay libre at open source. Walang data na nakolekta o sinusubaybayan. Lahat ng API call ay direktang napupunta mula sa iyong browser patungo sa mga pampublikong API. Ang iyong API key ay lokal na iniimbak at hindi kailanman ipinadala sa mga server ng VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Mga Pinagmumulan ng Data",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Mga Kilalang Limitasyon",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Maghanap ng mga item...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Kopyahin ang Listahan",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Kinopya!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ I-refresh ang mga Presyo",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Nagre-refresh...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Pumili",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Pumipili",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Default na Order",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Presyo: Mataas → Mababa",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Presyo: Mababa → Mataas",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Lutang: Mababa → Mataas",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Lutang: Mataas → Mababa",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Pangalan: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Halaga ng Sticker ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "Nakopya ang SteamID64!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Nakopya ang trade link!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Nabigo ang pagkopya",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Na-refresh ang mga presyo!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Nabigo ang pag-refresh",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Kopyahin ang SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Kopyahin ang Trade Link",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Ibigay mo",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Natanggap mo",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Maaaring mag-iba ang mga presyo. Palaging i-verify bago mag-trade.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Mga sticker",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Kabuuang Halaga ng Sticker",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "I-clear ang lahat ng naka-cache na presyo at float data?\n\nAng mga presyo ay muling kukunin sa susunod na paggamit. Ang data ng float ay muling kukunin habang tinitingnan ang mga item.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Nagse-save...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Na-save ang mga setting",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Kinukuha ang mga presyo gamit ang mga bagong setting...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Nai-save! $COUNT$ mga presyong kinuha ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Pakilagay ang iyong PricEmpire API key",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Matagumpay na na-clear ang cache",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Na-refresh — $COUNT$ mga presyo na na-load",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Naglo-load...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ aytem · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Ngayon",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 araw",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ araw",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Naka-lock",
+    "description": "Trade lock: locked, no date"
+  }
+}

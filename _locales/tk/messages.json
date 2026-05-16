@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Hakyky CS2 inwentar bahalary, ýüzýän bahalar, nagyşlary kesgitlemek, stiker bahalary we söwda analitikasy - bularyň hemmesi bir ekranda.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Gysgaça syn",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Sazlamalar",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Takmynan",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 inwentar - VaultLens işjeň",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Söwda teklibi - P&L paneli işjeň",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Söwda teklipleriniň sanawy - P&L nyşanlary işjeň",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Bug sahypasy - inwentara geçiň",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Bug sahypasynda däl",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Jemi baha",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Harytlar",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Bahasy",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Reodeim",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Bahalar täzelendi",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Bahalar ýazgylary",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Floüzýän ýazgylar",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "Pr Bahalary täzeläň",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Açyk inwentar",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Bahalar tertibi",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Deri porty",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Hiç hili API açary talap edilmeýär. Skinport public API ulanýar.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Mugt",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat bahalary. Doppler fazasynyň bahasy. API açary talap edýär.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API açary",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API açary",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Key açary al",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "Pr Bahalary tygşytlamak we almak",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Görkeziş opsiýalary",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Floüzýän bahalary görkeziň",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Inwentar elementlerinde ýüzýän baha nyşanlaryny görkeziň",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Stiker bahalaryny görkez",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Etiketkanyň bahasynyň çykýan ýerini görkeziň",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Nusga nyşanlaryny görkez",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Gök daş, Doppler fazasy, solýar%, mermer reňkli nagyşlar",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Söwda gulp sanlaryny görkeziň",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Gulplanan zatlarda galan günler bilen 🔒 nyşany görkeziň",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Keş",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Bahasy keş TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 sagat",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Floüz keş",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Hemişelik (her element üçin)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "All Keşi arassalaň",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Dil",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Interfeýs dili",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "VaultLens örtükleri we açylan UI dili",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Daş görnüşi",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Mowzuk",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Garaňky",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Lightagtylyk",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Ulgam standarty",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Wersiýa $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Hakyky CS2 inwentar bahalary, ýüzýän bahalar, nagyşlary kesgitlemek, stiker bahalary we söwda analitikasy - bularyň hemmesi bir ekranda.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome web dükany",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "It GitHub ammary",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "Iss Bir mesele barada habar beriň",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "Acy Gizlinlik",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens mugt we açyk çeşme. Hiç hili maglumat ýygnalmaýar we yzarlanylmaýar. APIhli API jaňlary göni brauzeriňizden köpçülige açyk API-lere gidýär. API açaryňyz ýerli derejede saklanýar we hiç haçan VaultLens serwerlerine geçirilmeýär.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Maglumat çeşmeleri",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Belli çäklendirmeler",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "Items Gözleg elementleri ...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "List Sanawy göçüriň",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "Ied Göçürildi!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "Pr Bahalary täzeläň",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "Resh Täzelenýän ...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Saýlaň",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Saýlamak",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Bellenen tertip",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Baha: ýokary → pes",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Baha: Pes → .okary",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Float: Pes → beýik",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Float: → → Pes",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Ady: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Etiketkanyň bahasy ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 göçürildi!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Söwda baglanyşygy göçürildi!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Göçürmek şowsuz",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Bahalar täzelendi!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Täzelemek şowsuz",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "Steam SteamID64-i göçüriň",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "Trade Söwda baglanyşygyny göçüriň",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat dükany",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Sen berýärsiň",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Siz alýarsyňyz",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Bahalar dürli bolup biler. Söwda etmezden ozal elmydama barlaň.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Etiketler",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Jemi stiker bahasy",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Chli keş keşlerini we ýüzýän maglumatlary arassalaň?\n\nIndiki ulanylanda bahalar gaýtadan alynar. Floüzýän maglumatlar, zatlar görlende täzeden alynar.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Tygşytlamak ...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "Ett Sazlamalar ýatda saklandy",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "New Täze sazlamalar bilen bahalary almak ...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Halas edildi! $COUNT$ bahalar alyndy ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "P PricEmpire API açaryňyzy giriziň",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "Ache Keş üstünlikli arassalandy",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Täzelenen - $COUNT$ bahalar ýüklendi",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Adingüklenýär ...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ elementler · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Şu gün",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 gün",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ gün",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Gulply",
+    "description": "Trade lock: locked, no date"
+  }
+}

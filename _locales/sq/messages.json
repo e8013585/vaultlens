@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Çmimi i inventarit CS2 në kohë reale, vlerat e notimit, zbulimi i modeleve, vlerat e ngjitësve dhe analitika e tregtisë — të gjitha në një ekran.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Vështrim i përgjithshëm",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Cilësimet",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Rreth",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "Inventari CS2 — VaultLens aktiv",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Oferta Tregtare - Paneli P&L është aktiv",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Lista e Ofertave Tregtare - Distinktivët P&L janë aktive",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Faqja e Steam - lundroni te inventar",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Jo në një faqe Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Vlera totale",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Artikuj",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Me çmim",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Modaliteti",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Çmimet u përditësuan",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Regjistrimet e çmimeve",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Regjistrimet notuese",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Rifresko çmimet",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Hap inventarin",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Modaliteti i Çmimeve",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Porta e lëkurës",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Nuk kërkohet asnjë çelës API. Përdor API publike Skinport.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Falas",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Çmimet Buff163, Skinport & CSFloat. Çmimi i fazës Doppler. Kërkon çelësin API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Çelësi API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "Çelësi i API-së së PricEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Merr çelësin →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Kurseni dhe Merr Çmimet",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Opsionet e ekranit",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Shfaq vlerat e notimit",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Shfaq distinktivët e vlerës së notimit në artikujt e inventarit",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Shfaq çmimet e afisheve",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Shfaq dritaren kërcyese të vlerës së ngjitëses",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Shfaq distinktivët e modelit",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Perlë blu, faza Doppler, zbehje %, modele të zbehjes së mermerit",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Trego numërimin mbrapsht të bllokimit të tregtisë",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Shfaq distinktivin 🔒 me ditë të mbetura në artikujt e kyçur",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Cache çmimi TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 orë",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Float cache",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "E përhershme (për artikull)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Pastro të gjitha cache",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Gjuha",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Gjuha e ndërfaqes",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Gjuha e ndërfaqes së përdoruesit për mbivendosjet dhe dritaret kërcyese të VaultLens",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Pamja e jashtme",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Tema",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "E errët",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Drita",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Parazgjedhja e sistemit",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Versioni $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Çmimi i inventarit CS2 në kohë reale, vlerat e notimit, zbulimi i modeleve, vlerat e ngjitësve dhe analitika e tregtisë — të gjitha në një ekran.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Dyqani në internet i Chrome",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Depoja e GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Raportoni një problem",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Privatësia",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens është falas dhe me burim të hapur. Asnjë e dhënë nuk mblidhet apo gjurmohet. Të gjitha thirrjet API shkojnë drejtpërdrejt nga shfletuesi juaj në API publike. Çelësi juaj API ruhet në nivel lokal dhe nuk transmetohet kurrë te serverët VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Burimet e të dhënave",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Kufizimet e njohura",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Kërko artikuj...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Kopjoni listën",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ I kopjuar!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Rifresko çmimet",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Po rifreskohet...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Zgjidh",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Përzgjedhja",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Urdhri i parazgjedhur",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Çmimi: I lartë → I ulët",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Çmimi: I ulët → I lartë",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Float: E ulët → E lartë",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Float: Lartë → E ulët",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Emri: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Vlera e ngjitëses ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 u kopjua!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Lidhja tregtare u kopjua!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Kopjimi dështoi",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Çmimet e rifreskuara!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Rifreskimi dështoi",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Kopjo SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Kopjo lidhjen tregtare",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 Stalla CSFloat",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Ju Jepni",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Ju merrni",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Çmimet mund të ndryshojnë. Gjithmonë verifikoni përpara se të tregtoni.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Ngjitëse",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Vlera totale e ngjitëses",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Të pastrohen të gjitha çmimet e ruajtura në memorie të fshehtë dhe të dhënat e lëvizshme?\n\nÇmimet do të rimerren në përdorimin e radhës. Të dhënat e float do të rimerren ndërsa artikujt shikohen.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Po ruhet...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Cilësimet u ruajtën",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Po merren çmimet me cilësimet e reja...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Ruajtur! $COUNT$ çmime të marra ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Ju lutemi shkruani çelësin tuaj të API-së PricEmpire",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Cache u pastrua me sukses",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Rifreskuar — $COUNT$ çmime të ngarkuara",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Po ngarkohet...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ artikuj · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Sot",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 ditë",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ ditë",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 E mbyllur",
+    "description": "Trade lock: locked, no date"
+  }
+}

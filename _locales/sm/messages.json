@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Tau fa'amaumau CS2 fa'atauga, tau fa'a'a'ave'a, su'esu'ega fa'ata'ita'iga, tau fa'ailoga, ma au'ili'iliga tau fefa'ataua'iga - uma i luga o le lau e tasi.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Vaaiga lautele",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Fa'atonu",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "E uiga i",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventory - VaultLens o lo'o galue",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Fefa'ataua'iga ofo - P&L vaega o lo'o galue",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Lisi o Fefa'ataua'iga - Fa'ailoga P&L o lo'o ola",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Itulau ausa - fa'asaga ile su'esu'ega",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "E le o luga ole itulau Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Aofa'iga Taua",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Aitema",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Tau",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Faiga",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Fa'afouina tau",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Fa'amatalaga tau",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Fa'alele fa'amau",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Fa'afouina Tau",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Tatala Inventory",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Faiga tau",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Taulaga pa'u",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Leai se ki API e mana'omia. Fa'aaogā le Skinport public API.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Sa'oloto",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport & CSFloat tau. Tau ole vaega ole Doppler. Manaomia API key.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API Key",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API Key",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Maua le ki →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Faasaoina & Aumai Tau",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Fa'aali Filifiliga",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Fa'aali Tau Fa'afefe",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Fa'aali pine fa'atauva'a i luga o mea fa'atau",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Fa'aali Tau Fa'amau",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Fa'aali fa'ailoga fa'apipi'i tau fa'ailoga",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Fa'aali pine Fa'ata'ita'i",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Blue gem, Doppler phase, fade%, maamora mou mamanu",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Fa'aali Fefa'atauaiga Loka Countdowns",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Fa'aali le pine 🔒 ma aso o totoe i mea o lo'o loka",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Tau cache TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 itula",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Fa'afefe fa'aoga",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Tumau (ta'i mea)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Fa'amama uma Cache",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Gagana",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Gagana Fa'afeso'ota'i",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Gagana UI mo VaultLens fa'apipi'i ma popup",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Fa'aaliga",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Autu",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Pogisa",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Malamalama",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "System Default",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Fa'aliliuga $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Tau fa'amaumau CS2 fa'atauga, tau fa'a'a'ave'a, su'esu'ega fa'ata'ita'iga, tau fa'ailoga, ma au'ili'iliga tau fefa'ataua'iga - uma i luga o le lau e tasi.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Faleoloa Web Chrome",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub Repository",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Lipoti se Mataupu",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Fa'alilolilo",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "O le VaultLens e leai se totogi ma tatala punaoa. E leai ni fa'amatalaga e aoina pe siaki. O valaau API uma e alu sa'o mai lau su'esu'ega ile API lautele. O lau ki API o lo'o teuina i le lotoifale ma e le tu'uina atu i VaultLens servers.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Punaoa Fa'amaumauga",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Tapulaa ua Iloa",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Su'e mea...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Kopi Lisi",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Kopi!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Fa'afouina Tau",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Fa'afou...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Filifili",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Filifilia",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Fa'atonuga Fa'atonu",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Tau: Maualuluga → Maulalo",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Tau: Maulalo → Maualuluga",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Opeopea: Maulalo → Maualuluga",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Opeopea: Maualuluga → Maulalo",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Igoa: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Fa'ailoga Tau ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 kopi!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Kopi feso'ota'iga fefa'ataua'iga!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Ua le mafai ona kopi",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Toe fa'afouina tau!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Ua le manuia le toe faafou",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Kopi SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Kopi Fefa'ataua'iga So'oga",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat Stall",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Ua e Foai",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Ua E Maua",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "E ono eseese tau. Fa'amaonia i taimi uma a'o le'i fefa'ataua'iga.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Fa'ailoga",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Aofa'i Fa'ailoga Tau",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Fa'amama uma tau o lo'o natia ma fa'aa'e fa'amaumauga?\n\nO tau o le a toe aumai i le isi fa'aoga. O fa'amaumauga opeopea o le a toe aumai a'o va'aia aitema.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Faasaoina...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Fa'asaoina tulaga",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Su'e tau ma fa'atulaga fou...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Faasaoina! $COUNT$ tau na aumai ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Fa'amolemole tu'u lau ki PricEmpire API",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Fa'amama lelei le fa'aoga",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Toe fa'afouina - $COUNT$ tau fa'amomoli",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "utaina...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ aitema · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 I aso nei",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒1 aso",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ aso",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Loka",
+    "description": "Trade lock: locked, no date"
+  }
+}

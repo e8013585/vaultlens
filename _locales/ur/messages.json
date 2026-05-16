@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "والٹ لینس",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "ریئل ٹائم CS2 انوینٹری کی قیمتوں کا تعین، فلوٹ ویلیوز، پیٹرن کا پتہ لگانا، اسٹیکر ویلیوز، اور تجارتی تجزیات — سب ایک اسکرین پر۔",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "جائزہ",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "ترتیبات",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "کے بارے میں",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 انوینٹری - والٹ لینس فعال",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "تجارتی پیشکش - P&L پینل فعال",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "تجارتی پیشکشوں کی فہرست — P&L بیجز فعال",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "بھاپ کا صفحہ — انوینٹری پر جائیں۔",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "بھاپ کے صفحے پر نہیں۔",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "کل قدر",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "اشیاء",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "قیمتی",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "موڈ",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "قیمتیں اپ ڈیٹ کر دی گئیں۔",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "قیمت کے اندراجات",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "فلوٹ اندراجات",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ قیمتیں ریفریش کریں۔",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "انوینٹری کھولیں۔",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "قیمتوں کا تعین موڈ",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "جلد کی بندرگاہ",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "کسی API کلید کی ضرورت نہیں ہے۔ سکنپورٹ پبلک API استعمال کرتا ہے۔",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "مفت",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PricEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "بف 163، سکنپورٹ اور سی ایس فلوٹ کی قیمتیں۔ ڈوپلر مرحلے کی قیمتوں کا تعین۔ API کلید کی ضرورت ہے۔",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API کلید",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API کلید",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "کلید حاصل کریں →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 قیمتیں محفوظ کریں اور بازیافت کریں۔",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "ڈسپلے کے اختیارات",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "فلوٹ ویلیوز دکھائیں۔",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "انوینٹری آئٹمز پر فلوٹ ویلیو بیجز ڈسپلے کریں۔",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "اسٹیکر کی قیمتیں دکھائیں۔",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "اسٹیکر ویلیو ہوور پاپ اپ دکھائیں۔",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "پیٹرن کے بیجز دکھائیں۔",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "بلیو منی، ڈوپلر فیز، فیڈ فیصد، ماربل فیڈ پیٹرن",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "تجارتی لاک الٹی گنتی دکھائیں۔",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "لاک شدہ آئٹمز پر باقی دنوں کے ساتھ 🔒 بیج ڈسپلے کریں۔",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "کیشے",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "قیمت کیش ٹی ٹی ایل",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 گھنٹہ",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "فلوٹ کیش",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "مستقل (فی شے)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 تمام کیشے صاف کریں۔",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "زبان",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "انٹرفیس کی زبان",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "VaultLens اوورلیز اور پاپ اپ کے لیے UI زبان",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "ظاہری شکل",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "تھیم",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "اندھیرا",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "روشنی",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "سسٹم ڈیفالٹ",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "ورژن $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "ریئل ٹائم CS2 انوینٹری کی قیمتوں کا تعین، فلوٹ ویلیوز، پیٹرن کا پتہ لگانا، اسٹیکر ویلیوز، اور تجارتی تجزیات — سب ایک اسکرین پر۔",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 کروم ویب اسٹور",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub ذخیرہ",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 کسی مسئلے کی اطلاع دیں۔",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 رازداری",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "والٹ لینس مفت اور اوپن سورس ہے۔ کوئی ڈیٹا اکٹھا یا ٹریک نہیں کیا جاتا ہے۔ تمام API کالز براہ راست آپ کے براؤزر سے عوامی APIs پر جاتی ہیں۔ آپ کی API کلید مقامی طور پر ذخیرہ کی جاتی ہے اور کبھی بھی VaultLens سرورز پر منتقل نہیں ہوتی۔",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "ڈیٹا ذرائع",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "معلوم حدود",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 اشیاء تلاش کریں...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 کاپی لسٹ",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ کاپی شدہ!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ قیمتیں ریفریش کریں۔",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ تروتازہ ہو رہا ہے...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ منتخب کریں۔",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ انتخاب کرنا",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "پہلے سے طے شدہ آرڈر",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "قیمت: زیادہ → کم",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "قیمت: کم → زیادہ",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "فلوٹ: کم → اعلی",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "فلوٹ: ہائی → کم",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "نام: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "اسٹیکر ویلیو ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 کاپی ہو گیا!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "تجارتی لنک کاپی ہو گیا!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "کاپی ناکام ہو گئی۔",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "قیمتیں تازہ کی گئیں!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "ریفریش ناکام ہو گیا۔",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 SteamID64 کاپی کریں۔",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 ٹریڈ لنک کاپی کریں۔",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat اسٹال",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "آپ دیتے ہیں۔",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "آپ وصول کرتے ہیں۔",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "پی اینڈ ایل",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "قیمتیں مختلف ہو سکتی ہیں۔ ٹریڈنگ سے پہلے ہمیشہ تصدیق کریں۔",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "اسٹیکرز",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "اسٹیکر کی کل قیمت",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "تمام کیش شدہ قیمتیں اور فلوٹ ڈیٹا صاف کریں؟\n\nقیمتیں اگلے استعمال پر دوبارہ حاصل کی جائیں گی۔ آئٹمز دیکھے جانے پر فلوٹ ڈیٹا دوبارہ حاصل کیا جائے گا۔",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ محفوظ کیا جا رہا ہے...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ سیٹنگز محفوظ ہو گئیں۔",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ نئی ترتیبات کے ساتھ قیمتیں حاصل کرنا...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ محفوظ کیا گیا! $COUNT$ قیمتیں حاصل کی گئیں ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ براہ کرم اپنی PricEmpire API کلید درج کریں۔",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ کیشے کامیابی کے ساتھ صاف ہو گیا۔",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ تازہ کاری - $COUNT$ قیمتیں بھری ہوئی ہیں۔",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "لوڈ ہو رہا ہے...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ اشیاء · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 آج",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 دن",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ دن",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 مقفل",
+    "description": "Trade lock: locked, no date"
+  }
+}

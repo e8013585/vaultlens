@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens ya swilo",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Minxavo ya nhundzu ya CS2 ya nkarhi wa xiviri, mimpimo ya float, ku kumiwa ka xivumbeko, mimpimo ya switichi, na vuxopaxopi bya mabindzu — hinkwaswo eka xikirini xin’we.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Nkatsakanyo",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Switirhisiwa",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Hi",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 Inventory — VaultLens yi tirha",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Nyiko ya Mabindzu — Phanele ya P&L yi tirha",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Nxaxamelo wa Swinyikiwo swa Mabindzu — Tibeji ta P&L ti tirha",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam page — famba eka inventory",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "A hi eka tluka ra Steam",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Ntsengo Hinkwawo",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Swilo",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Ku xavisiwa hi nxavo",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Mode",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Minxavo yi pfuxetiwile",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Swingheniso swa nxavo",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Swingheniso swa float",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Minxavo yo Pfuxeta",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Vula Nxaxamelo wa Swilo",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Mode ya Ntsengo",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Xipfalo xa nhlonge",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Ku hava xilotlelo xa API lexi lavekaka. Ku tirhisa API ya mani na mani ya Skinport.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Tshunxeka",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "NtsengoEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Minxavo ya Buff163, Skinport & CSFloat. Ku vekiwa ka nxavo wa xiyenge xa ​​Doppler. Swi lava xilotlelo xa API.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "Xilotlelo xa API",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "Xilotlelo xa API xa PricEmpire",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Kuma xilotlelo →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Hlayisa & Kuma Minxavo",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Swihlawulekisi swa Nkombiso",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Kombisa Mimpimo ya Float",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Kombisa tibeji ta nkoka wa float eka swilo swa inventory",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Kombisa Minxavo ya Switichi",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Kombisa nkoka wa xitichi hover popup",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Kombisa Tibeji ta Xivumbeko",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Gem ya wasi, xiphemu xa Doppler, fade %, swivumbeko swa marble fade",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Kombisa Swibalo swa Trade Lock",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Display 🔒 badge leyi nga sala masiku eka swilo leswi lotleriweke",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Cache",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "Ntsengo wa cache TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 wa awara",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Xigwitsirisi xa float",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Nkarhi hinkwawo (hi nchumu wun’wana ni wun’wana) .",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Susa Cache Hinkwaswo",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Ririmi",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Ririmi ra Xihlanganisi",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Ririmi ra UI ra swifunengeto swa VaultLens na popup",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Xivumbeko",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Mombo",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Xinyama",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Rivoni",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Xiyimiso xa Sisiteme",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "Vuhundzuluxeri bya $VERSION$.",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Minxavo ya nhundzu ya CS2 ya nkarhi wa xiviri, mimpimo ya float, ku kumiwa ka xivumbeko, mimpimo ya switichi, na vuxopaxopi bya mabindzu — hinkwaswo eka xikirini xin’we.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Xitolo xa Webu xa Chrome",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 Vuhlayiselo bya GitHub",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Vika Mhaka",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Vuhlayiseki bya xihundla",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens i ya mahala naswona i xihlovo lexi pfulekeke. Ku hava datha leyi hlengeletiwaka kumbe ku landzelerisiwa. Tifoni hinkwato ta API ti famba hi ku kongoma ku suka eka browser ya wena ku ya eka ti-API ta mani na mani. Xilotlelo xa wena xa API xi hlayisiwa laha tikweni naswona a xi si tshama xi hundziseriwa eka tisevha ta VaultLens.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Swihlovo swa Data",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Swipimelo Leswi Tiviwaka",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Ku lavisisa swilo...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Nxaxamelo wa Tikopi",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Ku kopiwile!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Minxavo yo Pfuxeta",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Ku phyuphyisa...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Hlawula",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Ku hlawula",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Xileriso xa Xihlawulekisi",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Ntsengo: Ehenhla → Ehansi",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Ntsengo: Wa le hansi → Wa le henhla",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Float: Ehansi → Ehenhla",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Float: E henhla → Ehansi",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Vito: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Nkoka wa Xitifikheti ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 yi kopiwe!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Xihlanganisi xa mabindzu xi kopiwile!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Ku kopiwa ku tsandzekile",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Minxavo yi pfuxetiwile!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Ku pfuxeta ku tsandzekile",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Kopa SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Kopa Xihlanganisi xa Mabindzu",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 Xitolo xa CSFloat",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "U Nyika",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "U Amukela",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Minxavo yi nga ha hambana. Minkarhi hinkwayo tiyisisa loko u nga si xaviselana.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Switichi swa switichi",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Ntsengo hinkwawo wa Xitifikheti",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Ku basisa minxavo hinkwayo leyi hlayisiweke na data ya float?\n\nMinxavo yi ta tlhela yi tekiwa eka ku tirhisiwa loku landzelaka. Data ya float yi ta tlhela yi tekiwa loko swilo swi langutiwa.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Ku hlayisa...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Switirhisiwa swi hlayisiwile",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Ku kuma minxavo hi swiyimiso leswintshwa...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Ku hlayisiwile! $COUNT$ minxavo yi tekiwile ($MODE$) .",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Hi kombela u nghenisa xilotlelo xa wena xa PricEmpire API",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Cache yi basisiwile hi ndlela leyi humelelaka",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Ku pfuxetiwile — $COUNT$ minxavo yi layichiwile",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Ku layicha...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ swilo · $MODE$ .",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Namuntlha",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 siku",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ masiku",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Ku pfaleriwile",
+    "description": "Trade lock: locked, no date"
+  }
+}

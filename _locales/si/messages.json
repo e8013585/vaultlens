@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "තත්‍ය කාලීන CS2 ඉන්වෙන්ටරි මිලකරණය, පාවෙන අගයන්, රටා හඳුනාගැනීම, ස්ටිකර් අගයන් සහ වෙළඳ විශ්ලේෂණ - සියල්ල එකම තිරයක.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "දළ විශ්ලේෂණය",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "සැකසීම්",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "ගැන",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 ඉන්වෙන්ටරි - VaultLens සක්‍රීයයි",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "වෙළඳ පිරිනැමීම - P&L පැනලය සක්‍රීයයි",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "වෙළඳ පිරිනැමීම් ලැයිස්තුව - P&L ලාංඡන සක්‍රීයයි",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "වාෂ්ප පිටුව - ඉන්වෙන්ටරි වෙත සංචාලනය කරන්න",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Steam පිටුවක නොවේ",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "මුළු වටිනාකම",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "අයිතම",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "මිල කර ඇත",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "මාදිලිය",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "මිල ගණන් යාවත්කාලීන කර ඇත",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "මිල ඇතුළත් කිරීම්",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "පාවෙන ඇතුළත් කිරීම්",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ මිල ගණන් නැවුම් කරන්න",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "ඉන්වෙන්ටරි විවෘත කරන්න",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "මිලකරණ මාදිලිය",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "සම වරාය",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "API යතුර අවශ්‍ය නොවේ. Skinport public API භාවිතා කරයි.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "නොමිලේ",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "PriceEmpire + CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163, Skinport සහ CSFloat මිල ගණන්. ඩොප්ලර් අදියර මිලකරණය. API යතුර අවශ්‍යයි.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API යතුර",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PriceEmpire API යතුර",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "යතුර ලබා ගන්න →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 ඉතිරි කර මිල ගණන් ලබා ගන්න",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "සංදර්ශක විකල්ප",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "පාවෙන අගයන් පෙන්වන්න",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "ඉන්වෙන්ටරි අයිතමවල පාවෙන අගය ලාංඡන සංදර්ශන කරන්න",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "ස්ටිකර මිල පෙන්වන්න",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "ස්ටිකර අගය hover popup පෙන්වන්න",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "රටා ලාංඡන පෙන්වන්න",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "නිල් මැණික්, ඩොප්ලර් අදියර, වියැකී යාමේ%, කිරිගරුඬ වියැකී යන රටා",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "වෙළඳ අගුළු ගණන් කිරීම් පෙන්වන්න",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "අගුලු දැමූ අයිතමවල ඉතිරිව ඇති දින සමඟ 🔒 ලාංඡනය පෙන්වන්න",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "හැඹිලිය",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "මිල හැඹිලිය TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "පැය 1 යි",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "පාවෙන හැඹිලිය",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "ස්ථිර (අයිතමයකට)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 සියලුම හැඹිලි ඉවත් කරන්න",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "භාෂාව",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "අතුරු මුහුණත භාෂාව",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "VaultLens උඩැතිරි සහ උත්පතන සඳහා UI භාෂාව",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "පෙනුම",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "තේමාව",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "අඳුරු",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "ආලෝකය",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "පද්ධති පෙරනිමිය",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "අනුවාදය $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "තත්‍ය කාලීන CS2 ඉන්වෙන්ටරි මිලකරණය, පාවෙන අගයන්, රටා හඳුනාගැනීම, ස්ටිකර් අගයන් සහ වෙළඳ විශ්ලේෂණ - සියල්ල එකම තිරයක.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome Web Store",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub ගබඩාව",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 ගැටලුවක් වාර්තා කරන්න",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 පෞද්ගලිකත්වය",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens නොමිලේ සහ විවෘත මූලාශ්‍ර වේ. දත්ත රැස් කිරීම හෝ ලුහුබැඳීම සිදු නොවේ. සියලුම API ඇමතුම් ඔබගේ බ්‍රවුසරයේ සිට පොදු API වෙත කෙලින්ම යයි. ඔබගේ API යතුර දේශීයව ගබඩා කර ඇති අතර කිසි විටෙකත් VaultLens සේවාදායකයන් වෙත සම්ප්‍රේෂණය නොවේ.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "දත්ත මූලාශ්ර",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "දන්නා සීමාවන්",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 අයිතම සොයන්න...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 පිටපත් ලැයිස්තුව",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ පිටපත් කර ඇත!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ මිල ගණන් නැවුම් කරන්න",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ ප්‍රබෝධමත් කරමින්...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ තෝරන්න",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ තෝරාගැනීම",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "පෙරනිමි ඇණවුම",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "මිල: ඉහළ → අඩු",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "මිල: අඩු → ඉහළ",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "පාවෙන: අඩු → ඉහළ",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "පාවෙන: ඉහළ → අඩු",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "නම: A → Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "ස්ටිකර අගය ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 පිටපත් කරන ලදී!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "වෙළඳ සබැඳිය පිටපත් කර ඇත!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "පිටපත් කිරීම අසාර්ථක විය",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "මිල ගණන් නැවුම් කර ඇත!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "නැවුම් කිරීම අසාර්ථක විය",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 SteamID64 පිටපත් කරන්න",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 වෙළඳ සබැඳිය පිටපත් කරන්න",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 CSFloat කුටිය",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO-Rep",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "ඔබ දෙන්න",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "ඔබට ලැබේ",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "P&L",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "මිල ගණන් වෙනස් විය හැක. වෙළඳාමට පෙර සැමවිටම සත්‍යාපනය කරන්න.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "ස්ටිකර්",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "සම්පූර්ණ ස්ටිකර අගය",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "සියලු හැඹිලිගත මිල ගණන් සහ පාවෙන දත්ත හිස් කරන්නද?\n\nමීළඟ භාවිතයේදී මිල ගණන් නැවත ලබා දෙනු ඇත. අයිතම බලන විට පාවෙන දත්ත නැවත ලබා ගනු ඇත.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ සුරකිමින්...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ සැකසීම් සුරකින ලදී",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ නව සැකසුම් සමඟ මිල ගණන් ලබා ගැනීම...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ සුරකින ලදි! $COUNT$ මිල ගණන් ලබා ගන්නා ලදී ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ කරුණාකර ඔබගේ PricEmpire API යතුර ඇතුලත් කරන්න",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ හැඹිලිය සාර්ථකව හිස් කරන ලදී",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ නැවුම් - $COUNT$ මිල ගණන් පටවා ඇත",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "පූරණය වෙමින්...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ අයිතම · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 අද",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 දින 1 යි",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ දින",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 අගුලු දමා ඇත",
+    "description": "Trade lock: locked, no date"
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "ВаултЛенс",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Одређивање цена залиха ЦС2 у реалном времену, флоат вредности, детекција шаблона, вредности налепница и аналитика трговине — све на једном екрану.",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "Преглед",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "Подешавања",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "Абоут",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "ЦС2 инвентар — ВаултЛенс активан",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "Трговинска понуда — П&Л панел је активан",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "Листа Траде Офферс — П&Л значке активне",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Стеам страница — идите до инвентара",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "Не на Стеам страници",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "Укупна вредност",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "Предмети",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "Прицед",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "Режим",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "Цене су ажуриране",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "Уноси цене",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Флоат уноси",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "↻ Освежи цене",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "Отвори инвентар",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "Режим одређивања цена",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "Скин порт",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "Није потребан АПИ кључ. Користи Скинпорт јавни АПИ.",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "Бесплатно",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "ПрицеЕмпире + ЦСФлоат",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Буфф163, Скинпорт & ЦСФлоат цене. Цене доплер фазе. Захтева АПИ кључ.",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "АПИ кључ",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "ПрицеЕмпире АПИ кључ",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "Преузми кључ →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 Сачувај и дохвати цене",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "Опције приказа",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "Прикажи флоат вредности",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "Прикажите значке са плутајућом вредношћу на ставкама инвентара",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "Прикажи цене налепница",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Прикажи искачући прозор вредности вредности налепнице",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "Прикажи ознаке са узорцима",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "Плави драгуљ, Доплер фаза, бледи %, мермерни обрасци избледења",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "Прикажи одбројавање за закључавање трговине",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "Прикажи 🔒 значку са преосталим данима на закључаним ставкама",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "Цацхе",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "ТТЛ кеш цена",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1 сат",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "Флоат кеш",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "Трајно (по ставци)",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 Обриши све кеш меморије",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "Језик",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "Језик интерфејса",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "Језик корисничког интерфејса за ВаултЛенс преклапања и искачуће прозоре",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "Изглед",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "Тема",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "Дарк",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "Светлост",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "Систем Дефаулт",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "верзија $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "Одређивање цена залиха ЦС2 у реалном времену, флоат вредности, детекција шаблона, вредности налепница и аналитика трговине — све на једном екрану.",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Цхроме веб продавница",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 ГитХуб спремиште",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 Пријавите проблем",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 Приватност",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "ВаултЛенс је бесплатан и отвореног кода. Подаци се не прикупљају нити прате. Сви АПИ позиви иду директно из вашег претраживача у јавне АПИ-је. Ваш АПИ кључ се чува локално и никада се не преноси на ВаултЛенс сервере.",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "Извори података",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "Позната ограничења",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 Претражи ставке...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 Копирај листу",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ Копирано!",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ Освежи цене",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ Освежавање...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ Изаберите",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ Одабир",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "Дефаулт Ордер",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "Цена: Висока → Ниска",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "Цена: Ниска → Висока",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "Флоат: Ниско → Високо",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "Флоат: Високо → Ниско",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "Име: А → З",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "Вредност налепнице ↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "СтеамИД64 копиран!",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "Веза за трговину је копирана!",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "Копирање није успело",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "Цене су освежене!",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "Освежавање није успело",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋 Копирајте СтеамИД64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗 Копирајте трговинску везу",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍 ЦСФлоат Сталл",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡 ЦСГО-Реп",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "Иоу Гиве",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "Ви примате",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "П&Л",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "Цене се могу разликовати. Увек проверите пре трговања.",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "Стицкерс",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "Укупна вредност налепнице",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "Обрисати све кеширане цене и флоат податке?\n\nЦене ће бити поново добијене приликом следеће употребе. Подаци о плутању ће се поново преузимати док се ставке прегледају.",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ Чување...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ Подешавања су сачувана",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ Преузимање цена са новим подешавањима...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ Сачувано! $COUNT$ преузете цене ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ Унесите свој ПрицЕмпире АПИ кључ",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ Кеш је успешно обрисан",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ Освежено — $COUNT$ цене су учитане",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "Учитавање...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ ставке · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 Данас",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒 1 дан",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ дана",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 Закључано",
+    "description": "Trade lock: locked, no date"
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "extName": {
+    "message": "VaultLens",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "实时 CS2 库存定价、浮动值、模式检测、贴纸值和贸易分析 — 全部在一个屏幕上。",
+    "description": "Extension description"
+  },
+  "tabOverview": {
+    "message": "概述",
+    "description": "Overview tab label"
+  },
+  "tabSettings": {
+    "message": "设置",
+    "description": "Settings tab label"
+  },
+  "tabAbout": {
+    "message": "关于",
+    "description": "About tab label"
+  },
+  "contextInventory": {
+    "message": "CS2 库存 — VaultLens 已激活",
+    "description": "Context banner: inventory page"
+  },
+  "contextTradeOffer": {
+    "message": "交易报价 — 损益面板活跃",
+    "description": "Context banner: trade offer page"
+  },
+  "contextTradeList": {
+    "message": "交易报价列表 — 损益徽章处于活动状态",
+    "description": "Context banner: trade list page"
+  },
+  "contextSteamOther": {
+    "message": "Steam 页面 — 导航至库存",
+    "description": "Context banner: other Steam page"
+  },
+  "contextNotSteam": {
+    "message": "不在 Steam 页面上",
+    "description": "Context banner: non-Steam page"
+  },
+  "statTotalValue": {
+    "message": "总价值",
+    "description": "Stat card: total value label"
+  },
+  "statItems": {
+    "message": "项目",
+    "description": "Stat card: items label"
+  },
+  "statPriced": {
+    "message": "定价",
+    "description": "Stat card: priced label"
+  },
+  "statMode": {
+    "message": "模式",
+    "description": "Stat card: mode label"
+  },
+  "labelPricesUpdated": {
+    "message": "价格已更新",
+    "description": "Info row: prices updated label"
+  },
+  "labelPriceEntries": {
+    "message": "价格条目",
+    "description": "Info row: price cache entries"
+  },
+  "labelFloatEntries": {
+    "message": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "description": "Info row: float cache entries"
+  },
+  "btnRefreshPrices": {
+    "message": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "description": "Button: refresh prices"
+  },
+  "btnOpenInventory": {
+    "message": "开放库存",
+    "description": "Button: open Steam inventory"
+  },
+  "sectionPricingMode": {
+    "message": "定价模式",
+    "description": "Settings section title: pricing mode"
+  },
+  "modeSkinportName": {
+    "message": "皮肤端口",
+    "description": "Mode option name: Skinport"
+  },
+  "modeSkinportDesc": {
+    "message": "无需 API 密钥。使用 Skinport 公共 API。",
+    "description": "Mode option description: Skinport"
+  },
+  "modeSkinportBadge": {
+    "message": "自由的",
+    "description": "Mode badge: Skinport"
+  },
+  "modePricempireName": {
+    "message": "价格帝国+CSFloat",
+    "description": "Mode option name: PricEmpire"
+  },
+  "modePricempireDesc": {
+    "message": "Buff163、Skinport 和 CSFloat 价格。多普勒相位定价。需要 API 密钥。",
+    "description": "Mode option description: PricEmpire"
+  },
+  "modePricempireBadge": {
+    "message": "API密钥",
+    "description": "Mode badge: PricEmpire"
+  },
+  "labelApiKey": {
+    "message": "PricEmpire API 密钥",
+    "description": "Label: API key input"
+  },
+  "linkGetKey": {
+    "message": "获取钥匙 →",
+    "description": "Link: get API key"
+  },
+  "btnSaveSettings": {
+    "message": "💾 保存并获取价格",
+    "description": "Button: save settings"
+  },
+  "sectionDisplay": {
+    "message": "显示选项",
+    "description": "Settings section title: display options"
+  },
+  "toggleFloatsLabel": {
+    "message": "显示浮点值",
+    "description": "Toggle label: show floats"
+  },
+  "toggleFloatsDesc": {
+    "message": "在库存项目上显示浮动值徽章",
+    "description": "Toggle description: show floats"
+  },
+  "toggleStickersLabel": {
+    "message": "显示标价",
+    "description": "Toggle label: show sticker prices"
+  },
+  "toggleStickersDesc": {
+    "message": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "description": "Toggle description: show sticker prices"
+  },
+  "togglePatternsLabel": {
+    "message": "显示图案徽章",
+    "description": "Toggle label: show pattern badges"
+  },
+  "togglePatternsDesc": {
+    "message": "蓝色宝石、多普勒相位、褪色百分比、大理石褪色图案",
+    "description": "Toggle description: show pattern badges"
+  },
+  "toggleTradelockLabel": {
+    "message": "显示交易锁定倒计时",
+    "description": "Toggle label: show trade lock"
+  },
+  "toggleTradelockDesc": {
+    "message": "显示 🔒 徽章以及锁定项目的剩余天数",
+    "description": "Toggle description: show trade lock"
+  },
+  "sectionCache": {
+    "message": "缓存",
+    "description": "Settings section title: cache"
+  },
+  "labelCacheTTL": {
+    "message": "价格缓存 TTL",
+    "description": "Info row: cache TTL label"
+  },
+  "valueCacheTTL": {
+    "message": "1小时",
+    "description": "Info row: cache TTL value"
+  },
+  "labelFloatCache": {
+    "message": "浮动缓存",
+    "description": "Info row: float cache label"
+  },
+  "valueFloatCache": {
+    "message": "永久（每件）",
+    "description": "Info row: float cache value"
+  },
+  "btnClearCache": {
+    "message": "🗑 清除所有缓存",
+    "description": "Button: clear cache"
+  },
+  "sectionLanguage": {
+    "message": "语言",
+    "description": "Settings section title: language"
+  },
+  "labelLanguage": {
+    "message": "界面语言",
+    "description": "Label: language selector"
+  },
+  "labelLanguageNote": {
+    "message": "VaultLens 叠加层和弹出窗口的 UI 语言",
+    "description": "Description under language selector"
+  },
+  "sectionTheme": {
+    "message": "外貌",
+    "description": "Settings section title: theme"
+  },
+  "labelTheme": {
+    "message": "主题",
+    "description": "Label: theme selector"
+  },
+  "themeDark": {
+    "message": "黑暗的",
+    "description": "Theme option: dark"
+  },
+  "themeLight": {
+    "message": "光",
+    "description": "Theme option: light"
+  },
+  "themeSystem": {
+    "message": "系统默认值",
+    "description": "Theme option: follow system"
+  },
+  "aboutVersion": {
+    "message": "版本 $VERSION$",
+    "description": "About: version string",
+    "placeholders": {
+      "version": {
+        "content": "$1",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "aboutDesc": {
+    "message": "实时 CS2 库存定价、浮动值、模式检测、贴纸值和贸易分析 — 全部在一个屏幕上。",
+    "description": "About: description paragraph"
+  },
+  "linkChromeStore": {
+    "message": "🏪 Chrome 网上应用店",
+    "description": "About link: Chrome Web Store"
+  },
+  "linkGitHub": {
+    "message": "📦 GitHub 存储库",
+    "description": "About link: GitHub"
+  },
+  "linkIssues": {
+    "message": "🐛 报告问题",
+    "description": "About link: issues"
+  },
+  "privacyTitle": {
+    "message": "🔒 隐私",
+    "description": "Privacy box title"
+  },
+  "privacyText": {
+    "message": "VaultLens 是免费且开源的。不收集或跟踪任何数据。所有 API 调用都直接从您的浏览器发送至公共 API。您的 API 密钥存储在本地，永远不会传输到 VaultLens 服务器。",
+    "description": "Privacy box text"
+  },
+  "sectionDataSources": {
+    "message": "数据来源",
+    "description": "About section: data sources"
+  },
+  "sectionLimitations": {
+    "message": "已知限制",
+    "description": "About section: limitations"
+  },
+  "toolbarSearch": {
+    "message": "🔍 搜索项目...",
+    "description": "Toolbar: search placeholder"
+  },
+  "toolbarCopyList": {
+    "message": "📋 复制列表",
+    "description": "Toolbar button: copy list"
+  },
+  "toolbarCopied": {
+    "message": "✅ 已复制！",
+    "description": "Toolbar button: copied confirmation"
+  },
+  "toolbarRefresh": {
+    "message": "↻ 刷新价格",
+    "description": "Toolbar button: refresh"
+  },
+  "toolbarRefreshing": {
+    "message": "⏳ 清爽...",
+    "description": "Toolbar button: refreshing state"
+  },
+  "toolbarSelect": {
+    "message": "⬜ 选择",
+    "description": "Toolbar button: multi-select off"
+  },
+  "toolbarSelecting": {
+    "message": "✅ 挑选",
+    "description": "Toolbar button: multi-select on"
+  },
+  "sortDefault": {
+    "message": "默认订单",
+    "description": "Sort option: default"
+  },
+  "sortPriceHigh": {
+    "message": "价格：高→低",
+    "description": "Sort option: price high to low"
+  },
+  "sortPriceLow": {
+    "message": "价格：低→高",
+    "description": "Sort option: price low to high"
+  },
+  "sortFloatLow": {
+    "message": "浮动：低→高",
+    "description": "Sort option: float low to high"
+  },
+  "sortFloatHigh": {
+    "message": "浮动：高→低",
+    "description": "Sort option: float high to low"
+  },
+  "sortNameAZ": {
+    "message": "名称：A→Z",
+    "description": "Sort option: name A to Z"
+  },
+  "sortStickerVal": {
+    "message": "贴纸价值↓",
+    "description": "Sort option: sticker value"
+  },
+  "toastSteamIdCopied": {
+    "message": "SteamID64 已复制！",
+    "description": "Toast: SteamID64 copied"
+  },
+  "toastTradeLinkCopied": {
+    "message": "交易链接已复制！",
+    "description": "Toast: trade link copied"
+  },
+  "toastCopyFailed": {
+    "message": "复制失败",
+    "description": "Toast: copy failed"
+  },
+  "toastPricesRefreshed": {
+    "message": "价格刷新！",
+    "description": "Toast: prices refreshed"
+  },
+  "toastRefreshFailed": {
+    "message": "刷新失败",
+    "description": "Toast: refresh failed"
+  },
+  "profileCopySteamId": {
+    "message": "📋复制SteamID64",
+    "description": "Profile button: copy SteamID64"
+  },
+  "profileCopyTradeLink": {
+    "message": "🔗复制贸易链接",
+    "description": "Profile button: copy trade link"
+  },
+  "profileCSFloatStall": {
+    "message": "🔍CSFloat 摊位",
+    "description": "Profile button: CSFloat stall"
+  },
+  "profileCSGORep": {
+    "message": "🛡️ CSGO 代表",
+    "description": "Profile button: CSGO-Rep"
+  },
+  "tradeYouGive": {
+    "message": "你给予",
+    "description": "Trade panel: you give label"
+  },
+  "tradeYouReceive": {
+    "message": "您收到",
+    "description": "Trade panel: you receive label"
+  },
+  "tradePnL": {
+    "message": "损益表",
+    "description": "Trade panel: P&L label"
+  },
+  "tradePriceDisclaimer": {
+    "message": "价格可能有所不同。交易前务必进行验证。",
+    "description": "Trade panel: disclaimer"
+  },
+  "stickerPopupTitle": {
+    "message": "贴纸",
+    "description": "Sticker popup title"
+  },
+  "stickerTotalValue": {
+    "message": "贴纸总价值",
+    "description": "Sticker popup: total value label"
+  },
+  "clearCacheConfirm": {
+    "message": "清除所有缓存的价格和浮动数据？\n\n下次使用时将重新获取价格。查看项目时将重新获取浮动数据。",
+    "description": "Confirm dialog: clear cache"
+  },
+  "statusSaving": {
+    "message": "⏳ 正在保存...",
+    "description": "Status: saving"
+  },
+  "statusSaved": {
+    "message": "✓ 设置已保存",
+    "description": "Status: settings saved"
+  },
+  "statusFetchingPrices": {
+    "message": "⏳ 使用新设置获取价格...",
+    "description": "Status: fetching prices"
+  },
+  "statusPricesFetched": {
+    "message": "✓ 已保存！ $COUNT$ 获取的价格 ($MODE$)",
+    "description": "Status: prices fetched",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "PricEmpire"
+      }
+    }
+  },
+  "statusApiKeyRequired": {
+    "message": "✗ 请输入您的PricEmpire API密钥",
+    "description": "Status: API key required"
+  },
+  "statusCacheCleared": {
+    "message": "✓ 缓存清除成功",
+    "description": "Status: cache cleared"
+  },
+  "statusRefreshed": {
+    "message": "✓ 已刷新 — 已加载 $COUNT$ 个价格",
+    "description": "Status: prices refreshed",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "45000"
+      }
+    }
+  },
+  "inventoryLoading": {
+    "message": "加载中...",
+    "description": "Inventory toolbar: loading state"
+  },
+  "inventoryStats": {
+    "message": "$VALUE$ · $COUNT$ 项 · $MODE$",
+    "description": "Inventory toolbar: stats display",
+    "placeholders": {
+      "value": {
+        "content": "$1",
+        "example": "$4,832.10"
+      },
+      "count": {
+        "content": "$2",
+        "example": "247"
+      },
+      "mode": {
+        "content": "$3",
+        "example": "Buff163"
+      }
+    }
+  },
+  "tradeLockToday": {
+    "message": "🔒 今天",
+    "description": "Trade lock: unlocks today"
+  },
+  "tradeLockOneDay": {
+    "message": "🔒1天",
+    "description": "Trade lock: 1 day remaining"
+  },
+  "tradeLockDays": {
+    "message": "🔒 $DAYS$ 天",
+    "description": "Trade lock: N days remaining",
+    "placeholders": {
+      "days": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "tradeLockLocked": {
+    "message": "🔒 已锁定",
+    "description": "Trade lock: locked, no date"
+  }
+}
